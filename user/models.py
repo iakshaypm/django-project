@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
+from django.contrib.auth.models import Permission
 
 
 class MyAccountManager(BaseUserManager):
@@ -11,12 +12,15 @@ class MyAccountManager(BaseUserManager):
 
         user = self.model(
             email=self.normalize_email(email).lower(),
-
             **extra_fields
         )
-
         user.set_password(password)
         user.save(using=self._db)
+
+        # p_add = Permission.objects.get(codename='add_account')
+        # p_change = Permission.objects.get(codename='change_account')
+        # if extra_fields['user_type'] > 1:
+        #     user.user_permissions.set([p_add, p_change])
 
         return user
 
@@ -35,12 +39,18 @@ class MyAccountManager(BaseUserManager):
 
 
 class Account(AbstractBaseUser, PermissionsMixin):
+    # class Meta:
+    #     permissions = (
+    #         ('add_student', 'Add Students'),
+    #     )
+
     USER_TYPE_CHOOSES = (
-        (1, 'student'),
-        (2, 'teacher'),
-        (3, 'secretary'),
-        (4, 'supervisor'),
+        (1, 'Student'),
+        (2, 'Teacher'),
+        (3, 'HOD'),
+        (4, 'Management')
     )
+    username = None
     email = models.EmailField(verbose_name='email', max_length=60, unique=True)
     name = models.CharField(max_length=60)
     phone_number = models.CharField(max_length=20, unique=True)
@@ -53,3 +63,31 @@ class Account(AbstractBaseUser, PermissionsMixin):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['phone_number']
     objects = MyAccountManager()
+
+
+class Student(models.Model):
+    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    department = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
+    date_of_birth = models.DateTimeField()
+
+
+class Teacher(models.Model):
+    class Meta:
+        permissions = (
+            ('add_student', 'Add Students'),
+        )
+
+    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    department = models.CharField(max_length=100)
+
+
+class HOD(models.Model):
+    class Meta:
+        permissions = (
+            ('add_student', 'Add Students'),
+            ('add_teacher', 'Add Teacher'),
+        )
+
+    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    department = models.CharField(max_length=100)

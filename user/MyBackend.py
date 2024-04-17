@@ -7,15 +7,17 @@ from .models import Account
 
 
 class CustomBackend(ModelBackend):
-    def authenticate(self, request, username=None, password=None, **kwargs):
+    def authenticate(self, request, email=None, password=None, **kwargs):
         try:
             user = Account.objects.filter(
-                Q(email=username) | Q(phone_number=username)
+                Q(email=email) | Q(phone_number=email)
             ).first()
+            if user is None:
+                raise Account.DoesNotExist
             if user.check_password(password):
                 return user
         except Account.DoesNotExist:
-            return Response({'msg': 'Login Success'}, status=status.HTTP_200_OK)
+            return None
 
     def get_user(self, user_id):
         try:
