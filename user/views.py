@@ -3,7 +3,8 @@ from rest_framework.response import Response
 from rest_framework import generics
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated, AllowAny
-from .permissions import IsTeacher
+from .permission import IsTeacher
+from .models import Account
 
 from user.serializers import UserSerializer, StudentSerializer
 
@@ -23,7 +24,7 @@ class RegisterView(views.APIView):
 
 
 class StudentRegister(views.APIView):
-    permission_classes = [IsTeacher]
+    permission_classes = (IsAuthenticated, IsTeacher,)
 
     def post(self, request):
         serializer = StudentSerializer(data=request.data)

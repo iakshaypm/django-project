@@ -66,7 +66,7 @@ class Account(AbstractBaseUser, PermissionsMixin):
 
 
 class Student(models.Model):
-    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    user = models.OneToOneField(Account, on_delete=models.CASCADE, unique=True)
     department = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
     date_of_birth = models.DateTimeField()
@@ -78,8 +78,9 @@ class Teacher(models.Model):
             ('add_student', 'Add Students'),
         )
 
-    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    user = models.OneToOneField(Account, on_delete=models.CASCADE)
     department = models.CharField(max_length=100)
+    subject = models.CharField(max_length=100)
 
 
 class HOD(models.Model):
@@ -89,5 +90,7 @@ class HOD(models.Model):
             ('add_teacher', 'Add Teacher'),
         )
 
-    user_id = models.OneToOneField(Account, on_delete=models.CASCADE)
+    user = models.OneToOneField(Account, on_delete=models.CASCADE)
     department = models.CharField(max_length=100)
+
+
