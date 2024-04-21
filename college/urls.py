@@ -1,5 +1,5 @@
 """
-URL configuration for College project.
+URL configuration for college project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/', include('user.urls')),
     path('exchange/', include('exchange.urls')),
+    path('grade/', include('grade.urls')),
+    path('attendance/', include('attendance.urls')),
 ]

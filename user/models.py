@@ -17,11 +17,6 @@ class MyAccountManager(BaseUserManager):
         user.set_password(password)
         user.save(using=self._db)
 
-        # p_add = Permission.objects.get(codename='add_account')
-        # p_change = Permission.objects.get(codename='change_account')
-        # if extra_fields['user_type'] > 1:
-        #     user.user_permissions.set([p_add, p_change])
-
         return user
 
     def create_superuser(self, email, password=None, **extra_fields):
@@ -39,11 +34,6 @@ class MyAccountManager(BaseUserManager):
 
 
 class Account(AbstractBaseUser, PermissionsMixin):
-    # class Meta:
-    #     permissions = (
-    #         ('add_student', 'Add Students'),
-    #     )
-
     USER_TYPE_CHOOSES = (
         (1, 'Student'),
         (2, 'Teacher'),
@@ -55,7 +45,7 @@ class Account(AbstractBaseUser, PermissionsMixin):
     name = models.CharField(max_length=60)
     phone_number = models.CharField(max_length=20, unique=True)
     is_active = models.BooleanField(default=True)
-    is_staff = models.BooleanField(default=False)
+    is_staff = models.BooleanField(default=True)
     is_superuser = models.BooleanField(default=False)
     last_login = models.DateTimeField(verbose_name='last_login', auto_now=True, null=True)
     user_type = models.PositiveIntegerField(choices=USER_TYPE_CHOOSES, default=1)
@@ -72,25 +62,16 @@ class Student(models.Model):
     date_of_birth = models.DateTimeField()
 
 
-class Teacher(models.Model):
-    class Meta:
-        permissions = (
-            ('add_student', 'Add Students'),
-        )
+class Subject(models.Model):
+    name = models.CharField(max_length=80)
 
+
+class Teacher(models.Model):
     user = models.OneToOneField(Account, on_delete=models.CASCADE)
     department = models.CharField(max_length=100)
-    subject = models.CharField(max_length=100)
+    subject = models.ForeignKey(Subject, on_delete=models.DO_NOTHING)
 
 
 class HOD(models.Model):
-    class Meta:
-        permissions = (
-            ('add_student', 'Add Students'),
-            ('add_teacher', 'Add Teacher'),
-        )
-
     user = models.OneToOneField(Account, on_delete=models.CASCADE)
     department = models.CharField(max_length=100)
-
-

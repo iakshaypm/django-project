@@ -1,14 +1,13 @@
-from django.shortcuts import render
 from rest_framework import views, status
 from rest_framework import generics
 from .serializers import QuestionSerializer, CommentSerializer, UpvoteSerializer
-from .permission import IsStudent, CanAccessComment
-from rest_framework.permissions import IsAuthenticated, AllowAny
+from .permission import IsStudent, CanAccessComment, CanUpvote, CanRemoveUpvote, CanAddComment, IsTeacher
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from .models import Question, Comment
+from .models import Question, Comment, Upvote
 
 
-class QuestionView(views.APIView):
+class QuestionCreateView(views.APIView):
     permission_classes = (IsAuthenticated, IsStudent,)
 
     def post(self, request):
@@ -66,8 +65,8 @@ class QuestionDeleteView(generics.DestroyAPIView):
         })
 
 
-class CommentView(views.APIView):
-    permission_classes = (IsAuthenticated, IsStudent,)
+class CommentCreateView(views.APIView):
+    permission_classes = (IsAuthenticated, IsTeacher, CanAddComment, )
 
     def post(self, request):
         serializer = CommentSerializer(data=request.data)
@@ -107,12 +106,13 @@ class CommentDeleteView(generics.DestroyAPIView):
         })
 
 
-class UpvoteView(views.APIView):
-    permission_classes = (IsAuthenticated, IsStudent,)
+class UpvoteCreateView(views.APIView):
+    permission_classes = (IsAuthenticated, CanUpvote,)
 
     def post(self, request):
         serializer = UpvoteSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
+        self.check_object_permissions(request, Comment.objects.get(pk=request.data['comment']))
         serializer.save(user=request.user)
         return Response({
             'status': status.HTTP_200_OK,
@@ -122,8 +122,8 @@ class UpvoteView(views.APIView):
 
 
 class UpvoteDeleteView(generics.DestroyAPIView):
-    queryset = Comment.objects.all()
-    permission_classes = (IsAuthenticated, CanAccessComment,)
+    queryset = Upvote.objects.all()
+    permission_classes = (IsAuthenticated, CanRemoveUpvote,)
     serializer_class = UpvoteSerializer
 
     def delete(self, request, *args, **kwargs):

@@ -6,11 +6,7 @@ from rest_framework import serializers, exceptions
 class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
-        fields = ['title', 'description']
-
-    def create(self, validated_data):
-        validated_data['user'] = self.context.get('user')
-        return Question.objects.create(**validated_data)
+        fields = ['title', 'description', 'tag']
 
 
 class CommentSerializer(serializers.ModelSerializer):
@@ -21,5 +17,12 @@ class CommentSerializer(serializers.ModelSerializer):
 
 class UpvoteSerializer(serializers.ModelSerializer):
     class Meta:
-        modal = Upvote
+        model = Upvote
         fields = ['comment']
+
+    def validate(self, attrs):
+        comment = attrs['comment']
+        exists = Upvote.objects.filter(comment=attrs['comment']).exists()
+        if exists:
+            raise serializers.ValidationError({'comment': 'You cannot upvote the same comment.'})
+        return attrs

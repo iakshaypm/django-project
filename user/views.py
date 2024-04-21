@@ -1,12 +1,11 @@
 from rest_framework import views, status
 from rest_framework.response import Response
 from rest_framework import generics
-from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated, AllowAny
-from .permission import IsTeacher
+from .permission import IsTeacher, IsStudent, IsHOD, IsManagement
 from .models import Account
 
-from user.serializers import UserSerializer, StudentSerializer
+from user.serializers import UserSerializer, StudentSerializer, TeacherSerializer, HODSerializer
 
 
 class RegisterView(views.APIView):
@@ -32,6 +31,34 @@ class StudentRegister(views.APIView):
         serializer.save()
         return Response({
             'status': status.HTTP_200_OK,
-            'message': 'Student created successfully',
+            'message': 'Student added successfully',
+            'data': serializer.data
+        })
+
+
+class TeacherRegister(views.APIView):
+    permission_classes = (IsAuthenticated, IsHOD,)
+
+    def post(self, request):
+        serializer = TeacherSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({
+            'status': status.HTTP_200_OK,
+            'message': 'Teacher added successfully',
+            'data': serializer.data
+        })
+
+
+class HODRegister(views.APIView):
+    permission_classes = (IsAuthenticated, IsManagement,)
+
+    def post(self, request):
+        serializer = HODSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response({
+            'status': status.HTTP_200_OK,
+            'message': 'HOD added successfully',
             'data': serializer.data
         })

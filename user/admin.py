@@ -45,6 +45,7 @@ class UserAdmin(BaseUserAdmin):
 
 
 # Register your models here.
+admin.site.register([models.Student, models.Teacher, models.HOD])
 admin.site.register(models.Account, UserAdmin)  # If you not fill the second parameter then django will load the default
 
 

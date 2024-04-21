@@ -32,14 +32,13 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class StudentSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Student
         fields = ['department', 'location', 'date_of_birth', 'user']
 
     def validate(self, attrs):
         user = attrs['user']
-        print(attrs)
+
         if user.user_type == 1:
             return attrs
         raise serializers.ValidationError({'user': 'Given user is not a student.'})
@@ -49,3 +48,21 @@ class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
         model = Teacher
         fields = ['department', 'subject', 'user']
+
+    def validate(self, attrs):
+        user = attrs['user']
+        if user.user_type == 2:
+            return attrs
+        raise serializers.ValidationError({'user': 'Given user is not a teacher.'})
+
+
+class HODSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HOD
+        fields = ['department', 'user']
+
+    def validate(self, attrs):
+        user = attrs['user']
+        if user.user_type == 3:
+            return attrs
+        raise serializers.ValidationError({'user': 'Given user is not a HOD.'})
