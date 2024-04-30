@@ -13,6 +13,7 @@ urlpatterns = [
     path('comment/add/', views.CommentCreateView.as_view(), name='add-comment'),
     path('comment/show/', views.CommentListView.as_view(), name='list-comment'),
     path('comment/<int:pk>/show', views.CommentRetrieveView.as_view(), name='show-comment'),
+    path('comment/<int:pk>/update', views.CommentUpdateView.as_view(), name='update-comment'),
     path('comment/<int:pk>/delete', views.CommentDeleteView.as_view(), name='delete-comment'),
 
     path('upvote/add/', views.UpvoteCreateView.as_view(), name='add-upvote'),

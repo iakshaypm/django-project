@@ -7,10 +7,10 @@ from .models import Account
 
 
 class CustomBackend(ModelBackend):
-    def authenticate(self, request, email=None, password=None, **kwargs):
+    def authenticate(self, request, username=None, password=None, **kwargs):
         try:
             user = Account.objects.filter(
-                Q(email=email) | Q(phone_number=email)
+                Q(email=username) | Q(phone_number=username)
             ).first()
             if user is None:
                 raise Account.DoesNotExist

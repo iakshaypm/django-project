@@ -1,5 +1,6 @@
 from django.db import models
 from user.models import Account
+from classroom.models import Classroom
 
 
 # Create your models here.
@@ -13,15 +14,16 @@ class MainAttendance(models.Model):
     attendance_type = models.PositiveIntegerField(choices=ATTENDANCE_TYPE_CHOOSES)
     date_of_producing = models.DateField(auto_now=True)
     initiated_by = models.ForeignKey(Account, on_delete=models.DO_NOTHING)
+    classroom = models.OneToOneField(Classroom, on_delete=models.DO_NOTHING)
 
     class Meta:
-        unique_together = ('attendance_type', 'date_of_producing',)
+        unique_together = ('classroom', 'date_of_producing',)
         db_table = "attendance_main"
 
 
 class StudentAttendance(models.Model):
     attendance = models.OneToOneField(MainAttendance, on_delete=models.DO_NOTHING)
-    student = models.ForeignKey(Account, on_delete=models.CASCADE)
+    student = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='student_attendance')
     date_of_marking = models.DateField(auto_now=True)
 
     class Meta:

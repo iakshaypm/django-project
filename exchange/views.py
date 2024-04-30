@@ -29,7 +29,7 @@ class QuestionListView(generics.ListAPIView):
 
 class QuestionRetrieveView(generics.RetrieveAPIView):
     queryset = Question.objects.all()
-    permission_classes = (IsAuthenticated, IsStudent,)
+    permission_classes = (IsAuthenticated, IsStudent, )
     serializer_class = QuestionSerializer
 
 
@@ -86,6 +86,12 @@ class CommentListView(generics.ListAPIView):
 
 
 class CommentRetrieveView(generics.RetrieveAPIView):
+    queryset = Comment.objects.all()
+    permission_classes = (IsAuthenticated, CanAccessComment,)
+    serializer_class = CommentSerializer
+
+
+class CommentUpdateView(generics.UpdateAPIView):
     queryset = Comment.objects.all()
     permission_classes = (IsAuthenticated, CanAccessComment,)
     serializer_class = CommentSerializer

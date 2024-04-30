@@ -23,4 +23,6 @@ urlpatterns = [
     path('exchange/', include('exchange.urls')),
     path('grade/', include('grade.urls')),
     path('attendance/', include('attendance.urls')),
+    path('classroom/', include('classroom.urls')),
+    path('chat/', include('chat.urls')),
 ]

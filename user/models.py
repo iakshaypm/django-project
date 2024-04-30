@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.contrib.auth.models import Permission
+from classroom.models import Classroom
 
 
 class MyAccountManager(BaseUserManager):
@@ -57,6 +58,7 @@ class Account(AbstractBaseUser, PermissionsMixin):
 
 class Student(models.Model):
     user = models.OneToOneField(Account, on_delete=models.CASCADE, unique=True)
+    classroom = models.ForeignKey(Classroom, on_delete=models.DO_NOTHING, related_name='student_classroom')
     department = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
     date_of_birth = models.DateTimeField()
@@ -70,6 +72,7 @@ class Teacher(models.Model):
     user = models.OneToOneField(Account, on_delete=models.CASCADE)
     department = models.CharField(max_length=100)
     subject = models.ForeignKey(Subject, on_delete=models.DO_NOTHING)
+    classroom = models.OneToOneField(Classroom, on_delete=models.DO_NOTHING)
 
 
 class HOD(models.Model):

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import datetime
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'daphne',
     'django.contrib.staticfiles',
     'user',
     'rest_framework',
@@ -57,6 +59,10 @@ INSTALLED_APPS = [
     'exchange',
     'grade',
     'attendance',
+    'classroom',
+    'celery',
+    'channels',
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -89,6 +95,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'college.wsgi.application'
+ASGI_APPLICATION = "college.asgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
@@ -97,6 +104,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'test': {
+        'NAME': 'test_db'
     }
 }
 
@@ -139,7 +149,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'user.Account'
+AUTH_USER_MODEL = 'user.account'
 
 AUTHENTICATION_BACKENDS = [
     'user.MyBackend.CustomBackend'
@@ -147,3 +157,13 @@ AUTHENTICATION_BACKENDS = [
 
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 
+BROKER_URL = os.environ.get('RABBITMQ_URL', 'amqp://guest:guest@localhost:5672/')
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}

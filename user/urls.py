@@ -14,4 +14,6 @@ urlpatterns = [
     path('account/hod/register/', views.HODRegister.as_view(), name='teacher-register'),
     path('account/login/', TokenObtainPairView.as_view(), name='login'),
     path('account/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+
+    path('student/<int:id>/details/', views.UserView.as_view(), name='student-details'),
 ]

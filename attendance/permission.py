@@ -1,6 +1,7 @@
 from rest_framework import permissions
 
 from .models import MainAttendance
+from user.models import Student
 
 
 class CanAddAttendance(permissions.BasePermission):
@@ -11,8 +12,7 @@ class CanAddAttendance(permissions.BasePermission):
         elif request.data['attendance_type'] == 2:
             if request.user.user_type == 3:
                 return True
-        elif (request.data['attendance_type'] == 3 or request.data['attendance_type'] == 2
-              or request.data['attendance_type'] == 1):
+        elif request.data['attendance_type'] == 3:
             if request.user.user_type == 4:
                 return True
         else:
@@ -24,10 +24,11 @@ class CanMarkAttendance(permissions.BasePermission):
 
         attendance_id = request.data['attendance']
         attendance = MainAttendance.objects.get(id=attendance_id)
-        if attendance.attendance_type == 1:
+        student = Student.objects.get(user=request.user)
+        if attendance.attendance_type == 1 and attendance.classroom == student.classroom:
             if request.user.user_type == 1:
                 return True
-        elif attendance.attendance_type == 2:
+        elif attendance.attendance_type == 2 and attendance.classroom == student.classroom:
             if request.user.user_type == 2:
                 return True
         elif attendance.attendance_type == 3:

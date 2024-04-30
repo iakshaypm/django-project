@@ -2,8 +2,10 @@ from django.contrib.auth import (
     get_user_model,
     authenticate,
 )
-from .models import Student, Teacher, HOD
-
+from .models import Student, Teacher, HOD, Account
+from grade.models import Mark
+from classroom.models import Classroom
+from attendance.models import StudentAttendance
 from rest_framework import serializers, exceptions
 
 
@@ -32,13 +34,15 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class StudentSerializer(serializers.ModelSerializer):
+    user = serializers.IntegerField(write_only=True)
+    classroom = serializers.IntegerField(write_only=True)
+
     class Meta:
         model = Student
-        fields = ['department', 'location', 'date_of_birth', 'user']
+        fields = ['department', 'location', 'date_of_birth', 'user', 'classroom']
 
     def validate(self, attrs):
         user = attrs['user']
-
         if user.user_type == 1:
             return attrs
         raise serializers.ValidationError({'user': 'Given user is not a student.'})
@@ -47,7 +51,7 @@ class StudentSerializer(serializers.ModelSerializer):
 class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
         model = Teacher
-        fields = ['department', 'subject', 'user']
+        fields = ['department', 'subject', 'user', 'classroom']
 
     def validate(self, attrs):
         user = attrs['user']
@@ -66,3 +70,32 @@ class HODSerializer(serializers.ModelSerializer):
         if user.user_type == 3:
             return attrs
         raise serializers.ValidationError({'user': 'Given user is not a HOD.'})
+
+
+class ClassroomSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Classroom
+        fields = ['name']
+
+
+class MarkSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Mark
+        fields = ['sub1', 'sub2', 'sub3']
+
+
+class StudentAttendanceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = StudentAttendance
+        fields = ['date_of_marking']
+
+
+class StudentViewSerializer(serializers.ModelSerializer):
+    mark = MarkSerializer(read_only=True, source='student_mark', many=True)
+    attendance = StudentAttendanceSerializer(read_only=True, source='student_attendance', many=True)
+    student = StudentSerializer(read_only=True)
+    classroom = ClassroomSerializer(source='student.classroom', read_only=True)
+
+    class Meta:
+        model = Account
+        fields = ['name', 'student', 'classroom', 'attendance', 'mark']

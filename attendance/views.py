@@ -9,7 +9,7 @@ from .models import MainAttendance
 
 class AttendanceCreateView(generics.CreateAPIView):
     serializer_class = AttendanceSerializer
-    permission_classes = (IsAuthenticated, CanAddAttendance,)
+    permission_classes = (IsAuthenticated, CanAddAttendance, )
 
     def post(self, request, *args, **kwargs):
         message = ''
