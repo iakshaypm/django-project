@@ -7,7 +7,7 @@ from classroom.models import Classroom
 from attendance.models import MainAttendance
 from django.contrib.auth import get_user_model
 from rest_framework import status
-import datetime
+
 
 login_url = reverse('user:login')
 main_attendance_url = reverse('attendance:add-attendance')
@@ -60,18 +60,11 @@ class TestMainAttendance(TestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_adding_student_attendance(self):
-        data = {
-            "attendance_type": 1,
-            "classroom": self.classroom.id
-        }
-        response = self.client.post(main_attendance_url, data, format='json')
-        self.attendance_id = response.data['data']['id']
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
-
+        self.test_creating_main_attendance()
         self.client.credentials()
         self.client.credentials(HTTP_AUTHORIZATION=f'Bearer {self.access_token_student}')
         data = {
-            "attendance": 1
+            "attendance": self.attendance_id
         }
         response = self.client.post(mark_student_attendance, data, format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
