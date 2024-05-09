@@ -34,15 +34,16 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class StudentSerializer(serializers.ModelSerializer):
-    user = serializers.IntegerField(write_only=True)
-    classroom = serializers.IntegerField(write_only=True)
+    # user = serializers.IntegerField(write_only=True)
+    # classroom = serializers.IntegerField(write_only=True)
 
     class Meta:
         model = Student
-        fields = ['department', 'location', 'date_of_birth', 'user', 'classroom']
+        fields = ['department', 'location', 'date_of_birth', 'user', 'classroom', 'parent']
 
     def validate(self, attrs):
         user = attrs['user']
+        print(user)
         if user.user_type == 1:
             return attrs
         raise serializers.ValidationError({'user': 'Given user is not a student.'})

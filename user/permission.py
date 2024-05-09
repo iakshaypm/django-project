@@ -34,6 +34,13 @@ class IsHOD(permissions.BasePermission):
         return False
 
 
+class IsParent(permissions.BasePermission):
+    def has_permission(self, request, view):
+        if request.user.user_type == 5:
+            return True
+        return False
+
+
 class IsManagement(permissions.BasePermission):
     def has_permission(self, request, view):
         if request.user.user_type == 4:

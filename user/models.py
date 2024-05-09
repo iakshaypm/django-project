@@ -39,7 +39,8 @@ class Account(AbstractBaseUser, PermissionsMixin):
         (1, 'Student'),
         (2, 'Teacher'),
         (3, 'HOD'),
-        (4, 'Management')
+        (4, 'Management'),
+        (5, 'Parent')
     )
     username = None
     email = models.EmailField(verbose_name='email', max_length=60, unique=True)
@@ -62,6 +63,7 @@ class Student(models.Model):
     department = models.CharField(max_length=100)
     location = models.CharField(max_length=100)
     date_of_birth = models.DateTimeField()
+    parent = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='parents')
 
 
 class Subject(models.Model):

@@ -9,7 +9,7 @@ from rest_framework.response import Response
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated, AllowAny
 
-from .permission import IsTeacher, IsStudent, IsHOD, IsManagement
+from .permission import IsTeacher, IsStudent, IsHOD, IsManagement, IsParent
 from .models import Account, Student
 
 from grade.models import Mark
@@ -20,6 +20,15 @@ from attendance.models import StudentAttendance
 from user.serializers import (UserSerializer, StudentSerializer, TeacherSerializer, HODSerializer,
                               StudentViewSerializer, )
 from celery import shared_task
+
+import urllib
+
+from django.urls import reverse
+from django.http import HttpResponseRedirect
+from django.views import View
+from django.conf import settings
+from django.shortcuts import redirect
+import requests
 
 
 class RegisterView(views.APIView):
@@ -48,7 +57,6 @@ class StudentRegister(views.APIView):
             'message': 'Student added successfully',
             'data': serializer.data
         })
-
 
 class TeacherRegister(views.APIView):
     permission_classes = (IsAuthenticated, IsHOD | IsManagement,)
@@ -99,3 +107,41 @@ class UserView(views.APIView):
 
         p.showPage()
         p.save()
+
+
+class StripeAuthorizeView(View):
+
+    def get(self, request):
+        # if not self.request.user.is_authenticated:
+        #     return HttpResponseRedirect(reverse('login'))
+        url = 'https://connect.stripe.com/oauth/authorize'
+        params = {
+            'response_type': 'code',
+            'scope': 'read_write',
+            'client_id': settings.STRIPE_CONNECT_CLIENT_ID,
+            'redirect_uri': f'http://localhost:8000/users/oauth/callback'
+        }
+        url = f'{url}?{urllib.parse.urlencode(params)}'
+        return redirect(url)
+
+
+class StripeAuthorizeCallbackView(View):
+
+    def get(self, request):
+        code = request.GET.get('code')
+        if code:
+            data = {
+                'client_secret': settings.STRIPE_SECRET_KEY,
+                'grant_type': 'authorization_code',
+                'client_id': settings.STRIPE_CONNECT_CLIENT_ID,
+                'code': code
+            }
+            url = 'https://connect.stripe.com/oauth/token'
+            resp = requests.post(url, params=data)
+            print(resp.json())
+        # url = reverse('home')
+        # response = resp.json()
+        return Response({
+            'status': status.HTTP_200_OK,
+            'message': 'Fetched student detail successfully',
+        })

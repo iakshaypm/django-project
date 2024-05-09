@@ -12,8 +12,12 @@ urlpatterns = [
     path('account/student/register/', views.StudentRegister.as_view(), name='student-register'),
     path('account/teacher/register/', views.TeacherRegister.as_view(), name='teacher-register'),
     path('account/hod/register/', views.HODRegister.as_view(), name='teacher-register'),
+    # path('account/parent/register/', views.ParentRegister.as_view(), name='parent-register'),
     path('account/login/', TokenObtainPairView.as_view(), name='login'),
     path('account/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
     path('student/<int:id>/details/', views.UserView.as_view(), name='student-details'),
+    path('authorize/', views.StripeAuthorizeView.as_view(), name='authorize'),
+    path('oauth/callback/', views.StripeAuthorizeCallbackView.as_view(), name='authorize_callback'),
+
 ]

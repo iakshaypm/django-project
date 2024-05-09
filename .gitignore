@@ -1,0 +1,4 @@
+college/settings.py
+logs/
+.idea
+*.pyc

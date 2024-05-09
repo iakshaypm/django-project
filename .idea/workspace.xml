@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bc3211-a049-4e0a-90c8-670ebdba5039" name="Changes" comment="Student add feature added error checks">
-      <change afterPath="$PROJECT_DIR$/attendance/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/attendance/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exchange/migrations/0002_rename_questoin_id_comment_question_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/0002_alter_mark_student_alter_mark_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grade/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0003_alter_account_is_staff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/College/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/College/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/College/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/College/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/migrations/0002_rename_user_id_comment_user_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/migrations/0003_rename_questoin_id_comment_questoin_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/migrations/0004_rename_questoin_comment_question.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/permission.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/permission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchange/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/permission.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/permission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +21,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="college/invalid/Django" />
+    </ignored-facets>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -80,8 +46,8 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/akshay/PycharmProjects/College/grade&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/akshay/PycharmProjects/college&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,28 +61,7 @@
       <recent name="$PROJECT_DIR$/grade" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: user.tests.ModelTest.test_create_user_with_email_successful">
-    <configuration name="Test: user.tests.ModelTest.test_create_user_with_email_successful" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="college" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="user.tests.ModelTest.test_create_user_with_email_successful" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="college" />
       <option name="ENV_FILES" value="" />
@@ -150,6 +95,41 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="college" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: user.tests.ModelTest.test_create_user_with_email_successful" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="college" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="user.tests.ModelTest.test_create_user_with_email_successful" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -197,20 +177,6 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="college" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -298,17 +264,11 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Django tests.Test: user.tests.ModelTest.test_create_user_with_email_successful" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
