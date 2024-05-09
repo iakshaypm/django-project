@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.contrib.auth.models import Permission
 from classroom.models import Classroom
+from assignment.models import Assignment
 
 
 class MyAccountManager(BaseUserManager):
@@ -64,6 +65,7 @@ class Student(models.Model):
     location = models.CharField(max_length=100)
     date_of_birth = models.DateTimeField()
     parent = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='parents')
+    assignment = models.ForeignKey(Assignment, null=True, on_delete=models.DO_NOTHING)
 
 
 class Subject(models.Model):

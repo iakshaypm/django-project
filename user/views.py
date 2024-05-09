@@ -58,6 +58,7 @@ class StudentRegister(views.APIView):
             'data': serializer.data
         })
 
+
 class TeacherRegister(views.APIView):
     permission_classes = (IsAuthenticated, IsHOD | IsManagement,)
 

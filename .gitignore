@@ -1,4 +1,5 @@
 college/settings.py
-logs/
 .idea
 *.pyc
+db.sqlite3
+.pdf
