@@ -55,7 +55,6 @@ class ChatConsumer(WebsocketConsumer):
         text_data_json = json.loads(text_data)
         message = text_data_json['message']
 
-        print(text_data_json)
         if not self.user.is_authenticated:
             return
 

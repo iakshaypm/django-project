@@ -27,4 +27,6 @@ urlpatterns = [
     path('chat/', include('chat.urls')),
     path('payment/', include('payment.urls')),
     path('exam/', include('exam.urls')),
+    path('assignment/', include('assignment.urls')),
+    path('assistant/', include('webhooks.urls')),
 ]
