@@ -5,7 +5,6 @@ from rest_framework.response import Response
 
 from .models import Account
 
-
 class CustomBackend(ModelBackend):
     def authenticate(self, request, email=None, password=None, **kwargs):
         try:
