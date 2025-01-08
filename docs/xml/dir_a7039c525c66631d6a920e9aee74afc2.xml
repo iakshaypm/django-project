@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_a7039c525c66631d6a920e9aee74afc2" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment</compoundname>
+    <innerdir refid="dir_55739097199ccb14f2dd6a7f55398c57">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/migrations</innerdir>
+    <innerfile refid="assignment_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="assignment_2admin_8py">admin.py</innerfile>
+    <innerfile refid="assignment_2apps_8py">apps.py</innerfile>
+    <innerfile refid="assignment_2models_8py">models.py</innerfile>
+    <innerfile refid="assignment_2serializers_8py">serializers.py</innerfile>
+    <innerfile refid="assignment_2tests_8py">tests.py</innerfile>
+    <innerfile refid="assignment_2urls_8py">urls.py</innerfile>
+    <innerfile refid="assignment_2views_8py">views.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/"/>
+  </compounddef>
+</doxygen>

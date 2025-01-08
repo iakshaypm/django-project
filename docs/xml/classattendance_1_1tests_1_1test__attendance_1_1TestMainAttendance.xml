@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance" kind="class" language="Python" prot="public">
+    <compoundname>attendance::tests::test_attendance::TestMainAttendance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" compoundref="test__attendance_8py" startline="62" endline="71">attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</referencedby>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ad8859c26e0329b5f20df665f1b841a8a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::teacher</definition>
+        <argsstring></argsstring>
+        <name>teacher</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.teacher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af0fb5aac1b1e145291ea8e643df1dc67" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::access_token_teacher</definition>
+        <argsstring></argsstring>
+        <name>access_token_teacher</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.access_token_teacher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="29" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::classroom</definition>
+        <argsstring></argsstring>
+        <name>classroom</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.classroom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af54910ecc30c45bad21cc503e10afc08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::student</definition>
+        <argsstring></argsstring>
+        <name>student</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.student</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="36" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a4501f9906afb251dd0811476fe4ed374" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::access_token_student</definition>
+        <argsstring></argsstring>
+        <name>access_token_student</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.access_token_student</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="51" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance::attendance_id</definition>
+        <argsstring></argsstring>
+        <name>attendance_id</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.attendance_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="59" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" compoundref="test__attendance_8py" startline="62" endline="71">attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acd2cfc2ab6db1347f77e9c642bb83fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance.setUp</definition>
+        <argsstring>(self)</argsstring>
+        <name>setUp</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.setUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="20" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_creating_main_attendance</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="53" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="53" bodyend="61"/>
+        <references refid="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" compoundref="attendance_2models_8py" startline="17">attendance.models.MainAttendance.classroom</references>
+        <references refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221" compoundref="test__attendance_8py" startline="32">attendance.tests.test_attendance.TestMainAttendance.classroom</references>
+        <references refid="classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89" compoundref="exam_2models_8py" startline="9">exam.models.Exam.classroom</references>
+        <references refid="classuser_1_1models_1_1Student_1a27a9e04d59c551cfa924771490543502" compoundref="user_2models_8py" startline="63">user.models.Student.classroom</references>
+        <references refid="classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de" compoundref="user_2models_8py" startline="79">user.models.Teacher.classroom</references>
+        <references refid="classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7" compoundref="user_2serializers_8py" startline="98">user.serializers.StudentViewSerializer.classroom</references>
+        <references refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f" compoundref="test__attendance_8py" startline="21">attendance.tests.test_attendance.TestMainAttendance.client</references>
+        <references refid="classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef" compoundref="user_2tests_8py" startline="12">user.tests.AdminSiteTest.client</references>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" compoundref="test__attendance_8py" startline="62" endline="71">attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_adding_student_attendance</name>
+        <qualifiedname>attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="62" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="62" bodyend="71"/>
+        <references refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906" compoundref="test__attendance_8py" startline="59">attendance.tests.test_attendance.TestMainAttendance.attendance_id</references>
+        <references refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f" compoundref="test__attendance_8py" startline="21">attendance.tests.test_attendance.TestMainAttendance.client</references>
+        <references refid="classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef" compoundref="user_2tests_8py" startline="12">user.tests.AdminSiteTest.client</references>
+        <references refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.tests.test_attendance.TestMainAttendance</label>
+        <link refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.tests.test_attendance.TestMainAttendance</label>
+        <link refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="18" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a4501f9906afb251dd0811476fe4ed374" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>access_token_student</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af0fb5aac1b1e145291ea8e643df1dc67" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>access_token_teacher</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>attendance_id</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>classroom</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>client</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acd2cfc2ab6db1347f77e9c642bb83fe4" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>setUp</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af54910ecc30c45bad21cc503e10afc08" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>student</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ad8859c26e0329b5f20df665f1b841a8a" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>teacher</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>test_adding_student_attendance</name></member>
+      <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" prot="public" virt="non-virtual"><scope>attendance::tests::test_attendance::TestMainAttendance</scope><name>test_creating_main_attendance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

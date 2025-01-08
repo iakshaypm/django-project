@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1models_1_1Upvote_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>exchange::models::Upvote::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.models.Upvote.Meta::unique_together</definition>
+        <argsstring></argsstring>
+        <name>unique_together</name>
+        <qualifiedname>exchange.models.Upvote.Meta.unique_together</qualifiedname>
+        <initializer>=  (&apos;<ref refid="classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8" kindref="member">comment</ref>&apos;, &apos;<ref refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" kindref="member">user</ref>&apos;,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.models.Upvote.Meta</label>
+        <link refid="classexchange_1_1models_1_1Upvote_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+unique_together</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b" prot="public" virt="non-virtual"><scope>exchange::models::Upvote::Meta</scope><name>unique_together</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

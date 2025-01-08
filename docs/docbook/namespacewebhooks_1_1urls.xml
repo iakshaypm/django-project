@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacewebhooks_1_1urls" xml:lang="en-US">
+<title>webhooks.urls Namespace Reference</title>
+<indexterm><primary>webhooks.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacewebhooks_1_1urls_1a040467f63e23242f1424ff30c6e109cf">app_name</link> = &quot;webhooks&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacewebhooks_1_1urls_1abdf2a44ddd69a86af3032dc9ffefa986">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacewebhooks_1_1urls_1a040467f63e23242f1424ff30c6e109cf"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>webhooks.urls</secondary></indexterm>
+<indexterm><primary>webhooks.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str webhooks.urls.app_name = &quot;webhooks&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacewebhooks_1_1urls_1abdf2a44ddd69a86af3032dc9ffefa986"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>webhooks.urls</secondary></indexterm>
+<indexterm><primary>webhooks.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list webhooks.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;chat/&quot;</emphasis>,&#32;views.TelegramWebhook.as_view(),&#32;name=<emphasis role="stringliteral">&quot;telegram_webhook&quot;</emphasis>)
+3 ]
+</programlisting></section>
+</section>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher" xml:lang="en-US">
+<title>grade.migrations.0002_alter_mark_student_alter_mark_teacher Namespace Reference</title>
+<indexterm><primary>grade.migrations.0002_alter_mark_student_alter_mark_teacher</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

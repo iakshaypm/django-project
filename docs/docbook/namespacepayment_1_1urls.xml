@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacepayment_1_1urls" xml:lang="en-US">
+<title>payment.urls Namespace Reference</title>
+<indexterm><primary>payment.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacepayment_1_1urls_1a389cdfb6c1b6afd7ac52e3cab24f0416">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacepayment_1_1urls_1a389cdfb6c1b6afd7ac52e3cab24f0416"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>payment.urls</secondary></indexterm>
+<indexterm><primary>payment.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list payment.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;create-checkout-session/&apos;</emphasis>,&#32;CreateCheckoutSession.as_view()),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;webhook-test/&apos;</emphasis>,&#32;WebHook.as_view()),
+4 ]
+</programlisting></section>
+</section>
+</section>

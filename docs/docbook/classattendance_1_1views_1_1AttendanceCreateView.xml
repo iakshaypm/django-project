@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1views_1_1AttendanceCreateView" xml:lang="en-US">
+<title>attendance.views.AttendanceCreateView Class Reference</title>
+<indexterm><primary>attendance.views.AttendanceCreateView</primary></indexterm>
+Inheritance diagram for attendance.views.AttendanceCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1AttendanceCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.views.AttendanceCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1AttendanceCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1views_1_1AttendanceCreateView_1a97b1b96f67406f38f57f3531acced41f">post</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1views_1_1AttendanceCreateView_1a855972fb4de361c58a55abf55a73f0b9">serializer_class</link> = <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer">AttendanceSerializer</link></para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classattendance_1_1views_1_1AttendanceCreateView_1a80737686a4b740ba075c0b02d334e336">permission_classes</link> = (IsAuthenticated, <link linkend="_classattendance_1_1permission_1_1CanAddAttendance">CanAddAttendance</link>, )</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1AttendanceCreateView_1a97b1b96f67406f38f57f3531acced41f"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>attendance.views.AttendanceCreateView</secondary></indexterm>
+<indexterm><primary>attendance.views.AttendanceCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>attendance.views.AttendanceCreateView.post ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1AttendanceCreateView_1a80737686a4b740ba075c0b02d334e336"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>attendance.views.AttendanceCreateView</secondary></indexterm>
+<indexterm><primary>attendance.views.AttendanceCreateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple attendance.views.AttendanceCreateView.permission_classes = (IsAuthenticated, <link linkend="_classattendance_1_1permission_1_1CanAddAttendance">CanAddAttendance</link>, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1views_1_1AttendanceCreateView_1a855972fb4de361c58a55abf55a73f0b9"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>attendance.views.AttendanceCreateView</secondary></indexterm>
+<indexterm><primary>attendance.views.AttendanceCreateView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>attendance.views.AttendanceCreateView.serializer_class = <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer">AttendanceSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2views_8py">views.py</link></section>
+</section>

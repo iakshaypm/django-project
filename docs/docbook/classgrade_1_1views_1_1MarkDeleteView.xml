@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1views_1_1MarkDeleteView" xml:lang="en-US">
+<title>grade.views.MarkDeleteView Class Reference</title>
+<indexterm><primary>grade.views.MarkDeleteView</primary></indexterm>
+Inheritance diagram for grade.views.MarkDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1views_1_1MarkDeleteView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.views.MarkDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1views_1_1MarkDeleteView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1views_1_1MarkDeleteView_1ac7c4e262689b9b5cd40f56fe16c6b249">queryset</link> = Mark.objects.all()</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1views_1_1MarkDeleteView_1a7a269d9072e9afcba8a42cd8e4969be0">serializer_class</link> = <link linkend="_classgrade_1_1serializer_1_1MarkSerializer">MarkSerializer</link></para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classgrade_1_1views_1_1MarkDeleteView_1a28ea5a80caee5a8de14b08e0a594914f">permission_classes</link> = (IsAuthenticated, <link linkend="_classgrade_1_1permission_1_1IsTeacher">IsTeacher</link>, )</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1views_1_1MarkDeleteView_1a28ea5a80caee5a8de14b08e0a594914f"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>grade.views.MarkDeleteView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkDeleteView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple grade.views.MarkDeleteView.permission_classes = (IsAuthenticated, <link linkend="_classgrade_1_1permission_1_1IsTeacher">IsTeacher</link>, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1views_1_1MarkDeleteView_1ac7c4e262689b9b5cd40f56fe16c6b249"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>grade.views.MarkDeleteView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkDeleteView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>grade.views.MarkDeleteView.queryset = Mark.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1views_1_1MarkDeleteView_1a7a269d9072e9afcba8a42cd8e4969be0"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>grade.views.MarkDeleteView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkDeleteView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>grade.views.MarkDeleteView.serializer_class = <link linkend="_classgrade_1_1serializer_1_1MarkSerializer">MarkSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2views_8py">views.py</link></section>
+</section>

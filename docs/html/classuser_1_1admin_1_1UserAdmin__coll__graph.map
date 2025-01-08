@@ -1,0 +1,9 @@
+<map id="user.admin.UserAdmin" name="user.admin.UserAdmin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,163,247,228"/>
+<area shape="rect" id="Node000002" href="$classBaseUserAdmin.html" title=" " alt="" coords="5,5,124,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,81,148,161,143,164,91,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="149,5,183,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,71,169,146,163,146,163,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="284,5,331,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="307,72,299,107,280,140,263,157,259,153,276,137,294,105,302,70"/>
+</map>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta" xml:lang="en-US">
+<title>user.serializers.StudentViewSerializer.Meta Class Reference</title>
+<indexterm><primary>user.serializers.StudentViewSerializer.Meta</primary></indexterm>
+Collaboration diagram for user.serializers.StudentViewSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1a57ceec1620b1c241f2ee01ebeddc5dd4">model</link> = <link linkend="_classuser_1_1models_1_1Account">Account</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1aa70302020222cfb9bebd3aef0e943f2e">fields</link> = [&apos;name&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce">student</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7">classroom</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01">attendance</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2">mark</link>&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1aa70302020222cfb9bebd3aef0e943f2e"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>user.serializers.StudentViewSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list user.serializers.StudentViewSerializer.Meta.fields = [&apos;name&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce">student</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7">classroom</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01">attendance</link>&apos;, &apos;<link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2">mark</link>&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1a57ceec1620b1c241f2ee01ebeddc5dd4"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>user.serializers.StudentViewSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentViewSerializer.Meta.model = <link linkend="_classuser_1_1models_1_1Account">Account</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

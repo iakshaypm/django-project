@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="0006__student__classroom__teacher__classroom_8py" kind="file" language="Python">
+    <compoundname>0006_student_classroom_teacher_classroom.py</compoundname>
+    <innerclass refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration" prot="public">user::migrations::0006_student_classroom_teacher_classroom::Migration</innerclass>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations">user::migrations</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom">user::migrations::0006_student_classroom_teacher_classroom</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom" refkind="compound"><highlight class="comment">#<sp/>Generated<sp/>by<sp/>Django<sp/>5.0.4<sp/>on<sp/>2024-04-22<sp/>05:46</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>django.db.models.deletion</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>migrations,<sp/>models</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration" kindref="compound">Migration</ref>(migrations.Migration):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration_1ade3444ff91524ebdab27759b96a0d21f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dependencies<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0001_initial&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0005_rename_subject_subject_name&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration_1a7b633afc5be939b1b8d0df651b77068f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>operations<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AddField(</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;student&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.OneToOneField(default=1,<sp/>on_delete=django.db.models.deletion.DO_NOTHING,<sp/>to=</highlight><highlight class="stringliteral">&apos;classroom.classroom&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>preserve_default=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AddField(</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;teacher&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.OneToOneField(default=1,<sp/>on_delete=django.db.models.deletion.DO_NOTHING,<sp/>to=</highlight><highlight class="stringliteral">&apos;classroom.classroom&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>preserve_default=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0006_student_classroom_teacher_classroom.py"/>
+  </compounddef>
+</doxygen>

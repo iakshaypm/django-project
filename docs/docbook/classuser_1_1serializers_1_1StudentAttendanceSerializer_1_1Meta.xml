@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta" xml:lang="en-US">
+<title>user.serializers.StudentAttendanceSerializer.Meta Class Reference</title>
+<indexterm><primary>user.serializers.StudentAttendanceSerializer.Meta</primary></indexterm>
+Collaboration diagram for user.serializers.StudentAttendanceSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e">model</link> = <link linkend="_classattendance_1_1models_1_1StudentAttendance">StudentAttendance</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a8d31cc20706f58c70ef74766061e2f6e">fields</link> = [&apos;date_of_marking&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a8d31cc20706f58c70ef74766061e2f6e"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>user.serializers.StudentAttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentAttendanceSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list user.serializers.StudentAttendanceSerializer.Meta.fields = [&apos;date_of_marking&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>user.serializers.StudentAttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentAttendanceSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentAttendanceSerializer.Meta.model = <link linkend="_classattendance_1_1models_1_1StudentAttendance">StudentAttendance</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

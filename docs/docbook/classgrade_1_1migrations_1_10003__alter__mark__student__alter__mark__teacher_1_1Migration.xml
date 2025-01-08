@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration" xml:lang="en-US">
+<title>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration Class Reference</title>
+<indexterm><primary>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</primary></indexterm>
+Inheritance diagram for grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1aacae7a5ea4552f7e0f1e3947d5f885de">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1a62699cf02e4f4bb1dc4ca1d7558c7b7d">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1aacae7a5ea4552f7e0f1e3947d5f885de"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</secondary></indexterm>
+<indexterm><primary>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;grade&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0002_alter_mark_student_alter_mark_teacher&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1a62699cf02e4f4bb1dc4ca1d7558c7b7d"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</secondary></indexterm>
+<indexterm><primary>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;mark&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;student&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE,&#32;related_name=<emphasis role="stringliteral">&apos;student_id&apos;</emphasis>,&#32;to=settings.AUTH_USER_MODEL),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;mark&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;teacher&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,&#32;to=settings.AUTH_USER_MODEL),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/<link linkend="_0003__alter__mark__student__alter__mark__teacher_8py">0003_alter_mark_student_alter_mark_teacher.py</link></section>
+</section>

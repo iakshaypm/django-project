@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classclassroom_1_1views_1_1ClassroomListView" kind="class" language="Python" prot="public">
+    <compoundname>classroom::views::ClassroomListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.ListAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classclassroom_1_1views_1_1ClassroomListView_1ad702ca439ca6e7e4f42df780da04dcbc" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>classroom.views.ClassroomListView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>classroom.views.ClassroomListView.queryset</qualifiedname>
+        <initializer>=  Classroom.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclassroom_1_1views_1_1ClassroomListView_1ae6d46afa1110735f43a23e03410da24f" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple classroom.views.ClassroomListView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>classroom.views.ClassroomListView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classclassroom_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclassroom_1_1views_1_1ClassroomListView_1ad6de9f9c509e349f6bcd3a6af33d8538" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>classroom.views.ClassroomListView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>classroom.views.ClassroomListView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classclassroom_1_1serializers_1_1ClassroomSerializer" kindref="compound">ClassroomSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>classroom.views.ClassroomListView</label>
+        <link refid="classclassroom_1_1views_1_1ClassroomListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.ListAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>classroom.views.ClassroomListView</label>
+        <link refid="classclassroom_1_1views_1_1ClassroomListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.ListAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="24" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classclassroom_1_1views_1_1ClassroomListView_1ae6d46afa1110735f43a23e03410da24f" prot="public" virt="non-virtual"><scope>classroom::views::ClassroomListView</scope><name>permission_classes</name></member>
+      <member refid="classclassroom_1_1views_1_1ClassroomListView_1ad702ca439ca6e7e4f42df780da04dcbc" prot="public" virt="non-virtual"><scope>classroom::views::ClassroomListView</scope><name>queryset</name></member>
+      <member refid="classclassroom_1_1views_1_1ClassroomListView_1ad6de9f9c509e349f6bcd3a6af33d8538" prot="public" virt="non-virtual"><scope>classroom::views::ClassroomListView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

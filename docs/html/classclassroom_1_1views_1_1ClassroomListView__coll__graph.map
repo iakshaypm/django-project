@@ -1,0 +1,7 @@
+<map id="classroom.views.ClassroomListView" name="classroom.views.ClassroomListView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="43,133,239,233"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,155,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,83,123,132,118,134,97,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="179,5,226,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,72,171,119,166,117,187,70"/>
+</map>

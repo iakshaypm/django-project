@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegrade_1_1urls" xml:lang="en-US">
+<title>grade.urls Namespace Reference</title>
+<indexterm><primary>grade.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacegrade_1_1urls_1a9cd0dbf6c10bc9a843f0efb3c8b39712">app_name</link> = &apos;grade&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacegrade_1_1urls_1a1fbcc5f1316c75c3201b5c9a4f31822f">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacegrade_1_1urls_1a9cd0dbf6c10bc9a843f0efb3c8b39712"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>grade.urls</secondary></indexterm>
+<indexterm><primary>grade.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str grade.urls.app_name = &apos;grade&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacegrade_1_1urls_1a1fbcc5f1316c75c3201b5c9a4f31822f"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>grade.urls</secondary></indexterm>
+<indexterm><primary>grade.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list grade.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;add/&apos;</emphasis>,&#32;views.MarkCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-mark&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;show/&apos;</emphasis>,&#32;views.MarkListView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;show-mark&apos;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;&lt;int:pk&gt;/delete/&apos;</emphasis>,&#32;views.MarkDeleteView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;delete-mark&apos;</emphasis>),
+5 ]
+</programlisting></section>
+</section>
+</section>

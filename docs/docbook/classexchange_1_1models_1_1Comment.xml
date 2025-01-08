@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1models_1_1Comment" xml:lang="en-US">
+<title>exchange.models.Comment Class Reference</title>
+<indexterm><primary>exchange.models.Comment</primary></indexterm>
+Inheritance diagram for exchange.models.Comment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1models_1_1Comment__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.models.Comment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1models_1_1Comment__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d">content</link> = models.TextField()</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138">question</link> = models.ForeignKey(<link linkend="_classexchange_1_1models_1_1Question">Question</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707">user</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d"/><section>
+    <title>content</title>
+<indexterm><primary>content</primary><secondary>exchange.models.Comment</secondary></indexterm>
+<indexterm><primary>exchange.models.Comment</primary><secondary>content</secondary></indexterm>
+<para><computeroutput>exchange.models.Comment.content = models.TextField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138"/><section>
+    <title>question</title>
+<indexterm><primary>question</primary><secondary>exchange.models.Comment</secondary></indexterm>
+<indexterm><primary>exchange.models.Comment</primary><secondary>question</secondary></indexterm>
+<para><computeroutput>exchange.models.Comment.question = models.ForeignKey(<link linkend="_classexchange_1_1models_1_1Question">Question</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>exchange.models.Comment</secondary></indexterm>
+<indexterm><primary>exchange.models.Comment</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>exchange.models.Comment.user = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2models_8py">models.py</link></section>
+</section>

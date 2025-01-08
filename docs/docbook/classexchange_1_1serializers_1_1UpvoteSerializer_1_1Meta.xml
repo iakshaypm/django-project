@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" xml:lang="en-US">
+<title>exchange.serializers.UpvoteSerializer.Meta Class Reference</title>
+<indexterm><primary>exchange.serializers.UpvoteSerializer.Meta</primary></indexterm>
+Collaboration diagram for exchange.serializers.UpvoteSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764">model</link> = <link linkend="_classexchange_1_1models_1_1Upvote">Upvote</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3">fields</link> = [&apos;comment&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>exchange.serializers.UpvoteSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exchange.serializers.UpvoteSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list exchange.serializers.UpvoteSerializer.Meta.fields = [&apos;comment&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>exchange.serializers.UpvoteSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exchange.serializers.UpvoteSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>exchange.serializers.UpvoteSerializer.Meta.model = <link linkend="_classexchange_1_1models_1_1Upvote">Upvote</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2serializers_8py">serializers.py</link></section>
+</section>

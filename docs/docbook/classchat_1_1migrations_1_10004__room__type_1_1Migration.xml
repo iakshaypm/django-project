@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1migrations_1_10004__room__type_1_1Migration" xml:lang="en-US">
+<title>chat.migrations.0004_room_type.Migration Class Reference</title>
+<indexterm><primary>chat.migrations.0004_room_type.Migration</primary></indexterm>
+Inheritance diagram for chat.migrations.0004_room_type.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1migrations_1_10004__room__type_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.migrations.0004_room_type.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1migrations_1_10004__room__type_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classchat_1_1migrations_1_10004__room__type_1_1Migration_1a16253e5bea1d5220e3dd83d8852074a7">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classchat_1_1migrations_1_10004__room__type_1_1Migration_1ac2c6b28fbb43eeec75974ade1309cef4">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1migrations_1_10004__room__type_1_1Migration_1a16253e5bea1d5220e3dd83d8852074a7"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>chat.migrations.0004_room_type.Migration</secondary></indexterm>
+<indexterm><primary>chat.migrations.0004_room_type.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list chat.migrations.0004_room_type.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;chat&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0003_room_created_by_alter_room_online&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classchat_1_1migrations_1_10004__room__type_1_1Migration_1ac2c6b28fbb43eeec75974ade1309cef4"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>chat.migrations.0004_room_type.Migration</secondary></indexterm>
+<indexterm><primary>chat.migrations.0004_room_type.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list chat.migrations.0004_room_type.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AddField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;room&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;type&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.PositiveIntegerField(choices=[(1,&#32;<emphasis role="stringliteral">&apos;Student&apos;</emphasis>),&#32;(2,&#32;<emphasis role="stringliteral">&apos;Teacher&apos;</emphasis>),&#32;(3,&#32;<emphasis role="stringliteral">&apos;HOD&apos;</emphasis>)],&#32;default=1),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;preserve_default=<emphasis role="keyword">False</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations/<link linkend="_0004__room__type_8py">0004_room_type.py</link></section>
+</section>

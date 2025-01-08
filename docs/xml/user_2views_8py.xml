@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="user_2views_8py" kind="file" language="Python">
+    <compoundname>views.py</compoundname>
+    <innerclass refid="classuser_1_1views_1_1RegisterView" prot="public">user::views::RegisterView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StudentRegister" prot="public">user::views::StudentRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1TeacherRegister" prot="public">user::views::TeacherRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1HODRegister" prot="public">user::views::HODRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1UserView" prot="public">user::views::UserView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StripeAuthorizeView" prot="public">user::views::StripeAuthorizeView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StripeAuthorizeCallbackView" prot="public">user::views::StripeAuthorizeCallbackView</innerclass>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1views">user::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1views" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>reportlab.pdfgen<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>canvas</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.core<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>json</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views,<sp/>status</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.response<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Response</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>generics</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.permissions<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>IsAuthenticated,<sp/>AllowAny</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.permission<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>IsTeacher,<sp/>IsStudent,<sp/>IsHOD,<sp/>IsManagement,<sp/>IsParent</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Account,<sp/>Student</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacegrade_1_1models" kindref="compound">grade.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Mark</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacegrade_1_1serializer" kindref="compound">grade.serializer</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MarkSerializer</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceattendance_1_1models" kindref="compound">attendance.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>StudentAttendance</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1serializers" kindref="compound">user.serializers</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(UserSerializer,<sp/>StudentSerializer,<sp/>TeacherSerializer,<sp/>HODSerializer,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StudentViewSerializer,<sp/>)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>celery<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>shared_task</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>urllib</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.http<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>HttpResponseRedirect</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>View</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.shortcuts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>redirect</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classuser_1_1views_1_1RegisterView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1RegisterView" kindref="compound">RegisterView</ref>(views.APIView):</highlight></codeline>
+<codeline lineno="35" refid="classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>[AllowAny]</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9" kindref="member">post</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classuser_1_1serializers_1_1UserSerializer" kindref="compound">UserSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;User<sp/>created<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classuser_1_1views_1_1StudentRegister" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StudentRegister" kindref="compound">StudentRegister</ref>(views.APIView):</highlight></codeline>
+<codeline lineno="49" refid="classuser_1_1views_1_1StudentRegister_1ae167a166d2f0510553ff477980509a4d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>IsTeacher<sp/>|<sp/>IsManagement)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classuser_1_1views_1_1StudentRegister_1aa7c11588911dc5823ddd971dc44af566" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StudentRegister_1aa7c11588911dc5823ddd971dc44af566" kindref="member">post</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classuser_1_1serializers_1_1StudentSerializer" kindref="compound">StudentSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Student<sp/>added<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classuser_1_1views_1_1TeacherRegister" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1TeacherRegister" kindref="compound">TeacherRegister</ref>(views.APIView):</highlight></codeline>
+<codeline lineno="63" refid="classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>IsHOD<sp/>|<sp/>IsManagement,)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09" kindref="member">post</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classuser_1_1serializers_1_1TeacherSerializer" kindref="compound">TeacherSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Teacher<sp/>added<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classuser_1_1views_1_1HODRegister" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1HODRegister" kindref="compound">HODRegister</ref>(views.APIView):</highlight></codeline>
+<codeline lineno="77" refid="classuser_1_1views_1_1HODRegister_1aa920af6f2d36ca5607ec36f0272e64db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>IsManagement)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classuser_1_1views_1_1HODRegister_1a7ed2e1d216e255d04761926769571ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1HODRegister_1a7ed2e1d216e255d04761926769571ab1" kindref="member">post</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classuser_1_1serializers_1_1HODSerializer" kindref="compound">HODSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;HOD<sp/>added<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classuser_1_1views_1_1UserView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1UserView" kindref="compound">UserView</ref>(views.APIView):</highlight></codeline>
+<codeline lineno="91" refid="classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" kindref="member">get</ref>(self,<sp/>request,<sp/>*args,<sp/>**kwargs):</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" kindref="member">generate_pdf</ref>.delay(kwargs[</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Fetched<sp/>student<sp/>detail<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@shared_task(bind=True)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" kindref="member">generate_pdf</ref>(self,<sp/>id):</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user<sp/>=<sp/>Account.objects.get(id=id)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classuser_1_1serializers_1_1StudentViewSerializer" kindref="compound">StudentViewSerializer</ref>(user)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>json.dumps(serializer.data)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>canvas.Canvas(</highlight><highlight class="stringliteral">&apos;report_&apos;</highlight><highlight class="normal"><sp/>+<sp/>user.name.lower()<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;.pdf&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.drawString(100,<sp/>700,<sp/>data)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.showPage()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p.save()</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="classuser_1_1views_1_1StripeAuthorizeView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StripeAuthorizeView" kindref="compound">StripeAuthorizeView</ref>(View):</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classuser_1_1views_1_1StripeAuthorizeView_1aa13db70efaf729c20aa73916c066c1dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StripeAuthorizeView_1aa13db70efaf729c20aa73916c066c1dd" kindref="member">get</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>if<sp/>not<sp/>self.request.user.is_authenticated:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/>return<sp/>HttpResponseRedirect(reverse(&apos;login&apos;))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>url<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;https://connect.stripe.com/oauth/authorize&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;response_type&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;code&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;scope&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;read_write&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;client_id&apos;</highlight><highlight class="normal">:<sp/>settings.STRIPE_CONNECT_CLIENT_ID,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;redirect_uri&apos;</highlight><highlight class="normal">:<sp/>f</highlight><highlight class="stringliteral">&apos;http://localhost:8000/users/oauth/callback&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>url<sp/>=<sp/>f</highlight><highlight class="stringliteral">&apos;{url}?{urllib.parse.urlencode(params)}&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>redirect(url)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="classuser_1_1views_1_1StripeAuthorizeCallbackView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StripeAuthorizeCallbackView" kindref="compound">StripeAuthorizeCallbackView</ref>(View):</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="classuser_1_1views_1_1StripeAuthorizeCallbackView_1a14e41a5403035040be2a834a2d14874e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1views_1_1StripeAuthorizeCallbackView_1a14e41a5403035040be2a834a2d14874e" kindref="member">get</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>code<sp/>=<sp/>request.GET.get(</highlight><highlight class="stringliteral">&apos;code&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>code:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;client_secret&apos;</highlight><highlight class="normal">:<sp/>settings.STRIPE_SECRET_KEY,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;grant_type&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;authorization_code&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;client_id&apos;</highlight><highlight class="normal">:<sp/>settings.STRIPE_CONNECT_CLIENT_ID,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;code&apos;</highlight><highlight class="normal">:<sp/>code</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>url<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;https://connect.stripe.com/oauth/token&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resp<sp/>=<sp/>requests.post(url,<sp/>params=data)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(resp.json())</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>url<sp/>=<sp/>reverse(&apos;home&apos;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>response<sp/>=<sp/>resp.json()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Fetched<sp/>student<sp/>detail<sp/>successfully&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py"/>
+  </compounddef>
+</doxygen>

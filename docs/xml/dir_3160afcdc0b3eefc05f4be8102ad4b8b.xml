@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_3160afcdc0b3eefc05f4be8102ad4b8b" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project</compoundname>
+    <innerdir refid="dir_a7039c525c66631d6a920e9aee74afc2">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment</innerdir>
+    <innerdir refid="dir_c90a69987213d5eacaadbdca85b80b33">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance</innerdir>
+    <innerdir refid="dir_5abc19d3b1f3c23515fdba0ec323bb6d">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat</innerdir>
+    <innerdir refid="dir_f98ca48ec59f7d75fa8a04dcc9213b07">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom</innerdir>
+    <innerdir refid="dir_4649b9461b7228cdc7438f00ff8ca9f7">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college</innerdir>
+    <innerdir refid="dir_85b4eece0205c2e7444c9967b0aa2fb2">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam</innerdir>
+    <innerdir refid="dir_750cb86727cffb887c0c8e837c38ba1d">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange</innerdir>
+    <innerdir refid="dir_a3e959986e533203eea4a26012de2973">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade</innerdir>
+    <innerdir refid="dir_febb6b43c38c90b14ff92237d82f14a2">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment</innerdir>
+    <innerdir refid="dir_9092d353ee3b7fd65f853dffbc0fb144">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user</innerdir>
+    <innerdir refid="dir_4d95ce356d29cff5c6bf005dfc56d11f">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks</innerdir>
+    <innerfile refid="manage_8py">manage.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/"/>
+  </compounddef>
+</doxygen>

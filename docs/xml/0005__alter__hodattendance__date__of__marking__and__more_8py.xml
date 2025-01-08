@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="0005__alter__hodattendance__date__of__marking__and__more_8py" kind="file" language="Python">
+    <compoundname>0005_alter_hodattendance_date_of_marking_and_more.py</compoundname>
+    <innerclass refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" prot="public">attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more::Migration</innerclass>
+    <innernamespace refid="namespaceattendance">attendance</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1migrations">attendance::migrations</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more">attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more" refkind="compound"><highlight class="comment">#<sp/>Generated<sp/>by<sp/>Django<sp/>5.0.4<sp/>on<sp/>2024-04-21<sp/>11:55</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>migrations,<sp/>models</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" kindref="compound">Migration</ref>(migrations.Migration):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dependencies<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;attendance&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0004_alter_studentattendance_date_of_marking&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>operations<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AlterField(</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;hodattendance&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;date_of_marking&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AlterField(</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;teacherattendance&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;date_of_marking&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py"/>
+  </compounddef>
+</doxygen>

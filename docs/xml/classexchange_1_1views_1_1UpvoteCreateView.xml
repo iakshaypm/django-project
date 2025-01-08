@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1UpvoteCreateView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::UpvoteCreateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1UpvoteCreateView_1ae0d6f93c858c24ff80b103323587cc08" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.UpvoteCreateView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.UpvoteCreateView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1CanUpvote" kindref="compound">CanUpvote</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="116" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1views_1_1UpvoteCreateView_1a3dcc7b011a4594ca3bb1a2b5c6a05062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.views.UpvoteCreateView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>exchange.views.UpvoteCreateView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="118" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="118" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.UpvoteCreateView</label>
+        <link refid="classexchange_1_1views_1_1UpvoteCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.UpvoteCreateView</label>
+        <link refid="classexchange_1_1views_1_1UpvoteCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="115" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="115" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1UpvoteCreateView_1ae0d6f93c858c24ff80b103323587cc08" prot="public" virt="non-virtual"><scope>exchange::views::UpvoteCreateView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1UpvoteCreateView_1a3dcc7b011a4594ca3bb1a2b5c6a05062" prot="public" virt="non-virtual"><scope>exchange::views::UpvoteCreateView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

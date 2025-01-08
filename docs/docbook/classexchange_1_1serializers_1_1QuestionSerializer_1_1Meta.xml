@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" xml:lang="en-US">
+<title>exchange.serializers.QuestionSerializer.Meta Class Reference</title>
+<indexterm><primary>exchange.serializers.QuestionSerializer.Meta</primary></indexterm>
+Collaboration diagram for exchange.serializers.QuestionSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501">model</link> = <link linkend="_classexchange_1_1models_1_1Question">Question</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850">fields</link> = [&apos;title&apos;, &apos;description&apos;, &apos;tag&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>exchange.serializers.QuestionSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exchange.serializers.QuestionSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list exchange.serializers.QuestionSerializer.Meta.fields = [&apos;title&apos;, &apos;description&apos;, &apos;tag&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>exchange.serializers.QuestionSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exchange.serializers.QuestionSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>exchange.serializers.QuestionSerializer.Meta.model = <link linkend="_classexchange_1_1models_1_1Question">Question</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2serializers_8py">serializers.py</link></section>
+</section>

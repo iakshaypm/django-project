@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege" kind="namespace" language="Python">
+    <compoundname>college</compoundname>
+    <innernamespace refid="namespacecollege_1_1asgi">college::asgi</innernamespace>
+    <innernamespace refid="namespacecollege_1_1assignment">college::assignment</innernamespace>
+    <innernamespace refid="namespacecollege_1_1celery">college::celery</innernamespace>
+    <innernamespace refid="namespacecollege_1_1file__type__detector">college::file_type_detector</innernamespace>
+    <innernamespace refid="namespacecollege_1_1urls">college::urls</innernamespace>
+    <innernamespace refid="namespacecollege_1_1wsgi">college::wsgi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/asgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;attendance&apos;, &apos;0004_alter_studentattendance_date_of_marking&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;hodattendance&apos;,
+            name=&apos;date_of_marking&apos;,
+            field=models.DateField(auto_now=True),
+        ),
+        migrations.AlterField(
+            model_name=&apos;teacherattendance&apos;,
+            name=&apos;date_of_marking&apos;,
+            field=models.DateField(auto_now=True),
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</label>
+        <link refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</label>
+        <link refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0005_alter_hodattendance_date_of_marking_and_more.py" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7" prot="public" virt="non-virtual"><scope>attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more::Migration</scope><name>dependencies</name></member>
+      <member refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187" prot="public" virt="non-virtual"><scope>attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="assignment.models.Assignment" name="assignment.models.Assignment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,228,219"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="11,5,121,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,83,104,132,99,134,80,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,192,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,72,141,119,136,117,154,70"/>
+</map>

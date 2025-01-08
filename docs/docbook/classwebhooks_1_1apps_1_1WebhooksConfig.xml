@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classwebhooks_1_1apps_1_1WebhooksConfig" xml:lang="en-US">
+<title>webhooks.apps.WebhooksConfig Class Reference</title>
+<indexterm><primary>webhooks.apps.WebhooksConfig</primary></indexterm>
+Inheritance diagram for webhooks.apps.WebhooksConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1apps_1_1WebhooksConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for webhooks.apps.WebhooksConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1apps_1_1WebhooksConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classwebhooks_1_1apps_1_1WebhooksConfig_1a8a1aa6bbe481d4a10c0ff3857d83de42">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classwebhooks_1_1apps_1_1WebhooksConfig_1a1848afca9c9b40889386167bba50ad15">name</link> = &apos;webhooks&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classwebhooks_1_1apps_1_1WebhooksConfig_1a8a1aa6bbe481d4a10c0ff3857d83de42"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>webhooks.apps.WebhooksConfig</secondary></indexterm>
+<indexterm><primary>webhooks.apps.WebhooksConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str webhooks.apps.WebhooksConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classwebhooks_1_1apps_1_1WebhooksConfig_1a1848afca9c9b40889386167bba50ad15"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>webhooks.apps.WebhooksConfig</secondary></indexterm>
+<indexterm><primary>webhooks.apps.WebhooksConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str webhooks.apps.WebhooksConfig.name = &apos;webhooks&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/<link linkend="_webhooks_2apps_8py">apps.py</link></section>
+</section>

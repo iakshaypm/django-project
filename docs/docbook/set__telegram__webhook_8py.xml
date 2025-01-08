@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_set__telegram__webhook_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command">webhooks.management.commands.set_telegram_webhook.Command</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacewebhooks">webhooks</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacewebhooks_1_1management">webhooks.management</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacewebhooks_1_1management_1_1commands">webhooks.management.commands</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacewebhooks_1_1management_1_1commands_1_1set__telegram__webhook">webhooks.management.commands.set_telegram_webhook</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

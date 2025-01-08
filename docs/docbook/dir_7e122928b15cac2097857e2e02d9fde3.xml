@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_7e122928b15cac2097857e2e02d9fde3" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations Directory Reference</primary></indexterm>
+Directory dependency graph for migrations:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_7e122928b15cac2097857e2e02d9fde3_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_chat_2migrations_20001__initial_8py">0001_initial.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0002__alter__room__name_8py">0002_alter_room_name.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0003__room__created__by__alter__room__online_8py">0003_room_created_by_alter_room_online.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0004__room__type_8py">0004_room_type.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_chat_2migrations_2____init_____8py">__init__.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

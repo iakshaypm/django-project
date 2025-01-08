@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1models" xml:lang="en-US">
+<title>chat.models Namespace Reference</title>
+<indexterm><primary>chat.models</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classchat_1_1models_1_1Message">Message</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classchat_1_1models_1_1Room">Room</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

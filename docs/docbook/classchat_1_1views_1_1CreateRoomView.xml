@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1views_1_1CreateRoomView" xml:lang="en-US">
+<title>chat.views.CreateRoomView Class Reference</title>
+<indexterm><primary>chat.views.CreateRoomView</primary></indexterm>
+Inheritance diagram for chat.views.CreateRoomView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1views_1_1CreateRoomView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.views.CreateRoomView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1views_1_1CreateRoomView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06">post</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580">permission_classes</link> = (IsAuthenticated, <link linkend="_classchat_1_1permission_1_1CanCreateRoom">CanCreateRoom</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>chat.views.CreateRoomView</secondary></indexterm>
+<indexterm><primary>chat.views.CreateRoomView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>chat.views.CreateRoomView.post ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>chat.views.CreateRoomView</secondary></indexterm>
+<indexterm><primary>chat.views.CreateRoomView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple chat.views.CreateRoomView.permission_classes = (IsAuthenticated, <link linkend="_classchat_1_1permission_1_1CanCreateRoom">CanCreateRoom</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2views_8py">views.py</link></section>
+</section>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1views_1_1CreateRoomView" kind="class" language="Python" prot="public">
+    <compoundname>chat::views::CreateRoomView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.CreateAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple chat.views.CreateRoomView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>chat.views.CreateRoomView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classchat_1_1permission_1_1CanCreateRoom" kindref="compound">CanCreateRoom</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.views.CreateRoomView.post</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>post</name>
+        <qualifiedname>chat.views.CreateRoomView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" bodystart="26" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>chat.views.CreateRoomView</label>
+        <link refid="classchat_1_1views_1_1CreateRoomView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>chat.views.CreateRoomView</label>
+        <link refid="classchat_1_1views_1_1CreateRoomView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580" prot="public" virt="non-virtual"><scope>chat::views::CreateRoomView</scope><name>permission_classes</name></member>
+      <member refid="classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06" prot="public" virt="non-virtual"><scope>chat::views::CreateRoomView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

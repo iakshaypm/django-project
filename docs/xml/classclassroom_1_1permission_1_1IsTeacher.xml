@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classclassroom_1_1permission_1_1IsTeacher" kind="class" language="Python" prot="public">
+    <compoundname>classroom::permission::IsTeacher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classclassroom_1_1permission_1_1IsTeacher_1ac1ecfd3c9a87a637f2d6826393e15921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>classroom.permission.IsTeacher.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>classroom.permission.IsTeacher.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/permission.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/permission.py" bodystart="12" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>classroom.permission.IsTeacher</label>
+        <link refid="classclassroom_1_1permission_1_1IsTeacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>classroom.permission.IsTeacher</label>
+        <link refid="classclassroom_1_1permission_1_1IsTeacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/permission.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/permission.py" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classclassroom_1_1permission_1_1IsTeacher_1ac1ecfd3c9a87a637f2d6826393e15921" prot="public" virt="non-virtual"><scope>classroom::permission::IsTeacher</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

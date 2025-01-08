@@ -1,0 +1,4 @@
+var 0002__rename__questoin__id__comment__question__and__more_8py =
+[
+    [ "exchange.migrations.0002_rename_questoin_id_comment_question_and_more.Migration", "classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration.html", "classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration" ]
+];

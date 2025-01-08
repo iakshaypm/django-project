@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1UserSerializer" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::UserSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta" prot="public">user::serializers::UserSerializer::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.UserSerializer::confirm_password</definition>
+        <argsstring></argsstring>
+        <name>confirm_password</name>
+        <qualifiedname>user.serializers.UserSerializer.confirm_password</qualifiedname>
+        <initializer>=  serializers.CharField(
+        max_length=100, write_only=True, required=True
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1serializers_1_1UserSerializer_1af9766e27952b92ae23dd1db889393f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.serializers.UserSerializer.create</definition>
+        <argsstring>(self, validated_data)</argsstring>
+        <name>create</name>
+        <qualifiedname>user.serializers.UserSerializer.create</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>validated_data</type>
+          <defname>validated_data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classuser_1_1serializers_1_1UserSerializer_1a073ac4174745351c47ab7ca9c765b8e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.serializers.UserSerializer.validate</definition>
+        <argsstring>(self, attrs)</argsstring>
+        <name>validate</name>
+        <qualifiedname>user.serializers.UserSerializer.validate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>attrs</type>
+          <defname>attrs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="30" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.UserSerializer</label>
+        <link refid="classuser_1_1serializers_1_1UserSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.UserSerializer</label>
+        <link refid="classuser_1_1serializers_1_1UserSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="12" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer</scope><name>confirm_password</name></member>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1af9766e27952b92ae23dd1db889393f11" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer</scope><name>create</name></member>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1a073ac4174745351c47ab7ca9c765b8e2" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

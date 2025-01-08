@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10012__student__assignment_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0012_student_assignment.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0012_student_assignment.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0012_student_assignment.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10012__student__assignment_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0012_student_assignment.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10012__student__assignment_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a192ba33b41dd612742096f00963b0f2f">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a65812d06b6467a198a19f21c4937c9b0">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a192ba33b41dd612742096f00963b0f2f"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0012_student_assignment.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0012_student_assignment.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0012_student_assignment.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;assignment&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0001_initial&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0011_alter_student_parent_delete_parent&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a65812d06b6467a198a19f21c4937c9b0"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0012_student_assignment.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0012_student_assignment.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0012_student_assignment.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AddField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;student&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;assignment&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.ForeignKey(null=<emphasis role="keyword">True</emphasis>,&#32;on_delete=django.db.models.deletion.DO_NOTHING,&#32;to=<emphasis role="stringliteral">&apos;assignment.assignment&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_0012__student__assignment_8py">0012_student_assignment.py</link></section>
+</section>

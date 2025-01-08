@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1views_1_1StripeAuthorizeCallbackView" xml:lang="en-US">
+<title>user.views.StripeAuthorizeCallbackView Class Reference</title>
+<indexterm><primary>user.views.StripeAuthorizeCallbackView</primary></indexterm>
+Inheritance diagram for user.views.StripeAuthorizeCallbackView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1StripeAuthorizeCallbackView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.views.StripeAuthorizeCallbackView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1StripeAuthorizeCallbackView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1views_1_1StripeAuthorizeCallbackView_1a14e41a5403035040be2a834a2d14874e">get</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1StripeAuthorizeCallbackView_1a14e41a5403035040be2a834a2d14874e"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>user.views.StripeAuthorizeCallbackView</secondary></indexterm>
+<indexterm><primary>user.views.StripeAuthorizeCallbackView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>user.views.StripeAuthorizeCallbackView.get ( self,  request)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2views_8py">views.py</link></section>
+</section>

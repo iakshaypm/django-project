@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceexchange_1_1signals" xml:lang="en-US">
+<title>exchange.signals Namespace Reference</title>
+<indexterm><primary>exchange.signals</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceexchange_1_1signals_1a873621cd603607b617ec327c50f8d4b7">notify_admin</link> (sender, instance, created, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceexchange_1_1signals_1a873621cd603607b617ec327c50f8d4b7"/><section>
+    <title>notify_admin()</title>
+<indexterm><primary>notify_admin</primary><secondary>exchange.signals</secondary></indexterm>
+<indexterm><primary>exchange.signals</primary><secondary>notify_admin</secondary></indexterm>
+<para><computeroutput>exchange.signals.notify_admin ( sender,  instance,  created, ** kwargs)</computeroutput></para></section>
+</section>
+</section>

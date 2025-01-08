@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecollege_1_1file__type__detector" xml:lang="en-US">
+<title>college.file_type_detector Namespace Reference</title>
+<indexterm><primary>college.file_type_detector</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af">run_linter</link> (file)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespacecollege_1_1file__type__detector_1a4abdd44e1f1942108ebc378e66fd6acc">linters</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af"/><section>
+    <title>run_linter()</title>
+<indexterm><primary>run_linter</primary><secondary>college.file_type_detector</secondary></indexterm>
+<indexterm><primary>college.file_type_detector</primary><secondary>run_linter</secondary></indexterm>
+<para><computeroutput>college.file_type_detector.run_linter ( file)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacecollege_1_1file__type__detector_a09e6f3d9243faf2b5eba28a8012968af_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacecollege_1_1file__type__detector_a09e6f3d9243faf2b5eba28a8012968af_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecollege_1_1file__type__detector_1a4abdd44e1f1942108ebc378e66fd6acc"/><section>
+    <title>linters</title>
+<indexterm><primary>linters</primary><secondary>college.file_type_detector</secondary></indexterm>
+<indexterm><primary>college.file_type_detector</primary><secondary>linters</secondary></indexterm>
+<para><computeroutput>dict college.file_type_detector.linters</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;.py&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;flake8&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;.php&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;phpcs&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;.js&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;eslint&apos;</emphasis>,
+5 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;.css&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;stylelint&apos;</emphasis>,
+6 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;.rb&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;rubocop&apos;</emphasis>
+7 }
+</programlisting></section>
+</section>
+</section>

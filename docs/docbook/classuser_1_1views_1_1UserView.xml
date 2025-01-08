@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1views_1_1UserView" xml:lang="en-US">
+<title>user.views.UserView Class Reference</title>
+<indexterm><primary>user.views.UserView</primary></indexterm>
+Inheritance diagram for user.views.UserView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1UserView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.views.UserView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1UserView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105">get</link> (self, request, *args, **kwargs)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7">generate_pdf</link> (self, id)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc">permission_classes</link> = (IsAuthenticated,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7"/><section>
+    <title>generate_pdf()</title>
+<indexterm><primary>generate_pdf</primary><secondary>user.views.UserView</secondary></indexterm>
+<indexterm><primary>user.views.UserView</primary><secondary>generate_pdf</secondary></indexterm>
+<para><computeroutput>user.views.UserView.generate_pdf ( self,  id)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1UserView_ad9ee5a1708d6c2d7a0acfef82ad85aa7_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>user.views.UserView</secondary></indexterm>
+<indexterm><primary>user.views.UserView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>user.views.UserView.get ( self,  request, * args, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1UserView_ad825d7e549699cc94479643778c8c105_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>user.views.UserView</secondary></indexterm>
+<indexterm><primary>user.views.UserView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple user.views.UserView.permission_classes = (IsAuthenticated,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2views_8py">views.py</link></section>
+</section>

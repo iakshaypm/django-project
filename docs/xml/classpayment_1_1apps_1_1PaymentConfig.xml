@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classpayment_1_1apps_1_1PaymentConfig" kind="class" language="Python" prot="public">
+    <compoundname>payment::apps::PaymentConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppConfig</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classpayment_1_1apps_1_1PaymentConfig_1a304bb093446873046d638f039d81803d" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str payment.apps.PaymentConfig::default_auto_field</definition>
+        <argsstring></argsstring>
+        <name>default_auto_field</name>
+        <qualifiedname>payment.apps.PaymentConfig.default_auto_field</qualifiedname>
+        <initializer>=  &apos;django.db.models.BigAutoField&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpayment_1_1apps_1_1PaymentConfig_1a8fb1946118fd8ba5467fccce3a097c3a" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str payment.apps.PaymentConfig::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>payment.apps.PaymentConfig.name</qualifiedname>
+        <initializer>=  &apos;payment&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>payment.apps.PaymentConfig</label>
+        <link refid="classpayment_1_1apps_1_1PaymentConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>payment.apps.PaymentConfig</label>
+        <link refid="classpayment_1_1apps_1_1PaymentConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+default_auto_field</edgelabel>
+          <edgelabel>+name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/apps.py" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classpayment_1_1apps_1_1PaymentConfig_1a304bb093446873046d638f039d81803d" prot="public" virt="non-virtual"><scope>payment::apps::PaymentConfig</scope><name>default_auto_field</name></member>
+      <member refid="classpayment_1_1apps_1_1PaymentConfig_1a8fb1946118fd8ba5467fccce3a097c3a" prot="public" virt="non-virtual"><scope>payment::apps::PaymentConfig</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

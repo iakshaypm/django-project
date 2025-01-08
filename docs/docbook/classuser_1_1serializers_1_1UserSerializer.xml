@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1UserSerializer" xml:lang="en-US">
+<title>user.serializers.UserSerializer Class Reference</title>
+<indexterm><primary>user.serializers.UserSerializer</primary></indexterm>
+Inheritance diagram for user.serializers.UserSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1UserSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.serializers.UserSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1UserSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1UserSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1UserSerializer_1af9766e27952b92ae23dd1db889393f11">create</link> (self, validated_data)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1UserSerializer_1a073ac4174745351c47ab7ca9c765b8e2">validate</link> (self, attrs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72">confirm_password</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1af9766e27952b92ae23dd1db889393f11"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>user.serializers.UserSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>user.serializers.UserSerializer.create ( self,  validated_data)</computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1a073ac4174745351c47ab7ca9c765b8e2"/><section>
+    <title>validate()</title>
+<indexterm><primary>validate</primary><secondary>user.serializers.UserSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer</primary><secondary>validate</secondary></indexterm>
+<para><computeroutput>user.serializers.UserSerializer.validate ( self,  attrs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72"/><section>
+    <title>confirm_password</title>
+<indexterm><primary>confirm_password</primary><secondary>user.serializers.UserSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer</primary><secondary>confirm_password</secondary></indexterm>
+<para><computeroutput>user.serializers.UserSerializer.confirm_password<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;serializers.CharField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;max_length=100,&#32;write_only=<emphasis role="keyword">True</emphasis>,&#32;required=<emphasis role="keyword">True</emphasis>
+&#32;&#32;&#32;&#32;)
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

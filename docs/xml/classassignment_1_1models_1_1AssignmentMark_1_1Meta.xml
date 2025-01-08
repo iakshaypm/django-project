@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1models_1_1AssignmentMark_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>assignment::models::AssignmentMark::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1models_1_1AssignmentMark_1_1Meta_1a0e386aac5212ca312aeff78782bffa57" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str assignment.models.AssignmentMark.Meta::db_table</definition>
+        <argsstring></argsstring>
+        <name>db_table</name>
+        <qualifiedname>assignment.models.AssignmentMark.Meta.db_table</qualifiedname>
+        <initializer>=  &apos;assignment_mark&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.models.AssignmentMark.Meta</label>
+        <link refid="classassignment_1_1models_1_1AssignmentMark_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+db_table</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="23" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1models_1_1AssignmentMark_1_1Meta_1a0e386aac5212ca312aeff78782bffa57" prot="public" virt="non-virtual"><scope>assignment::models::AssignmentMark::Meta</scope><name>db_table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

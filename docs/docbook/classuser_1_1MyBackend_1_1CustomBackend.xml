@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1MyBackend_1_1CustomBackend" xml:lang="en-US">
+<title>user.MyBackend.CustomBackend Class Reference</title>
+<indexterm><primary>user.MyBackend.CustomBackend</primary></indexterm>
+Inheritance diagram for user.MyBackend.CustomBackend:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1MyBackend_1_1CustomBackend__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.MyBackend.CustomBackend:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1MyBackend_1_1CustomBackend__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1MyBackend_1_1CustomBackend_1a08275ac38e0870620f11d2f0ad9ac420">authenticate</link> (self, request, email=None, password=None, **kwargs)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1MyBackend_1_1CustomBackend_1a883936bd6c6591eb35c2dfe09650cb7c">get_user</link> (self, user_id)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1MyBackend_1_1CustomBackend_1aa0f4a95d085437d2c40db2c793e1cc67">get_user_by_username</link> (self, username)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1MyBackend_1_1CustomBackend_1a08275ac38e0870620f11d2f0ad9ac420"/><section>
+    <title>authenticate()</title>
+<indexterm><primary>authenticate</primary><secondary>user.MyBackend.CustomBackend</secondary></indexterm>
+<indexterm><primary>user.MyBackend.CustomBackend</primary><secondary>authenticate</secondary></indexterm>
+<para><computeroutput>user.MyBackend.CustomBackend.authenticate ( self,  request,  email = <computeroutput>None</computeroutput>
+,  password = <computeroutput>None</computeroutput>
+, ** kwargs)</computeroutput></para></section>
+<anchor xml:id="_classuser_1_1MyBackend_1_1CustomBackend_1a883936bd6c6591eb35c2dfe09650cb7c"/><section>
+    <title>get_user()</title>
+<indexterm><primary>get_user</primary><secondary>user.MyBackend.CustomBackend</secondary></indexterm>
+<indexterm><primary>user.MyBackend.CustomBackend</primary><secondary>get_user</secondary></indexterm>
+<para><computeroutput>user.MyBackend.CustomBackend.get_user ( self,  user_id)</computeroutput></para></section>
+<anchor xml:id="_classuser_1_1MyBackend_1_1CustomBackend_1aa0f4a95d085437d2c40db2c793e1cc67"/><section>
+    <title>get_user_by_username()</title>
+<indexterm><primary>get_user_by_username</primary><secondary>user.MyBackend.CustomBackend</secondary></indexterm>
+<indexterm><primary>user.MyBackend.CustomBackend</primary><secondary>get_user_by_username</secondary></indexterm>
+<para><computeroutput>user.MyBackend.CustomBackend.get_user_by_username ( self,  username)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_MyBackend_8py">MyBackend.py</link></section>
+</section>

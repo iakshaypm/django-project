@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1MyBackend_1_1CustomBackend" kind="class" language="Python" prot="public">
+    <compoundname>user::MyBackend::CustomBackend</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelBackend</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1MyBackend_1_1CustomBackend_1a08275ac38e0870620f11d2f0ad9ac420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.MyBackend.CustomBackend.authenticate</definition>
+        <argsstring>(self, request, email=None, password=None, **kwargs)</argsstring>
+        <name>authenticate</name>
+        <qualifiedname>user.MyBackend.CustomBackend.authenticate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>email</type>
+          <defname>email</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>password</type>
+          <defname>password</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" bodystart="9" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classuser_1_1MyBackend_1_1CustomBackend_1a883936bd6c6591eb35c2dfe09650cb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.MyBackend.CustomBackend.get_user</definition>
+        <argsstring>(self, user_id)</argsstring>
+        <name>get_user</name>
+        <qualifiedname>user.MyBackend.CustomBackend.get_user</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>user_id</type>
+          <defname>user_id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classuser_1_1MyBackend_1_1CustomBackend_1aa0f4a95d085437d2c40db2c793e1cc67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.MyBackend.CustomBackend.get_user_by_username</definition>
+        <argsstring>(self, username)</argsstring>
+        <name>get_user_by_username</name>
+        <qualifiedname>user.MyBackend.CustomBackend.get_user_by_username</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>username</type>
+          <defname>username</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" bodystart="27" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModelBackend</label>
+      </node>
+      <node id="1">
+        <label>user.MyBackend.CustomBackend</label>
+        <link refid="classuser_1_1MyBackend_1_1CustomBackend"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModelBackend</label>
+      </node>
+      <node id="1">
+        <label>user.MyBackend.CustomBackend</label>
+        <link refid="classuser_1_1MyBackend_1_1CustomBackend"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/MyBackend.py" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classuser_1_1MyBackend_1_1CustomBackend_1a08275ac38e0870620f11d2f0ad9ac420" prot="public" virt="non-virtual"><scope>user::MyBackend::CustomBackend</scope><name>authenticate</name></member>
+      <member refid="classuser_1_1MyBackend_1_1CustomBackend_1a883936bd6c6591eb35c2dfe09650cb7c" prot="public" virt="non-virtual"><scope>user::MyBackend::CustomBackend</scope><name>get_user</name></member>
+      <member refid="classuser_1_1MyBackend_1_1CustomBackend_1aa0f4a95d085437d2c40db2c793e1cc67" prot="public" virt="non-virtual"><scope>user::MyBackend::CustomBackend</scope><name>get_user_by_username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

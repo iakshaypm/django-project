@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexam_1_1models_1_1Exam_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>exam::models::Exam::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str exam.models.Exam.Meta::db_table</definition>
+        <argsstring></argsstring>
+        <name>db_table</name>
+        <qualifiedname>exam.models.Exam.Meta.db_table</qualifiedname>
+        <initializer>=  &apos;exam&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>exam.models.Exam.Meta</label>
+        <link refid="classexam_1_1models_1_1Exam_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+db_table</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe" prot="public" virt="non-virtual"><scope>exam::models::Exam::Meta</scope><name>db_table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

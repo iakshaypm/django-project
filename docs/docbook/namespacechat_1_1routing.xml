@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1routing" xml:lang="en-US">
+<title>chat.routing Namespace Reference</title>
+<indexterm><primary>chat.routing</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacechat_1_1routing_1a9079064cf5cc6236e957a9958bdaa47f">websocket_urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacechat_1_1routing_1a9079064cf5cc6236e957a9958bdaa47f"/><section>
+    <title>websocket_urlpatterns</title>
+<indexterm><primary>websocket_urlpatterns</primary><secondary>chat.routing</secondary></indexterm>
+<indexterm><primary>chat.routing</primary><secondary>websocket_urlpatterns</secondary></indexterm>
+<para><computeroutput>list chat.routing.websocket_urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;re_path(<emphasis role="stringliteral">r&apos;ws/chat/(?P&lt;room_name&gt;\w+)/$&apos;</emphasis>,&#32;consumers.ChatConsumer.as_asgi()),
+3 ]
+</programlisting></section>
+</section>
+</section>

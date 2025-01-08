@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1UserSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::UserSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.UserSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>user.serializers.UserSerializer.Meta.model</qualifiedname>
+        <initializer>=  get_user_model()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a4ca3f8d705a137a0028afcda6aec1236" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.serializers.UserSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>user.serializers.UserSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;email&apos;, &apos;password&apos;, &apos;<ref refid="classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72" kindref="member">confirm_password</ref>&apos;, &apos;phone_number&apos;, &apos;name&apos;, &apos;user_type&apos;, &apos;is_staff&apos;,
+                  &apos;is_superuser&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1aeddf90a080f763483ed83fd87e92059a" prot="public" static="yes" mutable="no">
+        <type>dict</type>
+        <definition>dict user.serializers.UserSerializer.Meta::extra_kwargs</definition>
+        <argsstring></argsstring>
+        <name>extra_kwargs</name>
+        <qualifiedname>user.serializers.UserSerializer.Meta.extra_kwargs</qualifiedname>
+        <initializer>=  {
+            &apos;password&apos;: {&apos;write_only&apos;: True, &apos;min_length&apos;: 5},
+            &apos;<ref refid="classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72" kindref="member">confirm_password</ref>&apos;: {&apos;write_only&apos;: True, &apos;min_length&apos;: 5}
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>dict</label>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.UserSerializer.Meta</label>
+        <link refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+extra_kwargs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="17" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1aeddf90a080f763483ed83fd87e92059a" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer::Meta</scope><name>extra_kwargs</name></member>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a4ca3f8d705a137a0028afcda6aec1236" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30" prot="public" virt="non-virtual"><scope>user::serializers::UserSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

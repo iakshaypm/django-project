@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgrade_1_1permission_1_1CanRemoveUpvote" kind="class" language="Python" prot="public">
+    <compoundname>grade::permission::CanRemoveUpvote</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgrade_1_1permission_1_1CanRemoveUpvote_1a2f6c0634e9726ca87f2dffaab293b3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>grade.permission.CanRemoveUpvote.has_object_permission</definition>
+        <argsstring>(self, request, view, obj)</argsstring>
+        <name>has_object_permission</name>
+        <qualifiedname>grade.permission.CanRemoveUpvote.has_object_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <param>
+          <type>obj</type>
+          <defname>obj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" bodystart="34" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>grade.permission.CanRemoveUpvote</label>
+        <link refid="classgrade_1_1permission_1_1CanRemoveUpvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>grade.permission.CanRemoveUpvote</label>
+        <link refid="classgrade_1_1permission_1_1CanRemoveUpvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" line="33" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" bodystart="33" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgrade_1_1permission_1_1CanRemoveUpvote_1a2f6c0634e9726ca87f2dffaab293b3df" prot="public" virt="non-virtual"><scope>grade::permission::CanRemoveUpvote</scope><name>has_object_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

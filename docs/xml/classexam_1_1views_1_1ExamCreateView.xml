@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexam_1_1views_1_1ExamCreateView" kind="class" language="Python" prot="public">
+    <compoundname>exam::views::ExamCreateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexam_1_1views_1_1ExamCreateView_1a0b8d2ec562babfe0e96f8a98711578f7" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exam.views.ExamCreateView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exam.views.ExamCreateView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classuser_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exam.views.ExamCreateView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>exam.views.ExamCreateView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" bodystart="18" bodyend="31"/>
+        <references refid="classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2" compoundref="exam_2views_8py" startline="32" endline="44">exam.views.ExamCreateView.send_sms</references>
+      </memberdef>
+      <memberdef kind="function" id="classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exam.views.ExamCreateView.send_sms</definition>
+        <argsstring>(self, phone_number)</argsstring>
+        <name>send_sms</name>
+        <qualifiedname>exam.views.ExamCreateView.send_sms</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>phone_number</type>
+          <defname>phone_number</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" bodystart="32" bodyend="44"/>
+        <referencedby refid="classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092" compoundref="exam_2views_8py" startline="18" endline="31">exam.views.ExamCreateView.post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exam.views.ExamCreateView</label>
+        <link refid="classexam_1_1views_1_1ExamCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exam.views.ExamCreateView</label>
+        <link refid="classexam_1_1views_1_1ExamCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/views.py" bodystart="15" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classexam_1_1views_1_1ExamCreateView_1a0b8d2ec562babfe0e96f8a98711578f7" prot="public" virt="non-virtual"><scope>exam::views::ExamCreateView</scope><name>permission_classes</name></member>
+      <member refid="classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092" prot="public" virt="non-virtual"><scope>exam::views::ExamCreateView</scope><name>post</name></member>
+      <member refid="classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2" prot="public" virt="non-virtual"><scope>exam::views::ExamCreateView</scope><name>send_sms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

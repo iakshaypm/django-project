@@ -1,0 +1,13 @@
+<map id="user.models.Account" name="user.models.Account">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,133,377,379"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,136,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,78,230,183,226,187,113,82"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,5,290,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,83,262,132,256,134,239,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="314,5,361,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,72,307,95,302,118,296,117,301,94,312,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="478,5,509,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="486,72,466,111,431,153,392,190,388,187,427,149,462,108,481,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="640,5,675,71"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="644,72,630,93,612,111,560,150,504,182,447,209,394,229,392,224,445,204,501,177,557,145,609,107,626,89,639,69"/>
+</map>

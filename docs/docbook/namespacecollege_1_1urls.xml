@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecollege_1_1urls" xml:lang="en-US">
+<title>college.urls Namespace Reference</title>
+<indexterm><primary>college.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacecollege_1_1urls_1a5990d5fdc3ddf335c4017159284aae1f">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>URL configuration for college project.
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/5.0/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path(&apos;&apos;, views.home, name=&apos;home&apos;)
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path(&apos;&apos;, Home.as_view(), name=&apos;home&apos;)
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path(&apos;blog/&apos;, include(&apos;blog.urls&apos;))
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecollege_1_1urls_1a5990d5fdc3ddf335c4017159284aae1f"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>college.urls</secondary></indexterm>
+<indexterm><primary>college.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list college.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;admin/&apos;</emphasis>,&#32;admin.site.urls),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;users/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;user.urls&apos;</emphasis>)),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;exchange/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;exchange.urls&apos;</emphasis>)),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;grade/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;grade.urls&apos;</emphasis>)),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;attendance/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;attendance.urls&apos;</emphasis>)),
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;classroom/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;classroom.urls&apos;</emphasis>)),
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;chat/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;chat.urls&apos;</emphasis>)),
+9 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;payment/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;payment.urls&apos;</emphasis>)),
+10 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;exam/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;exam.urls&apos;</emphasis>)),
+11 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;assignment/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;assignment.urls&apos;</emphasis>)),
+12 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;assistant/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&apos;webhooks.urls&apos;</emphasis>)),
+13 ]
+</programlisting></section>
+</section>
+</section>

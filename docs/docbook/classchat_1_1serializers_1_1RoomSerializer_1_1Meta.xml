@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1serializers_1_1RoomSerializer_1_1Meta" xml:lang="en-US">
+<title>chat.serializers.RoomSerializer.Meta Class Reference</title>
+<indexterm><primary>chat.serializers.RoomSerializer.Meta</primary></indexterm>
+Collaboration diagram for chat.serializers.RoomSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1serializers_1_1RoomSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf">model</link> = <link linkend="_classchat_1_1models_1_1Room">Room</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7">fields</link> = [&apos;name&apos;, &apos;type&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>chat.serializers.RoomSerializer.Meta</secondary></indexterm>
+<indexterm><primary>chat.serializers.RoomSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list chat.serializers.RoomSerializer.Meta.fields = [&apos;name&apos;, &apos;type&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>chat.serializers.RoomSerializer.Meta</secondary></indexterm>
+<indexterm><primary>chat.serializers.RoomSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>chat.serializers.RoomSerializer.Meta.model = <link linkend="_classchat_1_1models_1_1Room">Room</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2serializers_8py">serializers.py</link></section>
+</section>

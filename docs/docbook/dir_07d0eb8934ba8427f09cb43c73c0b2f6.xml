@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_07d0eb8934ba8427f09cb43c73c0b2f6" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations Directory Reference</primary></indexterm>
+Directory dependency graph for migrations:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_07d0eb8934ba8427f09cb43c73c0b2f6_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_grade_2migrations_20001__initial_8py">0001_initial.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0002__alter__mark__student__alter__mark__teacher_8py">0002_alter_mark_student_alter_mark_teacher.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0003__alter__mark__student__alter__mark__teacher_8py">0003_alter_mark_student_alter_mark_teacher.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0004__alter__mark__student_8py">0004_alter_mark_student.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_grade_2migrations_2____init_____8py">__init__.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

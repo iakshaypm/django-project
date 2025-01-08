@@ -1,0 +1,4 @@
+var namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent =
+[
+    [ "Migration", "classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration.html", "classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" ]
+];

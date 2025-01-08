@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceexchange_1_1views" xml:lang="en-US">
+<title>exchange.views Namespace Reference</title>
+<indexterm><primary>exchange.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentCreateView">CommentCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentDeleteView">CommentDeleteView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentListView">CommentListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentRetrieveView">CommentRetrieveView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentUpdateView">CommentUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionCreateView">QuestionCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionDeleteView">QuestionDeleteView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionListView">QuestionListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionRetrieveView">QuestionRetrieveView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionUpdateView">QuestionUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1UpvoteCreateView">UpvoteCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1UpvoteDeleteView">UpvoteDeleteView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,7 @@
+<map id="attendance.views.ShowAttendanceView" name="attendance.views.ShowAttendanceView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,133,281,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,159,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,82,130,132,125,134,101,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,5,229,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,72,169,120,164,117,188,70"/>
+</map>

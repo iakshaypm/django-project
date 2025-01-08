@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1views" kind="namespace" language="Python">
+    <compoundname>user::views</compoundname>
+    <innerclass refid="classuser_1_1views_1_1HODRegister" prot="public">user::views::HODRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1RegisterView" prot="public">user::views::RegisterView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StripeAuthorizeCallbackView" prot="public">user::views::StripeAuthorizeCallbackView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StripeAuthorizeView" prot="public">user::views::StripeAuthorizeView</innerclass>
+    <innerclass refid="classuser_1_1views_1_1StudentRegister" prot="public">user::views::StudentRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1TeacherRegister" prot="public">user::views::TeacherRegister</innerclass>
+    <innerclass refid="classuser_1_1views_1_1UserView" prot="public">user::views::UserView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

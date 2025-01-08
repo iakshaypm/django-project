@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1assignment" kind="namespace" language="Python">
+    <compoundname>college::assignment</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecollege_1_1assignment_1a2e9a2823fe1c92b647de3027bac48b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>college.assignment.assignNewAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>assignNewAssignment</name>
+        <qualifiedname>college.assignment.assignNewAssignment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/assignment.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/assignment.py" bodystart="8" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/assignment.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

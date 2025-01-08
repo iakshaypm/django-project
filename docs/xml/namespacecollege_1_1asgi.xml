@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1asgi" kind="namespace" language="Python">
+    <compoundname>college::asgi</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecollege_1_1asgi_1ac53598635d961543e73e6f3e02cd3ae8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>college::asgi.application</definition>
+        <argsstring></argsstring>
+        <name>application</name>
+        <qualifiedname>college.asgi.application</qualifiedname>
+        <initializer>=  ProtocolTypeRouter({
+  &apos;http&apos;: get_asgi_application(),
+  &apos;websocket&apos;: <ref refid="classchat_1_1middleware_1_1TokenAuthMiddleware" kindref="compound">TokenAuthMiddleware</ref>(
+        URLRouter(
+            routing.websocket_urlpatterns
+        )
+    ),
+})</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/asgi.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/asgi.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>ASGI config for college project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.0/howto/deployment/asgi/
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/asgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

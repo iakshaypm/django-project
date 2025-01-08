@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceuser_1_1urls" xml:lang="en-US">
+<title>user.urls Namespace Reference</title>
+<indexterm><primary>user.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceuser_1_1urls_1a248e74c816eda6ab3bd391c1d9efc2f6">app_name</link> = &apos;user&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceuser_1_1urls_1a8f768fe416604807e9f185e87995c61a">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceuser_1_1urls_1a248e74c816eda6ab3bd391c1d9efc2f6"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>user.urls</secondary></indexterm>
+<indexterm><primary>user.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str user.urls.app_name = &apos;user&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceuser_1_1urls_1a8f768fe416604807e9f185e87995c61a"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>user.urls</secondary></indexterm>
+<indexterm><primary>user.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list user.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/register/&apos;</emphasis>,&#32;views.RegisterView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;user-register&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/student/register/&apos;</emphasis>,&#32;views.StudentRegister.as_view(),&#32;name=<emphasis role="stringliteral">&apos;student-register&apos;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/teacher/register/&apos;</emphasis>,&#32;views.TeacherRegister.as_view(),&#32;name=<emphasis role="stringliteral">&apos;teacher-register&apos;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/hod/register/&apos;</emphasis>,&#32;views.HODRegister.as_view(),&#32;name=<emphasis role="stringliteral">&apos;teacher-register&apos;</emphasis>),
+6 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;path(&apos;account/parent/register/&apos;,&#32;views.ParentRegister.as_view(),&#32;name=&apos;parent-register&apos;),</emphasis>
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/login/&apos;</emphasis>,&#32;TokenObtainPairView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;login&apos;</emphasis>),
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;account/refresh/&apos;</emphasis>,&#32;TokenRefreshView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;token_refresh&apos;</emphasis>),
+9 
+10 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;student/&lt;int:id&gt;/details/&apos;</emphasis>,&#32;views.UserView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;student-details&apos;</emphasis>),
+11 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;authorize/&apos;</emphasis>,&#32;views.StripeAuthorizeView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;authorize&apos;</emphasis>),
+12 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;oauth/callback/&apos;</emphasis>,&#32;views.StripeAuthorizeCallbackView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;authorize_callback&apos;</emphasis>),
+13 
+14 ]
+</programlisting></section>
+</section>
+</section>

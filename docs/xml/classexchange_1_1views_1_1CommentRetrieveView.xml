@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1CommentRetrieveView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::CommentRetrieveView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.RetrieveAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentRetrieveView_1ad8b433208c22ed781320faae841ddab3" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.CommentRetrieveView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>exchange.views.CommentRetrieveView.queryset</qualifiedname>
+        <initializer>=  Comment.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="89" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentRetrieveView_1aa743ae89fc844f1ee09d95b88b0b223b" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.CommentRetrieveView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.CommentRetrieveView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1CanAccessComment" kindref="compound">CanAccessComment</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="90" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentRetrieveView_1ae8d695cd31056d5016fda0441c4aece4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.CommentRetrieveView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>exchange.views.CommentRetrieveView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1serializers_1_1CommentSerializer" kindref="compound">CommentSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="91" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.CommentRetrieveView</label>
+        <link refid="classexchange_1_1views_1_1CommentRetrieveView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::RetrieveAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.CommentRetrieveView</label>
+        <link refid="classexchange_1_1views_1_1CommentRetrieveView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::RetrieveAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="88" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="88" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1CommentRetrieveView_1aa743ae89fc844f1ee09d95b88b0b223b" prot="public" virt="non-virtual"><scope>exchange::views::CommentRetrieveView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1CommentRetrieveView_1ad8b433208c22ed781320faae841ddab3" prot="public" virt="non-virtual"><scope>exchange::views::CommentRetrieveView</scope><name>queryset</name></member>
+      <member refid="classexchange_1_1views_1_1CommentRetrieveView_1ae8d695cd31056d5016fda0441c4aece4" prot="public" virt="non-virtual"><scope>exchange::views::CommentRetrieveView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

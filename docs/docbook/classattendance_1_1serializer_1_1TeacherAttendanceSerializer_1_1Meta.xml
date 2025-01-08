@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta" xml:lang="en-US">
+<title>attendance.serializer.TeacherAttendanceSerializer.Meta Class Reference</title>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer.Meta</primary></indexterm>
+Collaboration diagram for attendance.serializer.TeacherAttendanceSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0">model</link> = <link linkend="_classattendance_1_1models_1_1TeacherAttendance">TeacherAttendance</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a37efb1b6dc31da9aa28165e204987c2c">fields</link> = [&apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0">id</link>&apos;, &apos;attendance&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e">teacher</link>&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b">date_of_marking</link>&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a37efb1b6dc31da9aa28165e204987c2c"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>attendance.serializer.TeacherAttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list attendance.serializer.TeacherAttendanceSerializer.Meta.fields = [&apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0">id</link>&apos;, &apos;attendance&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e">teacher</link>&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b">date_of_marking</link>&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>attendance.serializer.TeacherAttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>attendance.serializer.TeacherAttendanceSerializer.Meta.model = <link linkend="_classattendance_1_1models_1_1TeacherAttendance">TeacherAttendance</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2serializer_8py">serializer.py</link></section>
+</section>

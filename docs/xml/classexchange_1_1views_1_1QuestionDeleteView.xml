@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1QuestionDeleteView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::QuestionDeleteView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.DestroyAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionDeleteView_1a4ad26b160a3953f9994bbd78bfb58d13" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionDeleteView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>exchange.views.QuestionDeleteView.queryset</qualifiedname>
+        <initializer>=  Question.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="54" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionDeleteView_1a3b3274290f3ef730eb14062f906d02fa" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.QuestionDeleteView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.QuestionDeleteView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="55" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionDeleteView_1a4a91d3df62f0d471195e4742f5b6f235" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionDeleteView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>exchange.views.QuestionDeleteView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1serializers_1_1QuestionSerializer" kindref="compound">QuestionSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="56" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1views_1_1QuestionDeleteView_1ace3d5bdb2384a8a8c3535d1ef03a9918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.views.QuestionDeleteView.delete</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>delete</name>
+        <qualifiedname>exchange.views.QuestionDeleteView.delete</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="58" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="58" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.QuestionDeleteView</label>
+        <link refid="classexchange_1_1views_1_1QuestionDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.DestroyAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.QuestionDeleteView</label>
+        <link refid="classexchange_1_1views_1_1QuestionDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.DestroyAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="53" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="53" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1QuestionDeleteView_1ace3d5bdb2384a8a8c3535d1ef03a9918" prot="public" virt="non-virtual"><scope>exchange::views::QuestionDeleteView</scope><name>delete</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a3b3274290f3ef730eb14062f906d02fa" prot="public" virt="non-virtual"><scope>exchange::views::QuestionDeleteView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a4ad26b160a3953f9994bbd78bfb58d13" prot="public" virt="non-virtual"><scope>exchange::views::QuestionDeleteView</scope><name>queryset</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a4a91d3df62f0d471195e4742f5b6f235" prot="public" virt="non-virtual"><scope>exchange::views::QuestionDeleteView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

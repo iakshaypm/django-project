@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exchange_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classexchange_1_1apps_1_1ExchangeConfig" prot="public">exchange::apps::ExchangeConfig</innerclass>
+    <innernamespace refid="namespaceexchange">exchange</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1apps">exchange::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexchange_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classexchange_1_1apps_1_1ExchangeConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1apps_1_1ExchangeConfig" kindref="compound">ExchangeConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classexchange_1_1apps_1_1ExchangeConfig_1a0594c98e6da349a37773a8e3005866db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>default_auto_field<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;django.db.models.BigAutoField&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classexchange_1_1apps_1_1ExchangeConfig_1af40ead5fd440056a6c642ced2456aa4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;exchange&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classexchange_1_1apps_1_1ExchangeConfig_1a49a731deda81e81ffcce6ec58f0d3d94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1apps_1_1ExchangeConfig_1a49a731deda81e81ffcce6ec58f0d3d94" kindref="member">ready</ref>(self):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceexchange_1_1signals" kindref="compound">exchange.signals</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/apps.py"/>
+  </compounddef>
+</doxygen>

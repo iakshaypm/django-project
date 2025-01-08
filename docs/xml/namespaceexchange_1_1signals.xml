@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1signals" kind="namespace" language="Python">
+    <compoundname>exchange::signals</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceexchange_1_1signals_1a873621cd603607b617ec327c50f8d4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.signals.notify_admin</definition>
+        <argsstring>(sender, instance, created, **kwargs)</argsstring>
+        <name>notify_admin</name>
+        <qualifiedname>exchange.signals.notify_admin</qualifiedname>
+        <param>
+          <type>sender</type>
+          <defname>sender</defname>
+        </param>
+        <param>
+          <type>instance</type>
+          <defname>instance</defname>
+        </param>
+        <param>
+          <type>created</type>
+          <defname>created</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/signals.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/signals.py" bodystart="7" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/signals.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

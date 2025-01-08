@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1admin" kind="namespace" language="Python">
+    <compoundname>exchange::admin</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceexchange_1_1admin_1a93495365b5c18b41c67f5c2d4db6b336" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list exchange::admin.models</definition>
+        <argsstring></argsstring>
+        <name>models</name>
+        <qualifiedname>exchange.admin.models</qualifiedname>
+        <initializer>=  [<ref refid="classexchange_1_1models_1_1Question" kindref="compound">Question</ref>, <ref refid="classexchange_1_1models_1_1Comment" kindref="compound">Comment</ref>, <ref refid="classexchange_1_1models_1_1Upvote" kindref="compound">Upvote</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

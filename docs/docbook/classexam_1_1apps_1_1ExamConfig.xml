@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexam_1_1apps_1_1ExamConfig" xml:lang="en-US">
+<title>exam.apps.ExamConfig Class Reference</title>
+<indexterm><primary>exam.apps.ExamConfig</primary></indexterm>
+Inheritance diagram for exam.apps.ExamConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1apps_1_1ExamConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exam.apps.ExamConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1apps_1_1ExamConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classexam_1_1apps_1_1ExamConfig_1a68a27bdf3e17ce7b96b3bb7db80179a0">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classexam_1_1apps_1_1ExamConfig_1aafa6329e940fa68f6b538c32d0ba0145">name</link> = &apos;exam&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexam_1_1apps_1_1ExamConfig_1a68a27bdf3e17ce7b96b3bb7db80179a0"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>exam.apps.ExamConfig</secondary></indexterm>
+<indexterm><primary>exam.apps.ExamConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str exam.apps.ExamConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexam_1_1apps_1_1ExamConfig_1aafa6329e940fa68f6b538c32d0ba0145"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>exam.apps.ExamConfig</secondary></indexterm>
+<indexterm><primary>exam.apps.ExamConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str exam.apps.ExamConfig.name = &apos;exam&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/<link linkend="_exam_2apps_8py">apps.py</link></section>
+</section>

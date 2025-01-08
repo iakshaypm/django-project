@@ -1,0 +1,4 @@
+var 0002__alter__mainattendance__attendance__type_8py =
+[
+    [ "attendance.migrations.0002_alter_mainattendance_attendance_type.Migration", "classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration.html", "classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration" ]
+];

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" kind="class" language="Python" prot="public">
+    <compoundname>webhooks::management::commands::set_telegram_webhook::Command</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseCommand</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str webhooks.management.commands.set_telegram_webhook.Command::help</definition>
+        <argsstring></argsstring>
+        <name>help</name>
+        <qualifiedname>webhooks.management.commands.set_telegram_webhook.Command.help</qualifiedname>
+        <initializer>=  &quot;Set new telegram webhook&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None webhooks.management.commands.set_telegram_webhook.Command.add_arguments</definition>
+        <argsstring>(self, parser)</argsstring>
+        <name>add_arguments</name>
+        <qualifiedname>webhooks.management.commands.set_telegram_webhook.Command.add_arguments</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>parser</type>
+          <defname>parser</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>webhooks.management.commands.set_telegram_webhook.Command.handle</definition>
+        <argsstring>(self, *args, **options)</argsstring>
+        <name>handle</name>
+        <qualifiedname>webhooks.management.commands.set_telegram_webhook.Command.handle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" bodystart="14" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseCommand</label>
+      </node>
+      <node id="1">
+        <label>webhooks.management.commands.set_telegram_webhook.Command</label>
+        <link refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseCommand</label>
+      </node>
+      <node id="3">
+        <label>str</label>
+      </node>
+      <node id="1">
+        <label>webhooks.management.commands.set_telegram_webhook.Command</label>
+        <link refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+help</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2" prot="public" virt="non-virtual"><scope>webhooks::management::commands::set_telegram_webhook::Command</scope><name>add_arguments</name></member>
+      <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea" prot="public" virt="non-virtual"><scope>webhooks::management::commands::set_telegram_webhook::Command</scope><name>handle</name></member>
+      <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b" prot="public" virt="non-virtual"><scope>webhooks::management::commands::set_telegram_webhook::Command</scope><name>help</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

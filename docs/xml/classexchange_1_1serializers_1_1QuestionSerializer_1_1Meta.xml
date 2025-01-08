@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>exchange::serializers::QuestionSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.serializers.QuestionSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>exchange.serializers.QuestionSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1models_1_1Question" kindref="compound">Question</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list exchange.serializers.QuestionSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>exchange.serializers.QuestionSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;title&apos;, &apos;description&apos;, &apos;tag&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.serializers.QuestionSerializer.Meta</label>
+        <link refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850" prot="public" virt="non-virtual"><scope>exchange::serializers::QuestionSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501" prot="public" virt="non-virtual"><scope>exchange::serializers::QuestionSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

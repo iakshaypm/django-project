@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange" kind="namespace" language="Python">
+    <compoundname>exchange</compoundname>
+    <innernamespace refid="namespaceexchange_1_1admin">exchange::admin</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1apps">exchange::apps</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1migrations">exchange::migrations</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1models">exchange::models</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1permission">exchange::permission</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1serializers">exchange::serializers</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1signals">exchange::signals</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1tests">exchange::tests</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1urls">exchange::urls</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1views">exchange::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+var 0006__student__classroom__teacher__classroom_8py =
+[
+    [ "user.migrations.0006_student_classroom_teacher_classroom.Migration", "classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration.html", "classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration" ]
+];

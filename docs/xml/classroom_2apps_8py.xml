@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classroom_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classclassroom_1_1apps_1_1ClassroomConfig" prot="public">classroom::apps::ClassroomConfig</innerclass>
+    <innernamespace refid="namespaceclassroom">classroom</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1apps">classroom::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceclassroom_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classclassroom_1_1apps_1_1ClassroomConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1apps_1_1ClassroomConfig" kindref="compound">ClassroomConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classclassroom_1_1apps_1_1ClassroomConfig_1a26bd56525fc8fa29d397e89e68b079fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>default_auto_field<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;django.db.models.BigAutoField&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classclassroom_1_1apps_1_1ClassroomConfig_1a7d83c7160045da1d2c44cd423c15f4b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/apps.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1permission_1_1IsStudent" xml:lang="en-US">
+<title>attendance.permission.IsStudent Class Reference</title>
+<indexterm><primary>attendance.permission.IsStudent</primary></indexterm>
+Inheritance diagram for attendance.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1permission_1_1IsStudent__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1permission_1_1IsStudent__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1permission_1_1IsStudent_1a6d95d1596524a974924f8a56bcb729c9">has_permission</link> (self, request, view)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1permission_1_1IsStudent_1a6d95d1596524a974924f8a56bcb729c9"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>attendance.permission.IsStudent</secondary></indexterm>
+<indexterm><primary>attendance.permission.IsStudent</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>attendance.permission.IsStudent.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2permission_8py">permission.py</link></section>
+</section>

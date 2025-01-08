@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1wsgi" kind="namespace" language="Python">
+    <compoundname>college::wsgi</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecollege_1_1wsgi_1afbc946e4f20e9a5bde76b3e613b1cd93" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>college::wsgi.application</definition>
+        <argsstring></argsstring>
+        <name>application</name>
+        <qualifiedname>college.wsgi.application</qualifiedname>
+        <initializer>=  get_wsgi_application()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/wsgi.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/wsgi.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>WSGI config for college project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/wsgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

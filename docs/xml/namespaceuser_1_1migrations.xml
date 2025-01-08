@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1migrations" kind="namespace" language="Python">
+    <compoundname>user::migrations</compoundname>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10001__initial">user::migrations::0001_initial</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher">user::migrations::0002_alter_account_user_type_hod_student_teacher</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10003__alter__account__is__staff">user::migrations::0003_alter_account_is_staff</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more">user::migrations::0004_subject_alter_hod_options_alter_teacher_options_and_more</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10005__rename__subject__subject__name">user::migrations::0005_rename_subject_subject_name</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom">user::migrations::0006_student_classroom_teacher_classroom</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10007__alter__student__classroom">user::migrations::0007_alter_student_classroom</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10008__alter__student__classroom">user::migrations::0008_alter_student_classroom</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent">user::migrations::0009_alter_account_user_type_parent_student_parent</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10010__remove__parent__phone__number">user::migrations::0010_remove_parent_phone_number</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10011__alter__student__parent__delete__parent">user::migrations::0011_alter_student_parent_delete_parent</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10012__student__assignment">user::migrations::0012_student_assignment</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0001_initial.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

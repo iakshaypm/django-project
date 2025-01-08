@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1consumers_1_1ChatConsumer" xml:lang="en-US">
+<title>chat.consumers.ChatConsumer Class Reference</title>
+<indexterm><primary>chat.consumers.ChatConsumer</primary></indexterm>
+Inheritance diagram for chat.consumers.ChatConsumer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1consumers_1_1ChatConsumer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.consumers.ChatConsumer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1consumers_1_1ChatConsumer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52">__init__</link> (self, *args, **kwargs)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed">connect</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784">disconnect</link> (self, close_code)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d">receive</link> (self, text_data=None, bytes_data=None)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1ab262d45be15d53f8bec11a52690e9217">chat_message</link> (self, event)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a">room_name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb">room_group_name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a">room</link></para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390">user</link></para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d">channel_name</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.__init__ ( self, * args, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1consumers_1_1ChatConsumer_aab4937a9dd0274ba28136c4360866f52_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1consumers_1_1ChatConsumer_aab4937a9dd0274ba28136c4360866f52_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1ab262d45be15d53f8bec11a52690e9217"/><section>
+    <title>chat_message()</title>
+<indexterm><primary>chat_message</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>chat_message</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.chat_message ( self,  event)</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed"/><section>
+    <title>connect()</title>
+<indexterm><primary>connect</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>connect</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.connect ( self)</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784"/><section>
+    <title>disconnect()</title>
+<indexterm><primary>disconnect</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>disconnect</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.disconnect ( self,  close_code)</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d"/><section>
+    <title>receive()</title>
+<indexterm><primary>receive</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>receive</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.receive ( self,  text_data = <computeroutput>None</computeroutput>
+,  bytes_data = <computeroutput>None</computeroutput>
+)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d"/><section>
+    <title>channel_name</title>
+<indexterm><primary>channel_name</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>channel_name</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.channel_name</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a"/><section>
+    <title>room</title>
+<indexterm><primary>room</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>room</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.room</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb"/><section>
+    <title>room_group_name</title>
+<indexterm><primary>room_group_name</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>room_group_name</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.room_group_name</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a"/><section>
+    <title>room_name</title>
+<indexterm><primary>room_name</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>room_name</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.room_name</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>chat.consumers.ChatConsumer</secondary></indexterm>
+<indexterm><primary>chat.consumers.ChatConsumer</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>chat.consumers.ChatConsumer.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_consumers_8py">consumers.py</link></section>
+</section>

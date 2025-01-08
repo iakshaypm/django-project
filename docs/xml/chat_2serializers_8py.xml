@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="chat_2serializers_8py" kind="file" language="Python">
+    <compoundname>serializers.py</compoundname>
+    <innerclass refid="classchat_1_1serializers_1_1RoomSerializer" prot="public">chat::serializers::RoomSerializer</innerclass>
+    <innerclass refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta" prot="public">chat::serializers::RoomSerializer::Meta</innerclass>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1serializers">chat::serializers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat_1_1serializers" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Room</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classchat_1_1serializers_1_1RoomSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1serializers_1_1RoomSerializer" kindref="compound">RoomSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="6" refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="7" refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Room</highlight></codeline>
+<codeline lineno="8" refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;type&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py"/>
+  </compounddef>
+</doxygen>

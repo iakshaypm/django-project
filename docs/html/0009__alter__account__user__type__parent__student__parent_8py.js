@@ -1,0 +1,4 @@
+var 0009__alter__account__user__type__parent__student__parent_8py =
+[
+    [ "user.migrations.0009_alter_account_user_type_parent_student_parent.Migration", "classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration.html", "classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" ]
+];

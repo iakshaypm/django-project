@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_exchange_2admin_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceexchange">exchange</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceexchange_1_1admin">exchange.admin</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespaceexchange_1_1admin_1a93495365b5c18b41c67f5c2d4db6b336">exchange.admin.models</link> = [<link linkend="_classexchange_1_1models_1_1Question">Question</link>, <link linkend="_classexchange_1_1models_1_1Comment">Comment</link>, <link linkend="_classexchange_1_1models_1_1Upvote">Upvote</link>]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_750cb86727cffb887c0c8e837c38ba1d" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange Directory Reference</primary></indexterm>
+Directory dependency graph for exchange:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_750cb86727cffb887c0c8e837c38ba1d_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_c34cc6a17b8fdecf9a99abbd23633c06">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_exchange_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2permission_8py">permission.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2serializers_8py">serializers.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2signals_8py">signals.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_exchange_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacegrade_1_1migrations_1_10004__alter__mark__student" kind="namespace" language="Python">
+    <compoundname>grade::migrations::0004_alter_mark_student</compoundname>
+    <innerclass refid="classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration" prot="public">grade::migrations::0004_alter_mark_student::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0004_alter_mark_student.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

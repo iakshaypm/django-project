@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="chat_2views_8py" kind="file" language="Python">
+    <compoundname>views.py</compoundname>
+    <innerclass refid="classchat_1_1views_1_1CreateRoomView" prot="public">chat::views::CreateRoomView</innerclass>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1views">chat::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat_1_1views" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.shortcuts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>render</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>generics,<sp/>status</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.response<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Response</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.decorators<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>api_view,<sp/>renderer_classes</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.renderers<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>JSONRenderer,<sp/>TemplateHTMLRenderer</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.permissions<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>IsAuthenticated</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Room</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.serializers<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>RoomSerializer</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.permission<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>CanCreateRoom</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>views<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">@api_view((&apos;GET&apos;,)</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">@renderer_classes((TemplateHTMLRenderer,<sp/>JSONRenderer)</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17" refid="namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d" kindref="member">index_view</ref>(request):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;rooms&apos;</highlight><highlight class="normal">:<sp/>Room.objects.all(),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classchat_1_1views_1_1CreateRoomView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1views_1_1CreateRoomView" kindref="compound">CreateRoomView</ref>(generics.CreateAPIView):</highlight></codeline>
+<codeline lineno="24" refid="classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>CanCreateRoom)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06" kindref="member">post</ref>(self,<sp/>request,<sp/>*args,<sp/>**kwargs):</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classchat_1_1serializers_1_1RoomSerializer" kindref="compound">RoomSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save(created_by=request.user)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Student<sp/>room<sp/>created<sp/>successfully.&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/views.py"/>
+  </compounddef>
+</doxygen>

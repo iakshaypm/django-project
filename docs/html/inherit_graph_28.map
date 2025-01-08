@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,120,163,145"/>
+<area shape="rect" id="Node000001" href="$classattendance_1_1views_1_1ShowAttendanceView.html" title=" " alt="" coords="211,5,493,31"/>
+<area shape="poly" id="edge29_Node000000_Node000001" title=" " alt="" coords="108,109,153,73,210,41,249,28,251,33,212,46,156,78,111,113"/>
+<area shape="rect" id="Node000002" href="$classclassroom_1_1views_1_1ClassroomListView.html" title=" " alt="" coords="250,55,454,95"/>
+<area shape="poly" id="edge30_Node000000_Node000002" title=" " alt="" coords="157,114,258,93,259,98,158,120"/>
+<area shape="rect" id="Node000003" href="$classexchange_1_1views_1_1CommentListView.html" title=" " alt="" coords="227,120,477,145"/>
+<area shape="poly" id="edge31_Node000000_Node000003" title=" " alt="" coords="177,130,226,130,226,135,177,135"/>
+<area shape="rect" id="Node000004" href="$classexchange_1_1views_1_1QuestionListView.html" title=" " alt="" coords="230,169,474,195"/>
+<area shape="poly" id="edge32_Node000000_Node000004" title=" " alt="" coords="165,145,211,154,280,167,279,172,210,159,164,151"/>
+<area shape="rect" id="Node000005" href="$classgrade_1_1views_1_1MarkListView.html" title=" " alt="" coords="255,219,449,244"/>
+<area shape="poly" id="edge33_Node000000_Node000005" title=" " alt="" coords="115,151,159,179,212,204,256,216,255,221,210,208,157,183,112,155"/>
+</map>

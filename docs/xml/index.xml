@@ -1,0 +1,1463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="classuser_1_1models_1_1Account" kind="class"><name>user::models::Account</name>
+    <member refid="classuser_1_1models_1_1Account_1a2c49a2e5ce3c6e2754e3b64e7d85c6a1" kind="variable"><name>USER_TYPE_CHOOSES</name></member>
+    <member refid="classuser_1_1models_1_1Account_1a500071aecd6de2dc80617070824b5c32" kind="variable"><name>username</name></member>
+    <member refid="classuser_1_1models_1_1Account_1aea0a30bb46ad5067cae44e3c65de75ac" kind="variable"><name>email</name></member>
+    <member refid="classuser_1_1models_1_1Account_1afe457cd7b47cfa9409db7653c70b0f98" kind="variable"><name>name</name></member>
+    <member refid="classuser_1_1models_1_1Account_1a667b6b7af55e60b99ba019934b411467" kind="variable"><name>phone_number</name></member>
+    <member refid="classuser_1_1models_1_1Account_1af8f9bcc85da02f6394afc7adb8dc8182" kind="variable"><name>is_active</name></member>
+    <member refid="classuser_1_1models_1_1Account_1a89b581e259059041656e336c1ea8b660" kind="variable"><name>is_staff</name></member>
+    <member refid="classuser_1_1models_1_1Account_1aac889f864841893e92999e28d07ac080" kind="variable"><name>is_superuser</name></member>
+    <member refid="classuser_1_1models_1_1Account_1a45acb9ca218b77306eb3bf44f0f7441d" kind="variable"><name>last_login</name></member>
+    <member refid="classuser_1_1models_1_1Account_1acad0315a733ef3bc43737554f48a608c" kind="variable"><name>user_type</name></member>
+    <member refid="classuser_1_1models_1_1Account_1aec0dc9bf359cbd614091c1382cd911a1" kind="variable"><name>USERNAME_FIELD</name></member>
+    <member refid="classuser_1_1models_1_1Account_1afa13561d3cfa9312ced0f56756f9f4ba" kind="variable"><name>REQUIRED_FIELDS</name></member>
+    <member refid="classuser_1_1models_1_1Account_1adaa98c8dec8c14ce0cc64a0d1bf4f013" kind="variable"><name>objects</name></member>
+  </compound>
+  <compound refid="classuser_1_1tests_1_1AdminSiteTest" kind="class"><name>user::tests::AdminSiteTest</name>
+    <member refid="classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef" kind="variable"><name>client</name></member>
+    <member refid="classuser_1_1tests_1_1AdminSiteTest_1a4b98f1e9c17248cc6541c91070000982" kind="variable"><name>admin_user</name></member>
+    <member refid="classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855" kind="variable"><name>user</name></member>
+    <member refid="classuser_1_1tests_1_1AdminSiteTest_1a73cbe2d31e2773c1ded1787fe59768ea" kind="function"><name>setUp</name></member>
+  </compound>
+  <compound refid="classassignment_1_1models_1_1Assignment" kind="class"><name>assignment::models::Assignment</name>
+    <member refid="classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85" kind="variable"><name>ASSIGNMENT_TYPE_CHOOSES</name></member>
+    <member refid="classassignment_1_1models_1_1Assignment_1a5b9afa8bd72cec660c52585684fa8516" kind="variable"><name>name</name></member>
+    <member refid="classassignment_1_1models_1_1Assignment_1a29b1cd7d6712e9f921ae8c0f7f07ae72" kind="variable"><name>type</name></member>
+  </compound>
+  <compound refid="classassignment_1_1apps_1_1AssignmentConfig" kind="class"><name>assignment::apps::AssignmentConfig</name>
+    <member refid="classassignment_1_1apps_1_1AssignmentConfig_1a983c04ad2a5d371af381b7b40f1cbae2" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classassignment_1_1apps_1_1AssignmentConfig_1a5fd25a672b72bcc74cf009b745dd386b" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classassignment_1_1views_1_1AssignmentCreate" kind="class"><name>assignment::views::AssignmentCreate</name>
+    <member refid="classassignment_1_1views_1_1AssignmentCreate_1a92ddd31156801292d69d41e0d85cb95b" kind="variable"><name>permission_classes</name></member>
+    <member refid="classassignment_1_1views_1_1AssignmentCreate_1a93128fa588ff04a716d3420908cddd2d" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classassignment_1_1models_1_1AssignmentMark" kind="class"><name>assignment::models::AssignmentMark</name>
+    <member refid="classassignment_1_1models_1_1AssignmentMark_1adf588eda31e348e34447b46d4fbc13a4" kind="variable"><name>assignment</name></member>
+    <member refid="classassignment_1_1models_1_1AssignmentMark_1a0ca11d1161ac7f8a6c9e2623141907ab" kind="variable"><name>mark</name></member>
+  </compound>
+  <compound refid="classassignment_1_1views_1_1AssignmentMarkCreate" kind="class"><name>assignment::views::AssignmentMarkCreate</name>
+    <member refid="classassignment_1_1views_1_1AssignmentMarkCreate_1a2bea65a42f35f37ddafd76ed20770dac" kind="variable"><name>permission_classes</name></member>
+    <member refid="classassignment_1_1views_1_1AssignmentMarkCreate_1abcd9a9f9ee58dfbaa8ab1a5fea44070e" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer" kind="class"><name>assignment::serializers::AssignmentMarkSerializer</name>
+  </compound>
+  <compound refid="classassignment_1_1serializers_1_1AssignmentSerializer" kind="class"><name>assignment::serializers::AssignmentSerializer</name>
+  </compound>
+  <compound refid="classattendance_1_1apps_1_1AttendanceConfig" kind="class"><name>attendance::apps::AttendanceConfig</name>
+    <member refid="classattendance_1_1apps_1_1AttendanceConfig_1ae9ece974ea73e0e17997ac1b4d265a99" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classattendance_1_1apps_1_1AttendanceConfig_1a80a583489900de6d16af160c63bbfb70" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classattendance_1_1views_1_1AttendanceCreateView" kind="class"><name>attendance::views::AttendanceCreateView</name>
+    <member refid="classattendance_1_1views_1_1AttendanceCreateView_1a855972fb4de361c58a55abf55a73f0b9" kind="variable"><name>serializer_class</name></member>
+    <member refid="classattendance_1_1views_1_1AttendanceCreateView_1a80737686a4b740ba075c0b02d334e336" kind="variable"><name>permission_classes</name></member>
+    <member refid="classattendance_1_1views_1_1AttendanceCreateView_1a97b1b96f67406f38f57f3531acced41f" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1AttendanceSerializer" kind="class"><name>attendance::serializer::AttendanceSerializer</name>
+    <member refid="classattendance_1_1serializer_1_1AttendanceSerializer_1a5bf62f1a2917f19fb4e2f46f3e034cce" kind="variable"><name>id</name></member>
+    <member refid="classattendance_1_1serializer_1_1AttendanceSerializer_1ad8b16c460e0aa6039553dd4d03f140d8" kind="variable"><name>initiated_by</name></member>
+    <member refid="classattendance_1_1serializer_1_1AttendanceSerializer_1a054b1aba9796f5ba9c44d22f635753a7" kind="variable"><name>date_of_producing</name></member>
+  </compound>
+  <compound refid="classBaseUserAdmin" kind="class"><name>BaseUserAdmin</name>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1CanAccessComment" kind="class"><name>exchange::permission::CanAccessComment</name>
+    <member refid="classexchange_1_1permission_1_1CanAccessComment_1afe634425a3a3aa91f88374eb961428de" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classgrade_1_1permission_1_1CanAccessComment" kind="class"><name>grade::permission::CanAccessComment</name>
+    <member refid="classgrade_1_1permission_1_1CanAccessComment_1af9d2d3db7fb9076e5c4b0210e03744f3" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classattendance_1_1permission_1_1CanAddAttendance" kind="class"><name>attendance::permission::CanAddAttendance</name>
+    <member refid="classattendance_1_1permission_1_1CanAddAttendance_1a0baa0f36d5f3aa4b4c72117b68222f99" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1CanAddComment" kind="class"><name>exchange::permission::CanAddComment</name>
+    <member refid="classexchange_1_1permission_1_1CanAddComment_1a10b1e743b3690ed45b848fe148a11615" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classchat_1_1permission_1_1CanCreateRoom" kind="class"><name>chat::permission::CanCreateRoom</name>
+    <member refid="classchat_1_1permission_1_1CanCreateRoom_1a1e5e0456ee22e31b0a3cb2b9a41c0ffb" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classattendance_1_1permission_1_1CanMarkAttendance" kind="class"><name>attendance::permission::CanMarkAttendance</name>
+    <member refid="classattendance_1_1permission_1_1CanMarkAttendance_1ada64ee67fc595b1204718a893cdbb18d" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1CanRemoveUpvote" kind="class"><name>exchange::permission::CanRemoveUpvote</name>
+    <member refid="classexchange_1_1permission_1_1CanRemoveUpvote_1a43a351659396e5095f260f9f06387a41" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classgrade_1_1permission_1_1CanRemoveUpvote" kind="class"><name>grade::permission::CanRemoveUpvote</name>
+    <member refid="classgrade_1_1permission_1_1CanRemoveUpvote_1a2f6c0634e9726ca87f2dffaab293b3df" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1CanUpvote" kind="class"><name>exchange::permission::CanUpvote</name>
+    <member refid="classexchange_1_1permission_1_1CanUpvote_1a74097e3a61386f6d8043660a1dba94a6" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classgrade_1_1permission_1_1CanUpvote" kind="class"><name>grade::permission::CanUpvote</name>
+    <member refid="classgrade_1_1permission_1_1CanUpvote_1a1a72f9296e1f24fd38835c7ca7c2fbe8" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classchat_1_1apps_1_1ChatConfig" kind="class"><name>chat::apps::ChatConfig</name>
+    <member refid="classchat_1_1apps_1_1ChatConfig_1aaf4392f6d4df28b32e2f24dbbfce391d" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classchat_1_1apps_1_1ChatConfig_1afe6da342041660b6127be4a8b40d0ed4" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classchat_1_1consumers_1_1ChatConsumer" kind="class"><name>chat::consumers::ChatConsumer</name>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a" kind="variable"><name>room_name</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" kind="variable"><name>room_group_name</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a" kind="variable"><name>room</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390" kind="variable"><name>user</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d" kind="variable"><name>channel_name</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52" kind="function"><name>__init__</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" kind="function"><name>connect</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784" kind="function"><name>disconnect</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" kind="function"><name>receive</name></member>
+    <member refid="classchat_1_1consumers_1_1ChatConsumer_1ab262d45be15d53f8bec11a52690e9217" kind="function"><name>chat_message</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1models_1_1Classroom" kind="class"><name>classroom::models::Classroom</name>
+    <member refid="classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b" kind="variable"><name>name</name></member>
+    <member refid="classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8" kind="variable"><name>total_strength</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1apps_1_1ClassroomConfig" kind="class"><name>classroom::apps::ClassroomConfig</name>
+    <member refid="classclassroom_1_1apps_1_1ClassroomConfig_1a26bd56525fc8fa29d397e89e68b079fa" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classclassroom_1_1apps_1_1ClassroomConfig_1a7d83c7160045da1d2c44cd423c15f4b6" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1views_1_1ClassroomCreateView" kind="class"><name>classroom::views::ClassroomCreateView</name>
+    <member refid="classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec" kind="variable"><name>permission_classes</name></member>
+    <member refid="classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1views_1_1ClassroomListView" kind="class"><name>classroom::views::ClassroomListView</name>
+    <member refid="classclassroom_1_1views_1_1ClassroomListView_1ad702ca439ca6e7e4f42df780da04dcbc" kind="variable"><name>queryset</name></member>
+    <member refid="classclassroom_1_1views_1_1ClassroomListView_1ae6d46afa1110735f43a23e03410da24f" kind="variable"><name>permission_classes</name></member>
+    <member refid="classclassroom_1_1views_1_1ClassroomListView_1ad6de9f9c509e349f6bcd3a6af33d8538" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1serializers_1_1ClassroomSerializer" kind="class"><name>classroom::serializers::ClassroomSerializer</name>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1ClassroomSerializer" kind="class"><name>user::serializers::ClassroomSerializer</name>
+  </compound>
+  <compound refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" kind="class"><name>webhooks::management::commands::set_telegram_webhook::Command</name>
+    <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b" kind="variable"><name>help</name></member>
+    <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2" kind="function"><name>add_arguments</name></member>
+    <member refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea" kind="function"><name>handle</name></member>
+  </compound>
+  <compound refid="classexchange_1_1models_1_1Comment" kind="class"><name>exchange::models::Comment</name>
+    <member refid="classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d" kind="variable"><name>content</name></member>
+    <member refid="classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138" kind="variable"><name>question</name></member>
+    <member refid="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" kind="variable"><name>user</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1CommentCreateView" kind="class"><name>exchange::views::CommentCreateView</name>
+    <member refid="classexchange_1_1views_1_1CommentCreateView_1ae61cbd6c94544946812d892949cf7506" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1CommentCreateView_1aec876fb24fc8c76eb14a99c94e6d8992" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1CommentDeleteView" kind="class"><name>exchange::views::CommentDeleteView</name>
+    <member refid="classexchange_1_1views_1_1CommentDeleteView_1ad007f7526507e11a64cbd99a3c3a3bb7" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1CommentDeleteView_1ad974d8a019f599b19c8dc3d8f265ae2f" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1CommentDeleteView_1a83af1e1974876a992d53d2bab7bb10bf" kind="variable"><name>serializer_class</name></member>
+    <member refid="classexchange_1_1views_1_1CommentDeleteView_1ab0489dba05150618b917d342c7476cac" kind="function"><name>delete</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1CommentListView" kind="class"><name>exchange::views::CommentListView</name>
+    <member refid="classexchange_1_1views_1_1CommentListView_1a39a6417e1f74e7095c0456417d128f5f" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1CommentListView_1ab1adfa6a94de5b9ca785e6650f42a1e3" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1CommentListView_1af95547ee6bc07a189175e9eeb376edd3" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1CommentRetrieveView" kind="class"><name>exchange::views::CommentRetrieveView</name>
+    <member refid="classexchange_1_1views_1_1CommentRetrieveView_1ad8b433208c22ed781320faae841ddab3" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1CommentRetrieveView_1aa743ae89fc844f1ee09d95b88b0b223b" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1CommentRetrieveView_1ae8d695cd31056d5016fda0441c4aece4" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1CommentSerializer" kind="class"><name>exchange::serializers::CommentSerializer</name>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1CommentUpdateView" kind="class"><name>exchange::views::CommentUpdateView</name>
+    <member refid="classexchange_1_1views_1_1CommentUpdateView_1a6b4b29b271e9f55db244556d35e28622" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1CommentUpdateView_1ab9b6d84497b57224505f0c6dcf251841" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1CommentUpdateView_1a16e93ed554ca7ad604101adfa431a12c" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classpayment_1_1views_1_1CreateCheckoutSession" kind="class"><name>payment::views::CreateCheckoutSession</name>
+    <member refid="classpayment_1_1views_1_1CreateCheckoutSession_1afc06b5ebc6ec06e07802b8dcb1290fb7" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classchat_1_1views_1_1CreateRoomView" kind="class"><name>chat::views::CreateRoomView</name>
+    <member refid="classchat_1_1views_1_1CreateRoomView_1a285f32c9bffd51f8e8a364b07412e580" kind="variable"><name>permission_classes</name></member>
+    <member refid="classchat_1_1views_1_1CreateRoomView_1aefa1acb7847ad5a6e56a5248bda07e06" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classuser_1_1MyBackend_1_1CustomBackend" kind="class"><name>user::MyBackend::CustomBackend</name>
+    <member refid="classuser_1_1MyBackend_1_1CustomBackend_1a08275ac38e0870620f11d2f0ad9ac420" kind="function"><name>authenticate</name></member>
+    <member refid="classuser_1_1MyBackend_1_1CustomBackend_1a883936bd6c6591eb35c2dfe09650cb7c" kind="function"><name>get_user</name></member>
+    <member refid="classuser_1_1MyBackend_1_1CustomBackend_1aa0f4a95d085437d2c40db2c793e1cc67" kind="function"><name>get_user_by_username</name></member>
+  </compound>
+  <compound refid="classexam_1_1models_1_1Exam" kind="class"><name>exam::models::Exam</name>
+    <member refid="classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631" kind="variable"><name>name</name></member>
+    <member refid="classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89" kind="variable"><name>classroom</name></member>
+  </compound>
+  <compound refid="classexam_1_1apps_1_1ExamConfig" kind="class"><name>exam::apps::ExamConfig</name>
+    <member refid="classexam_1_1apps_1_1ExamConfig_1a68a27bdf3e17ce7b96b3bb7db80179a0" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classexam_1_1apps_1_1ExamConfig_1aafa6329e940fa68f6b538c32d0ba0145" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classexam_1_1views_1_1ExamCreateView" kind="class"><name>exam::views::ExamCreateView</name>
+    <member refid="classexam_1_1views_1_1ExamCreateView_1a0b8d2ec562babfe0e96f8a98711578f7" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092" kind="function"><name>post</name></member>
+    <member refid="classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2" kind="function"><name>send_sms</name></member>
+  </compound>
+  <compound refid="classexam_1_1serializers_1_1ExamSerializer" kind="class"><name>exam::serializers::ExamSerializer</name>
+  </compound>
+  <compound refid="classexchange_1_1apps_1_1ExchangeConfig" kind="class"><name>exchange::apps::ExchangeConfig</name>
+    <member refid="classexchange_1_1apps_1_1ExchangeConfig_1a0594c98e6da349a37773a8e3005866db" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classexchange_1_1apps_1_1ExchangeConfig_1af40ead5fd440056a6c642ced2456aa4b" kind="variable"><name>name</name></member>
+    <member refid="classexchange_1_1apps_1_1ExchangeConfig_1a49a731deda81e81ffcce6ec58f0d3d94" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="classgrade_1_1apps_1_1GradeConfig" kind="class"><name>grade::apps::GradeConfig</name>
+    <member refid="classgrade_1_1apps_1_1GradeConfig_1a68a4336d8d686d7d1ad8f37715b9f8ce" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classgrade_1_1apps_1_1GradeConfig_1a43ddb736a496c32bab2028dbd3a25ffb" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classgrade_1_1tests_1_1GradeSystemTest" kind="class"><name>grade::tests::GradeSystemTest</name>
+  </compound>
+  <compound refid="classuser_1_1models_1_1HOD" kind="class"><name>user::models::HOD</name>
+    <member refid="classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66" kind="variable"><name>user</name></member>
+    <member refid="classuser_1_1models_1_1HOD_1abe37b381ebc7efcf10d8dec829b2b0ab" kind="variable"><name>department</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1HodAttendance" kind="class"><name>attendance::models::HodAttendance</name>
+    <member refid="classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df" kind="variable"><name>attendance</name></member>
+    <member refid="classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764" kind="variable"><name>hod</name></member>
+    <member refid="classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11" kind="variable"><name>date_of_marking</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1HODRegister" kind="class"><name>user::views::HODRegister</name>
+    <member refid="classuser_1_1views_1_1HODRegister_1aa920af6f2d36ca5607ec36f0272e64db" kind="variable"><name>permission_classes</name></member>
+    <member refid="classuser_1_1views_1_1HODRegister_1a7ed2e1d216e255d04761926769571ab1" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1HODSerializer" kind="class"><name>user::serializers::HODSerializer</name>
+    <member refid="classuser_1_1serializers_1_1HODSerializer_1ae88371ea8f763511ff016b2b8f668ea1" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="classuser_1_1permission_1_1IsHOD" kind="class"><name>user::permission::IsHOD</name>
+    <member refid="classuser_1_1permission_1_1IsHOD_1a20376a72991aa2ad617770b767ca033d" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1permission_1_1IsManagement" kind="class"><name>classroom::permission::IsManagement</name>
+    <member refid="classclassroom_1_1permission_1_1IsManagement_1a29c8c906e28b632f937edddc1fd4ce88" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classuser_1_1permission_1_1IsManagement" kind="class"><name>user::permission::IsManagement</name>
+    <member refid="classuser_1_1permission_1_1IsManagement_1a3a139cc7e08845c9594ac08cd68712be" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classuser_1_1permission_1_1IsParent" kind="class"><name>user::permission::IsParent</name>
+    <member refid="classuser_1_1permission_1_1IsParent_1a1dec2a6913a2e33001ef9914a556b437" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classattendance_1_1permission_1_1IsStudent" kind="class"><name>attendance::permission::IsStudent</name>
+    <member refid="classattendance_1_1permission_1_1IsStudent_1a6d95d1596524a974924f8a56bcb729c9" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1IsStudent" kind="class"><name>exchange::permission::IsStudent</name>
+    <member refid="classexchange_1_1permission_1_1IsStudent_1ab99467d373b3cd093eddb10c6cbb0ebb" kind="function"><name>has_permission</name></member>
+    <member refid="classexchange_1_1permission_1_1IsStudent_1ad5cb932662f9430a2ff35e7796cf02cb" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classgrade_1_1permission_1_1IsStudent" kind="class"><name>grade::permission::IsStudent</name>
+    <member refid="classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f" kind="function"><name>has_permission</name></member>
+    <member refid="classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064" kind="function"><name>has_object_permission</name></member>
+  </compound>
+  <compound refid="classuser_1_1permission_1_1IsStudent" kind="class"><name>user::permission::IsStudent</name>
+    <member refid="classuser_1_1permission_1_1IsStudent_1aa1170aed65ab279450835847c86980f1" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classattendance_1_1permission_1_1IsTeacher" kind="class"><name>attendance::permission::IsTeacher</name>
+    <member refid="classattendance_1_1permission_1_1IsTeacher_1a109eef6593fbe6609b9501cdf1f06e64" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1permission_1_1IsTeacher" kind="class"><name>classroom::permission::IsTeacher</name>
+    <member refid="classclassroom_1_1permission_1_1IsTeacher_1ac1ecfd3c9a87a637f2d6826393e15921" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classexchange_1_1permission_1_1IsTeacher" kind="class"><name>exchange::permission::IsTeacher</name>
+    <member refid="classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classgrade_1_1permission_1_1IsTeacher" kind="class"><name>grade::permission::IsTeacher</name>
+    <member refid="classgrade_1_1permission_1_1IsTeacher_1af4763f884ac5c78ad1b1b4723c7605d3" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classuser_1_1permission_1_1IsTeacher" kind="class"><name>user::permission::IsTeacher</name>
+    <member refid="classuser_1_1permission_1_1IsTeacher_1a19504c200b5df3363b02a0eb4325b138" kind="function"><name>has_permission</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1MainAttendance" kind="class"><name>attendance::models::MainAttendance</name>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1aa3932a5c79cd2779bbbc158c05c8d86f" kind="variable"><name>ATTENDANCE_TYPE_CHOOSES</name></member>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1a0f34418ca2c9fca8b27e15684a5fe809" kind="variable"><name>attendance_type</name></member>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757" kind="variable"><name>date_of_producing</name></member>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1a069d73a17bd89c2a26f4d340fe173b0a" kind="variable"><name>initiated_by</name></member>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" kind="variable"><name>classroom</name></member>
+  </compound>
+  <compound refid="classgrade_1_1models_1_1Mark" kind="class"><name>grade::models::Mark</name>
+    <member refid="classgrade_1_1models_1_1Mark_1a27eb6a5f3efa01ab97d63e42257681fe" kind="variable"><name>student</name></member>
+    <member refid="classgrade_1_1models_1_1Mark_1abeacb4a549feba7fec2aaa3bdbe4bd07" kind="variable"><name>teacher</name></member>
+    <member refid="classgrade_1_1models_1_1Mark_1a86c8304ff282693e866edb95ee3f7d46" kind="variable"><name>sub1</name></member>
+    <member refid="classgrade_1_1models_1_1Mark_1ad06dad21652cd0f3c25a14ba8452b781" kind="variable"><name>sub2</name></member>
+    <member refid="classgrade_1_1models_1_1Mark_1ae75e48d5615f2e666efcfbf88cd50e3e" kind="variable"><name>sub3</name></member>
+  </compound>
+  <compound refid="classgrade_1_1views_1_1MarkCreateView" kind="class"><name>grade::views::MarkCreateView</name>
+    <member refid="classgrade_1_1views_1_1MarkCreateView_1ad169a10335863ac78b46d2770bfb5317" kind="variable"><name>permission_classes</name></member>
+    <member refid="classgrade_1_1views_1_1MarkCreateView_1a04dbeb3668cfc1ea1a2061cd544fc176" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classgrade_1_1views_1_1MarkDeleteView" kind="class"><name>grade::views::MarkDeleteView</name>
+    <member refid="classgrade_1_1views_1_1MarkDeleteView_1ac7c4e262689b9b5cd40f56fe16c6b249" kind="variable"><name>queryset</name></member>
+    <member refid="classgrade_1_1views_1_1MarkDeleteView_1a7a269d9072e9afcba8a42cd8e4969be0" kind="variable"><name>serializer_class</name></member>
+    <member refid="classgrade_1_1views_1_1MarkDeleteView_1a28ea5a80caee5a8de14b08e0a594914f" kind="variable"><name>permission_classes</name></member>
+  </compound>
+  <compound refid="classgrade_1_1views_1_1MarkListView" kind="class"><name>grade::views::MarkListView</name>
+    <member refid="classgrade_1_1views_1_1MarkListView_1ac7ceb37ae31113d67a4d495e51731f33" kind="variable"><name>queryset</name></member>
+    <member refid="classgrade_1_1views_1_1MarkListView_1a04b6c6be18b8f10eecb49d4c72a98259" kind="variable"><name>permission_classes</name></member>
+    <member refid="classgrade_1_1views_1_1MarkListView_1a8f1c316dbe9023efc849d1628a591d8b" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classgrade_1_1serializer_1_1MarkSerializer" kind="class"><name>grade::serializer::MarkSerializer</name>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1MarkSerializer" kind="class"><name>user::serializers::MarkSerializer</name>
+  </compound>
+  <compound refid="classchat_1_1models_1_1Message" kind="class"><name>chat::models::Message</name>
+    <member refid="classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d" kind="variable"><name>user</name></member>
+    <member refid="classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a" kind="variable"><name>room</name></member>
+    <member refid="classchat_1_1models_1_1Message_1abe8ae5f4e7f0c1cb388bcb5feecb516c" kind="variable"><name>content</name></member>
+    <member refid="classchat_1_1models_1_1Message_1aa51021e71d8e95498c2fdad535647a70" kind="variable"><name>timestamp</name></member>
+  </compound>
+  <compound refid="classassignment_1_1models_1_1Assignment_1_1Meta" kind="class"><name>assignment::models::Assignment::Meta</name>
+    <member refid="classassignment_1_1models_1_1Assignment_1_1Meta_1a40b145bf40869dc918ae613028e8aae4" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classassignment_1_1models_1_1AssignmentMark_1_1Meta" kind="class"><name>assignment::models::AssignmentMark::Meta</name>
+    <member refid="classassignment_1_1models_1_1AssignmentMark_1_1Meta_1a0e386aac5212ca312aeff78782bffa57" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" kind="class"><name>assignment::serializers::AssignmentMarkSerializer::Meta</name>
+    <member refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b" kind="variable"><name>model</name></member>
+    <member refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta" kind="class"><name>assignment::serializers::AssignmentSerializer::Meta</name>
+    <member refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1afd61a8ef4b86b9bee154b5d46a22aa25" kind="variable"><name>model</name></member>
+    <member refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1a859d22797b38ef2f118976a7149776e8" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1HodAttendance_1_1Meta" kind="class"><name>attendance::models::HodAttendance::Meta</name>
+    <member refid="classattendance_1_1models_1_1HodAttendance_1_1Meta_1a0bfc0b8f796349a697b69321de4cdc21" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1MainAttendance_1_1Meta" kind="class"><name>attendance::models::MainAttendance::Meta</name>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a" kind="variable"><name>unique_together</name></member>
+    <member refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta" kind="class"><name>attendance::models::StudentAttendance::Meta</name>
+    <member refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta_1aa47a9a006a64b3d36db95e5fdb8b8221" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta" kind="class"><name>attendance::models::TeacherAttendance::Meta</name>
+    <member refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta_1a5909454de18d483a04edf6a1a88a01a2" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta" kind="class"><name>attendance::serializer::AttendanceSerializer::Meta</name>
+    <member refid="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1ada9326f3e327835ffae4483d322a42f1" kind="variable"><name>model</name></member>
+    <member refid="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1a5983eac8dbfb8dac6217066fc3e50a75" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta" kind="class"><name>attendance::serializer::StudentAttendanceSerializer::Meta</name>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta_1a44bfb66b6bb0335ef88f6f03bade7ab0" kind="variable"><name>model</name></member>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta_1adb9da45442cf47997b9618a3dcd7c63e" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta" kind="class"><name>attendance::serializer::TeacherAttendanceSerializer::Meta</name>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0" kind="variable"><name>model</name></member>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a37efb1b6dc31da9aa28165e204987c2c" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta" kind="class"><name>chat::serializers::RoomSerializer::Meta</name>
+    <member refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf" kind="variable"><name>model</name></member>
+    <member refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta" kind="class"><name>classroom::serializers::ClassroomSerializer::Meta</name>
+    <member refid="classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta_1ad3784250eb8a4a8dca10e687769d3d7f" kind="variable"><name>model</name></member>
+    <member refid="classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta_1a028bc90d5a564173d59d9ee4502f80d7" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classexam_1_1models_1_1Exam_1_1Meta" kind="class"><name>exam::models::Exam::Meta</name>
+    <member refid="classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe" kind="variable"><name>db_table</name></member>
+  </compound>
+  <compound refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta" kind="class"><name>exam::serializers::ExamSerializer::Meta</name>
+    <member refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02" kind="variable"><name>model</name></member>
+    <member refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classexchange_1_1models_1_1Upvote_1_1Meta" kind="class"><name>exchange::models::Upvote::Meta</name>
+    <member refid="classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b" kind="variable"><name>unique_together</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta" kind="class"><name>exchange::serializers::CommentSerializer::Meta</name>
+    <member refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta_1a501e8df56aabafbda8deace28de37254" kind="variable"><name>model</name></member>
+    <member refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta_1a0156ca647528f11cd3a959cc3dfd2462" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" kind="class"><name>exchange::serializers::QuestionSerializer::Meta</name>
+    <member refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501" kind="variable"><name>model</name></member>
+    <member refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" kind="class"><name>exchange::serializers::UpvoteSerializer::Meta</name>
+    <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764" kind="variable"><name>model</name></member>
+    <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta" kind="class"><name>grade::serializer::MarkSerializer::Meta</name>
+    <member refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aab073eb5c973dcf8bfd1b505b97b77f4" kind="variable"><name>model</name></member>
+    <member refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aba4a6168ec01581ad4b745f530a1c521" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta" kind="class"><name>user::serializers::ClassroomSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta_1a4b846f21c2fbb156895907e67b88d956" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta_1ae8452323cd753c35d9cfc40bda8d5124" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1HODSerializer_1_1Meta" kind="class"><name>user::serializers::HODSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1HODSerializer_1_1Meta_1a7f5ef5838aeac013cb954002c8a0b00e" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1HODSerializer_1_1Meta_1a61692da785f9a2725e806c53cf0e4540" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1MarkSerializer_1_1Meta" kind="class"><name>user::serializers::MarkSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1MarkSerializer_1_1Meta_1af360e5ca8539552f35d355b424b65ddc" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1MarkSerializer_1_1Meta_1a56a3f03b48a590b287e40862ccb03849" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta" kind="class"><name>user::serializers::StudentAttendanceSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a8d31cc20706f58c70ef74766061e2f6e" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentSerializer_1_1Meta" kind="class"><name>user::serializers::StudentSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1StudentSerializer_1_1Meta_1affb8854d824d120b9de6fac72eaec4d2" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentSerializer_1_1Meta_1afa20b87fda45f0295c5d476b8b385e50" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta" kind="class"><name>user::serializers::StudentViewSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1a57ceec1620b1c241f2ee01ebeddc5dd4" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1aa70302020222cfb9bebd3aef0e943f2e" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta" kind="class"><name>user::serializers::TeacherSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1acf9d7c2b8faa71a433ccc29d2e57b72d" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1aa66066d994d9d28348c08cf3917df747" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta" kind="class"><name>user::serializers::UserSerializer::Meta</name>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30" kind="variable"><name>model</name></member>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a4ca3f8d705a137a0028afcda6aec1236" kind="variable"><name>fields</name></member>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1aeddf90a080f763483ed83fd87e92059a" kind="variable"><name>extra_kwargs</name></member>
+  </compound>
+  <compound refid="classassignment_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>assignment::migrations::0001_initial::Migration</name>
+    <member refid="classassignment_1_1migrations_1_10001__initial_1_1Migration_1ac388479294394bdf9b8df0ac123dcfbc" kind="variable"><name>initial</name></member>
+    <member refid="classassignment_1_1migrations_1_10001__initial_1_1Migration_1a24bf0856e0c848fd625737ff39148ef5" kind="variable"><name>dependencies</name></member>
+    <member refid="classassignment_1_1migrations_1_10001__initial_1_1Migration_1a4fb4412682dc56ab022aed0c3310bd49" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>attendance::migrations::0001_initial::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10001__initial_1_1Migration_1a9f2fc5eaba56411a7d8c2b7b99d13531" kind="variable"><name>initial</name></member>
+    <member refid="classattendance_1_1migrations_1_10001__initial_1_1Migration_1a50da3cd4c840aa76fa1b4a8d36f1014b" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10001__initial_1_1Migration_1a78b3d3616c8f223a5a91e987138927f4" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration" kind="class"><name>attendance::migrations::0002_alter_mainattendance_attendance_type::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration_1aef8f706ed3aa663f6afdac956f4f49a3" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration_1ac34bf27ab2da361fd8f1de0be753931f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration" kind="class"><name>attendance::migrations::0003_alter_mainattendance_date_of_producing_and_more::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration_1ae6d8dbac29105a8ed91836c5f96349f5" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration_1a0f67f93b6cffede2e293a89e2f68fee8" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration" kind="class"><name>attendance::migrations::0004_alter_studentattendance_date_of_marking::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration_1a3be6339ad7386e8c6aaf88a72fab6272" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration_1ab12375c28062892bc8b517d187155862" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" kind="class"><name>attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration" kind="class"><name>attendance::migrations::0006_alter_hodattendance_table_alter_mainattendance_table_and_more::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration_1a3bd2de1571dac0e878718b16c3161ed7" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration_1a6166c71022ce82d69dda17e657b7a6e5" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration" kind="class"><name>attendance::migrations::0007_alter_hodattendance_table_alter_mainattendance_table_and_more::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration_1ab1fc2184707d673461ee1fe8f52261b5" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration_1a94e900f9d09c635bb6b3418fdfe4392b" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10008__mainattendance__classroom_1_1Migration" kind="class"><name>attendance::migrations::0008_mainattendance_classroom::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10008__mainattendance__classroom_1_1Migration_1a68aeb728a84f51d2a2885c9b9cb804b0" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10008__mainattendance__classroom_1_1Migration_1a5fa450425036123051467ba74aa9057d" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration" kind="class"><name>attendance::migrations::0009_alter_studentattendance_student_and_more::Migration</name>
+    <member refid="classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration_1a25defb9455e89b5c50fedeeb8e3aa668" kind="variable"><name>dependencies</name></member>
+    <member refid="classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration_1af26ca617784aeee1d625d8a510537e08" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classchat_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>chat::migrations::0001_initial::Migration</name>
+    <member refid="classchat_1_1migrations_1_10001__initial_1_1Migration_1ad3d2b19b38134d3c5bfb82ccbd605ebb" kind="variable"><name>initial</name></member>
+    <member refid="classchat_1_1migrations_1_10001__initial_1_1Migration_1a91b2405b666e2e1ca5925177e9fd77e7" kind="variable"><name>dependencies</name></member>
+    <member refid="classchat_1_1migrations_1_10001__initial_1_1Migration_1a8021f6c02bf62aa61f7ee4a81fdae0b7" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classchat_1_1migrations_1_10002__alter__room__name_1_1Migration" kind="class"><name>chat::migrations::0002_alter_room_name::Migration</name>
+    <member refid="classchat_1_1migrations_1_10002__alter__room__name_1_1Migration_1ad8e701cc6943ae8b95b235b85343de41" kind="variable"><name>dependencies</name></member>
+    <member refid="classchat_1_1migrations_1_10002__alter__room__name_1_1Migration_1a28b30d02b2daf038c963d50119f30d7a" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration" kind="class"><name>chat::migrations::0003_room_created_by_alter_room_online::Migration</name>
+    <member refid="classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration_1a84f3220690b3ee7896f6608a56c989c1" kind="variable"><name>dependencies</name></member>
+    <member refid="classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration_1ab27076330cbc2fc515f910c424ea5d09" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classchat_1_1migrations_1_10004__room__type_1_1Migration" kind="class"><name>chat::migrations::0004_room_type::Migration</name>
+    <member refid="classchat_1_1migrations_1_10004__room__type_1_1Migration_1a16253e5bea1d5220e3dd83d8852074a7" kind="variable"><name>dependencies</name></member>
+    <member refid="classchat_1_1migrations_1_10004__room__type_1_1Migration_1ac2c6b28fbb43eeec75974ade1309cef4" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>classroom::migrations::0001_initial::Migration</name>
+    <member refid="classclassroom_1_1migrations_1_10001__initial_1_1Migration_1a3d29631c2c1a051c785a045f16043c1e" kind="variable"><name>initial</name></member>
+    <member refid="classclassroom_1_1migrations_1_10001__initial_1_1Migration_1ae075606a8707a734ed3ae3ceb435950d" kind="variable"><name>dependencies</name></member>
+    <member refid="classclassroom_1_1migrations_1_10001__initial_1_1Migration_1a87ea4c9915f651439492b851d57b631a" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classclassroom_1_1migrations_1_10002__alter__classroom__name_1_1Migration" kind="class"><name>classroom::migrations::0002_alter_classroom_name::Migration</name>
+    <member refid="classclassroom_1_1migrations_1_10002__alter__classroom__name_1_1Migration_1a5d713528f7d07e17879470274199271f" kind="variable"><name>dependencies</name></member>
+    <member refid="classclassroom_1_1migrations_1_10002__alter__classroom__name_1_1Migration_1a94c55757350e0b9457ffce6067625c23" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classexam_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>exam::migrations::0001_initial::Migration</name>
+    <member refid="classexam_1_1migrations_1_10001__initial_1_1Migration_1ade6e37a73c9f62c026aa78db05051520" kind="variable"><name>initial</name></member>
+    <member refid="classexam_1_1migrations_1_10001__initial_1_1Migration_1ae72305ba0e2534fc51dd14012b0e341f" kind="variable"><name>dependencies</name></member>
+    <member refid="classexam_1_1migrations_1_10001__initial_1_1Migration_1aac390d06c0cec02683a24bddb1da3351" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classexchange_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>exchange::migrations::0001_initial::Migration</name>
+    <member refid="classexchange_1_1migrations_1_10001__initial_1_1Migration_1a5d751d2ea301d66626386970a213f00a" kind="variable"><name>initial</name></member>
+    <member refid="classexchange_1_1migrations_1_10001__initial_1_1Migration_1abab4e75a9d87a5b79a317d5562719449" kind="variable"><name>dependencies</name></member>
+    <member refid="classexchange_1_1migrations_1_10001__initial_1_1Migration_1a7bf37fdbc41aefca9a2c82cca516300c" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration" kind="class"><name>exchange::migrations::0002_rename_questoin_id_comment_question_and_more::Migration</name>
+    <member refid="classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration_1ab2c77a30738c377b191e39b9e6532b74" kind="variable"><name>dependencies</name></member>
+    <member refid="classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration_1ad7af29fcf3af34ee6c98bd9346a2d1f5" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration" kind="class"><name>exchange::migrations::0003_alter_question_tag::Migration</name>
+    <member refid="classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration_1ae377e2858af73d72c10120ca774f4b8d" kind="variable"><name>dependencies</name></member>
+    <member refid="classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration_1a7b15e1f36c761e9aa9f6794459b71dce" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classgrade_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>grade::migrations::0001_initial::Migration</name>
+    <member refid="classgrade_1_1migrations_1_10001__initial_1_1Migration_1a056e667277677bc1f9014800e1197c67" kind="variable"><name>initial</name></member>
+    <member refid="classgrade_1_1migrations_1_10001__initial_1_1Migration_1a3b39413475e7d94ef0d424b483d5016e" kind="variable"><name>dependencies</name></member>
+    <member refid="classgrade_1_1migrations_1_10001__initial_1_1Migration_1ab86fef9d6bfc12685869115c30bbe675" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration" kind="class"><name>grade::migrations::0002_alter_mark_student_alter_mark_teacher::Migration</name>
+    <member refid="classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration_1a5dfab50f5036fc97515d6c8e7ade2bb2" kind="variable"><name>dependencies</name></member>
+    <member refid="classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration_1adebac88eba9cc47aed7f0a42297a7be7" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration" kind="class"><name>grade::migrations::0003_alter_mark_student_alter_mark_teacher::Migration</name>
+    <member refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1aacae7a5ea4552f7e0f1e3947d5f885de" kind="variable"><name>dependencies</name></member>
+    <member refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1a62699cf02e4f4bb1dc4ca1d7558c7b7d" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration" kind="class"><name>grade::migrations::0004_alter_mark_student::Migration</name>
+    <member refid="classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration_1a5e6cca5d172ab66b51d77bbfac1c824f" kind="variable"><name>dependencies</name></member>
+    <member refid="classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration_1a37ee5b70a468aa5a9417fea893aa1ff3" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>user::migrations::0001_initial::Migration</name>
+    <member refid="classuser_1_1migrations_1_10001__initial_1_1Migration_1a6411c9665bed9093e13305438871a7b0" kind="variable"><name>initial</name></member>
+    <member refid="classuser_1_1migrations_1_10001__initial_1_1Migration_1a91cbe0533e9bc83354113293696732ee" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10001__initial_1_1Migration_1a558a440b0f887d1afd139de308fa18ac" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher_1_1Migration" kind="class"><name>user::migrations::0002_alter_account_user_type_hod_student_teacher::Migration</name>
+    <member refid="classuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher_1_1Migration_1ae10ddd2c12dcddef0bdac358272b5128" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher_1_1Migration_1abfc9033c4f437514d82ad81b8f5132cc" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration" kind="class"><name>user::migrations::0003_alter_account_is_staff::Migration</name>
+    <member refid="classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration_1a07f5fb582f55002c37f8bbbea0ebe446" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration_1a746252a39eb17bd1ba5556cc8c73028b" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration" kind="class"><name>user::migrations::0004_subject_alter_hod_options_alter_teacher_options_and_more::Migration</name>
+    <member refid="classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration_1a9a5728814b6f2c4d756d610eaafe04ba" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration_1a3c36765d6fba878a11dabdf3c6b205ed" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration" kind="class"><name>user::migrations::0005_rename_subject_subject_name::Migration</name>
+    <member refid="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1a8c794eb10ccf3217d73aa057b7784ade" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1aa0fb9fd9d4abee0fd94aba963270ca07" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration" kind="class"><name>user::migrations::0006_student_classroom_teacher_classroom::Migration</name>
+    <member refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration_1ade3444ff91524ebdab27759b96a0d21f" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration_1a7b633afc5be939b1b8d0df651b77068f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration" kind="class"><name>user::migrations::0007_alter_student_classroom::Migration</name>
+    <member refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1ab134e9e05c1b02553a9fe2ac3eb225f4" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1a3e5718feed56d7f21a2737e29e15a731" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10008__alter__student__classroom_1_1Migration" kind="class"><name>user::migrations::0008_alter_student_classroom::Migration</name>
+    <member refid="classuser_1_1migrations_1_10008__alter__student__classroom_1_1Migration_1a00cc7946168ad9d281995afe349bd88f" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10008__alter__student__classroom_1_1Migration_1a1006aadc64446bf935526203fca3787c" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" kind="class"><name>user::migrations::0009_alter_account_user_type_parent_student_parent::Migration</name>
+    <member refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a57ea729d71c9b1896dd214eec13258f4" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a8ea3fb3a3ef51488b40995667f24b410" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration" kind="class"><name>user::migrations::0010_remove_parent_phone_number::Migration</name>
+    <member refid="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a161c925cef640489fa14f89d08b280f8" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a00e58f50cb09c81f325ee8a9659cd02e" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration" kind="class"><name>user::migrations::0011_alter_student_parent_delete_parent::Migration</name>
+    <member refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a0d1b73e6d221b6b8fbf85f654fc89723" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a293d6aab6e27a790f92cc9ee03097b26" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1migrations_1_10012__student__assignment_1_1Migration" kind="class"><name>user::migrations::0012_student_assignment::Migration</name>
+    <member refid="classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a192ba33b41dd612742096f00963b0f2f" kind="variable"><name>dependencies</name></member>
+    <member refid="classuser_1_1migrations_1_10012__student__assignment_1_1Migration_1a65812d06b6467a198a19f21c4937c9b0" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classuser_1_1tests_1_1ModelTest" kind="class"><name>user::tests::ModelTest</name>
+    <member refid="classuser_1_1tests_1_1ModelTest_1a1da68cfad4c247580f21f444d9715f1d" kind="function"><name>test_create_user_with_email_successful</name></member>
+  </compound>
+  <compound refid="classuser_1_1models_1_1MyAccountManager" kind="class"><name>user::models::MyAccountManager</name>
+    <member refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" kind="function"><name>create_user</name></member>
+    <member refid="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" kind="function"><name>create_superuser</name></member>
+  </compound>
+  <compound refid="classpayment_1_1apps_1_1PaymentConfig" kind="class"><name>payment::apps::PaymentConfig</name>
+    <member refid="classpayment_1_1apps_1_1PaymentConfig_1a304bb093446873046d638f039d81803d" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classpayment_1_1apps_1_1PaymentConfig_1a8fb1946118fd8ba5467fccce3a097c3a" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classexchange_1_1models_1_1Question" kind="class"><name>exchange::models::Question</name>
+    <member refid="classexchange_1_1models_1_1Question_1a50625eabad28b8a5a616b789f188b1b4" kind="variable"><name>title</name></member>
+    <member refid="classexchange_1_1models_1_1Question_1aaed4ca4626fe5b76d0317961e0871904" kind="variable"><name>description</name></member>
+    <member refid="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" kind="variable"><name>user</name></member>
+    <member refid="classexchange_1_1models_1_1Question_1a850b6440865a49b91b3da44ce9f1a5f4" kind="variable"><name>tag</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1QuestionCreateView" kind="class"><name>exchange::views::QuestionCreateView</name>
+    <member refid="classexchange_1_1views_1_1QuestionCreateView_1aa2fc7c7c7a3a221ce4cebf72cefb4386" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionCreateView_1a831f4ebfe760474cfed3674d18e000ee" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1QuestionDeleteView" kind="class"><name>exchange::views::QuestionDeleteView</name>
+    <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a4ad26b160a3953f9994bbd78bfb58d13" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a3b3274290f3ef730eb14062f906d02fa" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionDeleteView_1a4a91d3df62f0d471195e4742f5b6f235" kind="variable"><name>serializer_class</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionDeleteView_1ace3d5bdb2384a8a8c3535d1ef03a9918" kind="function"><name>delete</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1QuestionListView" kind="class"><name>exchange::views::QuestionListView</name>
+    <member refid="classexchange_1_1views_1_1QuestionListView_1ac19c8b0a0ec6ea62b3b4c8009f2f49e8" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionListView_1ac69a45a51950863467b85689d87b2d5d" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionListView_1a0624fb5f6e533b21b437620ab4a4521b" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1QuestionRetrieveView" kind="class"><name>exchange::views::QuestionRetrieveView</name>
+    <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1a299c699757310a98caf70c4fad82c40c" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1aab1916cf954bf29d6c2101397e0f7f0b" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1abeac435a0c4951409b1bd5cf97449a97" kind="variable"><name>serializer_class</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1QuestionSerializer" kind="class"><name>exchange::serializers::QuestionSerializer</name>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1QuestionUpdateView" kind="class"><name>exchange::views::QuestionUpdateView</name>
+    <member refid="classexchange_1_1views_1_1QuestionUpdateView_1ac82774f46ac9f5b3546e06a0b3c8b2f1" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionUpdateView_1aafd20b8a69e57cf1c3639a63be54f4bc" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionUpdateView_1adac8c3179a4459fd8f17ce56255f31bb" kind="variable"><name>serializer_class</name></member>
+    <member refid="classexchange_1_1views_1_1QuestionUpdateView_1a731a6f16b1f0906bba87fb88cd703418" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1RegisterView" kind="class"><name>user::views::RegisterView</name>
+    <member refid="classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08" kind="variable"><name>permission_classes</name></member>
+    <member refid="classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classchat_1_1models_1_1Room" kind="class"><name>chat::models::Room</name>
+    <member refid="classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297" kind="variable"><name>ROOM_TYPE_CHOOSES</name></member>
+    <member refid="classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5" kind="variable"><name>name</name></member>
+    <member refid="classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921" kind="variable"><name>type</name></member>
+    <member refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" kind="variable"><name>online</name></member>
+    <member refid="classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f" kind="variable"><name>created_by</name></member>
+    <member refid="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" kind="function"><name>get_online_count</name></member>
+    <member refid="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" kind="function"><name>join</name></member>
+    <member refid="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" kind="function"><name>leave</name></member>
+  </compound>
+  <compound refid="classchat_1_1serializers_1_1RoomSerializer" kind="class"><name>chat::serializers::RoomSerializer</name>
+  </compound>
+  <compound refid="classattendance_1_1views_1_1ShowAttendanceView" kind="class"><name>attendance::views::ShowAttendanceView</name>
+    <member refid="classattendance_1_1views_1_1ShowAttendanceView_1a3e61d742ec56efa9859bc4ab53166fe3" kind="variable"><name>serializer_class</name></member>
+    <member refid="classattendance_1_1views_1_1ShowAttendanceView_1a5b2b350ae54f42bce1df162ecdfe5e5e" kind="variable"><name>permission_classes</name></member>
+    <member refid="classattendance_1_1views_1_1ShowAttendanceView_1af6e650a3c652bca5e73144f8bd0a2cd4" kind="function"><name>get_queryset</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1StripeAuthorizeCallbackView" kind="class"><name>user::views::StripeAuthorizeCallbackView</name>
+    <member refid="classuser_1_1views_1_1StripeAuthorizeCallbackView_1a14e41a5403035040be2a834a2d14874e" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1StripeAuthorizeView" kind="class"><name>user::views::StripeAuthorizeView</name>
+    <member refid="classuser_1_1views_1_1StripeAuthorizeView_1aa13db70efaf729c20aa73916c066c1dd" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classuser_1_1models_1_1Student" kind="class"><name>user::models::Student</name>
+    <member refid="classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0" kind="variable"><name>user</name></member>
+    <member refid="classuser_1_1models_1_1Student_1a27a9e04d59c551cfa924771490543502" kind="variable"><name>classroom</name></member>
+    <member refid="classuser_1_1models_1_1Student_1a9efd9e529c29f373f7dac3d0693eeb82" kind="variable"><name>department</name></member>
+    <member refid="classuser_1_1models_1_1Student_1a011d649d717424a033c59bd43698a6a2" kind="variable"><name>location</name></member>
+    <member refid="classuser_1_1models_1_1Student_1a5b0ac817a79a8db20b17a2119b3cae82" kind="variable"><name>date_of_birth</name></member>
+    <member refid="classuser_1_1models_1_1Student_1a3b636063f2ff7e32e3ac78b760d881fc" kind="variable"><name>parent</name></member>
+    <member refid="classuser_1_1models_1_1Student_1ad5b70e855fa79333ed7304b19a5eb24f" kind="variable"><name>assignment</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1StudentAttendance" kind="class"><name>attendance::models::StudentAttendance</name>
+    <member refid="classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27" kind="variable"><name>attendance</name></member>
+    <member refid="classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0" kind="variable"><name>student</name></member>
+    <member refid="classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801" kind="variable"><name>date_of_marking</name></member>
+  </compound>
+  <compound refid="classattendance_1_1views_1_1StudentAttendanceCreateView" kind="class"><name>attendance::views::StudentAttendanceCreateView</name>
+    <member refid="classattendance_1_1views_1_1StudentAttendanceCreateView_1abc38d5d29d6a03dd944cff2c297e7723" kind="variable"><name>permission_classes</name></member>
+    <member refid="classattendance_1_1views_1_1StudentAttendanceCreateView_1a1e3a730f5ec4f15e5b5bd7c38eaa3f1b" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer" kind="class"><name>attendance::serializer::StudentAttendanceSerializer</name>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1afaaeedb4f60e9b44e1cb1990c0813eb6" kind="variable"><name>id</name></member>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1af84cf4aa7bf5ba00516c9abdb500a5e4" kind="variable"><name>student</name></member>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1ab01621e0c7e6e1871be0816d14512674" kind="variable"><name>date_of_marking</name></member>
+    <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1a14a6a0f2844d3f47537ea6789b23b8bc" kind="function"><name>validate_attendance_id</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentAttendanceSerializer" kind="class"><name>user::serializers::StudentAttendanceSerializer</name>
+  </compound>
+  <compound refid="classuser_1_1views_1_1StudentRegister" kind="class"><name>user::views::StudentRegister</name>
+    <member refid="classuser_1_1views_1_1StudentRegister_1ae167a166d2f0510553ff477980509a4d" kind="variable"><name>permission_classes</name></member>
+    <member refid="classuser_1_1views_1_1StudentRegister_1aa7c11588911dc5823ddd971dc44af566" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentSerializer" kind="class"><name>user::serializers::StudentSerializer</name>
+    <member refid="classuser_1_1serializers_1_1StudentSerializer_1a30b04414a102ab15a3d8b41e53edb7b8" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1StudentViewSerializer" kind="class"><name>user::serializers::StudentViewSerializer</name>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2" kind="variable"><name>mark</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01" kind="variable"><name>attendance</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce" kind="variable"><name>student</name></member>
+    <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7" kind="variable"><name>classroom</name></member>
+  </compound>
+  <compound refid="classuser_1_1models_1_1Subject" kind="class"><name>user::models::Subject</name>
+    <member refid="classuser_1_1models_1_1Subject_1a0f2a0715627ef0494e1c2bf7e72ba5f5" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classuser_1_1models_1_1Teacher" kind="class"><name>user::models::Teacher</name>
+    <member refid="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" kind="variable"><name>user</name></member>
+    <member refid="classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76" kind="variable"><name>department</name></member>
+    <member refid="classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28" kind="variable"><name>subject</name></member>
+    <member refid="classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de" kind="variable"><name>classroom</name></member>
+  </compound>
+  <compound refid="classattendance_1_1models_1_1TeacherAttendance" kind="class"><name>attendance::models::TeacherAttendance</name>
+    <member refid="classattendance_1_1models_1_1TeacherAttendance_1a7cb3a646b2acfefc532e19bfeeedca6d" kind="variable"><name>attendance</name></member>
+    <member refid="classattendance_1_1models_1_1TeacherAttendance_1a6b5a740c159356ccabc1186bf8d48f4b" kind="variable"><name>teacher</name></member>
+    <member refid="classattendance_1_1models_1_1TeacherAttendance_1a70f90c19e4fcf728b1fb14a90822300e" kind="variable"><name>date_of_marking</name></member>
+  </compound>
+  <compound refid="classattendance_1_1views_1_1TeacherAttendanceCreateView" kind="class"><name>attendance::views::TeacherAttendanceCreateView</name>
+    <member refid="classattendance_1_1views_1_1TeacherAttendanceCreateView_1accd7f06f5c313d218444c56eb6b9cea8" kind="variable"><name>permission_classes</name></member>
+    <member refid="classattendance_1_1views_1_1TeacherAttendanceCreateView_1a8bf3b9542801ba6015cdd59803a16295" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer" kind="class"><name>attendance::serializer::TeacherAttendanceSerializer</name>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0" kind="variable"><name>id</name></member>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e" kind="variable"><name>teacher</name></member>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b" kind="variable"><name>date_of_marking</name></member>
+    <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ab6d3fa0ac63d15fe70b8ef7823ac14b4" kind="function"><name>validate_attendance_id</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1TeacherRegister" kind="class"><name>user::views::TeacherRegister</name>
+    <member refid="classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041" kind="variable"><name>permission_classes</name></member>
+    <member refid="classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1TeacherSerializer" kind="class"><name>user::serializers::TeacherSerializer</name>
+    <member refid="classuser_1_1serializers_1_1TeacherSerializer_1a145bd3e82fc1105628dbd649937ae4e5" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="classwebhooks_1_1views_1_1TelegramWebhook" kind="class"><name>webhooks::views::TelegramWebhook</name>
+    <member refid="classwebhooks_1_1views_1_1TelegramWebhook_1a2f3d2c97e5d09c73dcc15d15eeb2bf7c" kind="variable"><name>permission_classes</name></member>
+    <member refid="classwebhooks_1_1views_1_1TelegramWebhook_1ad68eb579ee543296a4711a5053b0e69e" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance" kind="class"><name>attendance::tests::test_attendance::TestMainAttendance</name>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f" kind="variable"><name>client</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ad8859c26e0329b5f20df665f1b841a8a" kind="variable"><name>teacher</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af0fb5aac1b1e145291ea8e643df1dc67" kind="variable"><name>access_token_teacher</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221" kind="variable"><name>classroom</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af54910ecc30c45bad21cc503e10afc08" kind="variable"><name>student</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a4501f9906afb251dd0811476fe4ed374" kind="variable"><name>access_token_student</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906" kind="variable"><name>attendance_id</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acd2cfc2ab6db1347f77e9c642bb83fe4" kind="function"><name>setUp</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" kind="function"><name>test_creating_main_attendance</name></member>
+    <member refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" kind="function"><name>test_adding_student_attendance</name></member>
+  </compound>
+  <compound refid="classchat_1_1middleware_1_1TokenAuthMiddleware" kind="class"><name>chat::middleware::TokenAuthMiddleware</name>
+    <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4" kind="variable"><name>jwt_object</name></member>
+    <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20" kind="function"><name>__init__</name></member>
+    <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" kind="function"><name>__call__</name></member>
+  </compound>
+  <compound refid="classexchange_1_1models_1_1Upvote" kind="class"><name>exchange::models::Upvote</name>
+    <member refid="classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8" kind="variable"><name>comment</name></member>
+    <member refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" kind="variable"><name>user</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1UpvoteCreateView" kind="class"><name>exchange::views::UpvoteCreateView</name>
+    <member refid="classexchange_1_1views_1_1UpvoteCreateView_1ae0d6f93c858c24ff80b103323587cc08" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1UpvoteCreateView_1a3dcc7b011a4594ca3bb1a2b5c6a05062" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classexchange_1_1views_1_1UpvoteDeleteView" kind="class"><name>exchange::views::UpvoteDeleteView</name>
+    <member refid="classexchange_1_1views_1_1UpvoteDeleteView_1a800581cdcd64395742a4bd839e5fc08a" kind="variable"><name>queryset</name></member>
+    <member refid="classexchange_1_1views_1_1UpvoteDeleteView_1a901d41b2a3b75c5a2dc0265105c73ca6" kind="variable"><name>permission_classes</name></member>
+    <member refid="classexchange_1_1views_1_1UpvoteDeleteView_1ab262d0e6fd9626702b9da3c2f083abec" kind="variable"><name>serializer_class</name></member>
+    <member refid="classexchange_1_1views_1_1UpvoteDeleteView_1a72a24f765eed6650ad876b6d7013e869" kind="function"><name>delete</name></member>
+  </compound>
+  <compound refid="classexchange_1_1serializers_1_1UpvoteSerializer" kind="class"><name>exchange::serializers::UpvoteSerializer</name>
+    <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="classuser_1_1admin_1_1UserAdmin" kind="class"><name>user::admin::UserAdmin</name>
+    <member refid="classuser_1_1admin_1_1UserAdmin_1a314fdad93d1e7d66c3faddd5fc45057f" kind="variable"><name>ordering</name></member>
+    <member refid="classuser_1_1admin_1_1UserAdmin_1aa75d7aefb2e37586aba079998c49e4b3" kind="variable"><name>list_display</name></member>
+    <member refid="classuser_1_1admin_1_1UserAdmin_1a9277187daf1a65e0c96d375221150355" kind="variable"><name>fieldsets</name></member>
+    <member refid="classuser_1_1admin_1_1UserAdmin_1aade09345342be96204bc2c3293d39511" kind="variable"><name>readonly_fields</name></member>
+    <member refid="classuser_1_1admin_1_1UserAdmin_1a04aece6f0422cdf3461da643edcfe778" kind="variable"><name>add_fieldsets</name></member>
+  </compound>
+  <compound refid="classuser_1_1apps_1_1UserConfig" kind="class"><name>user::apps::UserConfig</name>
+    <member refid="classuser_1_1apps_1_1UserConfig_1ad23bae019d6244293884adbb938e5adb" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classuser_1_1apps_1_1UserConfig_1ae7402567365307104c9e0f36982398b0" kind="variable"><name>name</name></member>
+    <member refid="classuser_1_1apps_1_1UserConfig_1a88e1b6b6a0ba952424b7b33d1b66d971" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="classuser_1_1serializers_1_1UserSerializer" kind="class"><name>user::serializers::UserSerializer</name>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1a8272c3ff659aa68f1039d66c9b767e72" kind="variable"><name>confirm_password</name></member>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1af9766e27952b92ae23dd1db889393f11" kind="function"><name>create</name></member>
+    <member refid="classuser_1_1serializers_1_1UserSerializer_1a073ac4174745351c47ab7ca9c765b8e2" kind="function"><name>validate</name></member>
+  </compound>
+  <compound refid="classuser_1_1views_1_1UserView" kind="class"><name>user::views::UserView</name>
+    <member refid="classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc" kind="variable"><name>permission_classes</name></member>
+    <member refid="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" kind="function"><name>get</name></member>
+    <member refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" kind="function"><name>generate_pdf</name></member>
+  </compound>
+  <compound refid="classpayment_1_1views_1_1WebHook" kind="class"><name>payment::views::WebHook</name>
+    <member refid="classpayment_1_1views_1_1WebHook_1a136e57bb0710b0614b8d46b0677172ea" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classwebhooks_1_1apps_1_1WebhooksConfig" kind="class"><name>webhooks::apps::WebhooksConfig</name>
+    <member refid="classwebhooks_1_1apps_1_1WebhooksConfig_1a8a1aa6bbe481d4a10c0ff3857d83de42" kind="variable"><name>default_auto_field</name></member>
+    <member refid="classwebhooks_1_1apps_1_1WebhooksConfig_1a1848afca9c9b40889386167bba50ad15" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="namespaceassignment" kind="namespace"><name>assignment</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1admin" kind="namespace"><name>assignment::admin</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1apps" kind="namespace"><name>assignment::apps</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1migrations" kind="namespace"><name>assignment::migrations</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1migrations_1_10001__initial" kind="namespace"><name>assignment::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1models" kind="namespace"><name>assignment::models</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1serializers" kind="namespace"><name>assignment::serializers</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1tests" kind="namespace"><name>assignment::tests</name>
+  </compound>
+  <compound refid="namespaceassignment_1_1urls" kind="namespace"><name>assignment::urls</name>
+    <member refid="namespaceassignment_1_1urls_1a187bdf6b70304a9837b4a5564826b7d1" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceassignment_1_1urls_1a6674b6558998acf77c6412e5d9eaebe9" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceassignment_1_1views" kind="namespace"><name>assignment::views</name>
+    <member refid="namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8" kind="function"><name>simple_mail</name></member>
+  </compound>
+  <compound refid="namespaceattendance" kind="namespace"><name>attendance</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1admin" kind="namespace"><name>attendance::admin</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1apps" kind="namespace"><name>attendance::apps</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations" kind="namespace"><name>attendance::migrations</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10001__initial" kind="namespace"><name>attendance::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type" kind="namespace"><name>attendance::migrations::0002_alter_mainattendance_attendance_type</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more" kind="namespace"><name>attendance::migrations::0003_alter_mainattendance_date_of_producing_and_more</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking" kind="namespace"><name>attendance::migrations::0004_alter_studentattendance_date_of_marking</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more" kind="namespace"><name>attendance::migrations::0005_alter_hodattendance_date_of_marking_and_more</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more" kind="namespace"><name>attendance::migrations::0006_alter_hodattendance_table_alter_mainattendance_table_and_more</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more" kind="namespace"><name>attendance::migrations::0007_alter_hodattendance_table_alter_mainattendance_table_and_more</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10008__mainattendance__classroom" kind="namespace"><name>attendance::migrations::0008_mainattendance_classroom</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more" kind="namespace"><name>attendance::migrations::0009_alter_studentattendance_student_and_more</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1models" kind="namespace"><name>attendance::models</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1permission" kind="namespace"><name>attendance::permission</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1serializer" kind="namespace"><name>attendance::serializer</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1tests" kind="namespace"><name>attendance::tests</name>
+  </compound>
+  <compound refid="namespaceattendance_1_1tests_1_1test__attendance" kind="namespace"><name>attendance::tests::test_attendance</name>
+    <member refid="namespaceattendance_1_1tests_1_1test__attendance_1a975649e574d3970e7140bd00c60738bd" kind="variable"><name>login_url</name></member>
+    <member refid="namespaceattendance_1_1tests_1_1test__attendance_1a39da7e43beaf1617002dd21d9929ddc5" kind="variable"><name>main_attendance_url</name></member>
+    <member refid="namespaceattendance_1_1tests_1_1test__attendance_1a5041bc88c9a7466698a5f1a6f8909b96" kind="variable"><name>mark_student_attendance</name></member>
+  </compound>
+  <compound refid="namespaceattendance_1_1urls" kind="namespace"><name>attendance::urls</name>
+    <member refid="namespaceattendance_1_1urls_1a3cdbbb070beb2dd37880efaaa271c119" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceattendance_1_1urls_1aba53a95f7ed83df64f5c29568991bf9f" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceattendance_1_1views" kind="namespace"><name>attendance::views</name>
+  </compound>
+  <compound refid="namespacechat" kind="namespace"><name>chat</name>
+  </compound>
+  <compound refid="namespacechat_1_1admin" kind="namespace"><name>chat::admin</name>
+  </compound>
+  <compound refid="namespacechat_1_1apps" kind="namespace"><name>chat::apps</name>
+  </compound>
+  <compound refid="namespacechat_1_1consumers" kind="namespace"><name>chat::consumers</name>
+  </compound>
+  <compound refid="namespacechat_1_1middleware" kind="namespace"><name>chat::middleware</name>
+  </compound>
+  <compound refid="namespacechat_1_1migrations" kind="namespace"><name>chat::migrations</name>
+  </compound>
+  <compound refid="namespacechat_1_1migrations_1_10001__initial" kind="namespace"><name>chat::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespacechat_1_1migrations_1_10002__alter__room__name" kind="namespace"><name>chat::migrations::0002_alter_room_name</name>
+  </compound>
+  <compound refid="namespacechat_1_1migrations_1_10003__room__created__by__alter__room__online" kind="namespace"><name>chat::migrations::0003_room_created_by_alter_room_online</name>
+  </compound>
+  <compound refid="namespacechat_1_1migrations_1_10004__room__type" kind="namespace"><name>chat::migrations::0004_room_type</name>
+  </compound>
+  <compound refid="namespacechat_1_1models" kind="namespace"><name>chat::models</name>
+  </compound>
+  <compound refid="namespacechat_1_1permission" kind="namespace"><name>chat::permission</name>
+  </compound>
+  <compound refid="namespacechat_1_1routing" kind="namespace"><name>chat::routing</name>
+    <member refid="namespacechat_1_1routing_1a9079064cf5cc6236e957a9958bdaa47f" kind="variable"><name>websocket_urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacechat_1_1serializers" kind="namespace"><name>chat::serializers</name>
+  </compound>
+  <compound refid="namespacechat_1_1tasks" kind="namespace"><name>chat::tasks</name>
+    <member refid="namespacechat_1_1tasks_1a85c8a496121547fa4eec859d4763101c" kind="function"><name>send_telegram_reply</name></member>
+  </compound>
+  <compound refid="namespacechat_1_1tests" kind="namespace"><name>chat::tests</name>
+  </compound>
+  <compound refid="namespacechat_1_1urls" kind="namespace"><name>chat::urls</name>
+    <member refid="namespacechat_1_1urls_1ab6d985bded5220bb026e4afc78244ec3" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacechat_1_1views" kind="namespace"><name>chat::views</name>
+    <member refid="namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d" kind="function"><name>index_view</name></member>
+  </compound>
+  <compound refid="namespaceclassroom" kind="namespace"><name>classroom</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1admin" kind="namespace"><name>classroom::admin</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1apps" kind="namespace"><name>classroom::apps</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1migrations" kind="namespace"><name>classroom::migrations</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1migrations_1_10001__initial" kind="namespace"><name>classroom::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1migrations_1_10002__alter__classroom__name" kind="namespace"><name>classroom::migrations::0002_alter_classroom_name</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1models" kind="namespace"><name>classroom::models</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1permission" kind="namespace"><name>classroom::permission</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1serializers" kind="namespace"><name>classroom::serializers</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1tests" kind="namespace"><name>classroom::tests</name>
+  </compound>
+  <compound refid="namespaceclassroom_1_1urls" kind="namespace"><name>classroom::urls</name>
+    <member refid="namespaceclassroom_1_1urls_1a2de427eb0573554784b99dfffd825991" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceclassroom_1_1urls_1ae339ef0e0bc51af3a33dc83dc9d37fd2" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceclassroom_1_1views" kind="namespace"><name>classroom::views</name>
+  </compound>
+  <compound refid="namespacecollege" kind="namespace"><name>college</name>
+  </compound>
+  <compound refid="namespacecollege_1_1asgi" kind="namespace"><name>college::asgi</name>
+    <member refid="namespacecollege_1_1asgi_1ac53598635d961543e73e6f3e02cd3ae8" kind="variable"><name>application</name></member>
+  </compound>
+  <compound refid="namespacecollege_1_1assignment" kind="namespace"><name>college::assignment</name>
+    <member refid="namespacecollege_1_1assignment_1a2e9a2823fe1c92b647de3027bac48b69" kind="function"><name>assignNewAssignment</name></member>
+  </compound>
+  <compound refid="namespacecollege_1_1celery" kind="namespace"><name>college::celery</name>
+    <member refid="namespacecollege_1_1celery_1ae31fdb7b8675cc67055dedc48155f72c" kind="variable"><name>app</name></member>
+  </compound>
+  <compound refid="namespacecollege_1_1file__type__detector" kind="namespace"><name>college::file_type_detector</name>
+    <member refid="namespacecollege_1_1file__type__detector_1a4abdd44e1f1942108ebc378e66fd6acc" kind="variable"><name>linters</name></member>
+    <member refid="namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af" kind="function"><name>run_linter</name></member>
+  </compound>
+  <compound refid="namespacecollege_1_1urls" kind="namespace"><name>college::urls</name>
+    <member refid="namespacecollege_1_1urls_1a5990d5fdc3ddf335c4017159284aae1f" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacecollege_1_1wsgi" kind="namespace"><name>college::wsgi</name>
+    <member refid="namespacecollege_1_1wsgi_1afbc946e4f20e9a5bde76b3e613b1cd93" kind="variable"><name>application</name></member>
+  </compound>
+  <compound refid="namespaceexam" kind="namespace"><name>exam</name>
+  </compound>
+  <compound refid="namespaceexam_1_1admin" kind="namespace"><name>exam::admin</name>
+  </compound>
+  <compound refid="namespaceexam_1_1apps" kind="namespace"><name>exam::apps</name>
+  </compound>
+  <compound refid="namespaceexam_1_1migrations" kind="namespace"><name>exam::migrations</name>
+  </compound>
+  <compound refid="namespaceexam_1_1migrations_1_10001__initial" kind="namespace"><name>exam::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceexam_1_1models" kind="namespace"><name>exam::models</name>
+  </compound>
+  <compound refid="namespaceexam_1_1serializers" kind="namespace"><name>exam::serializers</name>
+  </compound>
+  <compound refid="namespaceexam_1_1tests" kind="namespace"><name>exam::tests</name>
+  </compound>
+  <compound refid="namespaceexam_1_1urls" kind="namespace"><name>exam::urls</name>
+    <member refid="namespaceexam_1_1urls_1a72cf6cfbee11855ab7d29ef2123adab6" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceexam_1_1urls_1a8383dd92b788f7b6fc6ddea686a26fea" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceexam_1_1views" kind="namespace"><name>exam::views</name>
+  </compound>
+  <compound refid="namespaceexchange" kind="namespace"><name>exchange</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1admin" kind="namespace"><name>exchange::admin</name>
+    <member refid="namespaceexchange_1_1admin_1a93495365b5c18b41c67f5c2d4db6b336" kind="variable"><name>models</name></member>
+  </compound>
+  <compound refid="namespaceexchange_1_1apps" kind="namespace"><name>exchange::apps</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1migrations" kind="namespace"><name>exchange::migrations</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1migrations_1_10001__initial" kind="namespace"><name>exchange::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more" kind="namespace"><name>exchange::migrations::0002_rename_questoin_id_comment_question_and_more</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1migrations_1_10003__alter__question__tag" kind="namespace"><name>exchange::migrations::0003_alter_question_tag</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1models" kind="namespace"><name>exchange::models</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1permission" kind="namespace"><name>exchange::permission</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1serializers" kind="namespace"><name>exchange::serializers</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1signals" kind="namespace"><name>exchange::signals</name>
+    <member refid="namespaceexchange_1_1signals_1a873621cd603607b617ec327c50f8d4b7" kind="function"><name>notify_admin</name></member>
+  </compound>
+  <compound refid="namespaceexchange_1_1tests" kind="namespace"><name>exchange::tests</name>
+  </compound>
+  <compound refid="namespaceexchange_1_1urls" kind="namespace"><name>exchange::urls</name>
+    <member refid="namespaceexchange_1_1urls_1ad9403c81b3eed49aae26584b348fb640" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceexchange_1_1urls_1a0db96013734b922f215f6c341e53cdb5" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceexchange_1_1views" kind="namespace"><name>exchange::views</name>
+  </compound>
+  <compound refid="namespacegenerics" kind="namespace"><name>generics</name>
+  </compound>
+  <compound refid="namespacegrade" kind="namespace"><name>grade</name>
+  </compound>
+  <compound refid="namespacegrade_1_1admin" kind="namespace"><name>grade::admin</name>
+  </compound>
+  <compound refid="namespacegrade_1_1apps" kind="namespace"><name>grade::apps</name>
+  </compound>
+  <compound refid="namespacegrade_1_1migrations" kind="namespace"><name>grade::migrations</name>
+  </compound>
+  <compound refid="namespacegrade_1_1migrations_1_10001__initial" kind="namespace"><name>grade::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespacegrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher" kind="namespace"><name>grade::migrations::0002_alter_mark_student_alter_mark_teacher</name>
+  </compound>
+  <compound refid="namespacegrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher" kind="namespace"><name>grade::migrations::0003_alter_mark_student_alter_mark_teacher</name>
+  </compound>
+  <compound refid="namespacegrade_1_1migrations_1_10004__alter__mark__student" kind="namespace"><name>grade::migrations::0004_alter_mark_student</name>
+  </compound>
+  <compound refid="namespacegrade_1_1models" kind="namespace"><name>grade::models</name>
+  </compound>
+  <compound refid="namespacegrade_1_1permission" kind="namespace"><name>grade::permission</name>
+  </compound>
+  <compound refid="namespacegrade_1_1serializer" kind="namespace"><name>grade::serializer</name>
+  </compound>
+  <compound refid="namespacegrade_1_1tests" kind="namespace"><name>grade::tests</name>
+  </compound>
+  <compound refid="namespacegrade_1_1urls" kind="namespace"><name>grade::urls</name>
+    <member refid="namespacegrade_1_1urls_1a9cd0dbf6c10bc9a843f0efb3c8b39712" kind="variable"><name>app_name</name></member>
+    <member refid="namespacegrade_1_1urls_1a1fbcc5f1316c75c3201b5c9a4f31822f" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacegrade_1_1views" kind="namespace"><name>grade::views</name>
+  </compound>
+  <compound refid="namespacemanage" kind="namespace"><name>manage</name>
+    <member refid="namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacemigrations" kind="namespace"><name>migrations</name>
+  </compound>
+  <compound refid="namespacemodels" kind="namespace"><name>models</name>
+  </compound>
+  <compound refid="namespacepayment" kind="namespace"><name>payment</name>
+  </compound>
+  <compound refid="namespacepayment_1_1admin" kind="namespace"><name>payment::admin</name>
+  </compound>
+  <compound refid="namespacepayment_1_1apps" kind="namespace"><name>payment::apps</name>
+  </compound>
+  <compound refid="namespacepayment_1_1models" kind="namespace"><name>payment::models</name>
+  </compound>
+  <compound refid="namespacepayment_1_1tests" kind="namespace"><name>payment::tests</name>
+  </compound>
+  <compound refid="namespacepayment_1_1urls" kind="namespace"><name>payment::urls</name>
+    <member refid="namespacepayment_1_1urls_1a389cdfb6c1b6afd7ac52e3cab24f0416" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacepayment_1_1views" kind="namespace"><name>payment::views</name>
+    <member refid="namespacepayment_1_1views_1a089900526c9d0d2fe35b7a2dd167e452" kind="variable"><name>api_key</name></member>
+    <member refid="namespacepayment_1_1views_1abcc29e964087bf86bd1fa16f66d9ffea" kind="variable"><name>webhook_secret</name></member>
+  </compound>
+  <compound refid="namespacepermissions" kind="namespace"><name>permissions</name>
+  </compound>
+  <compound refid="namespaceserializers" kind="namespace"><name>serializers</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespaceuser" kind="namespace"><name>user</name>
+  </compound>
+  <compound refid="namespaceuser_1_1admin" kind="namespace"><name>user::admin</name>
+  </compound>
+  <compound refid="namespaceuser_1_1apps" kind="namespace"><name>user::apps</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations" kind="namespace"><name>user::migrations</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10001__initial" kind="namespace"><name>user::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher" kind="namespace"><name>user::migrations::0002_alter_account_user_type_hod_student_teacher</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10003__alter__account__is__staff" kind="namespace"><name>user::migrations::0003_alter_account_is_staff</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more" kind="namespace"><name>user::migrations::0004_subject_alter_hod_options_alter_teacher_options_and_more</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10005__rename__subject__subject__name" kind="namespace"><name>user::migrations::0005_rename_subject_subject_name</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom" kind="namespace"><name>user::migrations::0006_student_classroom_teacher_classroom</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10007__alter__student__classroom" kind="namespace"><name>user::migrations::0007_alter_student_classroom</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10008__alter__student__classroom" kind="namespace"><name>user::migrations::0008_alter_student_classroom</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent" kind="namespace"><name>user::migrations::0009_alter_account_user_type_parent_student_parent</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10010__remove__parent__phone__number" kind="namespace"><name>user::migrations::0010_remove_parent_phone_number</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10011__alter__student__parent__delete__parent" kind="namespace"><name>user::migrations::0011_alter_student_parent_delete_parent</name>
+  </compound>
+  <compound refid="namespaceuser_1_1migrations_1_10012__student__assignment" kind="namespace"><name>user::migrations::0012_student_assignment</name>
+  </compound>
+  <compound refid="namespaceuser_1_1models" kind="namespace"><name>user::models</name>
+  </compound>
+  <compound refid="namespaceuser_1_1MyBackend" kind="namespace"><name>user::MyBackend</name>
+  </compound>
+  <compound refid="namespaceuser_1_1permission" kind="namespace"><name>user::permission</name>
+  </compound>
+  <compound refid="namespaceuser_1_1serializers" kind="namespace"><name>user::serializers</name>
+  </compound>
+  <compound refid="namespaceuser_1_1signals" kind="namespace"><name>user::signals</name>
+    <member refid="namespaceuser_1_1signals_1a5a15b9f444d79db25836abba020571c7" kind="function"><name>notify_admin</name></member>
+  </compound>
+  <compound refid="namespaceuser_1_1tests" kind="namespace"><name>user::tests</name>
+  </compound>
+  <compound refid="namespaceuser_1_1urls" kind="namespace"><name>user::urls</name>
+    <member refid="namespaceuser_1_1urls_1a248e74c816eda6ab3bd391c1d9efc2f6" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceuser_1_1urls_1a8f768fe416604807e9f185e87995c61a" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceuser_1_1views" kind="namespace"><name>user::views</name>
+  </compound>
+  <compound refid="namespaceviews" kind="namespace"><name>views</name>
+  </compound>
+  <compound refid="namespacewebhooks" kind="namespace"><name>webhooks</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1admin" kind="namespace"><name>webhooks::admin</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1apps" kind="namespace"><name>webhooks::apps</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1management" kind="namespace"><name>webhooks::management</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1management_1_1commands" kind="namespace"><name>webhooks::management::commands</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1management_1_1commands_1_1set__telegram__webhook" kind="namespace"><name>webhooks::management::commands::set_telegram_webhook</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1models" kind="namespace"><name>webhooks::models</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1tests" kind="namespace"><name>webhooks::tests</name>
+  </compound>
+  <compound refid="namespacewebhooks_1_1urls" kind="namespace"><name>webhooks::urls</name>
+    <member refid="namespacewebhooks_1_1urls_1a040467f63e23242f1424ff30c6e109cf" kind="variable"><name>app_name</name></member>
+    <member refid="namespacewebhooks_1_1urls_1abdf2a44ddd69a86af3032dc9ffefa986" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacewebhooks_1_1views" kind="namespace"><name>webhooks::views</name>
+  </compound>
+  <compound refid="0002__alter__mainattendance__attendance__type_8py" kind="file"><name>0002_alter_mainattendance_attendance_type.py</name>
+  </compound>
+  <compound refid="0003__alter__mainattendance__date__of__producing__and__more_8py" kind="file"><name>0003_alter_mainattendance_date_of_producing_and_more.py</name>
+  </compound>
+  <compound refid="0004__alter__studentattendance__date__of__marking_8py" kind="file"><name>0004_alter_studentattendance_date_of_marking.py</name>
+  </compound>
+  <compound refid="0005__alter__hodattendance__date__of__marking__and__more_8py" kind="file"><name>0005_alter_hodattendance_date_of_marking_and_more.py</name>
+  </compound>
+  <compound refid="0006__alter__hodattendance__table__alter__mainattendance__table__and__more_8py" kind="file"><name>0006_alter_hodattendance_table_alter_mainattendance_table_and_more.py</name>
+  </compound>
+  <compound refid="0007__alter__hodattendance__table__alter__mainattendance__table__and__more_8py" kind="file"><name>0007_alter_hodattendance_table_alter_mainattendance_table_and_more.py</name>
+  </compound>
+  <compound refid="0008__mainattendance__classroom_8py" kind="file"><name>0008_mainattendance_classroom.py</name>
+  </compound>
+  <compound refid="0009__alter__studentattendance__student__and__more_8py" kind="file"><name>0009_alter_studentattendance_student_and_more.py</name>
+  </compound>
+  <compound refid="test__attendance_8py" kind="file"><name>test_attendance.py</name>
+  </compound>
+  <compound refid="consumers_8py" kind="file"><name>consumers.py</name>
+  </compound>
+  <compound refid="middleware_8py" kind="file"><name>middleware.py</name>
+  </compound>
+  <compound refid="0002__alter__room__name_8py" kind="file"><name>0002_alter_room_name.py</name>
+  </compound>
+  <compound refid="0003__room__created__by__alter__room__online_8py" kind="file"><name>0003_room_created_by_alter_room_online.py</name>
+  </compound>
+  <compound refid="0004__room__type_8py" kind="file"><name>0004_room_type.py</name>
+  </compound>
+  <compound refid="routing_8py" kind="file"><name>routing.py</name>
+  </compound>
+  <compound refid="tasks_8py" kind="file"><name>tasks.py</name>
+  </compound>
+  <compound refid="0002__alter__classroom__name_8py" kind="file"><name>0002_alter_classroom_name.py</name>
+  </compound>
+  <compound refid="asgi_8py" kind="file"><name>asgi.py</name>
+  </compound>
+  <compound refid="assignment_8py" kind="file"><name>assignment.py</name>
+  </compound>
+  <compound refid="celery_8py" kind="file"><name>celery.py</name>
+  </compound>
+  <compound refid="file__type__detector_8py" kind="file"><name>file_type_detector.py</name>
+  </compound>
+  <compound refid="wsgi_8py" kind="file"><name>wsgi.py</name>
+  </compound>
+  <compound refid="assignment_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="chat_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="classroom_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="exam_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="exchange_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="user_2serializers_8py" kind="file"><name>serializers.py</name>
+  </compound>
+  <compound refid="0002__rename__questoin__id__comment__question__and__more_8py" kind="file"><name>0002_rename_questoin_id_comment_question_and_more.py</name>
+  </compound>
+  <compound refid="0003__alter__question__tag_8py" kind="file"><name>0003_alter_question_tag.py</name>
+  </compound>
+  <compound refid="exchange_2signals_8py" kind="file"><name>signals.py</name>
+  </compound>
+  <compound refid="user_2signals_8py" kind="file"><name>signals.py</name>
+  </compound>
+  <compound refid="assignment_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="attendance_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="chat_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="classroom_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="exam_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="exchange_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="grade_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="user_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="0002__alter__mark__student__alter__mark__teacher_8py" kind="file"><name>0002_alter_mark_student_alter_mark_teacher.py</name>
+  </compound>
+  <compound refid="0003__alter__mark__student__alter__mark__teacher_8py" kind="file"><name>0003_alter_mark_student_alter_mark_teacher.py</name>
+  </compound>
+  <compound refid="0004__alter__mark__student_8py" kind="file"><name>0004_alter_mark_student.py</name>
+  </compound>
+  <compound refid="attendance_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="chat_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="classroom_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="exchange_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="grade_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="user_2permission_8py" kind="file"><name>permission.py</name>
+  </compound>
+  <compound refid="attendance_2serializer_8py" kind="file"><name>serializer.py</name>
+  </compound>
+  <compound refid="grade_2serializer_8py" kind="file"><name>serializer.py</name>
+  </compound>
+  <compound refid="manage_8py" kind="file"><name>manage.py</name>
+  </compound>
+  <compound refid="0002__alter__account__user__type__hod__student__teacher_8py" kind="file"><name>0002_alter_account_user_type_hod_student_teacher.py</name>
+  </compound>
+  <compound refid="0003__alter__account__is__staff_8py" kind="file"><name>0003_alter_account_is_staff.py</name>
+  </compound>
+  <compound refid="0004__subject__alter__hod__options__alter__teacher__options__and__more_8py" kind="file"><name>0004_subject_alter_hod_options_alter_teacher_options_and_more.py</name>
+  </compound>
+  <compound refid="0005__rename__subject__subject__name_8py" kind="file"><name>0005_rename_subject_subject_name.py</name>
+  </compound>
+  <compound refid="0006__student__classroom__teacher__classroom_8py" kind="file"><name>0006_student_classroom_teacher_classroom.py</name>
+  </compound>
+  <compound refid="0007__alter__student__classroom_8py" kind="file"><name>0007_alter_student_classroom.py</name>
+  </compound>
+  <compound refid="0008__alter__student__classroom_8py" kind="file"><name>0008_alter_student_classroom.py</name>
+  </compound>
+  <compound refid="0009__alter__account__user__type__parent__student__parent_8py" kind="file"><name>0009_alter_account_user_type_parent_student_parent.py</name>
+  </compound>
+  <compound refid="0010__remove__parent__phone__number_8py" kind="file"><name>0010_remove_parent_phone_number.py</name>
+  </compound>
+  <compound refid="0011__alter__student__parent__delete__parent_8py" kind="file"><name>0011_alter_student_parent_delete_parent.py</name>
+  </compound>
+  <compound refid="0012__student__assignment_8py" kind="file"><name>0012_student_assignment.py</name>
+  </compound>
+  <compound refid="MyBackend_8py" kind="file"><name>MyBackend.py</name>
+  </compound>
+  <compound refid="assignment_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="attendance_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="chat_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="classroom_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="exam_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="exchange_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="grade_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="payment_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="user_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="webhooks_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="assignment_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="attendance_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="chat_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="classroom_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="exam_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="exchange_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="grade_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="payment_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="user_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="webhooks_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="set__telegram__webhook_8py" kind="file"><name>set_telegram_webhook.py</name>
+  </compound>
+  <compound refid="assignment_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="assignment_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="attendance_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="attendance_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="attendance_2tests_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="chat_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="chat_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="classroom_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="classroom_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="college_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="exam_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="exam_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="exchange_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="exchange_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="grade_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="grade_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="payment_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="payment_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="user_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="user_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="webhooks_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="webhooks_2management_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="webhooks_2management_2commands_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="webhooks_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="assignment_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="attendance_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="chat_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="classroom_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="exam_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="exchange_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="grade_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="payment_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="user_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="webhooks_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="assignment_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="chat_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="classroom_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="exam_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="exchange_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="grade_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="payment_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="user_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="webhooks_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="assignment_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="attendance_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="chat_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="classroom_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="college_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="exam_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="exchange_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="grade_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="payment_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="user_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="webhooks_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="assignment_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="attendance_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="chat_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="classroom_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="exam_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="exchange_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="grade_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="payment_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="user_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="webhooks_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="dir_a7039c525c66631d6a920e9aee74afc2" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment</name>
+  </compound>
+  <compound refid="dir_c90a69987213d5eacaadbdca85b80b33" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance</name>
+  </compound>
+  <compound refid="dir_5abc19d3b1f3c23515fdba0ec323bb6d" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat</name>
+  </compound>
+  <compound refid="dir_f98ca48ec59f7d75fa8a04dcc9213b07" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom</name>
+  </compound>
+  <compound refid="dir_4649b9461b7228cdc7438f00ff8ca9f7" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college</name>
+  </compound>
+  <compound refid="dir_9476aa4c8a6bd6e505aa48c08a90afed" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands</name>
+  </compound>
+  <compound refid="dir_3160afcdc0b3eefc05f4be8102ad4b8b" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project</name>
+  </compound>
+  <compound refid="dir_85b4eece0205c2e7444c9967b0aa2fb2" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam</name>
+  </compound>
+  <compound refid="dir_750cb86727cffb887c0c8e837c38ba1d" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange</name>
+  </compound>
+  <compound refid="dir_a3e959986e533203eea4a26012de2973" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade</name>
+  </compound>
+  <compound refid="dir_1fb219ca498eb51d6976a4acd9ddfcd8" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management</name>
+  </compound>
+  <compound refid="dir_55739097199ccb14f2dd6a7f55398c57" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/migrations</name>
+  </compound>
+  <compound refid="dir_775e61cfacc3ead6e45107719edd6a10" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations</name>
+  </compound>
+  <compound refid="dir_7e122928b15cac2097857e2e02d9fde3" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations</name>
+  </compound>
+  <compound refid="dir_46e8bd9498e3a0d7f17a7b68b1416512" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/migrations</name>
+  </compound>
+  <compound refid="dir_b681f272a742d40f383a3cc68487c36b" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/migrations</name>
+  </compound>
+  <compound refid="dir_c34cc6a17b8fdecf9a99abbd23633c06" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/migrations</name>
+  </compound>
+  <compound refid="dir_07d0eb8934ba8427f09cb43c73c0b2f6" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations</name>
+  </compound>
+  <compound refid="dir_538cf38914974bb09d1592c3fda5de75" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/migrations</name>
+  </compound>
+  <compound refid="dir_9bd3dc27395e6ed9dba9af9419458063" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations</name>
+  </compound>
+  <compound refid="dir_62da4be7eea4130cb28cd2ca480f65f8" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/migrations</name>
+  </compound>
+  <compound refid="dir_febb6b43c38c90b14ff92237d82f14a2" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment</name>
+  </compound>
+  <compound refid="dir_9573b10d02866a43ab6474386d17b3fa" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests</name>
+  </compound>
+  <compound refid="dir_9092d353ee3b7fd65f853dffbc0fb144" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user</name>
+  </compound>
+  <compound refid="dir_4d95ce356d29cff5c6bf005dfc56d11f" kind="dir"><name>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1serializers_1_1RoomSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>chat::serializers::RoomSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.serializers.RoomSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>chat.serializers.RoomSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classchat_1_1models_1_1Room" kindref="compound">Room</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list chat.serializers.RoomSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>chat.serializers.RoomSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;name&apos;, &apos;type&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>chat.serializers.RoomSerializer.Meta</label>
+        <link refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/serializers.py" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1ac81356c6821b29adc4791a8cbf8835a7" prot="public" virt="non-virtual"><scope>chat::serializers::RoomSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf" prot="public" virt="non-virtual"><scope>chat::serializers::RoomSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

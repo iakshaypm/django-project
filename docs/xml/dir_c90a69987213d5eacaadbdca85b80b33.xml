@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_c90a69987213d5eacaadbdca85b80b33" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance</compoundname>
+    <innerdir refid="dir_775e61cfacc3ead6e45107719edd6a10">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations</innerdir>
+    <innerdir refid="dir_9573b10d02866a43ab6474386d17b3fa">/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests</innerdir>
+    <innerfile refid="attendance_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="attendance_2admin_8py">admin.py</innerfile>
+    <innerfile refid="attendance_2apps_8py">apps.py</innerfile>
+    <innerfile refid="attendance_2models_8py">models.py</innerfile>
+    <innerfile refid="attendance_2permission_8py">permission.py</innerfile>
+    <innerfile refid="attendance_2serializer_8py">serializer.py</innerfile>
+    <innerfile refid="attendance_2urls_8py">urls.py</innerfile>
+    <innerfile refid="attendance_2views_8py">views.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/"/>
+  </compounddef>
+</doxygen>

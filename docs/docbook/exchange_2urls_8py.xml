@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_exchange_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceexchange">exchange</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceexchange_1_1urls">exchange.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceexchange_1_1urls_1ad9403c81b3eed49aae26584b348fb640">exchange.urls.app_name</link> = &apos;exchange&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceexchange_1_1urls_1a0db96013734b922f215f6c341e53cdb5">exchange.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

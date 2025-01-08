@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_55739097199ccb14f2dd6a7f55398c57" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/migrations</compoundname>
+    <innerfile refid="assignment_2migrations_20001__initial_8py">0001_initial.py</innerfile>
+    <innerfile refid="assignment_2migrations_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/migrations/"/>
+  </compounddef>
+</doxygen>

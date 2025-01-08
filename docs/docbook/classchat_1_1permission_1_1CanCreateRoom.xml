@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1permission_1_1CanCreateRoom" xml:lang="en-US">
+<title>chat.permission.CanCreateRoom Class Reference</title>
+<indexterm><primary>chat.permission.CanCreateRoom</primary></indexterm>
+Inheritance diagram for chat.permission.CanCreateRoom:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1permission_1_1CanCreateRoom__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.permission.CanCreateRoom:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1permission_1_1CanCreateRoom__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1permission_1_1CanCreateRoom_1a1e5e0456ee22e31b0a3cb2b9a41c0ffb">has_permission</link> (self, request, view)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classchat_1_1permission_1_1CanCreateRoom_1a1e5e0456ee22e31b0a3cb2b9a41c0ffb"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>chat.permission.CanCreateRoom</secondary></indexterm>
+<indexterm><primary>chat.permission.CanCreateRoom</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>chat.permission.CanCreateRoom.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2permission_8py">permission.py</link></section>
+</section>

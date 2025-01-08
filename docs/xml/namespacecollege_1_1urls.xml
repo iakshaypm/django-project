@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1urls" kind="namespace" language="Python">
+    <compoundname>college::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecollege_1_1urls_1a5990d5fdc3ddf335c4017159284aae1f" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list college::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>college.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;admin/&apos;, admin.site.urls),
+    path(&apos;users/&apos;, include(&apos;user.urls&apos;)),
+    path(&apos;exchange/&apos;, include(&apos;exchange.urls&apos;)),
+    path(&apos;grade/&apos;, include(&apos;grade.urls&apos;)),
+    path(&apos;attendance/&apos;, include(&apos;attendance.urls&apos;)),
+    path(&apos;classroom/&apos;, include(&apos;classroom.urls&apos;)),
+    path(&apos;chat/&apos;, include(&apos;chat.urls&apos;)),
+    path(&apos;payment/&apos;, include(&apos;payment.urls&apos;)),
+    path(&apos;exam/&apos;, include(&apos;exam.urls&apos;)),
+    path(&apos;assignment/&apos;, include(&apos;assignment.urls&apos;)),
+    path(&apos;assistant/&apos;, include(&apos;webhooks.urls&apos;)),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/urls.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/urls.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>URL configuration for college project.
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/5.0/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path(&apos;&apos;, views.home, name=&apos;home&apos;)
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path(&apos;&apos;, Home.as_view(), name=&apos;home&apos;)
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path(&apos;blog/&apos;, include(&apos;blog.urls&apos;))
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

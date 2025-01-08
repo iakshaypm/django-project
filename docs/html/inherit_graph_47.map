@@ -1,0 +1,27 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,307,123,333"/>
+<area shape="rect" id="Node000001" href="$classassignment_1_1views_1_1AssignmentCreate.html" title=" " alt="" coords="195,5,417,45"/>
+<area shape="poly" id="edge142_Node000000_Node000001" title=" " alt="" coords="65,293,74,243,92,178,122,112,144,82,169,55,193,40,196,44,172,59,148,85,127,115,97,180,79,244,71,294"/>
+<area shape="rect" id="Node000002" href="$classassignment_1_1views_1_1AssignmentMarkCreate.html" title=" " alt="" coords="195,69,417,109"/>
+<area shape="poly" id="edge143_Node000000_Node000002" title=" " alt="" coords="69,293,82,254,102,207,131,159,169,119,194,105,196,109,172,123,135,163,107,209,87,256,74,294"/>
+<area shape="rect" id="Node000003" href="$classexam_1_1views_1_1ExamCreateView.html" title=" " alt="" coords="197,134,415,159"/>
+<area shape="poly" id="edge144_Node000000_Node000003" title=" " alt="" coords="73,293,109,230,136,196,169,168,196,156,198,160,172,173,140,200,113,233,78,296"/>
+<area shape="rect" id="Node000004" href="$classexchange_1_1views_1_1CommentCreateView.html" title=" " alt="" coords="171,183,441,209"/>
+<area shape="poly" id="edge145_Node000000_Node000004" title=" " alt="" coords="81,294,119,254,143,234,169,218,199,206,201,211,172,222,146,238,123,258,85,298"/>
+<area shape="rect" id="Node000005" href="$classexchange_1_1views_1_1QuestionCreateView.html" title=" " alt="" coords="174,233,438,258"/>
+<area shape="poly" id="edge146_Node000000_Node000005" title=" " alt="" coords="98,298,170,267,214,255,215,261,172,272,101,303"/>
+<area shape="rect" id="Node000006" href="$classexchange_1_1views_1_1UpvoteCreateView.html" title=" " alt="" coords="179,282,433,307"/>
+<area shape="poly" id="edge147_Node000000_Node000006" title=" " alt="" coords="137,310,185,305,185,310,137,315"/>
+<area shape="rect" id="Node000007" href="$classgrade_1_1views_1_1MarkCreateView.html" title=" " alt="" coords="199,331,413,357"/>
+<area shape="poly" id="edge148_Node000000_Node000007" title=" " alt="" coords="137,325,199,331,199,336,137,330"/>
+<area shape="rect" id="Node000008" href="$classuser_1_1views_1_1HODRegister.html" title=" " alt="" coords="217,381,395,406"/>
+<area shape="poly" id="edge149_Node000000_Node000008" title=" " alt="" coords="102,336,172,365,221,378,220,383,170,371,100,341"/>
+<area shape="rect" id="Node000009" href="$classuser_1_1views_1_1RegisterView.html" title=" " alt="" coords="215,430,397,455"/>
+<area shape="poly" id="edge150_Node000000_Node000009" title=" " alt="" coords="86,342,123,380,146,399,172,415,216,430,214,435,170,420,143,404,119,384,82,345"/>
+<area shape="rect" id="Node000010" href="$classuser_1_1views_1_1StudentRegister.html" title=" " alt="" coords="207,479,405,505"/>
+<area shape="poly" id="edge151_Node000000_Node000010" title=" " alt="" coords="78,344,114,406,140,438,172,464,208,480,205,485,169,469,136,442,109,409,74,346"/>
+<area shape="rect" id="Node000011" href="$classuser_1_1views_1_1TeacherRegister.html" title=" " alt="" coords="207,529,405,554"/>
+<area shape="poly" id="edge152_Node000000_Node000011" title=" " alt="" coords="74,346,86,384,106,430,135,476,152,496,172,514,208,531,205,536,169,518,148,500,130,479,101,433,81,386,69,347"/>
+<area shape="rect" id="Node000012" href="$classuser_1_1views_1_1UserView.html" title=" " alt="" coords="227,578,385,603"/>
+<area shape="poly" id="edge153_Node000000_Node000012" title=" " alt="" coords="71,347,81,394,99,453,129,513,149,540,172,563,198,578,228,586,227,591,196,583,169,567,145,544,124,516,94,455,75,396,66,348"/>
+</map>

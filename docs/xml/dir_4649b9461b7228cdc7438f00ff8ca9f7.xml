@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_4649b9461b7228cdc7438f00ff8ca9f7" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college</compoundname>
+    <innerfile refid="college_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="asgi_8py">asgi.py</innerfile>
+    <innerfile refid="assignment_8py">assignment.py</innerfile>
+    <innerfile refid="celery_8py">celery.py</innerfile>
+    <innerfile refid="file__type__detector_8py">file_type_detector.py</innerfile>
+    <innerfile refid="college_2urls_8py">urls.py</innerfile>
+    <innerfile refid="wsgi_8py">wsgi.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/"/>
+  </compounddef>
+</doxygen>

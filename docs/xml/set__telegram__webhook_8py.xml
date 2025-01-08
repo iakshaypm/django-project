@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="set__telegram__webhook_8py" kind="file" language="Python">
+    <compoundname>set_telegram_webhook.py</compoundname>
+    <innerclass refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" prot="public">webhooks::management::commands::set_telegram_webhook::Command</innerclass>
+    <innernamespace refid="namespacewebhooks">webhooks</innernamespace>
+    <innernamespace refid="namespacewebhooks_1_1management">webhooks::management</innernamespace>
+    <innernamespace refid="namespacewebhooks_1_1management_1_1commands">webhooks::management::commands</innernamespace>
+    <innernamespace refid="namespacewebhooks_1_1management_1_1commands_1_1set__telegram__webhook">webhooks::management::commands::set_telegram_webhook</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacewebhooks_1_1management" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.core.management<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>BaseCommand</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" kindref="compound">Command</ref>(BaseCommand):</highlight></codeline>
+<codeline lineno="9" refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>help<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Set<sp/>new<sp/>telegram<sp/>webhook&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2" kindref="member">add_arguments</ref>(self,<sp/>parser)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser.add_argument(</highlight><highlight class="stringliteral">&quot;root_url&quot;</highlight><highlight class="normal">,<sp/>type=str)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea" kindref="member">handle</ref>(self,<sp/>*args,<sp/>**options):</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>root_url<sp/>=<sp/>options[</highlight><highlight class="stringliteral">&quot;root_url&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>webhook_path<sp/>=<sp/>reverse(</highlight><highlight class="stringliteral">&quot;webhooks:telegram_webhook&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>webhook_url<sp/>=<sp/>f</highlight><highlight class="stringliteral">&quot;{root_url}{webhook_path}&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set_webhook_api<sp/>=<sp/>f</highlight><highlight class="stringliteral">&quot;https://api.telegram.org/bot{settings.TELEGRAM_API_TOKEN}/setWebhook&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.stdout.write(f</highlight><highlight class="stringliteral">&quot;Setting<sp/>webhook<sp/>url<sp/>{webhook_url}\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>url<sp/>=<sp/>requests.post(set_webhook_api,<sp/>data={</highlight><highlight class="stringliteral">&quot;url&quot;</highlight><highlight class="normal">:<sp/>webhook_url})</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexam_1_1serializers_1_1ExamSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>exam::serializers::ExamSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exam.serializers.ExamSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>exam.serializers.ExamSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classexam_1_1models_1_1Exam" kindref="compound">Exam</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list exam.serializers.ExamSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>exam.serializers.ExamSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;name&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>exam.serializers.ExamSerializer.Meta</label>
+        <link refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701" prot="public" virt="non-virtual"><scope>exam::serializers::ExamSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02" prot="public" virt="non-virtual"><scope>exam::serializers::ExamSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1permission_1_1CanUpvote" xml:lang="en-US">
+<title>grade.permission.CanUpvote Class Reference</title>
+<indexterm><primary>grade.permission.CanUpvote</primary></indexterm>
+Inheritance diagram for grade.permission.CanUpvote:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1CanUpvote__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.permission.CanUpvote:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1CanUpvote__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1permission_1_1CanUpvote_1a1a72f9296e1f24fd38835c7ca7c2fbe8">has_object_permission</link> (self, request, view, obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgrade_1_1permission_1_1CanUpvote_1a1a72f9296e1f24fd38835c7ca7c2fbe8"/><section>
+    <title>has_object_permission()</title>
+<indexterm><primary>has_object_permission</primary><secondary>grade.permission.CanUpvote</secondary></indexterm>
+<indexterm><primary>grade.permission.CanUpvote</primary><secondary>has_object_permission</secondary></indexterm>
+<para><computeroutput>grade.permission.CanUpvote.has_object_permission ( self,  request,  view,  obj)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2permission_8py">permission.py</link></section>
+</section>

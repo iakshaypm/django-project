@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1views_1_1CommentListView" xml:lang="en-US">
+<title>exchange.views.CommentListView Class Reference</title>
+<indexterm><primary>exchange.views.CommentListView</primary></indexterm>
+Inheritance diagram for exchange.views.CommentListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentListView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.views.CommentListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentListView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentListView_1a39a6417e1f74e7095c0456417d128f5f">queryset</link> = Comment.objects.all()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classexchange_1_1views_1_1CommentListView_1ab1adfa6a94de5b9ca785e6650f42a1e3">permission_classes</link> = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentListView_1af95547ee6bc07a189175e9eeb376edd3">serializer_class</link> = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1CommentListView_1ab1adfa6a94de5b9ca785e6650f42a1e3"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exchange.views.CommentListView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentListView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exchange.views.CommentListView.permission_classes = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentListView_1a39a6417e1f74e7095c0456417d128f5f"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>exchange.views.CommentListView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentListView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentListView.queryset = Comment.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentListView_1af95547ee6bc07a189175e9eeb376edd3"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>exchange.views.CommentListView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentListView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentListView.serializer_class = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2views_8py">views.py</link></section>
+</section>

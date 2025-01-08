@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceexchange_1_1urls" xml:lang="en-US">
+<title>exchange.urls Namespace Reference</title>
+<indexterm><primary>exchange.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceexchange_1_1urls_1ad9403c81b3eed49aae26584b348fb640">app_name</link> = &apos;exchange&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceexchange_1_1urls_1a0db96013734b922f215f6c341e53cdb5">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceexchange_1_1urls_1ad9403c81b3eed49aae26584b348fb640"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>exchange.urls</secondary></indexterm>
+<indexterm><primary>exchange.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str exchange.urls.app_name = &apos;exchange&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceexchange_1_1urls_1a0db96013734b922f215f6c341e53cdb5"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>exchange.urls</secondary></indexterm>
+<indexterm><primary>exchange.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list exchange.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;question/add/&apos;</emphasis>,&#32;views.QuestionCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;create-question&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;questions/show/&apos;</emphasis>,&#32;views.QuestionListView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;list-question&apos;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;question/&lt;int:pk&gt;/show&apos;</emphasis>,&#32;views.QuestionRetrieveView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;show-question&apos;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;question/&lt;int:pk&gt;/edit&apos;</emphasis>,&#32;views.QuestionUpdateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;edit-question&apos;</emphasis>),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;question/&lt;int:pk&gt;/delete&apos;</emphasis>,&#32;views.QuestionDeleteView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;delete-question&apos;</emphasis>),
+7 
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;comment/add/&apos;</emphasis>,&#32;views.CommentCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-comment&apos;</emphasis>),
+9 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;comment/show/&apos;</emphasis>,&#32;views.CommentListView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;list-comment&apos;</emphasis>),
+10 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;comment/&lt;int:pk&gt;/show&apos;</emphasis>,&#32;views.CommentRetrieveView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;show-comment&apos;</emphasis>),
+11 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;comment/&lt;int:pk&gt;/update&apos;</emphasis>,&#32;views.CommentUpdateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;update-comment&apos;</emphasis>),
+12 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;comment/&lt;int:pk&gt;/delete&apos;</emphasis>,&#32;views.CommentDeleteView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;delete-comment&apos;</emphasis>),
+13 
+14 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;upvote/add/&apos;</emphasis>,&#32;views.UpvoteCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-upvote&apos;</emphasis>),
+15 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;upvote/&lt;int:pk&gt;/delete&apos;</emphasis>,&#32;views.UpvoteDeleteView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;remove-upvote&apos;</emphasis>),
+16 ]
+</programlisting></section>
+</section>
+</section>

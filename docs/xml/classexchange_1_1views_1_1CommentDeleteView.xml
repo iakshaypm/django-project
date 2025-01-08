@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1CommentDeleteView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::CommentDeleteView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.DestroyAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentDeleteView_1ad007f7526507e11a64cbd99a3c3a3bb7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.CommentDeleteView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>exchange.views.CommentDeleteView.queryset</qualifiedname>
+        <initializer>=  Comment.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="101" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentDeleteView_1ad974d8a019f599b19c8dc3d8f265ae2f" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.CommentDeleteView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.CommentDeleteView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1CanAccessComment" kindref="compound">CanAccessComment</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="102" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1CommentDeleteView_1a83af1e1974876a992d53d2bab7bb10bf" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.CommentDeleteView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>exchange.views.CommentDeleteView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1serializers_1_1CommentSerializer" kindref="compound">CommentSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="103" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1views_1_1CommentDeleteView_1ab0489dba05150618b917d342c7476cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.views.CommentDeleteView.delete</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>delete</name>
+        <qualifiedname>exchange.views.CommentDeleteView.delete</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="105" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="105" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.CommentDeleteView</label>
+        <link refid="classexchange_1_1views_1_1CommentDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::DestroyAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.CommentDeleteView</label>
+        <link refid="classexchange_1_1views_1_1CommentDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::DestroyAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="100" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="100" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1CommentDeleteView_1ab0489dba05150618b917d342c7476cac" prot="public" virt="non-virtual"><scope>exchange::views::CommentDeleteView</scope><name>delete</name></member>
+      <member refid="classexchange_1_1views_1_1CommentDeleteView_1ad974d8a019f599b19c8dc3d8f265ae2f" prot="public" virt="non-virtual"><scope>exchange::views::CommentDeleteView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1CommentDeleteView_1ad007f7526507e11a64cbd99a3c3a3bb7" prot="public" virt="non-virtual"><scope>exchange::views::CommentDeleteView</scope><name>queryset</name></member>
+      <member refid="classexchange_1_1views_1_1CommentDeleteView_1a83af1e1974876a992d53d2bab7bb10bf" prot="public" virt="non-virtual"><scope>exchange::views::CommentDeleteView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

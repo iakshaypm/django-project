@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgrade_1_1views_1_1MarkListView" kind="class" language="Python" prot="public">
+    <compoundname>grade::views::MarkListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.ListAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkListView_1ac7ceb37ae31113d67a4d495e51731f33" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>grade.views.MarkListView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>grade.views.MarkListView.queryset</qualifiedname>
+        <initializer>=  Mark.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkListView_1a04b6c6be18b8f10eecb49d4c72a98259" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple grade.views.MarkListView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>grade.views.MarkListView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classgrade_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkListView_1a8f1c316dbe9023efc849d1628a591d8b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>grade.views.MarkListView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>grade.views.MarkListView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classgrade_1_1serializer_1_1MarkSerializer" kindref="compound">MarkSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="28" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>generics.ListAPIView</label>
+      </node>
+      <node id="1">
+        <label>grade.views.MarkListView</label>
+        <link refid="classgrade_1_1views_1_1MarkListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>generics.ListAPIView</label>
+      </node>
+      <node id="1">
+        <label>grade.views.MarkListView</label>
+        <link refid="classgrade_1_1views_1_1MarkListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classgrade_1_1views_1_1MarkListView_1a04b6c6be18b8f10eecb49d4c72a98259" prot="public" virt="non-virtual"><scope>grade::views::MarkListView</scope><name>permission_classes</name></member>
+      <member refid="classgrade_1_1views_1_1MarkListView_1ac7ceb37ae31113d67a4d495e51731f33" prot="public" virt="non-virtual"><scope>grade::views::MarkListView</scope><name>queryset</name></member>
+      <member refid="classgrade_1_1views_1_1MarkListView_1a8f1c316dbe9023efc849d1628a591d8b" prot="public" virt="non-virtual"><scope>grade::views::MarkListView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

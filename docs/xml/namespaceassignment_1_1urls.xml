@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceassignment_1_1urls" kind="namespace" language="Python">
+    <compoundname>assignment::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceassignment_1_1urls_1a187bdf6b70304a9837b4a5564826b7d1" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str assignment::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>assignment.urls.app_name</qualifiedname>
+        <initializer>=  &apos;assignment&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceassignment_1_1urls_1a6674b6558998acf77c6412e5d9eaebe9" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list assignment::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>assignment.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;create/&apos;, views.AssignmentCreate.as_view(), name=&apos;create-assignment&apos;),
+    path(&apos;mark/add/&apos;, views.AssignmentMarkCreate.as_view(), name=&apos;add-assignment-mark&apos;),
+    path(&apos;mail/send/&apos;, <ref refid="namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8" kindref="member">views.simple_mail</ref>, name=&apos;send-mail&apos;)
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

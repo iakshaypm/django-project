@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classassignment_1_1views_1_1AssignmentMarkCreate" xml:lang="en-US">
+<title>assignment.views.AssignmentMarkCreate Class Reference</title>
+<indexterm><primary>assignment.views.AssignmentMarkCreate</primary></indexterm>
+Inheritance diagram for assignment.views.AssignmentMarkCreate:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1views_1_1AssignmentMarkCreate__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for assignment.views.AssignmentMarkCreate:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1views_1_1AssignmentMarkCreate__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classassignment_1_1views_1_1AssignmentMarkCreate_1abcd9a9f9ee58dfbaa8ab1a5fea44070e">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classassignment_1_1views_1_1AssignmentMarkCreate_1a2bea65a42f35f37ddafd76ed20770dac">permission_classes</link> = (IsAuthenticated,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classassignment_1_1views_1_1AssignmentMarkCreate_1abcd9a9f9ee58dfbaa8ab1a5fea44070e"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>assignment.views.AssignmentMarkCreate</secondary></indexterm>
+<indexterm><primary>assignment.views.AssignmentMarkCreate</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>assignment.views.AssignmentMarkCreate.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classassignment_1_1views_1_1AssignmentMarkCreate_1a2bea65a42f35f37ddafd76ed20770dac"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>assignment.views.AssignmentMarkCreate</secondary></indexterm>
+<indexterm><primary>assignment.views.AssignmentMarkCreate</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple assignment.views.AssignmentMarkCreate.permission_classes = (IsAuthenticated,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/<link linkend="_assignment_2views_8py">views.py</link></section>
+</section>

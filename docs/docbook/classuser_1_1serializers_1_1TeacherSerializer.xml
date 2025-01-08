@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1TeacherSerializer" xml:lang="en-US">
+<title>user.serializers.TeacherSerializer Class Reference</title>
+<indexterm><primary>user.serializers.TeacherSerializer</primary></indexterm>
+Inheritance diagram for user.serializers.TeacherSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1TeacherSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.serializers.TeacherSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1TeacherSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1TeacherSerializer_1a145bd3e82fc1105628dbd649937ae4e5">validate</link> (self, attrs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1TeacherSerializer_1a145bd3e82fc1105628dbd649937ae4e5"/><section>
+    <title>validate()</title>
+<indexterm><primary>validate</primary><secondary>user.serializers.TeacherSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.TeacherSerializer</primary><secondary>validate</secondary></indexterm>
+<para><computeroutput>user.serializers.TeacherSerializer.validate ( self,  attrs)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

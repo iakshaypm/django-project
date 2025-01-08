@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1models_1_1MainAttendance_1_1Meta" xml:lang="en-US">
+<title>attendance.models.MainAttendance.Meta Class Reference</title>
+<indexterm><primary>attendance.models.MainAttendance.Meta</primary></indexterm>
+Collaboration diagram for attendance.models.MainAttendance.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1MainAttendance_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a">unique_together</link> = (&apos;<link linkend="_classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405">classroom</link>&apos;, &apos;<link linkend="_classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757">date_of_producing</link>&apos;,)</para>
+</listitem>
+            <listitem><para>str <link linkend="_classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241">db_table</link> = &quot;attendance_main&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241"/><section>
+    <title>db_table</title>
+<indexterm><primary>db_table</primary><secondary>attendance.models.MainAttendance.Meta</secondary></indexterm>
+<indexterm><primary>attendance.models.MainAttendance.Meta</primary><secondary>db_table</secondary></indexterm>
+<para><computeroutput>str attendance.models.MainAttendance.Meta.db_table = &quot;attendance_main&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a"/><section>
+    <title>unique_together</title>
+<indexterm><primary>unique_together</primary><secondary>attendance.models.MainAttendance.Meta</secondary></indexterm>
+<indexterm><primary>attendance.models.MainAttendance.Meta</primary><secondary>unique_together</secondary></indexterm>
+<para><computeroutput>tuple attendance.models.MainAttendance.Meta.unique_together = (&apos;<link linkend="_classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405">classroom</link>&apos;, &apos;<link linkend="_classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757">date_of_producing</link>&apos;,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2models_8py">models.py</link></section>
+</section>

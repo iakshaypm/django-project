@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1models_1_1StudentAttendance" xml:lang="en-US">
+<title>attendance.models.StudentAttendance Class Reference</title>
+<indexterm><primary>attendance.models.StudentAttendance</primary></indexterm>
+Inheritance diagram for attendance.models.StudentAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1StudentAttendance__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.models.StudentAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1StudentAttendance__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1StudentAttendance_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27">attendance</link> = models.OneToOneField(<link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link>, on_delete=models.DO_NOTHING)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0">student</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;student_attendance&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801">date_of_marking</link> = models.DateField(auto_now=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27"/><section>
+    <title>attendance</title>
+<indexterm><primary>attendance</primary><secondary>attendance.models.StudentAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.StudentAttendance</primary><secondary>attendance</secondary></indexterm>
+<para><computeroutput>attendance.models.StudentAttendance.attendance = models.OneToOneField(<link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link>, on_delete=models.DO_NOTHING)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801"/><section>
+    <title>date_of_marking</title>
+<indexterm><primary>date_of_marking</primary><secondary>attendance.models.StudentAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.StudentAttendance</primary><secondary>date_of_marking</secondary></indexterm>
+<para><computeroutput>attendance.models.StudentAttendance.date_of_marking = models.DateField(auto_now=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0"/><section>
+    <title>student</title>
+<indexterm><primary>student</primary><secondary>attendance.models.StudentAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.StudentAttendance</primary><secondary>student</secondary></indexterm>
+<para><computeroutput>attendance.models.StudentAttendance.student = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;student_attendance&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2models_8py">models.py</link></section>
+</section>

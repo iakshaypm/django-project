@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1serializers_1_1UpvoteSerializer" xml:lang="en-US">
+<title>exchange.serializers.UpvoteSerializer Class Reference</title>
+<indexterm><primary>exchange.serializers.UpvoteSerializer</primary></indexterm>
+Inheritance diagram for exchange.serializers.UpvoteSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1serializers_1_1UpvoteSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.serializers.UpvoteSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1serializers_1_1UpvoteSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7">validate</link> (self, attrs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7"/><section>
+    <title>validate()</title>
+<indexterm><primary>validate</primary><secondary>exchange.serializers.UpvoteSerializer</secondary></indexterm>
+<indexterm><primary>exchange.serializers.UpvoteSerializer</primary><secondary>validate</secondary></indexterm>
+<para><computeroutput>exchange.serializers.UpvoteSerializer.validate ( self,  attrs)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2serializers_8py">serializers.py</link></section>
+</section>

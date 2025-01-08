@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="attendance_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classattendance_1_1models_1_1MainAttendance" prot="public">attendance::models::MainAttendance</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1MainAttendance_1_1Meta" prot="public">attendance::models::MainAttendance::Meta</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1StudentAttendance" prot="public">attendance::models::StudentAttendance</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta" prot="public">attendance::models::StudentAttendance::Meta</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1TeacherAttendance" prot="public">attendance::models::TeacherAttendance</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta" prot="public">attendance::models::TeacherAttendance::Meta</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1HodAttendance" prot="public">attendance::models::HodAttendance</innerclass>
+    <innerclass refid="classattendance_1_1models_1_1HodAttendance_1_1Meta" prot="public">attendance::models::HodAttendance::Meta</innerclass>
+    <innernamespace refid="namespaceattendance">attendance</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1models">attendance::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceattendance_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1models" kindref="compound">user.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Account</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceclassroom_1_1models" kindref="compound">classroom.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Classroom</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classattendance_1_1models_1_1MainAttendance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1MainAttendance" kindref="compound">MainAttendance</ref>(models.Model):</highlight></codeline>
+<codeline lineno="9" refid="classattendance_1_1models_1_1MainAttendance_1aa3932a5c79cd2779bbbc158c05c8d86f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ATTENDANCE_TYPE_CHOOSES<sp/>=<sp/>(</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1,<sp/></highlight><highlight class="stringliteral">&apos;Student&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2,<sp/></highlight><highlight class="stringliteral">&apos;Teacher&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3,<sp/></highlight><highlight class="stringliteral">&apos;HOD&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="14" refid="classattendance_1_1models_1_1MainAttendance_1a0f34418ca2c9fca8b27e15684a5fe809" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>attendance_type<sp/>=<sp/>models.PositiveIntegerField(choices=ATTENDANCE_TYPE_CHOOSES)</highlight></codeline>
+<codeline lineno="15" refid="classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>date_of_producing<sp/>=<sp/>models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16" refid="classattendance_1_1models_1_1MainAttendance_1a069d73a17bd89c2a26f4d340fe173b0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>initiated_by<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="17" refid="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>classroom<sp/>=<sp/>models.OneToOneField(Classroom,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classattendance_1_1models_1_1MainAttendance_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1MainAttendance_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="20" refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unique_together<sp/>=<sp/>(</highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;date_of_producing&apos;</highlight><highlight class="normal">,)</highlight></codeline>
+<codeline lineno="21" refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db_table<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;attendance_main&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classattendance_1_1models_1_1StudentAttendance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1StudentAttendance" kindref="compound">StudentAttendance</ref>(models.Model):</highlight></codeline>
+<codeline lineno="25" refid="classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>attendance<sp/>=<sp/>models.OneToOneField(MainAttendance,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="26" refid="classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>student<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE,<sp/>related_name=</highlight><highlight class="stringliteral">&apos;student_attendance&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27" refid="classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>date_of_marking<sp/>=<sp/>models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="30" refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta_1aa47a9a006a64b3d36db95e5fdb8b8221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db_table<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;attendance_student&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classattendance_1_1models_1_1TeacherAttendance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1TeacherAttendance" kindref="compound">TeacherAttendance</ref>(models.Model):</highlight></codeline>
+<codeline lineno="34" refid="classattendance_1_1models_1_1TeacherAttendance_1a7cb3a646b2acfefc532e19bfeeedca6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>attendance<sp/>=<sp/>models.OneToOneField(MainAttendance,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="35" refid="classattendance_1_1models_1_1TeacherAttendance_1a6b5a740c159356ccabc1186bf8d48f4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>teacher<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="36" refid="classattendance_1_1models_1_1TeacherAttendance_1a70f90c19e4fcf728b1fb14a90822300e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>date_of_marking<sp/>=<sp/>models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="39" refid="classattendance_1_1models_1_1TeacherAttendance_1_1Meta_1a5909454de18d483a04edf6a1a88a01a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db_table<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;attendance_teacher&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classattendance_1_1models_1_1HodAttendance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1HodAttendance" kindref="compound">HodAttendance</ref>(models.Model):</highlight></codeline>
+<codeline lineno="43" refid="classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>attendance<sp/>=<sp/>models.OneToOneField(MainAttendance,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="44" refid="classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>hod<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="45" refid="classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>date_of_marking<sp/>=<sp/>models.DateField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classattendance_1_1models_1_1HodAttendance_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classattendance_1_1models_1_1HodAttendance_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="48" refid="classattendance_1_1models_1_1HodAttendance_1_1Meta_1a0bfc0b8f796349a697b69321de4cdc21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db_table<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;attendance_hod&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py"/>
+  </compounddef>
+</doxygen>

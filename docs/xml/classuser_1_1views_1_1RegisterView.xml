@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1views_1_1RegisterView" kind="class" language="Python" prot="public">
+    <compoundname>user::views::RegisterView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.views.RegisterView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>user.views.RegisterView.permission_classes</qualifiedname>
+        <initializer>=  [AllowAny]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.views.RegisterView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>user.views.RegisterView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="37" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="37" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>user.views.RegisterView</label>
+        <link refid="classuser_1_1views_1_1RegisterView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>user.views.RegisterView</label>
+        <link refid="classuser_1_1views_1_1RegisterView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="34" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08" prot="public" virt="non-virtual"><scope>user::views::RegisterView</scope><name>permission_classes</name></member>
+      <member refid="classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9" prot="public" virt="non-virtual"><scope>user::views::RegisterView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

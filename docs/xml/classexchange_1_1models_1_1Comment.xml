@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1models_1_1Comment" kind="class" language="Python" prot="public">
+    <compoundname>exchange::models::Comment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Comment::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <qualifiedname>exchange.models.Comment.content</qualifiedname>
+        <initializer>=  models.TextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Comment::question</definition>
+        <argsstring></argsstring>
+        <name>question</name>
+        <qualifiedname>exchange.models.Comment.question</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classexchange_1_1models_1_1Question" kindref="compound">Question</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Comment::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>exchange.models.Comment.user</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.models.Comment</label>
+        <link refid="classexchange_1_1models_1_1Comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.models.Comment</label>
+        <link refid="classexchange_1_1models_1_1Comment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d" prot="public" virt="non-virtual"><scope>exchange::models::Comment</scope><name>content</name></member>
+      <member refid="classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138" prot="public" virt="non-virtual"><scope>exchange::models::Comment</scope><name>question</name></member>
+      <member refid="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" prot="public" virt="non-virtual"><scope>exchange::models::Comment</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

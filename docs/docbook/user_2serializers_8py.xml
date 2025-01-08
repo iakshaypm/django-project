@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_user_2serializers_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1UserSerializer">user.serializers.UserSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1UserSerializer_1_1Meta">user.serializers.UserSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentSerializer">user.serializers.StudentSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentSerializer_1_1Meta">user.serializers.StudentSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1TeacherSerializer">user.serializers.TeacherSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta">user.serializers.TeacherSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1HODSerializer">user.serializers.HODSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1HODSerializer_1_1Meta">user.serializers.HODSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1ClassroomSerializer">user.serializers.ClassroomSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta">user.serializers.ClassroomSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1MarkSerializer">user.serializers.MarkSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1MarkSerializer_1_1Meta">user.serializers.MarkSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer">user.serializers.StudentAttendanceSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta">user.serializers.StudentAttendanceSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentViewSerializer">user.serializers.StudentViewSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta">user.serializers.StudentViewSerializer.Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceuser">user</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1serializers">user.serializers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_exam_2serializers_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexam_1_1serializers_1_1ExamSerializer">exam.serializers.ExamSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta">exam.serializers.ExamSerializer.Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceexam">exam</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceexam_1_1serializers">exam.serializers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

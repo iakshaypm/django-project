@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceclassroom" kind="namespace" language="Python">
+    <compoundname>classroom</compoundname>
+    <innernamespace refid="namespaceclassroom_1_1admin">classroom::admin</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1apps">classroom::apps</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1migrations">classroom::migrations</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1models">classroom::models</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1permission">classroom::permission</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1serializers">classroom::serializers</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1tests">classroom::tests</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1urls">classroom::urls</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1views">classroom::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

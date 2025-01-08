@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacechat_1_1urls" kind="namespace" language="Python">
+    <compoundname>chat::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacechat_1_1urls_1ab6d985bded5220bb026e4afc78244ec3" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list chat::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>chat.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;&apos;, <ref refid="namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d" kindref="member">views.index_view</ref>, name=&apos;chat-index&apos;),
+    path(&apos;create/&apos;, views.CreateRoomView.as_view(), name=&apos;chat-room&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/urls.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/urls.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

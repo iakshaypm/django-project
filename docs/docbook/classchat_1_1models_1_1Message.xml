@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1models_1_1Message" xml:lang="en-US">
+<title>chat.models.Message Class Reference</title>
+<indexterm><primary>chat.models.Message</primary></indexterm>
+Inheritance diagram for chat.models.Message:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1models_1_1Message__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.models.Message:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1models_1_1Message__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d">user</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a">room</link> = models.ForeignKey(<link linkend="_classchat_1_1models_1_1Room">Room</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Message_1abe8ae5f4e7f0c1cb388bcb5feecb516c">content</link> = models.CharField(max_length=512)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Message_1aa51021e71d8e95498c2fdad535647a70">timestamp</link> = models.DateTimeField(auto_now_add=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1models_1_1Message_1abe8ae5f4e7f0c1cb388bcb5feecb516c"/><section>
+    <title>content</title>
+<indexterm><primary>content</primary><secondary>chat.models.Message</secondary></indexterm>
+<indexterm><primary>chat.models.Message</primary><secondary>content</secondary></indexterm>
+<para><computeroutput>chat.models.Message.content = models.CharField(max_length=512)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a"/><section>
+    <title>room</title>
+<indexterm><primary>room</primary><secondary>chat.models.Message</secondary></indexterm>
+<indexterm><primary>chat.models.Message</primary><secondary>room</secondary></indexterm>
+<para><computeroutput>chat.models.Message.room = models.ForeignKey(<link linkend="_classchat_1_1models_1_1Room">Room</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Message_1aa51021e71d8e95498c2fdad535647a70"/><section>
+    <title>timestamp</title>
+<indexterm><primary>timestamp</primary><secondary>chat.models.Message</secondary></indexterm>
+<indexterm><primary>chat.models.Message</primary><secondary>timestamp</secondary></indexterm>
+<para><computeroutput>chat.models.Message.timestamp = models.DateTimeField(auto_now_add=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>chat.models.Message</secondary></indexterm>
+<indexterm><primary>chat.models.Message</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>chat.models.Message.user = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2models_8py">models.py</link></section>
+</section>

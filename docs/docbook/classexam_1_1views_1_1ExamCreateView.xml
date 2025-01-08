@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexam_1_1views_1_1ExamCreateView" xml:lang="en-US">
+<title>exam.views.ExamCreateView Class Reference</title>
+<indexterm><primary>exam.views.ExamCreateView</primary></indexterm>
+Inheritance diagram for exam.views.ExamCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1views_1_1ExamCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exam.views.ExamCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1views_1_1ExamCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092">post</link> (self, request)</para>
+</listitem>
+            <listitem><para><link linkend="_classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2">send_sms</link> (self, phone_number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classexam_1_1views_1_1ExamCreateView_1a0b8d2ec562babfe0e96f8a98711578f7">permission_classes</link> = (IsAuthenticated, <link linkend="_classuser_1_1permission_1_1IsTeacher">IsTeacher</link>,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexam_1_1views_1_1ExamCreateView_1a8004f8f477dbeb550650cd4c5c15d092"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>exam.views.ExamCreateView</secondary></indexterm>
+<indexterm><primary>exam.views.ExamCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>exam.views.ExamCreateView.post ( self,  request)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1views_1_1ExamCreateView_a8004f8f477dbeb550650cd4c5c15d092_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classexam_1_1views_1_1ExamCreateView_1a6dc52a826f3efbd6df31607300e9cef2"/><section>
+    <title>send_sms()</title>
+<indexterm><primary>send_sms</primary><secondary>exam.views.ExamCreateView</secondary></indexterm>
+<indexterm><primary>exam.views.ExamCreateView</primary><secondary>send_sms</secondary></indexterm>
+<para><computeroutput>exam.views.ExamCreateView.send_sms ( self,  phone_number)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1views_1_1ExamCreateView_a6dc52a826f3efbd6df31607300e9cef2_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexam_1_1views_1_1ExamCreateView_1a0b8d2ec562babfe0e96f8a98711578f7"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exam.views.ExamCreateView</secondary></indexterm>
+<indexterm><primary>exam.views.ExamCreateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exam.views.ExamCreateView.permission_classes = (IsAuthenticated, <link linkend="_classuser_1_1permission_1_1IsTeacher">IsTeacher</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/<link linkend="_exam_2views_8py">views.py</link></section>
+</section>

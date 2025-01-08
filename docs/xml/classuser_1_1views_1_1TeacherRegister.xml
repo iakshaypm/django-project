@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1views_1_1TeacherRegister" kind="class" language="Python" prot="public">
+    <compoundname>user::views::TeacherRegister</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple user.views.TeacherRegister::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>user.views.TeacherRegister.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classuser_1_1permission_1_1IsHOD" kindref="compound">IsHOD</ref> | <ref refid="classuser_1_1permission_1_1IsManagement" kindref="compound">IsManagement</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="63" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.views.TeacherRegister.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>user.views.TeacherRegister.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="65" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="65" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>user.views.TeacherRegister</label>
+        <link refid="classuser_1_1views_1_1TeacherRegister"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+      <node id="1">
+        <label>user.views.TeacherRegister</label>
+        <link refid="classuser_1_1views_1_1TeacherRegister"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="62" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="62" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041" prot="public" virt="non-virtual"><scope>user::views::TeacherRegister</scope><name>permission_classes</name></member>
+      <member refid="classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09" prot="public" virt="non-virtual"><scope>user::views::TeacherRegister</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

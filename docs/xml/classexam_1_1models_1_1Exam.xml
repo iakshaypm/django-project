@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexam_1_1models_1_1Exam" kind="class" language="Python" prot="public">
+    <compoundname>exam::models::Exam</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classexam_1_1models_1_1Exam_1_1Meta" prot="public">exam::models::Exam::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exam.models.Exam::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>exam.models.Exam.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=20, unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exam.models.Exam::classroom</definition>
+        <argsstring></argsstring>
+        <name>classroom</name>
+        <qualifiedname>exam.models.Exam.classroom</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classclassroom_1_1models_1_1Classroom" kindref="compound">Classroom</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exam.models.Exam</label>
+        <link refid="classexam_1_1models_1_1Exam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exam.models.Exam</label>
+        <link refid="classexam_1_1models_1_1Exam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89" prot="public" virt="non-virtual"><scope>exam::models::Exam</scope><name>classroom</name></member>
+      <member refid="classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631" prot="public" virt="non-virtual"><scope>exam::models::Exam</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

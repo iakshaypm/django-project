@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1models_1_1Account" kind="class" language="Python" prot="public">
+    <compoundname>user::models::Account</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractBaseUser</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">PermissionsMixin</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1a2c49a2e5ce3c6e2754e3b64e7d85c6a1" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple user.models.Account::USER_TYPE_CHOOSES</definition>
+        <argsstring></argsstring>
+        <name>USER_TYPE_CHOOSES</name>
+        <qualifiedname>user.models.Account.USER_TYPE_CHOOSES</qualifiedname>
+        <initializer>=  (
+        (1, &apos;<ref refid="classuser_1_1models_1_1Student" kindref="compound">Student</ref>&apos;),
+        (2, &apos;<ref refid="classuser_1_1models_1_1Teacher" kindref="compound">Teacher</ref>&apos;),
+        (3, &apos;<ref refid="classuser_1_1models_1_1HOD" kindref="compound">HOD</ref>&apos;),
+        (4, &apos;Management&apos;),
+        (5, &apos;Parent&apos;)
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="39" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1a500071aecd6de2dc80617070824b5c32" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <qualifiedname>user.models.Account.username</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="46" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1aea0a30bb46ad5067cae44e3c65de75ac" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <qualifiedname>user.models.Account.email</qualifiedname>
+        <initializer>=  models.EmailField(verbose_name=&apos;email&apos;, max_length=60, unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="47" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1afe457cd7b47cfa9409db7653c70b0f98" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>user.models.Account.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=60)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="48" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1a667b6b7af55e60b99ba019934b411467" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::phone_number</definition>
+        <argsstring></argsstring>
+        <name>phone_number</name>
+        <qualifiedname>user.models.Account.phone_number</qualifiedname>
+        <initializer>=  models.CharField(max_length=20, unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="49" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1af8f9bcc85da02f6394afc7adb8dc8182" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::is_active</definition>
+        <argsstring></argsstring>
+        <name>is_active</name>
+        <qualifiedname>user.models.Account.is_active</qualifiedname>
+        <initializer>=  models.BooleanField(default=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="50" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1a89b581e259059041656e336c1ea8b660" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::is_staff</definition>
+        <argsstring></argsstring>
+        <name>is_staff</name>
+        <qualifiedname>user.models.Account.is_staff</qualifiedname>
+        <initializer>=  models.BooleanField(default=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="51" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1aac889f864841893e92999e28d07ac080" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::is_superuser</definition>
+        <argsstring></argsstring>
+        <name>is_superuser</name>
+        <qualifiedname>user.models.Account.is_superuser</qualifiedname>
+        <initializer>=  models.BooleanField(default=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="52" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1a45acb9ca218b77306eb3bf44f0f7441d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::last_login</definition>
+        <argsstring></argsstring>
+        <name>last_login</name>
+        <qualifiedname>user.models.Account.last_login</qualifiedname>
+        <initializer>=  models.DateTimeField(verbose_name=&apos;last_login&apos;, auto_now=True, null=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="53" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1acad0315a733ef3bc43737554f48a608c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::user_type</definition>
+        <argsstring></argsstring>
+        <name>user_type</name>
+        <qualifiedname>user.models.Account.user_type</qualifiedname>
+        <initializer>=  models.PositiveIntegerField(choices=<ref refid="classuser_1_1models_1_1Account_1a2c49a2e5ce3c6e2754e3b64e7d85c6a1" kindref="member">USER_TYPE_CHOOSES</ref>, default=1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="54" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1aec0dc9bf359cbd614091c1382cd911a1" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str user.models.Account::USERNAME_FIELD</definition>
+        <argsstring></argsstring>
+        <name>USERNAME_FIELD</name>
+        <qualifiedname>user.models.Account.USERNAME_FIELD</qualifiedname>
+        <initializer>=  &apos;<ref refid="classuser_1_1models_1_1Account_1aea0a30bb46ad5067cae44e3c65de75ac" kindref="member">email</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="56" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1afa13561d3cfa9312ced0f56756f9f4ba" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.models.Account::REQUIRED_FIELDS</definition>
+        <argsstring></argsstring>
+        <name>REQUIRED_FIELDS</name>
+        <qualifiedname>user.models.Account.REQUIRED_FIELDS</qualifiedname>
+        <initializer>=  [&apos;<ref refid="classuser_1_1models_1_1Account_1a667b6b7af55e60b99ba019934b411467" kindref="member">phone_number</ref>&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="57" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Account_1adaa98c8dec8c14ce0cc64a0d1bf4f013" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Account::objects</definition>
+        <argsstring></argsstring>
+        <name>objects</name>
+        <qualifiedname>user.models.Account.objects</qualifiedname>
+        <initializer>=  <ref refid="classuser_1_1models_1_1MyAccountManager" kindref="compound">MyAccountManager</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="58" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AbstractBaseUser</label>
+      </node>
+      <node id="3">
+        <label>PermissionsMixin</label>
+      </node>
+      <node id="1">
+        <label>user.models.Account</label>
+        <link refid="classuser_1_1models_1_1Account"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AbstractBaseUser</label>
+      </node>
+      <node id="3">
+        <label>PermissionsMixin</label>
+      </node>
+      <node id="6">
+        <label>list</label>
+      </node>
+      <node id="5">
+        <label>str</label>
+      </node>
+      <node id="4">
+        <label>tuple</label>
+      </node>
+      <node id="1">
+        <label>user.models.Account</label>
+        <link refid="classuser_1_1models_1_1Account"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+USER_TYPE_CHOOSES</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+USERNAME_FIELD</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+REQUIRED_FIELDS</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="38" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classuser_1_1models_1_1Account_1aea0a30bb46ad5067cae44e3c65de75ac" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>email</name></member>
+      <member refid="classuser_1_1models_1_1Account_1af8f9bcc85da02f6394afc7adb8dc8182" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>is_active</name></member>
+      <member refid="classuser_1_1models_1_1Account_1a89b581e259059041656e336c1ea8b660" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>is_staff</name></member>
+      <member refid="classuser_1_1models_1_1Account_1aac889f864841893e92999e28d07ac080" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>is_superuser</name></member>
+      <member refid="classuser_1_1models_1_1Account_1a45acb9ca218b77306eb3bf44f0f7441d" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>last_login</name></member>
+      <member refid="classuser_1_1models_1_1Account_1afe457cd7b47cfa9409db7653c70b0f98" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>name</name></member>
+      <member refid="classuser_1_1models_1_1Account_1adaa98c8dec8c14ce0cc64a0d1bf4f013" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>objects</name></member>
+      <member refid="classuser_1_1models_1_1Account_1a667b6b7af55e60b99ba019934b411467" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>phone_number</name></member>
+      <member refid="classuser_1_1models_1_1Account_1afa13561d3cfa9312ced0f56756f9f4ba" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>REQUIRED_FIELDS</name></member>
+      <member refid="classuser_1_1models_1_1Account_1acad0315a733ef3bc43737554f48a608c" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>user_type</name></member>
+      <member refid="classuser_1_1models_1_1Account_1a2c49a2e5ce3c6e2754e3b64e7d85c6a1" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>USER_TYPE_CHOOSES</name></member>
+      <member refid="classuser_1_1models_1_1Account_1a500071aecd6de2dc80617070824b5c32" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>username</name></member>
+      <member refid="classuser_1_1models_1_1Account_1aec0dc9bf359cbd614091c1382cd911a1" prot="public" virt="non-virtual"><scope>user::models::Account</scope><name>USERNAME_FIELD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

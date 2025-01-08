@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classpayment_1_1views_1_1CreateCheckoutSession" xml:lang="en-US">
+<title>payment.views.CreateCheckoutSession Class Reference</title>
+<indexterm><primary>payment.views.CreateCheckoutSession</primary></indexterm>
+Inheritance diagram for payment.views.CreateCheckoutSession:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classpayment_1_1views_1_1CreateCheckoutSession__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for payment.views.CreateCheckoutSession:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classpayment_1_1views_1_1CreateCheckoutSession__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classpayment_1_1views_1_1CreateCheckoutSession_1afc06b5ebc6ec06e07802b8dcb1290fb7">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classpayment_1_1views_1_1CreateCheckoutSession_1afc06b5ebc6ec06e07802b8dcb1290fb7"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>payment.views.CreateCheckoutSession</secondary></indexterm>
+<indexterm><primary>payment.views.CreateCheckoutSession</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>payment.views.CreateCheckoutSession.post ( self,  request)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/<link linkend="_payment_2views_8py">views.py</link></section>
+</section>

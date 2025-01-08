@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1models_1_1Upvote" kind="class" language="Python" prot="public">
+    <compoundname>exchange::models::Upvote</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classexchange_1_1models_1_1Upvote_1_1Meta" prot="public">exchange::models::Upvote::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Upvote::comment</definition>
+        <argsstring></argsstring>
+        <name>comment</name>
+        <qualifiedname>exchange.models.Upvote.comment</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classexchange_1_1models_1_1Comment" kindref="compound">Comment</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Upvote::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>exchange.models.Upvote.user</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.models.Upvote</label>
+        <link refid="classexchange_1_1models_1_1Upvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.models.Upvote</label>
+        <link refid="classexchange_1_1models_1_1Upvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="22" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8" prot="public" virt="non-virtual"><scope>exchange::models::Upvote</scope><name>comment</name></member>
+      <member refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" prot="public" virt="non-virtual"><scope>exchange::models::Upvote</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

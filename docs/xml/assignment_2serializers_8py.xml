@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="assignment_2serializers_8py" kind="file" language="Python">
+    <compoundname>serializers.py</compoundname>
+    <innerclass refid="classassignment_1_1serializers_1_1AssignmentSerializer" prot="public">assignment::serializers::AssignmentSerializer</innerclass>
+    <innerclass refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta" prot="public">assignment::serializers::AssignmentSerializer::Meta</innerclass>
+    <innerclass refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer" prot="public">assignment::serializers::AssignmentMarkSerializer</innerclass>
+    <innerclass refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" prot="public">assignment::serializers::AssignmentMarkSerializer::Meta</innerclass>
+    <innernamespace refid="namespaceassignment">assignment</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1serializers">assignment::serializers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceassignment_1_1serializers" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Assignment,<sp/>AssignmentMark</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classassignment_1_1serializers_1_1AssignmentSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment_1_1serializers_1_1AssignmentSerializer" kindref="compound">AssignmentSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="7" refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="8" refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1afd61a8ef4b86b9bee154b5d46a22aa25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Assignment</highlight></codeline>
+<codeline lineno="9" refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1a859d22797b38ef2f118976a7149776e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;type&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer" kindref="compound">AssignmentMarkSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="13" refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="14" refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>AssignmentMark</highlight></codeline>
+<codeline lineno="15" refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;assignment&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;mark&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py"/>
+  </compounddef>
+</doxygen>

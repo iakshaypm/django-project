@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_file__type__detector_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecollege">college</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecollege_1_1file__type__detector">college.file_type_detector</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af">college.file_type_detector.run_linter</link> (file)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespacecollege_1_1file__type__detector_1a4abdd44e1f1942108ebc378e66fd6acc">college.file_type_detector.linters</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

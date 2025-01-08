@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1permission_1_1CanAccessComment" kind="class" language="Python" prot="public">
+    <compoundname>exchange::permission::CanAccessComment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1permission_1_1CanAccessComment_1afe634425a3a3aa91f88374eb961428de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.permission.CanAccessComment.has_object_permission</definition>
+        <argsstring>(self, request, view, obj)</argsstring>
+        <name>has_object_permission</name>
+        <qualifiedname>exchange.permission.CanAccessComment.has_object_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <param>
+          <type>obj</type>
+          <defname>obj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.permission.CanAccessComment</label>
+        <link refid="classexchange_1_1permission_1_1CanAccessComment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.permission.CanAccessComment</label>
+        <link refid="classexchange_1_1permission_1_1CanAccessComment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="17" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1permission_1_1CanAccessComment_1afe634425a3a3aa91f88374eb961428de" prot="public" virt="non-virtual"><scope>exchange::permission::CanAccessComment</scope><name>has_object_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

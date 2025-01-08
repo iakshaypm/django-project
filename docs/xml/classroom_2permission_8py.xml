@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classroom_2permission_8py" kind="file" language="Python">
+    <compoundname>permission.py</compoundname>
+    <innerclass refid="classclassroom_1_1permission_1_1IsManagement" prot="public">classroom::permission::IsManagement</innerclass>
+    <innerclass refid="classclassroom_1_1permission_1_1IsTeacher" prot="public">classroom::permission::IsTeacher</innerclass>
+    <innernamespace refid="namespaceclassroom">classroom</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1permission">classroom::permission</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceclassroom_1_1permission" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>permissions</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classclassroom_1_1permission_1_1IsManagement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1permission_1_1IsManagement" kindref="compound">IsManagement</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="5" refid="classclassroom_1_1permission_1_1IsManagement_1a29c8c906e28b632f937edddc1fd4ce88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1permission_1_1IsManagement_1a29c8c906e28b632f937edddc1fd4ce88" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>4:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classclassroom_1_1permission_1_1IsTeacher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="12" refid="classclassroom_1_1permission_1_1IsTeacher_1ac1ecfd3c9a87a637f2d6826393e15921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1permission_1_1IsTeacher_1ac1ecfd3c9a87a637f2d6826393e15921" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>2:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/permission.py"/>
+  </compounddef>
+</doxygen>

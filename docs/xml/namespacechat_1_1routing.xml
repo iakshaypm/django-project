@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacechat_1_1routing" kind="namespace" language="Python">
+    <compoundname>chat::routing</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacechat_1_1routing_1a9079064cf5cc6236e957a9958bdaa47f" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list chat::routing.websocket_urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>websocket_urlpatterns</name>
+        <qualifiedname>chat.routing.websocket_urlpatterns</qualifiedname>
+        <initializer>=  [
+    re_path(r&apos;ws/chat/(?P&lt;room_name&gt;\w+)/$&apos;, consumers.ChatConsumer.as_asgi()),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/routing.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/routing.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/routing.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

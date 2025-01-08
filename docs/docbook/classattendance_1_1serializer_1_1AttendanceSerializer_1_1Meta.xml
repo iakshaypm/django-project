@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta" xml:lang="en-US">
+<title>attendance.serializer.AttendanceSerializer.Meta Class Reference</title>
+<indexterm><primary>attendance.serializer.AttendanceSerializer.Meta</primary></indexterm>
+Collaboration diagram for attendance.serializer.AttendanceSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1ada9326f3e327835ffae4483d322a42f1">model</link> = <link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1a5983eac8dbfb8dac6217066fc3e50a75">fields</link> = [&apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a5bf62f1a2917f19fb4e2f46f3e034cce">id</link>&apos;, &apos;attendance_type&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1ad8b16c460e0aa6039553dd4d03f140d8">initiated_by</link>&apos;, &apos;classroom&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a054b1aba9796f5ba9c44d22f635753a7">date_of_producing</link>&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1a5983eac8dbfb8dac6217066fc3e50a75"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>attendance.serializer.AttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>attendance.serializer.AttendanceSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list attendance.serializer.AttendanceSerializer.Meta.fields = [&apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a5bf62f1a2917f19fb4e2f46f3e034cce">id</link>&apos;, &apos;attendance_type&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1ad8b16c460e0aa6039553dd4d03f140d8">initiated_by</link>&apos;, &apos;classroom&apos;, &apos;<link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a054b1aba9796f5ba9c44d22f635753a7">date_of_producing</link>&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1ada9326f3e327835ffae4483d322a42f1"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>attendance.serializer.AttendanceSerializer.Meta</secondary></indexterm>
+<indexterm><primary>attendance.serializer.AttendanceSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>attendance.serializer.AttendanceSerializer.Meta.model = <link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2serializer_8py">serializer.py</link></section>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1tests" kind="namespace" language="Python">
+    <compoundname>attendance::tests</compoundname>
+    <innernamespace refid="namespaceattendance_1_1tests_1_1test__attendance">attendance::tests::test_attendance</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

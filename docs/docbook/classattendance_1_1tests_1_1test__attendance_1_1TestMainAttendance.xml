@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance" xml:lang="en-US">
+<title>attendance.tests.test_attendance.TestMainAttendance Class Reference</title>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary></indexterm>
+Inheritance diagram for attendance.tests.test_attendance.TestMainAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.tests.test_attendance.TestMainAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acd2cfc2ab6db1347f77e9c642bb83fe4">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066">test_creating_main_attendance</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931">test_adding_student_attendance</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f">client</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ad8859c26e0329b5f20df665f1b841a8a">teacher</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af0fb5aac1b1e145291ea8e643df1dc67">access_token_teacher</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221">classroom</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af54910ecc30c45bad21cc503e10afc08">student</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a4501f9906afb251dd0811476fe4ed374">access_token_student</link></para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906">attendance_id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acd2cfc2ab6db1347f77e9c642bb83fe4"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931"/><section>
+    <title>test_adding_student_attendance()</title>
+<indexterm><primary>test_adding_student_attendance</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>test_adding_student_attendance</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_a0a4d32959442ec0247d3bad62fc17931_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066"/><section>
+    <title>test_creating_main_attendance()</title>
+<indexterm><primary>test_creating_main_attendance</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>test_creating_main_attendance</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance ( self)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_ac73194fb12e6a5e5791245ccaa374066_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a4501f9906afb251dd0811476fe4ed374"/><section>
+    <title>access_token_student</title>
+<indexterm><primary>access_token_student</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>access_token_student</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.access_token_student</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af0fb5aac1b1e145291ea8e643df1dc67"/><section>
+    <title>access_token_teacher</title>
+<indexterm><primary>access_token_teacher</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>access_token_teacher</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.access_token_teacher</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1acbb2be9b7274f6d6a7e6a40ad69ff906"/><section>
+    <title>attendance_id</title>
+<indexterm><primary>attendance_id</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>attendance_id</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.attendance_id</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0b19c82384dd75b9303c611ec0ad7221"/><section>
+    <title>classroom</title>
+<indexterm><primary>classroom</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>classroom</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.classroom</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a5bb737c69a2cb0f6cb5ecf8f9905803f"/><section>
+    <title>client</title>
+<indexterm><primary>client</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>client</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.client</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1af54910ecc30c45bad21cc503e10afc08"/><section>
+    <title>student</title>
+<indexterm><primary>student</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>student</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.student</computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ad8859c26e0329b5f20df665f1b841a8a"/><section>
+    <title>teacher</title>
+<indexterm><primary>teacher</primary><secondary>attendance.tests.test_attendance.TestMainAttendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance.TestMainAttendance</primary><secondary>teacher</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.TestMainAttendance.teacher</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/<link linkend="_test__attendance_8py">test_attendance.py</link></section>
+</section>

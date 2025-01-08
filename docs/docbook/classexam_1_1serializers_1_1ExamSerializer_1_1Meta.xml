@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta" xml:lang="en-US">
+<title>exam.serializers.ExamSerializer.Meta Class Reference</title>
+<indexterm><primary>exam.serializers.ExamSerializer.Meta</primary></indexterm>
+Collaboration diagram for exam.serializers.ExamSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1serializers_1_1ExamSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02">model</link> = <link linkend="_classexam_1_1models_1_1Exam">Exam</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701">fields</link> = [&apos;name&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>exam.serializers.ExamSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exam.serializers.ExamSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list exam.serializers.ExamSerializer.Meta.fields = [&apos;name&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>exam.serializers.ExamSerializer.Meta</secondary></indexterm>
+<indexterm><primary>exam.serializers.ExamSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>exam.serializers.ExamSerializer.Meta.model = <link linkend="_classexam_1_1models_1_1Exam">Exam</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/<link linkend="_exam_2serializers_8py">serializers.py</link></section>
+</section>

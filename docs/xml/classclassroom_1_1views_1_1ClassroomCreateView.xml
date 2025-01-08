@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classclassroom_1_1views_1_1ClassroomCreateView" kind="class" language="Python" prot="public">
+    <compoundname>classroom::views::ClassroomCreateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.CreateAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple classroom.views.ClassroomCreateView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>classroom.views.ClassroomCreateView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classclassroom_1_1permission_1_1IsManagement" kindref="compound">IsManagement</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>classroom.views.ClassroomCreateView.post</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>post</name>
+        <qualifiedname>classroom.views.ClassroomCreateView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="13" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>classroom.views.ClassroomCreateView</label>
+        <link refid="classclassroom_1_1views_1_1ClassroomCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>classroom.views.ClassroomCreateView</label>
+        <link refid="classclassroom_1_1views_1_1ClassroomCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec" prot="public" virt="non-virtual"><scope>classroom::views::ClassroomCreateView</scope><name>permission_classes</name></member>
+      <member refid="classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9" prot="public" virt="non-virtual"><scope>classroom::views::ClassroomCreateView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

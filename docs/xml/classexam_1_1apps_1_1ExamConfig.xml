@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexam_1_1apps_1_1ExamConfig" kind="class" language="Python" prot="public">
+    <compoundname>exam::apps::ExamConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppConfig</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexam_1_1apps_1_1ExamConfig_1a68a27bdf3e17ce7b96b3bb7db80179a0" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str exam.apps.ExamConfig::default_auto_field</definition>
+        <argsstring></argsstring>
+        <name>default_auto_field</name>
+        <qualifiedname>exam.apps.ExamConfig.default_auto_field</qualifiedname>
+        <initializer>=  &apos;django.db.models.BigAutoField&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexam_1_1apps_1_1ExamConfig_1aafa6329e940fa68f6b538c32d0ba0145" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str exam.apps.ExamConfig::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>exam.apps.ExamConfig.name</qualifiedname>
+        <initializer>=  &apos;exam&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>exam.apps.ExamConfig</label>
+        <link refid="classexam_1_1apps_1_1ExamConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>exam.apps.ExamConfig</label>
+        <link refid="classexam_1_1apps_1_1ExamConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+default_auto_field</edgelabel>
+          <edgelabel>+name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/apps.py" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classexam_1_1apps_1_1ExamConfig_1a68a27bdf3e17ce7b96b3bb7db80179a0" prot="public" virt="non-virtual"><scope>exam::apps::ExamConfig</scope><name>default_auto_field</name></member>
+      <member refid="classexam_1_1apps_1_1ExamConfig_1aafa6329e940fa68f6b538c32d0ba0145" prot="public" virt="non-virtual"><scope>exam::apps::ExamConfig</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1views_1_1TeacherRegister" xml:lang="en-US">
+<title>user.views.TeacherRegister Class Reference</title>
+<indexterm><primary>user.views.TeacherRegister</primary></indexterm>
+Inheritance diagram for user.views.TeacherRegister:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1TeacherRegister__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.views.TeacherRegister:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1TeacherRegister__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041">permission_classes</link> = (IsAuthenticated, <link linkend="_classuser_1_1permission_1_1IsHOD">IsHOD</link> | <link linkend="_classuser_1_1permission_1_1IsManagement">IsManagement</link>,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1TeacherRegister_1a66b7ba9f9905438991c18dd699c38c09"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>user.views.TeacherRegister</secondary></indexterm>
+<indexterm><primary>user.views.TeacherRegister</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>user.views.TeacherRegister.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1TeacherRegister_1a97de193fa1a57d9e3ae968d4dbd7c041"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>user.views.TeacherRegister</secondary></indexterm>
+<indexterm><primary>user.views.TeacherRegister</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple user.views.TeacherRegister.permission_classes = (IsAuthenticated, <link linkend="_classuser_1_1permission_1_1IsHOD">IsHOD</link> | <link linkend="_classuser_1_1permission_1_1IsManagement">IsManagement</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2views_8py">views.py</link></section>
+</section>

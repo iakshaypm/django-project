@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1migrations_1_10003__alter__account__is__staff" kind="namespace" language="Python">
+    <compoundname>user::migrations::0003_alter_account_is_staff</compoundname>
+    <innerclass refid="classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration" prot="public">user::migrations::0003_alter_account_is_staff::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0003_alter_account_is_staff.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

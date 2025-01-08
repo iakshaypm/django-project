@@ -1,0 +1,4 @@
+var 0009__alter__studentattendance__student__and__more_8py =
+[
+    [ "attendance.migrations.0009_alter_studentattendance_student_and_more.Migration", "classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration.html", "classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration" ]
+];

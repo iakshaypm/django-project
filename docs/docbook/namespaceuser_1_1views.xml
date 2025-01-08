@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceuser_1_1views" xml:lang="en-US">
+<title>user.views Namespace Reference</title>
+<indexterm><primary>user.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1HODRegister">HODRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1RegisterView">RegisterView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StripeAuthorizeCallbackView">StripeAuthorizeCallbackView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StripeAuthorizeView">StripeAuthorizeView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StudentRegister">StudentRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1TeacherRegister">TeacherRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1UserView">UserView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

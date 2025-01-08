@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1tasks" xml:lang="en-US">
+<title>chat.tasks Namespace Reference</title>
+<indexterm><primary>chat.tasks</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacechat_1_1tasks_1a85c8a496121547fa4eec859d4763101c">send_telegram_reply</link> (message)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacechat_1_1tasks_1a85c8a496121547fa4eec859d4763101c"/><section>
+    <title>send_telegram_reply()</title>
+<indexterm><primary>send_telegram_reply</primary><secondary>chat.tasks</secondary></indexterm>
+<indexterm><primary>chat.tasks</primary><secondary>send_telegram_reply</secondary></indexterm>
+<para><computeroutput>chat.tasks.send_telegram_reply ( message)</computeroutput></para></section>
+</section>
+</section>

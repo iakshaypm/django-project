@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exchange_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classexchange_1_1models_1_1Question" prot="public">exchange::models::Question</innerclass>
+    <innerclass refid="classexchange_1_1models_1_1Comment" prot="public">exchange::models::Comment</innerclass>
+    <innerclass refid="classexchange_1_1models_1_1Upvote" prot="public">exchange::models::Upvote</innerclass>
+    <innerclass refid="classexchange_1_1models_1_1Upvote_1_1Meta" prot="public">exchange::models::Upvote::Meta</innerclass>
+    <innernamespace refid="namespaceexchange">exchange</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1models">exchange::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexchange_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AbstractBaseUser,<sp/>BaseUserManager,<sp/>PermissionsMixin</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Permission</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1models" kindref="compound">user.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Account,<sp/>Subject</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classexchange_1_1models_1_1Question" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1models_1_1Question" kindref="compound">Question</ref>(models.Model):</highlight></codeline>
+<codeline lineno="10" refid="classexchange_1_1models_1_1Question_1a50625eabad28b8a5a616b789f188b1b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>title<sp/>=<sp/>models.CharField(max_length=255)</highlight></codeline>
+<codeline lineno="11" refid="classexchange_1_1models_1_1Question_1aaed4ca4626fe5b76d0317961e0871904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>description<sp/>=<sp/>models.TextField()</highlight></codeline>
+<codeline lineno="12" refid="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="13" refid="classexchange_1_1models_1_1Question_1a850b6440865a49b91b3da44ce9f1a5f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>tag<sp/>=<sp/>models.ForeignKey(Subject,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classexchange_1_1models_1_1Comment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1models_1_1Comment" kindref="compound">Comment</ref>(models.Model):</highlight></codeline>
+<codeline lineno="17" refid="classexchange_1_1models_1_1Comment_1a4b0624ac4c6c491050d1c397d311473d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>content<sp/>=<sp/>models.TextField()</highlight></codeline>
+<codeline lineno="18" refid="classexchange_1_1models_1_1Comment_1aca35059939e1dc5e0c9f458a392f0138" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>question<sp/>=<sp/>models.ForeignKey(Question,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="19" refid="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classexchange_1_1models_1_1Upvote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1models_1_1Upvote" kindref="compound">Upvote</ref>(models.Model):</highlight></codeline>
+<codeline lineno="23" refid="classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>comment<sp/>=<sp/>models.ForeignKey(Comment,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="24" refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classexchange_1_1models_1_1Upvote_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1models_1_1Upvote_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="27" refid="classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unique_together<sp/>=<sp/>(</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">,)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py"/>
+  </compounddef>
+</doxygen>

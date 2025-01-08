@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1TeacherSerializer" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::TeacherSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta" prot="public">user::serializers::TeacherSerializer::Meta</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1serializers_1_1TeacherSerializer_1a145bd3e82fc1105628dbd649937ae4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.serializers.TeacherSerializer.validate</definition>
+        <argsstring>(self, attrs)</argsstring>
+        <name>validate</name>
+        <qualifiedname>user.serializers.TeacherSerializer.validate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>attrs</type>
+          <defname>attrs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="57" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="57" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.TeacherSerializer</label>
+        <link refid="classuser_1_1serializers_1_1TeacherSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.TeacherSerializer</label>
+        <link refid="classuser_1_1serializers_1_1TeacherSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="52" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="52" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classuser_1_1serializers_1_1TeacherSerializer_1a145bd3e82fc1105628dbd649937ae4e5" prot="public" virt="non-virtual"><scope>user::serializers::TeacherSerializer</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

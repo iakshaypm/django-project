@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classassignment_1_1models_1_1Assignment_1_1Meta" xml:lang="en-US">
+<title>assignment.models.Assignment.Meta Class Reference</title>
+<indexterm><primary>assignment.models.Assignment.Meta</primary></indexterm>
+Collaboration diagram for assignment.models.Assignment.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1models_1_1Assignment_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classassignment_1_1models_1_1Assignment_1_1Meta_1a40b145bf40869dc918ae613028e8aae4">db_table</link> = &apos;assignment&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classassignment_1_1models_1_1Assignment_1_1Meta_1a40b145bf40869dc918ae613028e8aae4"/><section>
+    <title>db_table</title>
+<indexterm><primary>db_table</primary><secondary>assignment.models.Assignment.Meta</secondary></indexterm>
+<indexterm><primary>assignment.models.Assignment.Meta</primary><secondary>db_table</secondary></indexterm>
+<para><computeroutput>str assignment.models.Assignment.Meta.db_table = &apos;assignment&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/<link linkend="_assignment_2models_8py">models.py</link></section>
+</section>

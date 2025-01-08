@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_4649b9461b7228cdc7438f00ff8ca9f7" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college Directory Reference</primary></indexterm>
+Directory dependency graph for college:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_4649b9461b7228cdc7438f00ff8ca9f7_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_college_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_asgi_8py">asgi.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_assignment_8py">assignment.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_celery_8py">celery.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_file__type__detector_8py">file_type_detector.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_college_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_wsgi_8py">wsgi.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacechat_1_1consumers" kind="namespace" language="Python">
+    <compoundname>chat::consumers</compoundname>
+    <innerclass refid="classchat_1_1consumers_1_1ChatConsumer" prot="public">chat::consumers::ChatConsumer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

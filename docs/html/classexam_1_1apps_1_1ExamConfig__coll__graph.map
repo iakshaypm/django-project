@@ -1,0 +1,7 @@
+<map id="exam.apps.ExamConfig" name="exam.apps.ExamConfig">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,173,213"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,5,89,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,83,83,147,78,148,59,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="114,5,145,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,71,105,133,100,131,118,70"/>
+</map>

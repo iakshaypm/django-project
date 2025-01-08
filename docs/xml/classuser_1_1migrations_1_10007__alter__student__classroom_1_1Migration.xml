@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>user::migrations::0007_alter_student_classroom::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1ab134e9e05c1b02553a9fe2ac3eb225f4" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.migrations.0007_alter_student_classroom.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>user.migrations.0007_alter_student_classroom.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;classroom&apos;, &apos;0002_alter_classroom_name&apos;),
+        (&apos;user&apos;, &apos;0006_student_classroom_teacher_classroom&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1a3e5718feed56d7f21a2737e29e15a731" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.migrations.0007_alter_student_classroom.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>user.migrations.0007_alter_student_classroom.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;student&apos;,
+            name=&apos;classroom&apos;,
+            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to=&apos;classroom.classroom&apos;),
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+      <node id="1">
+        <label>user.migrations.0007_alter_student_classroom.Migration</label>
+        <link refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+      <node id="1">
+        <label>user.migrations.0007_alter_student_classroom.Migration</label>
+        <link refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0007_alter_student_classroom.py" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1ab134e9e05c1b02553a9fe2ac3eb225f4" prot="public" virt="non-virtual"><scope>user::migrations::0007_alter_student_classroom::Migration</scope><name>dependencies</name></member>
+      <member refid="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1a3e5718feed56d7f21a2737e29e15a731" prot="public" virt="non-virtual"><scope>user::migrations::0007_alter_student_classroom::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

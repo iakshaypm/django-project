@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1migrations_1_10003__room__created__by__alter__room__online" xml:lang="en-US">
+<title>chat.migrations.0003_room_created_by_alter_room_online Namespace Reference</title>
+<indexterm><primary>chat.migrations.0003_room_created_by_alter_room_online</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

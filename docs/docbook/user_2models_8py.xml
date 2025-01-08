@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_user_2models_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1MyAccountManager">user.models.MyAccountManager</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Account">user.models.Account</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Student">user.models.Student</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Subject">user.models.Subject</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Teacher">user.models.Teacher</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1HOD">user.models.HOD</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceuser">user</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1models">user.models</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

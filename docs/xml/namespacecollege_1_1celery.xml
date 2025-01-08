@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1celery" kind="namespace" language="Python">
+    <compoundname>college::celery</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecollege_1_1celery_1ae31fdb7b8675cc67055dedc48155f72c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>college::celery.app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <qualifiedname>college.celery.app</qualifiedname>
+        <initializer>=  Celery(&apos;college&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/celery.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/celery.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/celery.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

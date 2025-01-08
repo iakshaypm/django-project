@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1urls" kind="namespace" language="Python">
+    <compoundname>exchange::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceexchange_1_1urls_1ad9403c81b3eed49aae26584b348fb640" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str exchange::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>exchange.urls.app_name</qualifiedname>
+        <initializer>=  &apos;exchange&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceexchange_1_1urls_1a0db96013734b922f215f6c341e53cdb5" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list exchange::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>exchange.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;question/add/&apos;, views.QuestionCreateView.as_view(), name=&apos;create-question&apos;),
+    path(&apos;questions/show/&apos;, views.QuestionListView.as_view(), name=&apos;list-question&apos;),
+    path(&apos;question/&lt;int:pk&gt;/show&apos;, views.QuestionRetrieveView.as_view(), name=&apos;show-question&apos;),
+    path(&apos;question/&lt;int:pk&gt;/edit&apos;, views.QuestionUpdateView.as_view(), name=&apos;edit-question&apos;),
+    path(&apos;question/&lt;int:pk&gt;/delete&apos;, views.QuestionDeleteView.as_view(), name=&apos;delete-question&apos;),
+
+    path(&apos;comment/add/&apos;, views.CommentCreateView.as_view(), name=&apos;add-comment&apos;),
+    path(&apos;comment/show/&apos;, views.CommentListView.as_view(), name=&apos;list-comment&apos;),
+    path(&apos;comment/&lt;int:pk&gt;/show&apos;, views.CommentRetrieveView.as_view(), name=&apos;show-comment&apos;),
+    path(&apos;comment/&lt;int:pk&gt;/update&apos;, views.CommentUpdateView.as_view(), name=&apos;update-comment&apos;),
+    path(&apos;comment/&lt;int:pk&gt;/delete&apos;, views.CommentDeleteView.as_view(), name=&apos;delete-comment&apos;),
+
+    path(&apos;upvote/add/&apos;, views.UpvoteCreateView.as_view(), name=&apos;add-upvote&apos;),
+    path(&apos;upvote/&lt;int:pk&gt;/delete&apos;, views.UpvoteDeleteView.as_view(), name=&apos;remove-upvote&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

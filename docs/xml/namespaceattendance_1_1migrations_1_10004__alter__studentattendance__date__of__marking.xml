@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking" kind="namespace" language="Python">
+    <compoundname>attendance::migrations::0004_alter_studentattendance_date_of_marking</compoundname>
+    <innerclass refid="classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration" prot="public">attendance::migrations::0004_alter_studentattendance_date_of_marking::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0004_alter_studentattendance_date_of_marking.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

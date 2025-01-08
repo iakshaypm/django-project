@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgrade_1_1views_1_1MarkDeleteView" kind="class" language="Python" prot="public">
+    <compoundname>grade::views::MarkDeleteView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.DestroyAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkDeleteView_1ac7c4e262689b9b5cd40f56fe16c6b249" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>grade.views.MarkDeleteView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>grade.views.MarkDeleteView.queryset</qualifiedname>
+        <initializer>=  Mark.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkDeleteView_1a7a269d9072e9afcba8a42cd8e4969be0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>grade.views.MarkDeleteView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>grade.views.MarkDeleteView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classgrade_1_1serializer_1_1MarkSerializer" kindref="compound">MarkSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="33" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgrade_1_1views_1_1MarkDeleteView_1a28ea5a80caee5a8de14b08e0a594914f" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple grade.views.MarkDeleteView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>grade.views.MarkDeleteView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classgrade_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>generics.DestroyAPIView</label>
+      </node>
+      <node id="1">
+        <label>grade.views.MarkDeleteView</label>
+        <link refid="classgrade_1_1views_1_1MarkDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>generics.DestroyAPIView</label>
+      </node>
+      <node id="1">
+        <label>grade.views.MarkDeleteView</label>
+        <link refid="classgrade_1_1views_1_1MarkDeleteView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" bodystart="31" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classgrade_1_1views_1_1MarkDeleteView_1a28ea5a80caee5a8de14b08e0a594914f" prot="public" virt="non-virtual"><scope>grade::views::MarkDeleteView</scope><name>permission_classes</name></member>
+      <member refid="classgrade_1_1views_1_1MarkDeleteView_1ac7c4e262689b9b5cd40f56fe16c6b249" prot="public" virt="non-virtual"><scope>grade::views::MarkDeleteView</scope><name>queryset</name></member>
+      <member refid="classgrade_1_1views_1_1MarkDeleteView_1a7a269d9072e9afcba8a42cd8e4969be0" prot="public" virt="non-virtual"><scope>grade::views::MarkDeleteView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

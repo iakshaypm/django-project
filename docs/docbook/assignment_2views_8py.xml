@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_assignment_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1views_1_1AssignmentCreate">assignment.views.AssignmentCreate</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1views_1_1AssignmentMarkCreate">assignment.views.AssignmentMarkCreate</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceassignment">assignment</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceassignment_1_1views">assignment.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8">assignment.views.simple_mail</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

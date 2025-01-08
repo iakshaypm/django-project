@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexam_1_1models_1_1Exam" xml:lang="en-US">
+<title>exam.models.Exam Class Reference</title>
+<indexterm><primary>exam.models.Exam</primary></indexterm>
+Inheritance diagram for exam.models.Exam:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1models_1_1Exam__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exam.models.Exam:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1models_1_1Exam__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexam_1_1models_1_1Exam_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631">name</link> = models.CharField(max_length=20, unique=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89">classroom</link> = models.ForeignKey(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.CASCADE)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89"/><section>
+    <title>classroom</title>
+<indexterm><primary>classroom</primary><secondary>exam.models.Exam</secondary></indexterm>
+<indexterm><primary>exam.models.Exam</primary><secondary>classroom</secondary></indexterm>
+<para><computeroutput>exam.models.Exam.classroom = models.ForeignKey(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>exam.models.Exam</secondary></indexterm>
+<indexterm><primary>exam.models.Exam</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>exam.models.Exam.name = models.CharField(max_length=20, unique=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/<link linkend="_exam_2models_8py">models.py</link></section>
+</section>

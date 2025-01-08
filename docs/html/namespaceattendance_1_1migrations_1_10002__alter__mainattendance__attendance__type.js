@@ -1,0 +1,4 @@
+var namespaceattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type =
+[
+    [ "Migration", "classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration.html", "classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration" ]
+];

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance" xml:lang="en-US">
+<title>attendance Namespace Reference</title>
+<indexterm><primary>attendance</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1admin">admin</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1apps">apps</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1migrations">migrations</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1models">models</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1permission">permission</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1serializer">serializer</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1tests">tests</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1urls">urls</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1views">views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

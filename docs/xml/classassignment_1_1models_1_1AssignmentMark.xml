@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1models_1_1AssignmentMark" kind="class" language="Python" prot="public">
+    <compoundname>assignment::models::AssignmentMark</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classassignment_1_1models_1_1AssignmentMark_1_1Meta" prot="public">assignment::models::AssignmentMark::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1models_1_1AssignmentMark_1adf588eda31e348e34447b46d4fbc13a4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.models.AssignmentMark::assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <qualifiedname>assignment.models.AssignmentMark.assignment</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classassignment_1_1models_1_1Assignment" kindref="compound">Assignment</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment_1_1models_1_1AssignmentMark_1a0ca11d1161ac7f8a6c9e2623141907ab" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.models.AssignmentMark::mark</definition>
+        <argsstring></argsstring>
+        <name>mark</name>
+        <qualifiedname>assignment.models.AssignmentMark.mark</qualifiedname>
+        <initializer>=  models.CharField(max_length=50)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment.models.AssignmentMark</label>
+        <link refid="classassignment_1_1models_1_1AssignmentMark"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.models.AssignmentMark</label>
+        <link refid="classassignment_1_1models_1_1AssignmentMark"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="19" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1models_1_1AssignmentMark_1adf588eda31e348e34447b46d4fbc13a4" prot="public" virt="non-virtual"><scope>assignment::models::AssignmentMark</scope><name>assignment</name></member>
+      <member refid="classassignment_1_1models_1_1AssignmentMark_1a0ca11d1161ac7f8a6c9e2623141907ab" prot="public" virt="non-virtual"><scope>assignment::models::AssignmentMark</scope><name>mark</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

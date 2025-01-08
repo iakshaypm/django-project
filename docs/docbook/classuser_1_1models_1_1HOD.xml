@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1models_1_1HOD" xml:lang="en-US">
+<title>user.models.HOD Class Reference</title>
+<indexterm><primary>user.models.HOD</primary></indexterm>
+Inheritance diagram for user.models.HOD:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1HOD__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.models.HOD:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1HOD__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66">user</link> = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1HOD_1abe37b381ebc7efcf10d8dec829b2b0ab">department</link> = models.CharField(max_length=100)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1models_1_1HOD_1abe37b381ebc7efcf10d8dec829b2b0ab"/><section>
+    <title>department</title>
+<indexterm><primary>department</primary><secondary>user.models.HOD</secondary></indexterm>
+<indexterm><primary>user.models.HOD</primary><secondary>department</secondary></indexterm>
+<para><computeroutput>user.models.HOD.department = models.CharField(max_length=100)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>user.models.HOD</secondary></indexterm>
+<indexterm><primary>user.models.HOD</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>user.models.HOD.user = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2models_8py">models.py</link></section>
+</section>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exchange_2permission_8py" kind="file" language="Python">
+    <compoundname>permission.py</compoundname>
+    <innerclass refid="classexchange_1_1permission_1_1IsStudent" prot="public">exchange::permission::IsStudent</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanAccessComment" prot="public">exchange::permission::CanAccessComment</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanAddComment" prot="public">exchange::permission::CanAddComment</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanUpvote" prot="public">exchange::permission::CanUpvote</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanRemoveUpvote" prot="public">exchange::permission::CanRemoveUpvote</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1IsTeacher" prot="public">exchange::permission::IsTeacher</innerclass>
+    <innernamespace refid="namespaceexchange">exchange</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1permission">exchange::permission</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexchange_1_1permission" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>permissions</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1models" kindref="compound">user.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Teacher</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Question</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classexchange_1_1permission_1_1IsStudent" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="8" refid="classexchange_1_1permission_1_1IsStudent_1ab99467d373b3cd093eddb10c6cbb0ebb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1IsStudent_1ab99467d373b3cd093eddb10c6cbb0ebb" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>1:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>request.user</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classexchange_1_1permission_1_1IsStudent_1ad5cb932662f9430a2ff35e7796cf02cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1IsStudent_1ad5cb932662f9430a2ff35e7796cf02cb" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classexchange_1_1permission_1_1CanAccessComment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanAccessComment" kindref="compound">CanAccessComment</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="18" refid="classexchange_1_1permission_1_1CanAccessComment_1afe634425a3a3aa91f88374eb961428de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanAccessComment_1afe634425a3a3aa91f88374eb961428de" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classexchange_1_1permission_1_1CanAddComment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanAddComment" kindref="compound">CanAddComment</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="23" refid="classexchange_1_1permission_1_1CanAddComment_1a10b1e743b3690ed45b848fe148a11615" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanAddComment_1a10b1e743b3690ed45b848fe148a11615" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>teacher<sp/>=<sp/>Teacher.objects.get(user_id=request.user)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>question<sp/>=<sp/>Question.objects.get(id=request.data[</highlight><highlight class="stringliteral">&apos;question&apos;</highlight><highlight class="normal">])</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>teacher.subject.id<sp/>==<sp/>question.tag.id:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classexchange_1_1permission_1_1CanUpvote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanUpvote" kindref="compound">CanUpvote</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="32" refid="classexchange_1_1permission_1_1CanUpvote_1a74097e3a61386f6d8043660a1dba94a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanUpvote_1a74097e3a61386f6d8043660a1dba94a6" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>!=<sp/>request.user</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classexchange_1_1permission_1_1CanRemoveUpvote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanRemoveUpvote" kindref="compound">CanRemoveUpvote</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="37" refid="classexchange_1_1permission_1_1CanRemoveUpvote_1a43a351659396e5095f260f9f06387a41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1CanRemoveUpvote_1a43a351659396e5095f260f9f06387a41" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classexchange_1_1permission_1_1IsTeacher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="42" refid="classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>2:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>request.user</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py"/>
+  </compounddef>
+</doxygen>

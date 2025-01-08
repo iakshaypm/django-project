@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classroom_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classclassroom_1_1views_1_1ClassroomCreateView">classroom.views.ClassroomCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classclassroom_1_1views_1_1ClassroomListView">classroom.views.ClassroomListView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceclassroom">classroom</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceclassroom_1_1views">classroom.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1migrations_1_10010__remove__parent__phone__number" kind="namespace" language="Python">
+    <compoundname>user::migrations::0010_remove_parent_phone_number</compoundname>
+    <innerclass refid="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration" prot="public">user::migrations::0010_remove_parent_phone_number::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0010_remove_parent_phone_number.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

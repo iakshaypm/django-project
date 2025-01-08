@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1views_1_1UserView" kind="class" language="Python" prot="public">
+    <compoundname>user::views::UserView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple user.views.UserView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>user.views.UserView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="91" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.views.UserView.get</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>get</name>
+        <qualifiedname>user.views.UserView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="93" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="93" bodyend="99"/>
+        <references refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" compoundref="user_2views_8py" startline="101" endline="112">user.views.UserView.generate_pdf</references>
+      </memberdef>
+      <memberdef kind="function" id="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.views.UserView.generate_pdf</definition>
+        <argsstring>(self, id)</argsstring>
+        <name>generate_pdf</name>
+        <qualifiedname>user.views.UserView.generate_pdf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>id</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="101" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="101" bodyend="112"/>
+        <referencedby refid="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" compoundref="user_2views_8py" startline="93" endline="99">user.views.UserView.get</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>user.views.UserView</label>
+        <link refid="classuser_1_1views_1_1UserView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+      <node id="1">
+        <label>user.views.UserView</label>
+        <link refid="classuser_1_1views_1_1UserView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views.APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" line="90" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py" bodystart="90" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classuser_1_1views_1_1UserView_1ad9ee5a1708d6c2d7a0acfef82ad85aa7" prot="public" virt="non-virtual"><scope>user::views::UserView</scope><name>generate_pdf</name></member>
+      <member refid="classuser_1_1views_1_1UserView_1ad825d7e549699cc94479643778c8c105" prot="public" virt="non-virtual"><scope>user::views::UserView</scope><name>get</name></member>
+      <member refid="classuser_1_1views_1_1UserView_1ab1a0a5edc4ee76b5f674366ffb7fe0bc" prot="public" virt="non-virtual"><scope>user::views::UserView</scope><name>permission_classes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1models_1_1MyAccountManager" xml:lang="en-US">
+<title>user.models.MyAccountManager Class Reference</title>
+<indexterm><primary>user.models.MyAccountManager</primary></indexterm>
+Inheritance diagram for user.models.MyAccountManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1MyAccountManager__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.models.MyAccountManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1MyAccountManager__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1">create_user</link> (self, email, password=None, **extra_fields)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8">create_superuser</link> (self, email, password=None, **extra_fields)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8"/><section>
+    <title>create_superuser()</title>
+<indexterm><primary>create_superuser</primary><secondary>user.models.MyAccountManager</secondary></indexterm>
+<indexterm><primary>user.models.MyAccountManager</primary><secondary>create_superuser</secondary></indexterm>
+<para><computeroutput>user.models.MyAccountManager.create_superuser ( self,  email,  password = <computeroutput>None</computeroutput>
+, ** extra_fields)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1MyAccountManager_a2603acb3375d85bf8c04c6e7af4c77d8_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1"/><section>
+    <title>create_user()</title>
+<indexterm><primary>create_user</primary><secondary>user.models.MyAccountManager</secondary></indexterm>
+<indexterm><primary>user.models.MyAccountManager</primary><secondary>create_user</secondary></indexterm>
+<para><computeroutput>user.models.MyAccountManager.create_user ( self,  email,  password = <computeroutput>None</computeroutput>
+, ** extra_fields)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1MyAccountManager_a90a529083cbe05ac69b6cf4916a284c1_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2models_8py">models.py</link></section>
+</section>

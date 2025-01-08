@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>assignment::serializers::AssignmentMarkSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.serializers.AssignmentMarkSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>assignment.serializers.AssignmentMarkSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classassignment_1_1models_1_1AssignmentMark" kindref="compound">AssignmentMark</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list assignment.serializers.AssignmentMarkSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>assignment.serializers.AssignmentMarkSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;assignment&apos;, &apos;mark&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.serializers.AssignmentMarkSerializer.Meta</label>
+        <link refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="13" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5" prot="public" virt="non-virtual"><scope>assignment::serializers::AssignmentMarkSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b" prot="public" virt="non-virtual"><scope>assignment::serializers::AssignmentMarkSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

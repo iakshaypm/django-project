@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance_1_1urls" xml:lang="en-US">
+<title>attendance.urls Namespace Reference</title>
+<indexterm><primary>attendance.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceattendance_1_1urls_1a3cdbbb070beb2dd37880efaaa271c119">app_name</link> = &apos;attendance&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceattendance_1_1urls_1aba53a95f7ed83df64f5c29568991bf9f">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceattendance_1_1urls_1a3cdbbb070beb2dd37880efaaa271c119"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>attendance.urls</secondary></indexterm>
+<indexterm><primary>attendance.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str attendance.urls.app_name = &apos;attendance&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceattendance_1_1urls_1aba53a95f7ed83df64f5c29568991bf9f"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>attendance.urls</secondary></indexterm>
+<indexterm><primary>attendance.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list attendance.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;add/&apos;</emphasis>,&#32;views.AttendanceCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-attendance&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;show/&apos;</emphasis>,&#32;views.ShowAttendanceView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;show-attendance&apos;</emphasis>),
+4 
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;student/mark/&apos;</emphasis>,&#32;views.StudentAttendanceCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;mark-student-attendance&apos;</emphasis>),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;teacher/mark/&apos;</emphasis>,&#32;views.TeacherAttendanceCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;mark-teacher-attendance&apos;</emphasis>),
+7 ]
+</programlisting></section>
+</section>
+</section>

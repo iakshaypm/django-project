@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1tests_1_1AdminSiteTest" kind="class" language="Python" prot="public">
+    <compoundname>user::tests::AdminSiteTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>user.tests.AdminSiteTest::client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>user.tests.AdminSiteTest.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1a0a4d32959442ec0247d3bad62fc17931" compoundref="test__attendance_8py" startline="62" endline="71">attendance.tests.test_attendance.TestMainAttendance.test_adding_student_attendance</referencedby>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1tests_1_1AdminSiteTest_1a4b98f1e9c17248cc6541c91070000982" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>user.tests.AdminSiteTest::admin_user</definition>
+        <argsstring></argsstring>
+        <name>admin_user</name>
+        <qualifiedname>user.tests.AdminSiteTest.admin_user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>user.tests.AdminSiteTest::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>user.tests.AdminSiteTest.user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1tests_1_1AdminSiteTest_1a73cbe2d31e2773c1ded1787fe59768ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.tests.AdminSiteTest.setUp</definition>
+        <argsstring>(self)</argsstring>
+        <name>setUp</name>
+        <qualifiedname>user.tests.AdminSiteTest.setUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" bodystart="11" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>user.tests.AdminSiteTest</label>
+        <link refid="classuser_1_1tests_1_1AdminSiteTest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="1">
+        <label>user.tests.AdminSiteTest</label>
+        <link refid="classuser_1_1tests_1_1AdminSiteTest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/tests.py" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classuser_1_1tests_1_1AdminSiteTest_1a4b98f1e9c17248cc6541c91070000982" prot="public" virt="non-virtual"><scope>user::tests::AdminSiteTest</scope><name>admin_user</name></member>
+      <member refid="classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef" prot="public" virt="non-virtual"><scope>user::tests::AdminSiteTest</scope><name>client</name></member>
+      <member refid="classuser_1_1tests_1_1AdminSiteTest_1a73cbe2d31e2773c1ded1787fe59768ea" prot="public" virt="non-virtual"><scope>user::tests::AdminSiteTest</scope><name>setUp</name></member>
+      <member refid="classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855" prot="public" virt="non-virtual"><scope>user::tests::AdminSiteTest</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

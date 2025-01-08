@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1views" kind="namespace" language="Python">
+    <compoundname>exchange::views</compoundname>
+    <innerclass refid="classexchange_1_1views_1_1CommentCreateView" prot="public">exchange::views::CommentCreateView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1CommentDeleteView" prot="public">exchange::views::CommentDeleteView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1CommentListView" prot="public">exchange::views::CommentListView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1CommentRetrieveView" prot="public">exchange::views::CommentRetrieveView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1CommentUpdateView" prot="public">exchange::views::CommentUpdateView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1QuestionCreateView" prot="public">exchange::views::QuestionCreateView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1QuestionDeleteView" prot="public">exchange::views::QuestionDeleteView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1QuestionListView" prot="public">exchange::views::QuestionListView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1QuestionRetrieveView" prot="public">exchange::views::QuestionRetrieveView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1QuestionUpdateView" prot="public">exchange::views::QuestionUpdateView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1UpvoteCreateView" prot="public">exchange::views::UpvoteCreateView</innerclass>
+    <innerclass refid="classexchange_1_1views_1_1UpvoteDeleteView" prot="public">exchange::views::UpvoteDeleteView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

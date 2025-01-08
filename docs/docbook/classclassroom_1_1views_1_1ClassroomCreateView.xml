@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclassroom_1_1views_1_1ClassroomCreateView" xml:lang="en-US">
+<title>classroom.views.ClassroomCreateView Class Reference</title>
+<indexterm><primary>classroom.views.ClassroomCreateView</primary></indexterm>
+Inheritance diagram for classroom.views.ClassroomCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1views_1_1ClassroomCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for classroom.views.ClassroomCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1views_1_1ClassroomCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9">post</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec">permission_classes</link> = (IsAuthenticated, <link linkend="_classclassroom_1_1permission_1_1IsManagement">IsManagement</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>classroom.views.ClassroomCreateView</secondary></indexterm>
+<indexterm><primary>classroom.views.ClassroomCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>classroom.views.ClassroomCreateView.post ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>classroom.views.ClassroomCreateView</secondary></indexterm>
+<indexterm><primary>classroom.views.ClassroomCreateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple classroom.views.ClassroomCreateView.permission_classes = (IsAuthenticated, <link linkend="_classclassroom_1_1permission_1_1IsManagement">IsManagement</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/<link linkend="_classroom_2views_8py">views.py</link></section>
+</section>

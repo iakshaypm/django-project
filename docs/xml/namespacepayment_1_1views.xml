@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacepayment_1_1views" kind="namespace" language="Python">
+    <compoundname>payment::views</compoundname>
+    <innerclass refid="classpayment_1_1views_1_1CreateCheckoutSession" prot="public">payment::views::CreateCheckoutSession</innerclass>
+    <innerclass refid="classpayment_1_1views_1_1WebHook" prot="public">payment::views::WebHook</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacepayment_1_1views_1a089900526c9d0d2fe35b7a2dd167e452" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>payment::views.api_key</definition>
+        <argsstring></argsstring>
+        <name>api_key</name>
+        <qualifiedname>payment.views.api_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/views.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/views.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacepayment_1_1views_1abcc29e964087bf86bd1fa16f66d9ffea" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>payment::views.webhook_secret</definition>
+        <argsstring></argsstring>
+        <name>webhook_secret</name>
+        <qualifiedname>payment.views.webhook_secret</qualifiedname>
+        <initializer>=  settings.STRIPE_WEBHOOK_SECRET</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/views.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/views.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1models_1_1Upvote" xml:lang="en-US">
+<title>exchange.models.Upvote Class Reference</title>
+<indexterm><primary>exchange.models.Upvote</primary></indexterm>
+Inheritance diagram for exchange.models.Upvote:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1models_1_1Upvote__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.models.Upvote:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1models_1_1Upvote__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexchange_1_1models_1_1Upvote_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8">comment</link> = models.ForeignKey(<link linkend="_classexchange_1_1models_1_1Comment">Comment</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e">user</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8"/><section>
+    <title>comment</title>
+<indexterm><primary>comment</primary><secondary>exchange.models.Upvote</secondary></indexterm>
+<indexterm><primary>exchange.models.Upvote</primary><secondary>comment</secondary></indexterm>
+<para><computeroutput>exchange.models.Upvote.comment = models.ForeignKey(<link linkend="_classexchange_1_1models_1_1Comment">Comment</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>exchange.models.Upvote</secondary></indexterm>
+<indexterm><primary>exchange.models.Upvote</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>exchange.models.Upvote.user = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2models_8py">models.py</link></section>
+</section>

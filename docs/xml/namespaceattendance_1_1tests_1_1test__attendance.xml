@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1tests_1_1test__attendance" kind="namespace" language="Python">
+    <compoundname>attendance::tests::test_attendance</compoundname>
+    <innerclass refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance" prot="public">attendance::tests::test_attendance::TestMainAttendance</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceattendance_1_1tests_1_1test__attendance_1a975649e574d3970e7140bd00c60738bd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance::tests::test_attendance.login_url</definition>
+        <argsstring></argsstring>
+        <name>login_url</name>
+        <qualifiedname>attendance.tests.test_attendance.login_url</qualifiedname>
+        <initializer>=  reverse(&apos;user:login&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceattendance_1_1tests_1_1test__attendance_1a39da7e43beaf1617002dd21d9929ddc5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance::tests::test_attendance.main_attendance_url</definition>
+        <argsstring></argsstring>
+        <name>main_attendance_url</name>
+        <qualifiedname>attendance.tests.test_attendance.main_attendance_url</qualifiedname>
+        <initializer>=  reverse(&apos;attendance:add-attendance&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceattendance_1_1tests_1_1test__attendance_1a5041bc88c9a7466698a5f1a6f8909b96" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>attendance::tests::test_attendance.mark_student_attendance</definition>
+        <argsstring></argsstring>
+        <name>mark_student_attendance</name>
+        <qualifiedname>attendance.tests.test_attendance.mark_student_attendance</qualifiedname>
+        <initializer>=  reverse(&apos;attendance:mark-student-attendance&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

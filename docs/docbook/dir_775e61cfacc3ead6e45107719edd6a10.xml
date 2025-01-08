@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_775e61cfacc3ead6e45107719edd6a10" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations Directory Reference</primary></indexterm>
+Directory dependency graph for migrations:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_775e61cfacc3ead6e45107719edd6a10_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_attendance_2migrations_20001__initial_8py">0001_initial.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0002__alter__mainattendance__attendance__type_8py">0002_alter_mainattendance_attendance_type.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0003__alter__mainattendance__date__of__producing__and__more_8py">0003_alter_mainattendance_date_of_producing_and_more.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0004__alter__studentattendance__date__of__marking_8py">0004_alter_studentattendance_date_of_marking.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0005__alter__hodattendance__date__of__marking__and__more_8py">0005_alter_hodattendance_date_of_marking_and_more.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0006__alter__hodattendance__table__alter__mainattendance__table__and__more_8py">0006_alter_hodattendance_table_alter_mainattendance_table_and_more.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0007__alter__hodattendance__table__alter__mainattendance__table__and__more_8py">0007_alter_hodattendance_table_alter_mainattendance_table_and_more.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0008__mainattendance__classroom_8py">0008_mainattendance_classroom.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0009__alter__studentattendance__student__and__more_8py">0009_alter_studentattendance_student_and_more.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_attendance_2migrations_2____init_____8py">__init__.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
