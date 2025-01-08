@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="college_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespacecollege">college</innernamespace>
+    <innernamespace refid="namespacecollege_1_1urls">college::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecollege_1_1urls" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">URL<sp/>configuration<sp/>for<sp/>college<sp/>project.</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">The<sp/>`urlpatterns`<sp/>list<sp/>routes<sp/>URLs<sp/>to<sp/>views.<sp/>For<sp/>more<sp/>information<sp/>please<sp/>see:</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>https://docs.djangoproject.com/en/5.0/topics/http/urls/</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">Examples:</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">Function<sp/>views</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>1.<sp/>Add<sp/>an<sp/>import:<sp/><sp/>from<sp/>my_app<sp/>import<sp/>views</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>2.<sp/>Add<sp/>a<sp/>URL<sp/>to<sp/>urlpatterns:<sp/><sp/>path(&apos;&apos;,<sp/>views.home,<sp/>name=&apos;home&apos;)</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">Class-based<sp/>views</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>1.<sp/>Add<sp/>an<sp/>import:<sp/><sp/>from<sp/>other_app.views<sp/>import<sp/>Home</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>2.<sp/>Add<sp/>a<sp/>URL<sp/>to<sp/>urlpatterns:<sp/><sp/>path(&apos;&apos;,<sp/>Home.as_view(),<sp/>name=&apos;home&apos;)</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">Including<sp/>another<sp/>URLconf</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>1.<sp/>Import<sp/>the<sp/>include()<sp/>function:<sp/>from<sp/>django.urls<sp/>import<sp/>include,<sp/>path</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>2.<sp/>Add<sp/>a<sp/>URL<sp/>to<sp/>urlpatterns:<sp/><sp/>path(&apos;blog/&apos;,<sp/>include(&apos;blog.urls&apos;))</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>admin</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path,<sp/>include</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespacecollege_1_1urls_1a5990d5fdc3ddf335c4017159284aae1f" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;admin/&apos;</highlight><highlight class="normal">,<sp/>admin.site.urls),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;users/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;user.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;exchange/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;exchange.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;grade/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;grade.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;attendance/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;attendance.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;classroom/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;classroom.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;chat/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;chat.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;payment/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;payment.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;exam/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;exam.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;assignment/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;assignment.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;assistant/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&apos;webhooks.urls&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/urls.py"/>
+  </compounddef>
+</doxygen>

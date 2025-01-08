@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1views_1_1RegisterView" xml:lang="en-US">
+<title>user.views.RegisterView Class Reference</title>
+<indexterm><primary>user.views.RegisterView</primary></indexterm>
+Inheritance diagram for user.views.RegisterView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1RegisterView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.views.RegisterView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1RegisterView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08">permission_classes</link> = [AllowAny]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1RegisterView_1ae430a8dda7c352f42d21878e28bb4ce9"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>user.views.RegisterView</secondary></indexterm>
+<indexterm><primary>user.views.RegisterView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>user.views.RegisterView.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1RegisterView_1adee6513a9f44ab099d07f808db301c08"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>user.views.RegisterView</secondary></indexterm>
+<indexterm><primary>user.views.RegisterView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>list user.views.RegisterView.permission_classes = [AllowAny]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2views_8py">views.py</link></section>
+</section>

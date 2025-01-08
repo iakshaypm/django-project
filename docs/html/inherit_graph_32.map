@@ -1,0 +1,75 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1287,164,1313"/>
+<area shape="rect" id="Node000001" href="$classassignment_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="245,5,453,45"/>
+<area shape="poly" id="edge38_Node000000_Node000001" title=" " alt="" coords="84,1273,95,1024,118,636,135,438,156,263,180,129,194,84,210,56,226,42,244,32,246,37,229,46,214,59,199,86,186,130,161,264,140,439,123,637,100,1024,90,1274"/>
+<area shape="rect" id="Node000002" href="$classattendance_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="247,69,452,109"/>
+<area shape="poly" id="edge39_Node000000_Node000002" title=" " alt="" coords="84,1274,96,1036,120,669,137,481,157,315,182,189,195,146,210,120,226,106,245,96,248,101,229,110,214,123,200,148,187,190,163,316,142,482,125,669,101,1037,90,1274"/>
+<area shape="rect" id="Node000003" href="$classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration.html" title=" " alt="" coords="223,134,475,189"/>
+<area shape="poly" id="edge40_Node000000_Node000003" title=" " alt="" coords="85,1273,97,1050,123,709,140,535,161,381,184,263,196,223,210,198,222,187,225,191,214,202,201,225,189,265,166,382,146,535,128,709,103,1051,90,1274"/>
+<area shape="rect" id="Node000004" href="$classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration.html" title=" " alt="" coords="224,213,475,267"/>
+<area shape="poly" id="edge41_Node000000_Node000004" title=" " alt="" coords="83,1274,83,1079,87,936,95,780,110,623,133,479,148,415,166,359,186,313,210,277,222,266,225,270,214,280,191,315,171,361,153,417,138,480,115,624,101,781,92,937,88,1079,88,1274"/>
+<area shape="rect" id="Node000005" href="$classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration.html" title=" " alt="" coords="247,291,452,346"/>
+<area shape="poly" id="edge42_Node000000_Node000005" title=" " alt="" coords="83,1273,85,1092,90,960,100,816,115,673,138,540,152,482,169,431,188,388,210,356,226,341,245,331,248,335,229,345,214,359,193,391,174,433,157,484,143,541,120,673,105,817,96,960,91,1092,88,1273"/>
+<area shape="rect" id="Node000006" href="$classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration.html" title=" " alt="" coords="229,370,470,425"/>
+<area shape="poly" id="edge43_Node000000_Node000006" title=" " alt="" coords="83,1273,88,1106,94,985,105,855,121,724,143,604,172,504,190,465,210,436,227,421,230,425,214,439,194,468,177,506,148,605,126,725,110,855,100,986,93,1106,89,1274"/>
+<area shape="rect" id="Node000007" href="$classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.html" title=" " alt="" coords="243,449,455,519"/>
+<area shape="poly" id="edge44_Node000000_Node000007" title=" " alt="" coords="84,1274,92,1123,111,900,128,784,149,678,176,590,192,556,210,529,225,515,242,504,245,509,228,519,214,532,197,558,181,592,154,679,133,785,117,901,97,1123,89,1274"/>
+<area shape="rect" id="Node000008" href="$classattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.html" title=" " alt="" coords="243,543,455,612"/>
+<area shape="poly" id="edge45_Node000000_Node000008" title=" " alt="" coords="85,1273,95,1138,117,944,134,844,154,751,180,675,194,645,210,622,241,598,245,602,214,626,199,648,184,677,159,753,139,845,122,945,100,1139,90,1274"/>
+<area shape="rect" id="Node000009" href="$classattendance_1_1migrations_1_10008__mainattendance__classroom_1_1Migration.html" title=" " alt="" coords="212,636,487,676"/>
+<area shape="poly" id="edge46_Node000000_Node000009" title=" " alt="" coords="85,1274,96,1149,119,973,135,883,156,800,181,732,195,706,210,686,225,674,228,678,214,690,199,709,185,735,161,802,141,884,124,974,101,1150,90,1274"/>
+<area shape="rect" id="Node000010" href="$classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration.html" title=" " alt="" coords="241,701,457,755"/>
+<area shape="poly" id="edge47_Node000000_Node000010" title=" " alt="" coords="86,1273,100,1164,125,1012,142,935,162,864,184,806,210,766,240,745,243,749,214,770,189,809,167,866,147,936,130,1013,105,1165,91,1274"/>
+<area shape="rect" id="Node000011" href="$classchat_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="269,780,429,820"/>
+<area shape="poly" id="edge48_Node000000_Node000011" title=" " alt="" coords="87,1274,102,1176,128,1043,145,975,165,914,186,864,210,830,237,812,268,801,270,807,240,817,214,834,191,867,170,916,150,977,134,1044,107,1177,92,1274"/>
+<area shape="rect" id="Node000012" href="$classchat_1_1migrations_1_10002__alter__room__name_1_1Migration.html" title=" " alt="" coords="244,844,455,884"/>
+<area shape="poly" id="edge49_Node000000_Node000012" title=" " alt="" coords="83,1273,88,1198,105,1096,121,1041,143,988,172,938,210,894,242,874,245,879,214,898,177,941,148,990,126,1043,110,1097,93,1199,88,1274"/>
+<area shape="rect" id="Node000013" href="$classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration.html" title=" " alt="" coords="260,909,439,963"/>
+<area shape="poly" id="edge50_Node000000_Node000013" title=" " alt="" coords="86,1273,96,1212,117,1132,133,1089,154,1047,179,1008,210,974,233,958,259,947,261,952,236,963,214,978,183,1012,158,1050,138,1091,122,1134,101,1213,91,1274"/>
+<area shape="rect" id="Node000014" href="$classchat_1_1migrations_1_10004__room__type_1_1Migration.html" title=" " alt="" coords="267,988,432,1028"/>
+<area shape="poly" id="edge51_Node000000_Node000014" title=" " alt="" coords="88,1273,101,1223,124,1159,160,1094,183,1064,210,1038,237,1022,266,1012,267,1018,239,1027,214,1042,187,1067,165,1097,129,1161,106,1225,93,1275"/>
+<area shape="rect" id="Node000015" href="$classclassroom_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="250,1052,449,1092"/>
+<area shape="poly" id="edge52_Node000000_Node000015" title=" " alt="" coords="93,1273,109,1235,134,1188,168,1141,210,1102,249,1083,251,1088,214,1106,172,1145,139,1191,114,1237,98,1275"/>
+<area shape="rect" id="Node000016" href="$classclassroom_1_1migrations_1_10002__alter__classroom__name_1_1Migration.html" title=" " alt="" coords="228,1116,471,1156"/>
+<area shape="poly" id="edge53_Node000000_Node000016" title=" " alt="" coords="100,1274,145,1219,176,1190,211,1166,237,1154,239,1158,213,1170,179,1194,149,1223,104,1278"/>
+<area shape="rect" id="Node000017" href="$classexam_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="265,1180,434,1220"/>
+<area shape="poly" id="edge54_Node000000_Node000017" title=" " alt="" coords="116,1278,160,1253,211,1230,264,1213,265,1219,213,1234,163,1258,119,1282"/>
+<area shape="rect" id="Node000018" href="$classexchange_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="252,1244,447,1284"/>
+<area shape="poly" id="edge55_Node000000_Node000018" title=" " alt="" coords="177,1285,251,1275,252,1280,178,1290"/>
+<area shape="rect" id="Node000019" href="$classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration.html" title=" " alt="" coords="234,1309,465,1363"/>
+<area shape="poly" id="edge56_Node000000_Node000019" title=" " alt="" coords="178,1310,234,1318,233,1323,177,1315"/>
+<area shape="rect" id="Node000020" href="$classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration.html" title=" " alt="" coords="241,1388,457,1428"/>
+<area shape="poly" id="edge57_Node000000_Node000020" title=" " alt="" coords="116,1318,161,1346,213,1372,252,1385,250,1390,211,1377,158,1351,114,1323"/>
+<area shape="rect" id="Node000021" href="$classgrade_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="265,1452,434,1492"/>
+<area shape="poly" id="edge58_Node000000_Node000021" title=" " alt="" coords="103,1322,148,1381,178,1412,213,1438,238,1450,265,1458,264,1463,236,1455,211,1442,175,1416,144,1385,99,1326"/>
+<area shape="rect" id="Node000022" href="$classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration.html" title=" " alt="" coords="253,1517,446,1571"/>
+<area shape="poly" id="edge59_Node000000_Node000022" title=" " alt="" coords="97,1325,114,1364,138,1412,172,1461,214,1502,254,1523,251,1528,210,1506,168,1464,134,1415,109,1366,92,1327"/>
+<area shape="rect" id="Node000023" href="$classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration.html" title=" " alt="" coords="253,1595,446,1650"/>
+<area shape="poly" id="edge60_Node000000_Node000023" title=" " alt="" coords="93,1326,105,1379,127,1448,163,1520,186,1552,214,1581,232,1594,254,1604,251,1609,230,1598,210,1585,182,1556,158,1522,122,1450,100,1381,88,1327"/>
+<area shape="rect" id="Node000024" href="$classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration.html" title=" " alt="" coords="238,1675,461,1715"/>
+<area shape="poly" id="edge61_Node000000_Node000024" title=" " alt="" coords="90,1326,97,1394,116,1484,132,1532,153,1578,180,1622,214,1659,239,1676,236,1681,210,1663,176,1625,148,1581,127,1534,111,1485,91,1394,84,1327"/>
+<area shape="rect" id="Node000025" href="$classuser_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="270,1739,429,1779"/>
+<area shape="poly" id="edge62_Node000000_Node000025" title=" " alt="" coords="88,1326,91,1405,97,1456,107,1512,123,1570,145,1627,175,1679,214,1725,240,1742,271,1752,269,1757,238,1747,210,1729,171,1682,140,1629,118,1572,102,1514,92,1457,86,1405,83,1327"/>
+<area shape="rect" id="Node000026" href="$classuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher_1_1Migration.html" title=" " alt="" coords="234,1803,465,1858"/>
+<area shape="poly" id="edge63_Node000000_Node000026" title=" " alt="" coords="92,1326,107,1428,133,1567,150,1637,169,1701,191,1754,214,1789,235,1805,232,1809,210,1792,186,1756,164,1703,145,1639,128,1568,102,1429,87,1327"/>
+<area shape="rect" id="Node000027" href="$classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration.html" title=" " alt="" coords="231,1883,468,1923"/>
+<area shape="poly" id="edge64_Node000000_Node000027" title=" " alt="" coords="91,1326,103,1442,127,1605,144,1689,164,1764,187,1826,200,1850,214,1867,232,1881,229,1886,210,1871,196,1853,182,1828,159,1766,138,1690,122,1606,98,1443,86,1327"/>
+<area shape="rect" id="Node000028" href="$classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration.html" title=" " alt="" coords="249,1947,450,2016"/>
+<area shape="poly" id="edge65_Node000000_Node000028" title=" " alt="" coords="90,1327,102,1454,125,1636,141,1729,162,1815,186,1885,200,1912,214,1933,230,1948,250,1959,247,1963,227,1952,210,1936,195,1915,181,1887,157,1816,136,1730,120,1637,96,1455,85,1327"/>
+<area shape="rect" id="Node000029" href="$classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration.html" title=" " alt="" coords="256,2041,443,2095"/>
+<area shape="poly" id="edge66_Node000000_Node000029" title=" " alt="" coords="90,1326,98,1470,118,1681,134,1789,155,1889,182,1971,197,2002,214,2026,233,2042,257,2054,255,2058,231,2047,210,2030,193,2005,177,1973,150,1890,129,1790,113,1681,92,1471,84,1326"/>
+<area shape="rect" id="Node000030" href="$classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration.html" title=" " alt="" coords="245,2119,453,2174"/>
+<area shape="poly" id="edge67_Node000000_Node000030" title=" " alt="" coords="89,1326,95,1484,113,1718,129,1840,151,1951,179,2043,196,2078,214,2105,229,2118,247,2128,244,2133,226,2122,210,2108,191,2081,174,2045,146,1952,124,1840,108,1719,90,1484,84,1326"/>
+<area shape="rect" id="Node000031" href="$classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration.html" title=" " alt="" coords="222,2199,477,2239"/>
+<area shape="poly" id="edge68_Node000000_Node000031" title=" " alt="" coords="89,1326,92,1498,97,1622,107,1757,123,1891,145,2014,159,2068,175,2115,193,2154,214,2184,229,2196,226,2200,210,2187,189,2157,170,2117,154,2070,140,2015,118,1892,102,1757,92,1622,86,1499,83,1327"/>
+<area shape="rect" id="Node000032" href="$classuser_1_1migrations_1_10008__alter__student__classroom_1_1Migration.html" title=" " alt="" coords="222,2263,477,2303"/>
+<area shape="poly" id="edge69_Node000000_Node000032" title=" " alt="" coords="88,1327,90,1510,94,1643,103,1788,118,1933,141,2066,155,2124,172,2175,192,2217,214,2249,227,2260,224,2265,210,2252,187,2220,167,2177,150,2126,136,2067,113,1934,98,1788,89,1643,84,1510,83,1327"/>
+<area shape="rect" id="Node000033" href="$classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration.html" title=" " alt="" coords="228,2327,471,2382"/>
+<area shape="poly" id="edge70_Node000000_Node000033" title=" " alt="" coords="88,1326,89,1520,93,1662,101,1816,116,1972,139,2115,154,2178,171,2233,191,2278,214,2313,230,2327,226,2331,210,2316,187,2281,166,2235,149,2179,134,2116,111,1972,96,1817,87,1662,83,1520,83,1326"/>
+<area shape="rect" id="Node000034" href="$classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration.html" title=" " alt="" coords="262,2406,437,2461"/>
+<area shape="poly" id="edge71_Node000000_Node000034" title=" " alt="" coords="90,1326,103,1548,129,1887,146,2060,166,2213,189,2329,201,2368,214,2392,236,2410,263,2422,261,2427,233,2414,210,2395,197,2370,184,2330,161,2214,141,2061,123,1888,98,1548,85,1326"/>
+<area shape="rect" id="Node000035" href="$classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration.html" title=" " alt="" coords="257,2485,442,2539"/>
+<area shape="poly" id="edge72_Node000000_Node000035" title=" " alt="" coords="90,1326,102,1562,126,1927,144,2113,164,2277,188,2403,201,2445,214,2470,234,2487,258,2499,255,2503,231,2492,210,2474,196,2447,182,2404,159,2278,138,2114,121,1927,96,1563,84,1327"/>
+<area shape="rect" id="Node000036" href="$classuser_1_1migrations_1_10012__student__assignment_1_1Migration.html" title=" " alt="" coords="236,2564,463,2604"/>
+<area shape="poly" id="edge73_Node000000_Node000036" title=" " alt="" coords="90,1326,100,1576,123,1967,140,2166,161,2343,186,2477,199,2522,214,2549,237,2567,234,2571,210,2552,194,2524,180,2478,155,2343,135,2167,118,1967,94,1577,84,1326"/>
+</map>

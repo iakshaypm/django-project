@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0010_remove_parent_phone_number.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0010_remove_parent_phone_number.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0010_remove_parent_phone_number.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0010_remove_parent_phone_number.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a161c925cef640489fa14f89d08b280f8">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a00e58f50cb09c81f325ee8a9659cd02e">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a161c925cef640489fa14f89d08b280f8"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0010_remove_parent_phone_number.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0010_remove_parent_phone_number.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0010_remove_parent_phone_number.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0009_alter_account_user_type_parent_student_parent&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration_1a00e58f50cb09c81f325ee8a9659cd02e"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0010_remove_parent_phone_number.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0010_remove_parent_phone_number.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0010_remove_parent_phone_number.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.RemoveField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;parent&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;phone_number&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_0010__remove__parent__phone__number_8py">0010_remove_parent_phone_number.py</link></section>
+</section>

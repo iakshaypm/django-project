@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>assignment::serializers::AssignmentSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1afd61a8ef4b86b9bee154b5d46a22aa25" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.serializers.AssignmentSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>assignment.serializers.AssignmentSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classassignment_1_1models_1_1Assignment" kindref="compound">Assignment</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1a859d22797b38ef2f118976a7149776e8" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list assignment.serializers.AssignmentSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>assignment.serializers.AssignmentSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;name&apos;, &apos;type&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.serializers.AssignmentSerializer.Meta</label>
+        <link refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1a859d22797b38ef2f118976a7149776e8" prot="public" virt="non-virtual"><scope>assignment::serializers::AssignmentSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1afd61a8ef4b86b9bee154b5d46a22aa25" prot="public" virt="non-virtual"><scope>assignment::serializers::AssignmentSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

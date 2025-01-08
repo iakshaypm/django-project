@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_exchange_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionCreateView">exchange.views.QuestionCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionListView">exchange.views.QuestionListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionRetrieveView">exchange.views.QuestionRetrieveView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionUpdateView">exchange.views.QuestionUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1QuestionDeleteView">exchange.views.QuestionDeleteView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentCreateView">exchange.views.CommentCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentListView">exchange.views.CommentListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentRetrieveView">exchange.views.CommentRetrieveView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentUpdateView">exchange.views.CommentUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1CommentDeleteView">exchange.views.CommentDeleteView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1UpvoteCreateView">exchange.views.UpvoteCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classexchange_1_1views_1_1UpvoteDeleteView">exchange.views.UpvoteDeleteView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceexchange">exchange</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceexchange_1_1views">exchange.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

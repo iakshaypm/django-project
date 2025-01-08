@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1serializers_1_1AssignmentMarkSerializer" kind="class" language="Python" prot="public">
+    <compoundname>assignment::serializers::AssignmentMarkSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" prot="public">assignment::serializers::AssignmentMarkSerializer::Meta</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment.serializers.AssignmentMarkSerializer</label>
+        <link refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers::ModelSerializer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.serializers.AssignmentMarkSerializer</label>
+        <link refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers::ModelSerializer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

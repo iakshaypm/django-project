@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1views_1_1QuestionUpdateView" xml:lang="en-US">
+<title>exchange.views.QuestionUpdateView Class Reference</title>
+<indexterm><primary>exchange.views.QuestionUpdateView</primary></indexterm>
+Inheritance diagram for exchange.views.QuestionUpdateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1QuestionUpdateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.views.QuestionUpdateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1QuestionUpdateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1QuestionUpdateView_1a731a6f16b1f0906bba87fb88cd703418">update</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1QuestionUpdateView_1ac82774f46ac9f5b3546e06a0b3c8b2f1">queryset</link> = Question.objects.all()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classexchange_1_1views_1_1QuestionUpdateView_1aafd20b8a69e57cf1c3639a63be54f4bc">permission_classes</link> = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1QuestionUpdateView_1adac8c3179a4459fd8f17ce56255f31bb">serializer_class</link> = <link linkend="_classexchange_1_1serializers_1_1QuestionSerializer">QuestionSerializer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionUpdateView_1a731a6f16b1f0906bba87fb88cd703418"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>exchange.views.QuestionUpdateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionUpdateView</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>exchange.views.QuestionUpdateView.update ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionUpdateView_1aafd20b8a69e57cf1c3639a63be54f4bc"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exchange.views.QuestionUpdateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionUpdateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exchange.views.QuestionUpdateView.permission_classes = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionUpdateView_1ac82774f46ac9f5b3546e06a0b3c8b2f1"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>exchange.views.QuestionUpdateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionUpdateView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>exchange.views.QuestionUpdateView.queryset = Question.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionUpdateView_1adac8c3179a4459fd8f17ce56255f31bb"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>exchange.views.QuestionUpdateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionUpdateView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>exchange.views.QuestionUpdateView.serializer_class = <link linkend="_classexchange_1_1serializers_1_1QuestionSerializer">QuestionSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2views_8py">views.py</link></section>
+</section>

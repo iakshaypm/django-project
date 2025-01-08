@@ -1,0 +1,4 @@
+var namespacechat_1_1migrations_1_10003__room__created__by__alter__room__online =
+[
+    [ "Migration", "classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration.html", "classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration" ]
+];

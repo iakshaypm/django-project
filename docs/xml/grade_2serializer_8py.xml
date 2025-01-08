@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="grade_2serializer_8py" kind="file" language="Python">
+    <compoundname>serializer.py</compoundname>
+    <innerclass refid="classgrade_1_1serializer_1_1MarkSerializer" prot="public">grade::serializer::MarkSerializer</innerclass>
+    <innerclass refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta" prot="public">grade::serializer::MarkSerializer::Meta</innerclass>
+    <innernamespace refid="namespacegrade">grade</innernamespace>
+    <innernamespace refid="namespacegrade_1_1serializer">grade::serializer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacegrade_1_1serializer" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Mark</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classgrade_1_1serializer_1_1MarkSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1serializer_1_1MarkSerializer" kindref="compound">MarkSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="6" refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="7" refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aab073eb5c973dcf8bfd1b505b97b77f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Mark</highlight></codeline>
+<codeline lineno="8" refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aba4a6168ec01581ad4b745f530a1c521" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;student&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;sub1&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;sub2&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;sub3&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/serializer.py"/>
+  </compounddef>
+</doxygen>

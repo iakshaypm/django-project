@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classpayment_1_1apps_1_1PaymentConfig" xml:lang="en-US">
+<title>payment.apps.PaymentConfig Class Reference</title>
+<indexterm><primary>payment.apps.PaymentConfig</primary></indexterm>
+Inheritance diagram for payment.apps.PaymentConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classpayment_1_1apps_1_1PaymentConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for payment.apps.PaymentConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classpayment_1_1apps_1_1PaymentConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classpayment_1_1apps_1_1PaymentConfig_1a304bb093446873046d638f039d81803d">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classpayment_1_1apps_1_1PaymentConfig_1a8fb1946118fd8ba5467fccce3a097c3a">name</link> = &apos;payment&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classpayment_1_1apps_1_1PaymentConfig_1a304bb093446873046d638f039d81803d"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>payment.apps.PaymentConfig</secondary></indexterm>
+<indexterm><primary>payment.apps.PaymentConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str payment.apps.PaymentConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classpayment_1_1apps_1_1PaymentConfig_1a8fb1946118fd8ba5467fccce3a097c3a"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>payment.apps.PaymentConfig</secondary></indexterm>
+<indexterm><primary>payment.apps.PaymentConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str payment.apps.PaymentConfig.name = &apos;payment&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment/<link linkend="_payment_2apps_8py">apps.py</link></section>
+</section>

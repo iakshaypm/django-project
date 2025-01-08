@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacewebhooks_1_1management" xml:lang="en-US">
+<title>webhooks.management Namespace Reference</title>
+<indexterm><primary>webhooks.management</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacewebhooks_1_1management_1_1commands">commands</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

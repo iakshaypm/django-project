@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>django-project</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespaceassignment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceassignment_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10008__mainattendance__classroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1serializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1tests_1_1test__attendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceattendance_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1consumers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1middleware.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1migrations_1_10002__alter__room__name.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1migrations_1_10003__room__created__by__alter__room__online.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1migrations_1_10004__room__type.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1routing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1tasks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacechat_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1migrations_1_10002__alter__classroom__name.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclassroom_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1asgi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1assignment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1celery.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1file__type__detector.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecollege_1_1wsgi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexam_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1migrations_1_10003__alter__question__tag.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1signals.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexchange_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1migrations_1_10004__alter__mark__student.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1serializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegrade_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemanage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacepayment_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10003__alter__account__is__staff.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10005__rename__subject__subject__name.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10007__alter__student__classroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10008__alter__student__classroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10010__remove__parent__phone__number.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10011__alter__student__parent__delete__parent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1migrations_1_10012__student__assignment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1MyBackend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1permission.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1serializers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1signals.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceuser_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1management_1_1commands.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1management_1_1commands_1_1set__telegram__webhook.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacewebhooks_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classuser_1_1models_1_1Account.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1tests_1_1AdminSiteTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1models_1_1Assignment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1apps_1_1AssignmentConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1views_1_1AssignmentCreate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1models_1_1AssignmentMark.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1views_1_1AssignmentMarkCreate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1serializers_1_1AssignmentMarkSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1serializers_1_1AssignmentSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1apps_1_1AttendanceConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1views_1_1AttendanceCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1AttendanceSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBaseUserAdmin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1CanAccessComment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1permission_1_1CanAccessComment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1permission_1_1CanAddAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1CanAddComment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1permission_1_1CanCreateRoom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1permission_1_1CanMarkAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1CanRemoveUpvote.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1permission_1_1CanRemoveUpvote.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1CanUpvote.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1permission_1_1CanUpvote.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1apps_1_1ChatConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1consumers_1_1ChatConsumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1models_1_1Classroom.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1apps_1_1ClassroomConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1views_1_1ClassroomCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1views_1_1ClassroomListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1serializers_1_1ClassroomSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1ClassroomSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1models_1_1Comment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1CommentCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1CommentDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1CommentListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1CommentRetrieveView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1CommentSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1CommentUpdateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classpayment_1_1views_1_1CreateCheckoutSession.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1views_1_1CreateRoomView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1MyBackend_1_1CustomBackend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1models_1_1Exam.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1apps_1_1ExamConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1views_1_1ExamCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1serializers_1_1ExamSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1apps_1_1ExchangeConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1apps_1_1GradeConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1tests_1_1GradeSystemTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1models_1_1HOD.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1HodAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1HODRegister.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1HODSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1permission_1_1IsHOD.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1permission_1_1IsManagement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1permission_1_1IsManagement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1permission_1_1IsParent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1permission_1_1IsStudent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1IsStudent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1permission_1_1IsStudent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1permission_1_1IsStudent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1permission_1_1IsTeacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1permission_1_1IsTeacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1permission_1_1IsTeacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1permission_1_1IsTeacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1permission_1_1IsTeacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1MainAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1models_1_1Mark.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1views_1_1MarkCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1views_1_1MarkDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1views_1_1MarkListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1serializer_1_1MarkSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1MarkSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1models_1_1Message.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1models_1_1Assignment_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1models_1_1AssignmentMark_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1HodAttendance_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1MainAttendance_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1StudentAttendance_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1TeacherAttendance_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1serializers_1_1RoomSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1models_1_1Exam_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1serializers_1_1ExamSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1models_1_1Upvote_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1HODSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1MarkSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1UserSerializer_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classassignment_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10007__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10008__mainattendance__classroom_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1migrations_1_10009__alter__studentattendance__student__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1migrations_1_10002__alter__room__name_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1migrations_1_10004__room__type_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclassroom_1_1migrations_1_10002__alter__classroom__name_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexam_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1migrations_1_10002__rename__questoin__id__comment__question__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1migrations_1_10002__alter__mark__student__alter__mark__teacher_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgrade_1_1migrations_1_10004__alter__mark__student_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10003__alter__account__is__staff_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10006__student__classroom__teacher__classroom_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10008__alter__student__classroom_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10010__remove__parent__phone__number_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1migrations_1_10012__student__assignment_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1tests_1_1ModelTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1models_1_1MyAccountManager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classpayment_1_1apps_1_1PaymentConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1models_1_1Question.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1QuestionCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1QuestionDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1QuestionListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1QuestionRetrieveView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1QuestionSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1QuestionUpdateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1RegisterView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1models_1_1Room.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1serializers_1_1RoomSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1views_1_1ShowAttendanceView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1StripeAuthorizeCallbackView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1StripeAuthorizeView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1models_1_1Student.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1StudentAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1views_1_1StudentAttendanceCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1StudentAttendanceSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentAttendanceSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1StudentRegister.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1StudentViewSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1models_1_1Subject.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1models_1_1Teacher.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1models_1_1TeacherAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1views_1_1TeacherAttendanceCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1serializer_1_1TeacherAttendanceSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1TeacherRegister.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1TeacherSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classwebhooks_1_1views_1_1TelegramWebhook.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classchat_1_1middleware_1_1TokenAuthMiddleware.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1models_1_1Upvote.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1UpvoteCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1views_1_1UpvoteDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexchange_1_1serializers_1_1UpvoteSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1admin_1_1UserAdmin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1apps_1_1UserConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1serializers_1_1UserSerializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classuser_1_1views_1_1UserView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classpayment_1_1views_1_1WebHook.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classwebhooks_1_1apps_1_1WebhooksConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="0002__alter__mainattendance__attendance__type_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__alter__mainattendance__date__of__producing__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__alter__studentattendance__date__of__marking_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0005__alter__hodattendance__date__of__marking__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0006__alter__hodattendance__table__alter__mainattendance__table__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0007__alter__hodattendance__table__alter__mainattendance__table__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0008__mainattendance__classroom_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0009__alter__studentattendance__student__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__attendance_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="consumers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="middleware_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__alter__room__name_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__room__created__by__alter__room__online_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__room__type_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="routing_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="tasks_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__alter__classroom__name_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="asgi_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="celery_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="file__type__detector_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wsgi_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2serializers_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__rename__questoin__id__comment__question__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__alter__question__tag_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2signals_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2signals_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__alter__mark__student__alter__mark__teacher_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__alter__mark__student__alter__mark__teacher_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__alter__mark__student_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2permission_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2serializer_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2serializer_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="manage_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__alter__account__user__type__hod__student__teacher_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__alter__account__is__staff_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__subject__alter__hod__options__alter__teacher__options__and__more_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0005__rename__subject__subject__name_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0006__student__classroom__teacher__classroom_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0007__alter__student__classroom_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0008__alter__student__classroom_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0009__alter__account__user__type__parent__student__parent_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0010__remove__parent__phone__number_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0011__alter__student__parent__delete__parent_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0012__student__assignment_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="MyBackend_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="set__telegram__webhook_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2tests_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="college_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2management_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2management_2commands_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="college_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="assignment_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="attendance_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="chat_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classroom_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exam_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="exchange_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="grade_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="payment_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="user_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="webhooks_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1models_1_1Mark" xml:lang="en-US">
+<title>grade.models.Mark Class Reference</title>
+<indexterm><primary>grade.models.Mark</primary></indexterm>
+Inheritance diagram for grade.models.Mark:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1models_1_1Mark__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.models.Mark:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1models_1_1Mark__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1models_1_1Mark_1a27eb6a5f3efa01ab97d63e42257681fe">student</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;student_mark&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1models_1_1Mark_1abeacb4a549feba7fec2aaa3bdbe4bd07">teacher</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1models_1_1Mark_1a86c8304ff282693e866edb95ee3f7d46">sub1</link> = models.CharField(max_length=20)</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1models_1_1Mark_1ad06dad21652cd0f3c25a14ba8452b781">sub2</link> = models.CharField(max_length=20)</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1models_1_1Mark_1ae75e48d5615f2e666efcfbf88cd50e3e">sub3</link> = models.CharField(max_length=20)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1models_1_1Mark_1a27eb6a5f3efa01ab97d63e42257681fe"/><section>
+    <title>student</title>
+<indexterm><primary>student</primary><secondary>grade.models.Mark</secondary></indexterm>
+<indexterm><primary>grade.models.Mark</primary><secondary>student</secondary></indexterm>
+<para><computeroutput>grade.models.Mark.student = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;student_mark&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1models_1_1Mark_1a86c8304ff282693e866edb95ee3f7d46"/><section>
+    <title>sub1</title>
+<indexterm><primary>sub1</primary><secondary>grade.models.Mark</secondary></indexterm>
+<indexterm><primary>grade.models.Mark</primary><secondary>sub1</secondary></indexterm>
+<para><computeroutput>grade.models.Mark.sub1 = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1models_1_1Mark_1ad06dad21652cd0f3c25a14ba8452b781"/><section>
+    <title>sub2</title>
+<indexterm><primary>sub2</primary><secondary>grade.models.Mark</secondary></indexterm>
+<indexterm><primary>grade.models.Mark</primary><secondary>sub2</secondary></indexterm>
+<para><computeroutput>grade.models.Mark.sub2 = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1models_1_1Mark_1ae75e48d5615f2e666efcfbf88cd50e3e"/><section>
+    <title>sub3</title>
+<indexterm><primary>sub3</primary><secondary>grade.models.Mark</secondary></indexterm>
+<indexterm><primary>grade.models.Mark</primary><secondary>sub3</secondary></indexterm>
+<para><computeroutput>grade.models.Mark.sub3 = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1models_1_1Mark_1abeacb4a549feba7fec2aaa3bdbe4bd07"/><section>
+    <title>teacher</title>
+<indexterm><primary>teacher</primary><secondary>grade.models.Mark</secondary></indexterm>
+<indexterm><primary>grade.models.Mark</primary><secondary>teacher</secondary></indexterm>
+<para><computeroutput>grade.models.Mark.teacher = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2models_8py">models.py</link></section>
+</section>

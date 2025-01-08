@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance_1_1tests_1_1test__attendance" xml:lang="en-US">
+<title>attendance.tests.test_attendance Namespace Reference</title>
+<indexterm><primary>attendance.tests.test_attendance</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance">TestMainAttendance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a975649e574d3970e7140bd00c60738bd">login_url</link> = reverse(&apos;user:login&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a39da7e43beaf1617002dd21d9929ddc5">main_attendance_url</link> = reverse(&apos;attendance:add-attendance&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a5041bc88c9a7466698a5f1a6f8909b96">mark_student_attendance</link> = reverse(&apos;attendance:mark-student-attendance&apos;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceattendance_1_1tests_1_1test__attendance_1a975649e574d3970e7140bd00c60738bd"/><section>
+    <title>login_url</title>
+<indexterm><primary>login_url</primary><secondary>attendance.tests.test_attendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance</primary><secondary>login_url</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.login_url = reverse(&apos;user:login&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespaceattendance_1_1tests_1_1test__attendance_1a39da7e43beaf1617002dd21d9929ddc5"/><section>
+    <title>main_attendance_url</title>
+<indexterm><primary>main_attendance_url</primary><secondary>attendance.tests.test_attendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance</primary><secondary>main_attendance_url</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.main_attendance_url = reverse(&apos;attendance:add-attendance&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespaceattendance_1_1tests_1_1test__attendance_1a5041bc88c9a7466698a5f1a6f8909b96"/><section>
+    <title>mark_student_attendance</title>
+<indexterm><primary>mark_student_attendance</primary><secondary>attendance.tests.test_attendance</secondary></indexterm>
+<indexterm><primary>attendance.tests.test_attendance</primary><secondary>mark_student_attendance</secondary></indexterm>
+<para><computeroutput>attendance.tests.test_attendance.mark_student_attendance = reverse(&apos;attendance:mark-student-attendance&apos;)</computeroutput></para></section>
+</section>
+</section>

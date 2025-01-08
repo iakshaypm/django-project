@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1models_1_1Room" kind="class" language="Python" prot="public">
+    <compoundname>chat::models::Room</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple chat.models.Room::ROOM_TYPE_CHOOSES</definition>
+        <argsstring></argsstring>
+        <name>ROOM_TYPE_CHOOSES</name>
+        <qualifiedname>chat.models.Room.ROOM_TYPE_CHOOSES</qualifiedname>
+        <initializer>=  (
+        (1, &apos;Student&apos;),
+        (2, &apos;Teacher&apos;),
+        (3, &apos;HOD&apos;),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.models.Room::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>chat.models.Room.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=128, unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.models.Room::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>chat.models.Room.type</qualifiedname>
+        <initializer>=  models.PositiveIntegerField(choices=<ref refid="classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297" kindref="member">ROOM_TYPE_CHOOSES</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.models.Room::online</definition>
+        <argsstring></argsstring>
+        <name>online</name>
+        <qualifiedname>chat.models.Room.online</qualifiedname>
+        <initializer>=  models.ManyToManyField(to=<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, blank=True, related_name=&apos;users_online&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" compoundref="chat_2models_8py" startline="17" endline="19">chat.models.Room.get_online_count</referencedby>
+        <referencedby refid="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" compoundref="chat_2models_8py" startline="20" endline="23">chat.models.Room.join</referencedby>
+        <referencedby refid="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" compoundref="chat_2models_8py" startline="24" endline="28">chat.models.Room.leave</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.models.Room::created_by</definition>
+        <argsstring></argsstring>
+        <name>created_by</name>
+        <qualifiedname>chat.models.Room.created_by</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.models.Room.get_online_count</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_online_count</name>
+        <qualifiedname>chat.models.Room.get_online_count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="17" bodyend="19"/>
+        <references refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" compoundref="chat_2models_8py" startline="14">chat.models.Room.online</references>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.models.Room.join</definition>
+        <argsstring>(self, user)</argsstring>
+        <name>join</name>
+        <qualifiedname>chat.models.Room.join</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>user</type>
+          <defname>user</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="20" bodyend="23"/>
+        <references refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" compoundref="chat_2models_8py" startline="14">chat.models.Room.online</references>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.models.Room.leave</definition>
+        <argsstring>(self, user)</argsstring>
+        <name>leave</name>
+        <qualifiedname>chat.models.Room.leave</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>user</type>
+          <defname>user</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="24" bodyend="28"/>
+        <references refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" compoundref="chat_2models_8py" startline="14">chat.models.Room.online</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>chat.models.Room</label>
+        <link refid="classchat_1_1models_1_1Room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>chat.models.Room</label>
+        <link refid="classchat_1_1models_1_1Room"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ROOM_TYPE_CHOOSES</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py" bodystart="6" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>created_by</name></member>
+      <member refid="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>get_online_count</name></member>
+      <member refid="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>join</name></member>
+      <member refid="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>leave</name></member>
+      <member refid="classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>name</name></member>
+      <member refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>online</name></member>
+      <member refid="classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>ROOM_TYPE_CHOOSES</name></member>
+      <member refid="classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921" prot="public" virt="non-virtual"><scope>chat::models::Room</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

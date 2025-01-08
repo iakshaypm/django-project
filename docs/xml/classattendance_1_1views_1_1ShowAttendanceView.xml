@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1views_1_1ShowAttendanceView" kind="class" language="Python" prot="public">
+    <compoundname>attendance::views::ShowAttendanceView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.ListAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1views_1_1ShowAttendanceView_1a3e61d742ec56efa9859bc4ab53166fe3" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.views.ShowAttendanceView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>attendance.views.ShowAttendanceView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classattendance_1_1serializer_1_1AttendanceSerializer" kindref="compound">AttendanceSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1views_1_1ShowAttendanceView_1a5b2b350ae54f42bce1df162ecdfe5e5e" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple attendance.views.ShowAttendanceView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>attendance.views.ShowAttendanceView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="36" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1views_1_1ShowAttendanceView_1af6e650a3c652bca5e73144f8bd0a2cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.views.ShowAttendanceView.get_queryset</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_queryset</name>
+        <qualifiedname>attendance.views.ShowAttendanceView.get_queryset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="38" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.views.ShowAttendanceView</label>
+        <link refid="classattendance_1_1views_1_1ShowAttendanceView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::ListAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.views.ShowAttendanceView</label>
+        <link refid="classattendance_1_1views_1_1ShowAttendanceView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics::ListAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="34" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1views_1_1ShowAttendanceView_1af6e650a3c652bca5e73144f8bd0a2cd4" prot="public" virt="non-virtual"><scope>attendance::views::ShowAttendanceView</scope><name>get_queryset</name></member>
+      <member refid="classattendance_1_1views_1_1ShowAttendanceView_1a5b2b350ae54f42bce1df162ecdfe5e5e" prot="public" virt="non-virtual"><scope>attendance::views::ShowAttendanceView</scope><name>permission_classes</name></member>
+      <member refid="classattendance_1_1views_1_1ShowAttendanceView_1a3e61d742ec56efa9859bc4ab53166fe3" prot="public" virt="non-virtual"><scope>attendance::views::ShowAttendanceView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

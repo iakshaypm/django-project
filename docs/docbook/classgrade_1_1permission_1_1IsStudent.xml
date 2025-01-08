@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1permission_1_1IsStudent" xml:lang="en-US">
+<title>grade.permission.IsStudent Class Reference</title>
+<indexterm><primary>grade.permission.IsStudent</primary></indexterm>
+Inheritance diagram for grade.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1IsStudent__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1IsStudent__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f">has_permission</link> (self, request, view)</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064">has_object_permission</link> (self, request, view, obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064"/><section>
+    <title>has_object_permission()</title>
+<indexterm><primary>has_object_permission</primary><secondary>grade.permission.IsStudent</secondary></indexterm>
+<indexterm><primary>grade.permission.IsStudent</primary><secondary>has_object_permission</secondary></indexterm>
+<para><computeroutput>grade.permission.IsStudent.has_object_permission ( self,  request,  view,  obj)</computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>grade.permission.IsStudent</secondary></indexterm>
+<indexterm><primary>grade.permission.IsStudent</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>grade.permission.IsStudent.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2permission_8py">permission.py</link></section>
+</section>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclassroom_1_1serializers_1_1ClassroomSerializer" xml:lang="en-US">
+<title>classroom.serializers.ClassroomSerializer Class Reference</title>
+<indexterm><primary>classroom.serializers.ClassroomSerializer</primary></indexterm>
+Inheritance diagram for classroom.serializers.ClassroomSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1serializers_1_1ClassroomSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for classroom.serializers.ClassroomSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1serializers_1_1ClassroomSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/<link linkend="_classroom_2serializers_8py">serializers.py</link></section>

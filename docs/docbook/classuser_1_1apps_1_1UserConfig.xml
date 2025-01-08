@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1apps_1_1UserConfig" xml:lang="en-US">
+<title>user.apps.UserConfig Class Reference</title>
+<indexterm><primary>user.apps.UserConfig</primary></indexterm>
+Inheritance diagram for user.apps.UserConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1apps_1_1UserConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.apps.UserConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1apps_1_1UserConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1apps_1_1UserConfig_1a88e1b6b6a0ba952424b7b33d1b66d971">ready</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classuser_1_1apps_1_1UserConfig_1ad23bae019d6244293884adbb938e5adb">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classuser_1_1apps_1_1UserConfig_1ae7402567365307104c9e0f36982398b0">name</link> = &apos;user&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1apps_1_1UserConfig_1a88e1b6b6a0ba952424b7b33d1b66d971"/><section>
+    <title>ready()</title>
+<indexterm><primary>ready</primary><secondary>user.apps.UserConfig</secondary></indexterm>
+<indexterm><primary>user.apps.UserConfig</primary><secondary>ready</secondary></indexterm>
+<para><computeroutput>user.apps.UserConfig.ready ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1apps_1_1UserConfig_1ad23bae019d6244293884adbb938e5adb"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>user.apps.UserConfig</secondary></indexterm>
+<indexterm><primary>user.apps.UserConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str user.apps.UserConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1apps_1_1UserConfig_1ae7402567365307104c9e0f36982398b0"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>user.apps.UserConfig</secondary></indexterm>
+<indexterm><primary>user.apps.UserConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str user.apps.UserConfig.name = &apos;user&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2apps_8py">apps.py</link></section>
+</section>

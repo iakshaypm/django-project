@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceassignment_1_1views" xml:lang="en-US">
+<title>assignment.views Namespace Reference</title>
+<indexterm><primary>assignment.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1views_1_1AssignmentCreate">AssignmentCreate</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1views_1_1AssignmentMarkCreate">AssignmentMarkCreate</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8">simple_mail</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8"/><section>
+    <title>simple_mail()</title>
+<indexterm><primary>simple_mail</primary><secondary>assignment.views</secondary></indexterm>
+<indexterm><primary>assignment.views</primary><secondary>simple_mail</secondary></indexterm>
+<para><computeroutput>assignment.views.simple_mail ( request)</computeroutput></para></section>
+</section>
+</section>

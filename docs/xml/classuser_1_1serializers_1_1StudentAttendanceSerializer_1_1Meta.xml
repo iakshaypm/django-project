@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::StudentAttendanceSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.StudentAttendanceSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>user.serializers.StudentAttendanceSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classattendance_1_1models_1_1StudentAttendance" kindref="compound">StudentAttendance</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="90" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="90" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a8d31cc20706f58c70ef74766061e2f6e" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.serializers.StudentAttendanceSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>user.serializers.StudentAttendanceSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;date_of_marking&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="91" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.StudentAttendanceSerializer.Meta</label>
+        <link refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="89" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="89" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a8d31cc20706f58c70ef74766061e2f6e" prot="public" virt="non-virtual"><scope>user::serializers::StudentAttendanceSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e" prot="public" virt="non-virtual"><scope>user::serializers::StudentAttendanceSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

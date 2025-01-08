@@ -1,0 +1,4 @@
+var 0011__alter__student__parent__delete__parent_8py =
+[
+    [ "user.migrations.0011_alter_student_parent_delete_parent.Migration", "classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration.html", "classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration" ]
+];

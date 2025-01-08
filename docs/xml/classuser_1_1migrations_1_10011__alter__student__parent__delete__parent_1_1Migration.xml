@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>user::migrations::0011_alter_student_parent_delete_parent::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a0d1b73e6d221b6b8fbf85f654fc89723" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.migrations.0011_alter_student_parent_delete_parent.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>user.migrations.0011_alter_student_parent_delete_parent.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;user&apos;, &apos;0010_remove_parent_phone_number&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a293d6aab6e27a790f92cc9ee03097b26" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.migrations.0011_alter_student_parent_delete_parent.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>user.migrations.0011_alter_student_parent_delete_parent.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;student&apos;,
+            name=&apos;parent&apos;,
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name=&apos;parents&apos;, to=settings.AUTH_USER_MODEL),
+        ),
+        migrations.DeleteModel(
+            name=&apos;Parent&apos;,
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+      <node id="1">
+        <label>user.migrations.0011_alter_student_parent_delete_parent.Migration</label>
+        <link refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+      <node id="1">
+        <label>user.migrations.0011_alter_student_parent_delete_parent.Migration</label>
+        <link refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0011_alter_student_parent_delete_parent.py" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a0d1b73e6d221b6b8fbf85f654fc89723" prot="public" virt="non-virtual"><scope>user::migrations::0011_alter_student_parent_delete_parent::Migration</scope><name>dependencies</name></member>
+      <member refid="classuser_1_1migrations_1_10011__alter__student__parent__delete__parent_1_1Migration_1a293d6aab6e27a790f92cc9ee03097b26" prot="public" virt="non-virtual"><scope>user::migrations::0011_alter_student_parent_delete_parent::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

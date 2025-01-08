@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="user_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classuser_1_1models_1_1MyAccountManager" prot="public">user::models::MyAccountManager</innerclass>
+    <innerclass refid="classuser_1_1models_1_1Account" prot="public">user::models::Account</innerclass>
+    <innerclass refid="classuser_1_1models_1_1Student" prot="public">user::models::Student</innerclass>
+    <innerclass refid="classuser_1_1models_1_1Subject" prot="public">user::models::Subject</innerclass>
+    <innerclass refid="classuser_1_1models_1_1Teacher" prot="public">user::models::Teacher</innerclass>
+    <innerclass refid="classuser_1_1models_1_1HOD" prot="public">user::models::HOD</innerclass>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1models">user::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AbstractBaseUser,<sp/>BaseUserManager,<sp/>PermissionsMixin</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Permission</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceclassroom_1_1models" kindref="compound">classroom.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Classroom</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceassignment_1_1models" kindref="compound">assignment.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Assignment</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classuser_1_1models_1_1MyAccountManager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1MyAccountManager" kindref="compound">MyAccountManager</ref>(BaseUserManager):</highlight></codeline>
+<codeline lineno="9" refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" kindref="member">create_user</ref>(self,<sp/>email,<sp/>password=None,<sp/>**extra_fields):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>email:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&quot;Users<sp/>must<sp/>have<sp/>a<sp/>email<sp/>address.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>extra_fields[</highlight><highlight class="stringliteral">&apos;phone_number&apos;</highlight><highlight class="normal">]:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ValueError(</highlight><highlight class="stringliteral">&quot;Users<sp/>must<sp/>have<sp/>a<sp/>phone<sp/>number.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user<sp/>=<sp/>self.model(</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>email=self.normalize_email(email).lower(),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>**extra_fields</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user.set_password(password)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user.save(using=self._db)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>user</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" kindref="member">create_superuser</ref>(self,<sp/>email,<sp/>password=None,<sp/>**extra_fields):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user<sp/>=<sp/>self.<ref refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" kindref="member">create_user</ref>(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>email=self.normalize_email(email),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>password=password,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>**extra_fields</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user.is_staff<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user.is_superuser<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>user.save(using=self._db)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>user</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classuser_1_1models_1_1Account" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>(AbstractBaseUser,<sp/>PermissionsMixin):</highlight></codeline>
+<codeline lineno="39" refid="classuser_1_1models_1_1Account_1a2c49a2e5ce3c6e2754e3b64e7d85c6a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>USER_TYPE_CHOOSES<sp/>=<sp/>(</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1,<sp/></highlight><highlight class="stringliteral">&apos;Student&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2,<sp/></highlight><highlight class="stringliteral">&apos;Teacher&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3,<sp/></highlight><highlight class="stringliteral">&apos;HOD&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4,<sp/></highlight><highlight class="stringliteral">&apos;Management&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(5,<sp/></highlight><highlight class="stringliteral">&apos;Parent&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="46" refid="classuser_1_1models_1_1Account_1a500071aecd6de2dc80617070824b5c32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>username<sp/>=<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classuser_1_1models_1_1Account_1aea0a30bb46ad5067cae44e3c65de75ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>email<sp/>=<sp/>models.EmailField(verbose_name=</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">,<sp/>max_length=60,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="48" refid="classuser_1_1models_1_1Account_1afe457cd7b47cfa9409db7653c70b0f98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=60)</highlight></codeline>
+<codeline lineno="49" refid="classuser_1_1models_1_1Account_1a667b6b7af55e60b99ba019934b411467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>phone_number<sp/>=<sp/>models.CharField(max_length=20,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="50" refid="classuser_1_1models_1_1Account_1af8f9bcc85da02f6394afc7adb8dc8182" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>is_active<sp/>=<sp/>models.BooleanField(default=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51" refid="classuser_1_1models_1_1Account_1a89b581e259059041656e336c1ea8b660" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>is_staff<sp/>=<sp/>models.BooleanField(default=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="52" refid="classuser_1_1models_1_1Account_1aac889f864841893e92999e28d07ac080" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>is_superuser<sp/>=<sp/>models.BooleanField(default=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53" refid="classuser_1_1models_1_1Account_1a45acb9ca218b77306eb3bf44f0f7441d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>last_login<sp/>=<sp/>models.DateTimeField(verbose_name=</highlight><highlight class="stringliteral">&apos;last_login&apos;</highlight><highlight class="normal">,<sp/>auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54" refid="classuser_1_1models_1_1Account_1acad0315a733ef3bc43737554f48a608c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user_type<sp/>=<sp/>models.PositiveIntegerField(choices=USER_TYPE_CHOOSES,<sp/>default=1)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classuser_1_1models_1_1Account_1aec0dc9bf359cbd614091c1382cd911a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>USERNAME_FIELD<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classuser_1_1models_1_1Account_1afa13561d3cfa9312ced0f56756f9f4ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>REQUIRED_FIELDS<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;phone_number&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="58" refid="classuser_1_1models_1_1Account_1adaa98c8dec8c14ce0cc64a0d1bf4f013" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>objects<sp/>=<sp/><ref refid="classuser_1_1models_1_1MyAccountManager" kindref="compound">MyAccountManager</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classuser_1_1models_1_1Student" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1Student" kindref="compound">Student</ref>(models.Model):</highlight></codeline>
+<codeline lineno="62" refid="classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.OneToOneField(Account,<sp/>on_delete=models.CASCADE,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="63" refid="classuser_1_1models_1_1Student_1a27a9e04d59c551cfa924771490543502" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>classroom<sp/>=<sp/>models.ForeignKey(Classroom,<sp/>on_delete=models.DO_NOTHING,<sp/>related_name=</highlight><highlight class="stringliteral">&apos;student_classroom&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="64" refid="classuser_1_1models_1_1Student_1a9efd9e529c29f373f7dac3d0693eeb82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>department<sp/>=<sp/>models.CharField(max_length=100)</highlight></codeline>
+<codeline lineno="65" refid="classuser_1_1models_1_1Student_1a011d649d717424a033c59bd43698a6a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>location<sp/>=<sp/>models.CharField(max_length=100)</highlight></codeline>
+<codeline lineno="66" refid="classuser_1_1models_1_1Student_1a5b0ac817a79a8db20b17a2119b3cae82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>date_of_birth<sp/>=<sp/>models.DateTimeField()</highlight></codeline>
+<codeline lineno="67" refid="classuser_1_1models_1_1Student_1a3b636063f2ff7e32e3ac78b760d881fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>parent<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE,<sp/>related_name=</highlight><highlight class="stringliteral">&apos;parents&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="68" refid="classuser_1_1models_1_1Student_1ad5b70e855fa79333ed7304b19a5eb24f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>assignment<sp/>=<sp/>models.ForeignKey(Assignment,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classuser_1_1models_1_1Subject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1Subject" kindref="compound">Subject</ref>(models.Model):</highlight></codeline>
+<codeline lineno="72" refid="classuser_1_1models_1_1Subject_1a0f2a0715627ef0494e1c2bf7e72ba5f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=80)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classuser_1_1models_1_1Teacher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1Teacher" kindref="compound">Teacher</ref>(models.Model):</highlight></codeline>
+<codeline lineno="76" refid="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.OneToOneField(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="77" refid="classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>department<sp/>=<sp/>models.CharField(max_length=100)</highlight></codeline>
+<codeline lineno="78" refid="classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>subject<sp/>=<sp/>models.ForeignKey(Subject,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="79" refid="classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>classroom<sp/>=<sp/>models.OneToOneField(Classroom,<sp/>on_delete=models.DO_NOTHING)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classuser_1_1models_1_1HOD" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1models_1_1HOD" kindref="compound">HOD</ref>(models.Model):</highlight></codeline>
+<codeline lineno="83" refid="classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.OneToOneField(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="84" refid="classuser_1_1models_1_1HOD_1abe37b381ebc7efcf10d8dec829b2b0ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>department<sp/>=<sp/>models.CharField(max_length=100)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1models_1_1MyAccountManager" kind="class" language="Python" prot="public">
+    <compoundname>user::models::MyAccountManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseUserManager</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.models.MyAccountManager.create_user</definition>
+        <argsstring>(self, email, password=None, **extra_fields)</argsstring>
+        <name>create_user</name>
+        <qualifiedname>user.models.MyAccountManager.create_user</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>email</type>
+          <defname>email</defname>
+        </param>
+        <param>
+          <type>password</type>
+          <defname>password</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>extra_fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="9" bodyend="23"/>
+        <references refid="classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta_1afd61a8ef4b86b9bee154b5d46a22aa25" compoundref="assignment_2serializers_8py" startline="8">assignment.serializers.AssignmentSerializer.Meta.model</references>
+        <references refid="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b" compoundref="assignment_2serializers_8py" startline="14">assignment.serializers.AssignmentMarkSerializer.Meta.model</references>
+        <references refid="classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta_1ada9326f3e327835ffae4483d322a42f1" compoundref="attendance_2serializer_8py" startline="14">attendance.serializer.AttendanceSerializer.Meta.model</references>
+        <references refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta_1a44bfb66b6bb0335ef88f6f03bade7ab0" compoundref="attendance_2serializer_8py" startline="24">attendance.serializer.StudentAttendanceSerializer.Meta.model</references>
+        <references refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0" compoundref="attendance_2serializer_8py" startline="39">attendance.serializer.TeacherAttendanceSerializer.Meta.model</references>
+        <references refid="classchat_1_1serializers_1_1RoomSerializer_1_1Meta_1a4b817e60ebb442a90abfbcfa46f64acf" compoundref="chat_2serializers_8py" startline="7">chat.serializers.RoomSerializer.Meta.model</references>
+        <references refid="classclassroom_1_1serializers_1_1ClassroomSerializer_1_1Meta_1ad3784250eb8a4a8dca10e687769d3d7f" compoundref="classroom_2serializers_8py" startline="7">classroom.serializers.ClassroomSerializer.Meta.model</references>
+        <references refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02" compoundref="exam_2serializers_8py" startline="8">exam.serializers.ExamSerializer.Meta.model</references>
+        <references refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501" compoundref="exchange_2serializers_8py" startline="8">exchange.serializers.QuestionSerializer.Meta.model</references>
+        <references refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta_1a501e8df56aabafbda8deace28de37254" compoundref="exchange_2serializers_8py" startline="14">exchange.serializers.CommentSerializer.Meta.model</references>
+        <references refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764" compoundref="exchange_2serializers_8py" startline="20">exchange.serializers.UpvoteSerializer.Meta.model</references>
+        <references refid="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aab073eb5c973dcf8bfd1b505b97b77f4" compoundref="grade_2serializer_8py" startline="7">grade.serializer.MarkSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30" compoundref="user_2serializers_8py" startline="18">user.serializers.UserSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1StudentSerializer_1_1Meta_1affb8854d824d120b9de6fac72eaec4d2" compoundref="user_2serializers_8py" startline="41">user.serializers.StudentSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1acf9d7c2b8faa71a433ccc29d2e57b72d" compoundref="user_2serializers_8py" startline="54">user.serializers.TeacherSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1HODSerializer_1_1Meta_1a7f5ef5838aeac013cb954002c8a0b00e" compoundref="user_2serializers_8py" startline="66">user.serializers.HODSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta_1a4b846f21c2fbb156895907e67b88d956" compoundref="user_2serializers_8py" startline="78">user.serializers.ClassroomSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1MarkSerializer_1_1Meta_1af360e5ca8539552f35d355b424b65ddc" compoundref="user_2serializers_8py" startline="84">user.serializers.MarkSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1StudentAttendanceSerializer_1_1Meta_1a9a3c3e5e78b4e164b8b3c10e7100fe2e" compoundref="user_2serializers_8py" startline="90">user.serializers.StudentAttendanceSerializer.Meta.model</references>
+        <references refid="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta_1a57ceec1620b1c241f2ee01ebeddc5dd4" compoundref="user_2serializers_8py" startline="101">user.serializers.StudentViewSerializer.Meta.model</references>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" compoundref="user_2models_8py" startline="24" endline="37">user.models.MyAccountManager.create_superuser</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>user.models.MyAccountManager.create_superuser</definition>
+        <argsstring>(self, email, password=None, **extra_fields)</argsstring>
+        <name>create_superuser</name>
+        <qualifiedname>user.models.MyAccountManager.create_superuser</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>email</type>
+          <defname>email</defname>
+        </param>
+        <param>
+          <type>password</type>
+          <defname>password</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>extra_fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="24" bodyend="37"/>
+        <references refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseUserManager</label>
+      </node>
+      <node id="1">
+        <label>user.models.MyAccountManager</label>
+        <link refid="classuser_1_1models_1_1MyAccountManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseUserManager</label>
+      </node>
+      <node id="1">
+        <label>user.models.MyAccountManager</label>
+        <link refid="classuser_1_1models_1_1MyAccountManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classuser_1_1models_1_1MyAccountManager_1a2603acb3375d85bf8c04c6e7af4c77d8" prot="public" virt="non-virtual"><scope>user::models::MyAccountManager</scope><name>create_superuser</name></member>
+      <member refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" prot="public" virt="non-virtual"><scope>user::models::MyAccountManager</scope><name>create_user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

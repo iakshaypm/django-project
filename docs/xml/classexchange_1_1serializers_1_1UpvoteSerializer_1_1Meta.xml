@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>exchange::serializers::UpvoteSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.serializers.UpvoteSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>exchange.serializers.UpvoteSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1models_1_1Upvote" kindref="compound">Upvote</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list exchange.serializers.UpvoteSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>exchange.serializers.UpvoteSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;comment&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.serializers.UpvoteSerializer.Meta</label>
+        <link refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3" prot="public" virt="non-virtual"><scope>exchange::serializers::UpvoteSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764" prot="public" virt="non-virtual"><scope>exchange::serializers::UpvoteSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

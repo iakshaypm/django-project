@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1apps_1_1ExchangeConfig" xml:lang="en-US">
+<title>exchange.apps.ExchangeConfig Class Reference</title>
+<indexterm><primary>exchange.apps.ExchangeConfig</primary></indexterm>
+Inheritance diagram for exchange.apps.ExchangeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1apps_1_1ExchangeConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.apps.ExchangeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1apps_1_1ExchangeConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1apps_1_1ExchangeConfig_1a49a731deda81e81ffcce6ec58f0d3d94">ready</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classexchange_1_1apps_1_1ExchangeConfig_1a0594c98e6da349a37773a8e3005866db">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classexchange_1_1apps_1_1ExchangeConfig_1af40ead5fd440056a6c642ced2456aa4b">name</link> = &apos;exchange&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1apps_1_1ExchangeConfig_1a49a731deda81e81ffcce6ec58f0d3d94"/><section>
+    <title>ready()</title>
+<indexterm><primary>ready</primary><secondary>exchange.apps.ExchangeConfig</secondary></indexterm>
+<indexterm><primary>exchange.apps.ExchangeConfig</primary><secondary>ready</secondary></indexterm>
+<para><computeroutput>exchange.apps.ExchangeConfig.ready ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1apps_1_1ExchangeConfig_1a0594c98e6da349a37773a8e3005866db"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>exchange.apps.ExchangeConfig</secondary></indexterm>
+<indexterm><primary>exchange.apps.ExchangeConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str exchange.apps.ExchangeConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1apps_1_1ExchangeConfig_1af40ead5fd440056a6c642ced2456aa4b"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>exchange.apps.ExchangeConfig</secondary></indexterm>
+<indexterm><primary>exchange.apps.ExchangeConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str exchange.apps.ExchangeConfig.name = &apos;exchange&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2apps_8py">apps.py</link></section>
+</section>

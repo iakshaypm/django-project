@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta" xml:lang="en-US">
+<title>user.serializers.TeacherSerializer.Meta Class Reference</title>
+<indexterm><primary>user.serializers.TeacherSerializer.Meta</primary></indexterm>
+Collaboration diagram for user.serializers.TeacherSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1TeacherSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1acf9d7c2b8faa71a433ccc29d2e57b72d">model</link> = <link linkend="_classuser_1_1models_1_1Teacher">Teacher</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1aa66066d994d9d28348c08cf3917df747">fields</link> = [&apos;department&apos;, &apos;subject&apos;, &apos;user&apos;, &apos;classroom&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1aa66066d994d9d28348c08cf3917df747"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>user.serializers.TeacherSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.TeacherSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list user.serializers.TeacherSerializer.Meta.fields = [&apos;department&apos;, &apos;subject&apos;, &apos;user&apos;, &apos;classroom&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1TeacherSerializer_1_1Meta_1acf9d7c2b8faa71a433ccc29d2e57b72d"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>user.serializers.TeacherSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.TeacherSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>user.serializers.TeacherSerializer.Meta.model = <link linkend="_classuser_1_1models_1_1Teacher">Teacher</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

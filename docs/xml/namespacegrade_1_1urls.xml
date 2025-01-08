@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacegrade_1_1urls" kind="namespace" language="Python">
+    <compoundname>grade::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegrade_1_1urls_1a9cd0dbf6c10bc9a843f0efb3c8b39712" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str grade::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>grade.urls.app_name</qualifiedname>
+        <initializer>=  &apos;grade&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegrade_1_1urls_1a1fbcc5f1316c75c3201b5c9a4f31822f" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list grade::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>grade.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;add/&apos;, views.MarkCreateView.as_view(), name=&apos;add-mark&apos;),
+    path(&apos;show/&apos;, views.MarkListView.as_view(), name=&apos;show-mark&apos;),
+    path(&apos;&lt;int:pk&gt;/delete/&apos;, views.MarkDeleteView.as_view(), name=&apos;delete-mark&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

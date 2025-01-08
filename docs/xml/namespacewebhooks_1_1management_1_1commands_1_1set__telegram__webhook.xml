@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacewebhooks_1_1management_1_1commands_1_1set__telegram__webhook" kind="namespace" language="Python">
+    <compoundname>webhooks::management::commands::set_telegram_webhook</compoundname>
+    <innerclass refid="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" prot="public">webhooks::management::commands::set_telegram_webhook::Command</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/set_telegram_webhook.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,95,85,121"/>
+<area shape="rect" id="Node000001" href="$classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance.html" title=" " alt="" coords="133,5,372,45"/>
+<area shape="poly" id="edge136_Node000000_Node000001" title=" " alt="" coords="75,85,132,55,166,43,168,48,134,60,78,90"/>
+<area shape="rect" id="Node000002" href="$classgrade_1_1tests_1_1GradeSystemTest.html" title=" " alt="" coords="146,70,359,95"/>
+<area shape="poly" id="edge137_Node000000_Node000002" title=" " alt="" coords="99,99,148,93,149,98,99,104"/>
+<area shape="rect" id="Node000003" href="$classuser_1_1tests_1_1AdminSiteTest.html" title=" " alt="" coords="161,119,344,145"/>
+<area shape="poly" id="edge138_Node000000_Node000003" title=" " alt="" coords="100,112,161,119,161,124,99,117"/>
+<area shape="rect" id="Node000004" href="$classuser_1_1tests_1_1ModelTest.html" title=" " alt="" coords="175,169,330,194"/>
+<area shape="poly" id="edge139_Node000000_Node000004" title=" " alt="" coords="78,125,134,154,177,166,175,171,132,158,76,130"/>
+</map>

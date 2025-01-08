@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1models_1_1StudentAttendance_1_1Meta" xml:lang="en-US">
+<title>attendance.models.StudentAttendance.Meta Class Reference</title>
+<indexterm><primary>attendance.models.StudentAttendance.Meta</primary></indexterm>
+Collaboration diagram for attendance.models.StudentAttendance.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1StudentAttendance_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classattendance_1_1models_1_1StudentAttendance_1_1Meta_1aa47a9a006a64b3d36db95e5fdb8b8221">db_table</link> = &quot;attendance_student&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1models_1_1StudentAttendance_1_1Meta_1aa47a9a006a64b3d36db95e5fdb8b8221"/><section>
+    <title>db_table</title>
+<indexterm><primary>db_table</primary><secondary>attendance.models.StudentAttendance.Meta</secondary></indexterm>
+<indexterm><primary>attendance.models.StudentAttendance.Meta</primary><secondary>db_table</secondary></indexterm>
+<para><computeroutput>str attendance.models.StudentAttendance.Meta.db_table = &quot;attendance_student&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2models_8py">models.py</link></section>
+</section>

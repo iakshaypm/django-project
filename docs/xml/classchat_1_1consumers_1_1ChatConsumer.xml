@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1consumers_1_1ChatConsumer" kind="class" language="Python" prot="public">
+    <compoundname>chat::consumers::ChatConsumer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">WebsocketConsumer</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer::room_name</definition>
+        <argsstring></argsstring>
+        <name>room_name</name>
+        <qualifiedname>chat.consumers.ChatConsumer.room_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer::room_group_name</definition>
+        <argsstring></argsstring>
+        <name>room_group_name</name>
+        <qualifiedname>chat.consumers.ChatConsumer.room_group_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784" compoundref="consumers_8py" startline="48" endline="53">chat.consumers.ChatConsumer.disconnect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer::room</definition>
+        <argsstring></argsstring>
+        <name>room</name>
+        <qualifiedname>chat.consumers.ChatConsumer.room</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>chat.consumers.ChatConsumer.user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer::channel_name</definition>
+        <argsstring></argsstring>
+        <name>channel_name</name>
+        <qualifiedname>chat.consumers.ChatConsumer.channel_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="45" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784" compoundref="consumers_8py" startline="48" endline="53">chat.consumers.ChatConsumer.disconnect</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>chat.consumers.ChatConsumer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="12" bodyend="18"/>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52" compoundref="consumers_8py" startline="12" endline="18">chat.consumers.ChatConsumer.__init__</references>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52" compoundref="consumers_8py" startline="12" endline="18">chat.consumers.ChatConsumer.__init__</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer.connect</definition>
+        <argsstring>(self)</argsstring>
+        <name>connect</name>
+        <qualifiedname>chat.consumers.ChatConsumer.connect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="19" bodyend="47"/>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a" compoundref="consumers_8py" startline="16">chat.consumers.ChatConsumer.room</references>
+        <references refid="classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a" compoundref="chat_2models_8py" startline="31">chat.models.Message.room</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" compoundref="consumers_8py" startline="15">chat.consumers.ChatConsumer.room_group_name</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a" compoundref="consumers_8py" startline="14">chat.consumers.ChatConsumer.room_name</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390" compoundref="consumers_8py" startline="17">chat.consumers.ChatConsumer.user</references>
+        <references refid="classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d" compoundref="chat_2models_8py" startline="30">chat.models.Message.user</references>
+        <references refid="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" compoundref="exchange_2models_8py" startline="12">exchange.models.Question.user</references>
+        <references refid="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" compoundref="exchange_2models_8py" startline="19">exchange.models.Comment.user</references>
+        <references refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" compoundref="exchange_2models_8py" startline="24">exchange.models.Upvote.user</references>
+        <references refid="classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0" compoundref="user_2models_8py" startline="62">user.models.Student.user</references>
+        <references refid="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" compoundref="user_2models_8py" startline="76">user.models.Teacher.user</references>
+        <references refid="classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66" compoundref="user_2models_8py" startline="83">user.models.HOD.user</references>
+        <references refid="classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855" compoundref="user_2tests_8py" startline="18">user.tests.AdminSiteTest.user</references>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer.disconnect</definition>
+        <argsstring>(self, close_code)</argsstring>
+        <name>disconnect</name>
+        <qualifiedname>chat.consumers.ChatConsumer.disconnect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>close_code</type>
+          <defname>close_code</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="48" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="48" bodyend="53"/>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d" compoundref="consumers_8py" startline="45">chat.consumers.ChatConsumer.channel_name</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" compoundref="consumers_8py" startline="15">chat.consumers.ChatConsumer.room_group_name</references>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer.receive</definition>
+        <argsstring>(self, text_data=None, bytes_data=None)</argsstring>
+        <name>receive</name>
+        <qualifiedname>chat.consumers.ChatConsumer.receive</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>text_data</type>
+          <defname>text_data</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>bytes_data</type>
+          <defname>bytes_data</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="54" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="54" bodyend="72"/>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a" compoundref="consumers_8py" startline="16">chat.consumers.ChatConsumer.room</references>
+        <references refid="classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a" compoundref="chat_2models_8py" startline="31">chat.models.Message.room</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" compoundref="consumers_8py" startline="15">chat.consumers.ChatConsumer.room_group_name</references>
+        <references refid="classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390" compoundref="consumers_8py" startline="17">chat.consumers.ChatConsumer.user</references>
+        <references refid="classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d" compoundref="chat_2models_8py" startline="30">chat.models.Message.user</references>
+        <references refid="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" compoundref="exchange_2models_8py" startline="12">exchange.models.Question.user</references>
+        <references refid="classexchange_1_1models_1_1Comment_1a3c62a676af43b2fc9871eea78d289707" compoundref="exchange_2models_8py" startline="19">exchange.models.Comment.user</references>
+        <references refid="classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e" compoundref="exchange_2models_8py" startline="24">exchange.models.Upvote.user</references>
+        <references refid="classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0" compoundref="user_2models_8py" startline="62">user.models.Student.user</references>
+        <references refid="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" compoundref="user_2models_8py" startline="76">user.models.Teacher.user</references>
+        <references refid="classuser_1_1models_1_1HOD_1a42b57bd6d3362f72a9524ee22ee9bd66" compoundref="user_2models_8py" startline="83">user.models.HOD.user</references>
+        <references refid="classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855" compoundref="user_2tests_8py" startline="18">user.tests.AdminSiteTest.user</references>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1consumers_1_1ChatConsumer_1ab262d45be15d53f8bec11a52690e9217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.consumers.ChatConsumer.chat_message</definition>
+        <argsstring>(self, event)</argsstring>
+        <name>chat_message</name>
+        <qualifiedname>chat.consumers.ChatConsumer.chat_message</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>event</type>
+          <defname>event</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="73" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="73" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>WebsocketConsumer</label>
+      </node>
+      <node id="1">
+        <label>chat.consumers.ChatConsumer</label>
+        <link refid="classchat_1_1consumers_1_1ChatConsumer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>WebsocketConsumer</label>
+      </node>
+      <node id="1">
+        <label>chat.consumers.ChatConsumer</label>
+        <link refid="classchat_1_1consumers_1_1ChatConsumer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/consumers.py" bodystart="10" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1aab4937a9dd0274ba28136c4360866f52" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>__init__</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1a3c65dc0f4016067de7b1cb9f5bf1016d" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>channel_name</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1ab262d45be15d53f8bec11a52690e9217" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>chat_message</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>connect</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa13985fa6f7720834750970610ab0784" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>disconnect</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>receive</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1a2abf97fcb49eb060f4d8705efc04e84a" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>room</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa410e76ab8abadba6fec042b8d7e45fb" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>room_group_name</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1aa5af8c0e764dd1bec381a82893b5e87a" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>room_name</name></member>
+      <member refid="classchat_1_1consumers_1_1ChatConsumer_1a1ecef2999ff803fe49ca7b64371bb390" prot="public" virt="non-virtual"><scope>chat::consumers::ChatConsumer</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

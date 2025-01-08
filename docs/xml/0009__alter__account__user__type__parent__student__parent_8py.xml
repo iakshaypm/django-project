@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="0009__alter__account__user__type__parent__student__parent_8py" kind="file" language="Python">
+    <compoundname>0009_alter_account_user_type_parent_student_parent.py</compoundname>
+    <innerclass refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" prot="public">user::migrations::0009_alter_account_user_type_parent_student_parent::Migration</innerclass>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations">user::migrations</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent">user::migrations::0009_alter_account_user_type_parent_student_parent</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent" refkind="compound"><highlight class="comment">#<sp/>Generated<sp/>by<sp/>Django<sp/>5.0.4<sp/>on<sp/>2024-05-08<sp/>06:50</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>django.db.models.deletion</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>migrations,<sp/>models</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" kindref="compound">Migration</ref>(migrations.Migration):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a57ea729d71c9b1896dd214eec13258f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dependencies<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0008_alter_student_classroom&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a8ea3fb3a3ef51488b40995667f24b410" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>operations<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AlterField(</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;account&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;user_type&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.PositiveIntegerField(choices=[(1,<sp/></highlight><highlight class="stringliteral">&apos;Student&apos;</highlight><highlight class="normal">),<sp/>(2,<sp/></highlight><highlight class="stringliteral">&apos;Teacher&apos;</highlight><highlight class="normal">),<sp/>(3,<sp/></highlight><highlight class="stringliteral">&apos;HOD&apos;</highlight><highlight class="normal">),<sp/>(4,<sp/></highlight><highlight class="stringliteral">&apos;Management&apos;</highlight><highlight class="normal">),<sp/>(5,<sp/></highlight><highlight class="stringliteral">&apos;Parent&apos;</highlight><highlight class="normal">)],<sp/>default=1),</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.CreateModel(</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;Parent&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields=[</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>models.BigAutoField(auto_created=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>primary_key=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>serialize=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>verbose_name=</highlight><highlight class="stringliteral">&apos;ID&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;phone_number&apos;</highlight><highlight class="normal">,<sp/>models.CharField(max_length=20)),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal">,<sp/>models.OneToOneField(on_delete=django.db.models.deletion.CASCADE,<sp/>to=settings.AUTH_USER_MODEL)),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AddField(</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;student&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;parent&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.ForeignKey(default=1,<sp/>on_delete=django.db.models.deletion.CASCADE,<sp/>to=</highlight><highlight class="stringliteral">&apos;user.parent&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>preserve_default=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0009_alter_account_user_type_parent_student_parent.py"/>
+  </compounddef>
+</doxygen>

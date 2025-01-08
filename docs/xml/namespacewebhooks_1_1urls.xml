@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacewebhooks_1_1urls" kind="namespace" language="Python">
+    <compoundname>webhooks::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacewebhooks_1_1urls_1a040467f63e23242f1424ff30c6e109cf" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str webhooks::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>webhooks.urls.app_name</qualifiedname>
+        <initializer>=  &quot;webhooks&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/urls.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/urls.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacewebhooks_1_1urls_1abdf2a44ddd69a86af3032dc9ffefa986" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list webhooks::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>webhooks.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;chat/&quot;, views.TelegramWebhook.as_view(), name=&quot;telegram_webhook&quot;)
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/urls.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/urls.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

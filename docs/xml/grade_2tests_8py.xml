@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="grade_2tests_8py" kind="file" language="Python">
+    <compoundname>tests.py</compoundname>
+    <innerclass refid="classgrade_1_1tests_1_1GradeSystemTest" prot="public">grade::tests::GradeSystemTest</innerclass>
+    <innernamespace refid="namespacegrade">grade</innernamespace>
+    <innernamespace refid="namespacegrade_1_1tests">grade::tests</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacegrade_1_1tests" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.test<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>TestCase</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>get_user_model</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.test<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Client</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>status</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classgrade_1_1tests_1_1GradeSystemTest" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1tests_1_1GradeSystemTest" kindref="compound">GradeSystemTest</ref>(TestCase):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/tests.py"/>
+  </compounddef>
+</doxygen>

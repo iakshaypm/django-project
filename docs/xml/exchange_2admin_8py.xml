@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exchange_2admin_8py" kind="file" language="Python">
+    <compoundname>admin.py</compoundname>
+    <innernamespace refid="namespaceexchange">exchange</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1admin">exchange::admin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexchange" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>admin</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Question,<sp/>Comment,<sp/>Upvote</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Register<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespaceexchange_1_1admin_1a93495365b5c18b41c67f5c2d4db6b336" refkind="member"><highlight class="normal">models<sp/>=<sp/>[Question,<sp/>Comment,<sp/>Upvote]</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">admin.site.register(models)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/admin.py"/>
+  </compounddef>
+</doxygen>

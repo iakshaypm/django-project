@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1permission_1_1CanAccessComment" xml:lang="en-US">
+<title>grade.permission.CanAccessComment Class Reference</title>
+<indexterm><primary>grade.permission.CanAccessComment</primary></indexterm>
+Inheritance diagram for grade.permission.CanAccessComment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1CanAccessComment__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.permission.CanAccessComment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1permission_1_1CanAccessComment__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1permission_1_1CanAccessComment_1af9d2d3db7fb9076e5c4b0210e03744f3">has_object_permission</link> (self, request, view, obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgrade_1_1permission_1_1CanAccessComment_1af9d2d3db7fb9076e5c4b0210e03744f3"/><section>
+    <title>has_object_permission()</title>
+<indexterm><primary>has_object_permission</primary><secondary>grade.permission.CanAccessComment</secondary></indexterm>
+<indexterm><primary>grade.permission.CanAccessComment</primary><secondary>has_object_permission</secondary></indexterm>
+<para><computeroutput>grade.permission.CanAccessComment.has_object_permission ( self,  request,  view,  obj)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2permission_8py">permission.py</link></section>
+</section>

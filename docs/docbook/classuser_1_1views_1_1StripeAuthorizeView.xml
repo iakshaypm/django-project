@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1views_1_1StripeAuthorizeView" xml:lang="en-US">
+<title>user.views.StripeAuthorizeView Class Reference</title>
+<indexterm><primary>user.views.StripeAuthorizeView</primary></indexterm>
+Inheritance diagram for user.views.StripeAuthorizeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1StripeAuthorizeView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.views.StripeAuthorizeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1views_1_1StripeAuthorizeView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1views_1_1StripeAuthorizeView_1aa13db70efaf729c20aa73916c066c1dd">get</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1views_1_1StripeAuthorizeView_1aa13db70efaf729c20aa73916c066c1dd"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>user.views.StripeAuthorizeView</secondary></indexterm>
+<indexterm><primary>user.views.StripeAuthorizeView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>user.views.StripeAuthorizeView.get ( self,  request)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2views_8py">views.py</link></section>
+</section>

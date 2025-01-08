@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer" xml:lang="en-US">
+<title>attendance.serializer.TeacherAttendanceSerializer Class Reference</title>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer</primary></indexterm>
+Inheritance diagram for attendance.serializer.TeacherAttendanceSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1TeacherAttendanceSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.serializer.TeacherAttendanceSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1TeacherAttendanceSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ab6d3fa0ac63d15fe70b8ef7823ac14b4">validate_attendance_id</link> (self, value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0">id</link> = serializers.IntegerField(read_only=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e">teacher</link> = serializers.CharField(read_only=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b">date_of_marking</link> = serializers.DateField(read_only=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ab6d3fa0ac63d15fe70b8ef7823ac14b4"/><section>
+    <title>validate_attendance_id()</title>
+<indexterm><primary>validate_attendance_id</primary><secondary>attendance.serializer.TeacherAttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer</primary><secondary>validate_attendance_id</secondary></indexterm>
+<para><computeroutput>attendance.serializer.TeacherAttendanceSerializer.validate_attendance_id ( self,  value)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b"/><section>
+    <title>date_of_marking</title>
+<indexterm><primary>date_of_marking</primary><secondary>attendance.serializer.TeacherAttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer</primary><secondary>date_of_marking</secondary></indexterm>
+<para><computeroutput>attendance.serializer.TeacherAttendanceSerializer.date_of_marking = serializers.DateField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0"/><section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>attendance.serializer.TeacherAttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>attendance.serializer.TeacherAttendanceSerializer.id = serializers.IntegerField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e"/><section>
+    <title>teacher</title>
+<indexterm><primary>teacher</primary><secondary>attendance.serializer.TeacherAttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.TeacherAttendanceSerializer</primary><secondary>teacher</secondary></indexterm>
+<para><computeroutput>attendance.serializer.TeacherAttendanceSerializer.teacher = serializers.CharField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2serializer_8py">serializer.py</link></section>
+</section>

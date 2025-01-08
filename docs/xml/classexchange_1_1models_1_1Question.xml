@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1models_1_1Question" kind="class" language="Python" prot="public">
+    <compoundname>exchange::models::Question</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Question_1a50625eabad28b8a5a616b789f188b1b4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Question::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>exchange.models.Question.title</qualifiedname>
+        <initializer>=  models.CharField(max_length=255)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Question_1aaed4ca4626fe5b76d0317961e0871904" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Question::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>exchange.models.Question.description</qualifiedname>
+        <initializer>=  models.TextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Question::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>exchange.models.Question.user</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1models_1_1Question_1a850b6440865a49b91b3da44ce9f1a5f4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.models.Question::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <qualifiedname>exchange.models.Question.tag</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Subject" kindref="compound">Subject</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.models.Question</label>
+        <link refid="classexchange_1_1models_1_1Question"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.models.Question</label>
+        <link refid="classexchange_1_1models_1_1Question"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1models_1_1Question_1aaed4ca4626fe5b76d0317961e0871904" prot="public" virt="non-virtual"><scope>exchange::models::Question</scope><name>description</name></member>
+      <member refid="classexchange_1_1models_1_1Question_1a850b6440865a49b91b3da44ce9f1a5f4" prot="public" virt="non-virtual"><scope>exchange::models::Question</scope><name>tag</name></member>
+      <member refid="classexchange_1_1models_1_1Question_1a50625eabad28b8a5a616b789f188b1b4" prot="public" virt="non-virtual"><scope>exchange::models::Question</scope><name>title</name></member>
+      <member refid="classexchange_1_1models_1_1Question_1a50ba64d9a80a9f370a29b30a4ef4511b" prot="public" virt="non-virtual"><scope>exchange::models::Question</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1models_1_1StudentAttendance" kind="class" language="Python" prot="public">
+    <compoundname>attendance::models::StudentAttendance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classattendance_1_1models_1_1StudentAttendance_1_1Meta" prot="public">attendance::models::StudentAttendance::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.StudentAttendance::attendance</definition>
+        <argsstring></argsstring>
+        <name>attendance</name>
+        <qualifiedname>attendance.models.StudentAttendance.attendance</qualifiedname>
+        <initializer>=  models.OneToOneField(<ref refid="classattendance_1_1models_1_1MainAttendance" kindref="compound">MainAttendance</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.StudentAttendance::student</definition>
+        <argsstring></argsstring>
+        <name>student</name>
+        <qualifiedname>attendance.models.StudentAttendance.student</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE, related_name=&apos;student_attendance&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.StudentAttendance::date_of_marking</definition>
+        <argsstring></argsstring>
+        <name>date_of_marking</name>
+        <qualifiedname>attendance.models.StudentAttendance.date_of_marking</qualifiedname>
+        <initializer>=  models.DateField(auto_now=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.models.StudentAttendance</label>
+        <link refid="classattendance_1_1models_1_1StudentAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.models.StudentAttendance</label>
+        <link refid="classattendance_1_1models_1_1StudentAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="24" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1models_1_1StudentAttendance_1ae69d4618d5ed57805bd832b2fc1c8e27" prot="public" virt="non-virtual"><scope>attendance::models::StudentAttendance</scope><name>attendance</name></member>
+      <member refid="classattendance_1_1models_1_1StudentAttendance_1aa4db537c5cca2f32565fa0a4b84db801" prot="public" virt="non-virtual"><scope>attendance::models::StudentAttendance</scope><name>date_of_marking</name></member>
+      <member refid="classattendance_1_1models_1_1StudentAttendance_1af6b1b1f6f9e4610f579c8f305bc68ff0" prot="public" virt="non-virtual"><scope>attendance::models::StudentAttendance</scope><name>student</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

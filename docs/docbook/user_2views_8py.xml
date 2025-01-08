@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_user_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/views.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1RegisterView">user.views.RegisterView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StudentRegister">user.views.StudentRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1TeacherRegister">user.views.TeacherRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1HODRegister">user.views.HODRegister</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1UserView">user.views.UserView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StripeAuthorizeView">user.views.StripeAuthorizeView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1views_1_1StripeAuthorizeCallbackView">user.views.StripeAuthorizeCallbackView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceuser">user</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1views">user.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

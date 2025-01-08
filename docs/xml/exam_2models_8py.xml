@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exam_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classexam_1_1models_1_1Exam" prot="public">exam::models::Exam</innerclass>
+    <innerclass refid="classexam_1_1models_1_1Exam_1_1Meta" prot="public">exam::models::Exam::Meta</innerclass>
+    <innernamespace refid="namespaceexam">exam</innernamespace>
+    <innernamespace refid="namespaceexam_1_1models">exam::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexam_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceclassroom_1_1models" kindref="compound">classroom.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Classroom</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classexam_1_1models_1_1Exam" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexam_1_1models_1_1Exam" kindref="compound">Exam</ref>(models.Model):</highlight></codeline>
+<codeline lineno="8" refid="classexam_1_1models_1_1Exam_1a5a6413c8aa62f749bcff8277f6e57631" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=20,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="9" refid="classexam_1_1models_1_1Exam_1a55caea141ad9b6521c063119728f2b89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>classroom<sp/>=<sp/>models.ForeignKey(Classroom,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classexam_1_1models_1_1Exam_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexam_1_1models_1_1Exam_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="12" refid="classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db_table<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;exam&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/models.py"/>
+  </compounddef>
+</doxygen>

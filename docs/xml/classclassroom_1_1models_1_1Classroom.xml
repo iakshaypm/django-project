@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classclassroom_1_1models_1_1Classroom" kind="class" language="Python" prot="public">
+    <compoundname>classroom::models::Classroom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>classroom.models.Classroom::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>classroom.models.Classroom.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=20, unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>classroom.models.Classroom::total_strength</definition>
+        <argsstring></argsstring>
+        <name>total_strength</name>
+        <qualifiedname>classroom.models.Classroom.total_strength</qualifiedname>
+        <initializer>=  models.IntegerField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>classroom.models.Classroom</label>
+        <link refid="classclassroom_1_1models_1_1Classroom"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>classroom.models.Classroom</label>
+        <link refid="classclassroom_1_1models_1_1Classroom"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b" prot="public" virt="non-virtual"><scope>classroom::models::Classroom</scope><name>name</name></member>
+      <member refid="classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8" prot="public" virt="non-virtual"><scope>classroom::models::Classroom</scope><name>total_strength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

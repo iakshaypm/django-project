@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="chat_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classchat_1_1apps_1_1ChatConfig" prot="public">chat::apps::ChatConfig</innerclass>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1apps">chat::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classchat_1_1apps_1_1ChatConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1apps_1_1ChatConfig" kindref="compound">ChatConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classchat_1_1apps_1_1ChatConfig_1aaf4392f6d4df28b32e2f24dbbfce391d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>default_auto_field<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;django.db.models.BigAutoField&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classchat_1_1apps_1_1ChatConfig_1afe6da342041660b6127be4a8b40d0ed4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;chat&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/apps.py"/>
+  </compounddef>
+</doxygen>

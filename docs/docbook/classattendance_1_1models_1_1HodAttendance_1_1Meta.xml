@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1models_1_1HodAttendance_1_1Meta" xml:lang="en-US">
+<title>attendance.models.HodAttendance.Meta Class Reference</title>
+<indexterm><primary>attendance.models.HodAttendance.Meta</primary></indexterm>
+Collaboration diagram for attendance.models.HodAttendance.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1HodAttendance_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classattendance_1_1models_1_1HodAttendance_1_1Meta_1a0bfc0b8f796349a697b69321de4cdc21">db_table</link> = &quot;attendance_hod&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1models_1_1HodAttendance_1_1Meta_1a0bfc0b8f796349a697b69321de4cdc21"/><section>
+    <title>db_table</title>
+<indexterm><primary>db_table</primary><secondary>attendance.models.HodAttendance.Meta</secondary></indexterm>
+<indexterm><primary>attendance.models.HodAttendance.Meta</primary><secondary>db_table</secondary></indexterm>
+<para><computeroutput>str attendance.models.HodAttendance.Meta.db_table = &quot;attendance_hod&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2models_8py">models.py</link></section>
+</section>

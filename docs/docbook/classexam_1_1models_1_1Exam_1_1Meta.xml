@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexam_1_1models_1_1Exam_1_1Meta" xml:lang="en-US">
+<title>exam.models.Exam.Meta Class Reference</title>
+<indexterm><primary>exam.models.Exam.Meta</primary></indexterm>
+Collaboration diagram for exam.models.Exam.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexam_1_1models_1_1Exam_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe">db_table</link> = &apos;exam&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexam_1_1models_1_1Exam_1_1Meta_1aeaf33d9be8c854f9ad8e2eca537945fe"/><section>
+    <title>db_table</title>
+<indexterm><primary>db_table</primary><secondary>exam.models.Exam.Meta</secondary></indexterm>
+<indexterm><primary>exam.models.Exam.Meta</primary><secondary>db_table</secondary></indexterm>
+<para><computeroutput>str exam.models.Exam.Meta.db_table = &apos;exam&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/<link linkend="_exam_2models_8py">models.py</link></section>
+</section>

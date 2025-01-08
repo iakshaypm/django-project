@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>grade::migrations::0003_alter_mark_student_alter_mark_teacher::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1aacae7a5ea4552f7e0f1e3947d5f885de" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;grade&apos;, &apos;0002_alter_mark_student_alter_mark_teacher&apos;),
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1a62699cf02e4f4bb1dc4ca1d7558c7b7d" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;mark&apos;,
+            name=&apos;student&apos;,
+            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, related_name=&apos;student_id&apos;, to=settings.AUTH_USER_MODEL),
+        ),
+        migrations.AlterField(
+            model_name=&apos;mark&apos;,
+            name=&apos;teacher&apos;,
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</label>
+        <link refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>grade.migrations.0003_alter_mark_student_alter_mark_teacher.Migration</label>
+        <link refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/migrations/0003_alter_mark_student_alter_mark_teacher.py" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1aacae7a5ea4552f7e0f1e3947d5f885de" prot="public" virt="non-virtual"><scope>grade::migrations::0003_alter_mark_student_alter_mark_teacher::Migration</scope><name>dependencies</name></member>
+      <member refid="classgrade_1_1migrations_1_10003__alter__mark__student__alter__mark__teacher_1_1Migration_1a62699cf02e4f4bb1dc4ca1d7558c7b7d" prot="public" virt="non-virtual"><scope>grade::migrations::0003_alter_mark_student_alter_mark_teacher::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

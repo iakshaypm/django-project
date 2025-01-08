@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceassignment_1_1views" kind="namespace" language="Python">
+    <compoundname>assignment::views</compoundname>
+    <innerclass refid="classassignment_1_1views_1_1AssignmentCreate" prot="public">assignment::views::AssignmentCreate</innerclass>
+    <innerclass refid="classassignment_1_1views_1_1AssignmentMarkCreate" prot="public">assignment::views::AssignmentMarkCreate</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceassignment_1_1views_1a354ea0be43f9554cdcf772cb7a1820e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>assignment.views.simple_mail</definition>
+        <argsstring>(request)</argsstring>
+        <name>simple_mail</name>
+        <qualifiedname>assignment.views.simple_mail</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" line="40" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" bodystart="40" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

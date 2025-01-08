@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1ClassroomSerializer" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::ClassroomSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classuser_1_1serializers_1_1ClassroomSerializer_1_1Meta" prot="public">user::serializers::ClassroomSerializer::Meta</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.ClassroomSerializer</label>
+        <link refid="classuser_1_1serializers_1_1ClassroomSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.ClassroomSerializer</label>
+        <link refid="classuser_1_1serializers_1_1ClassroomSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="76" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="76" bodyend="81"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

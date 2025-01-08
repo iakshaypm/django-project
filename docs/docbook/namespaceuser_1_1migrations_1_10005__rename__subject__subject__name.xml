@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceuser_1_1migrations_1_10005__rename__subject__subject__name" xml:lang="en-US">
+<title>user.migrations.0005_rename_subject_subject_name Namespace Reference</title>
+<indexterm><primary>user.migrations.0005_rename_subject_subject_name</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

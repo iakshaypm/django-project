@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classgrade_1_1permission_1_1IsStudent" kind="class" language="Python" prot="public">
+    <compoundname>grade::permission::IsStudent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>grade.permission.IsStudent.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>grade.permission.IsStudent.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" bodystart="5" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>grade.permission.IsStudent.has_object_permission</definition>
+        <argsstring>(self, request, view, obj)</argsstring>
+        <name>has_object_permission</name>
+        <qualifiedname>grade.permission.IsStudent.has_object_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <param>
+          <type>obj</type>
+          <defname>obj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" bodystart="10" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>grade.permission.IsStudent</label>
+        <link refid="classgrade_1_1permission_1_1IsStudent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>grade.permission.IsStudent</label>
+        <link refid="classgrade_1_1permission_1_1IsStudent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064" prot="public" virt="non-virtual"><scope>grade::permission::IsStudent</scope><name>has_object_permission</name></member>
+      <member refid="classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f" prot="public" virt="non-virtual"><scope>grade::permission::IsStudent</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

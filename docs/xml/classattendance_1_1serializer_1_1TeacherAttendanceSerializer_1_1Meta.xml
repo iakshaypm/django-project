@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>attendance::serializer::TeacherAttendanceSerializer::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.serializer.TeacherAttendanceSerializer.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>attendance.serializer.TeacherAttendanceSerializer.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classattendance_1_1models_1_1TeacherAttendance" kindref="compound">TeacherAttendance</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="39" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classuser_1_1models_1_1MyAccountManager_1a90a529083cbe05ac69b6cf4916a284c1" compoundref="user_2models_8py" startline="9" endline="23">user.models.MyAccountManager.create_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a37efb1b6dc31da9aa28165e204987c2c" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list attendance.serializer.TeacherAttendanceSerializer.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>attendance.serializer.TeacherAttendanceSerializer.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;<ref refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1aa1113ee98952caa6a2e4b1eb531d28c0" kindref="member">id</ref>&apos;, &apos;attendance&apos;, &apos;<ref refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1a1e3ceb8927e52aead6c30a232a2d011e" kindref="member">teacher</ref>&apos;, &apos;<ref refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1ac2814dbfa550c74d4fbc2197f61ac12b" kindref="member">date_of_marking</ref>&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="40" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.serializer.TeacherAttendanceSerializer.Meta</label>
+        <link refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="38" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a37efb1b6dc31da9aa28165e204987c2c" prot="public" virt="non-virtual"><scope>attendance::serializer::TeacherAttendanceSerializer::Meta</scope><name>fields</name></member>
+      <member refid="classattendance_1_1serializer_1_1TeacherAttendanceSerializer_1_1Meta_1a0644a8d89407c86fdbb7ae77f94862e0" prot="public" virt="non-virtual"><scope>attendance::serializer::TeacherAttendanceSerializer::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

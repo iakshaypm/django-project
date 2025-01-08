@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1permission_1_1CanUpvote" kind="class" language="Python" prot="public">
+    <compoundname>exchange::permission::CanUpvote</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1permission_1_1CanUpvote_1a74097e3a61386f6d8043660a1dba94a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.permission.CanUpvote.has_object_permission</definition>
+        <argsstring>(self, request, view, obj)</argsstring>
+        <name>has_object_permission</name>
+        <qualifiedname>exchange.permission.CanUpvote.has_object_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <param>
+          <type>obj</type>
+          <defname>obj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="32" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.permission.CanUpvote</label>
+        <link refid="classexchange_1_1permission_1_1CanUpvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.permission.CanUpvote</label>
+        <link refid="classexchange_1_1permission_1_1CanUpvote"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1permission_1_1CanUpvote_1a74097e3a61386f6d8043660a1dba94a6" prot="public" virt="non-virtual"><scope>exchange::permission::CanUpvote</scope><name>has_object_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

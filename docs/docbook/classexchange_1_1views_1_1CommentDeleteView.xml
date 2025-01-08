@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1views_1_1CommentDeleteView" xml:lang="en-US">
+<title>exchange.views.CommentDeleteView Class Reference</title>
+<indexterm><primary>exchange.views.CommentDeleteView</primary></indexterm>
+Inheritance diagram for exchange.views.CommentDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentDeleteView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.views.CommentDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentDeleteView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentDeleteView_1ab0489dba05150618b917d342c7476cac">delete</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentDeleteView_1ad007f7526507e11a64cbd99a3c3a3bb7">queryset</link> = Comment.objects.all()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classexchange_1_1views_1_1CommentDeleteView_1ad974d8a019f599b19c8dc3d8f265ae2f">permission_classes</link> = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1CanAccessComment">CanAccessComment</link>,)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentDeleteView_1a83af1e1974876a992d53d2bab7bb10bf">serializer_class</link> = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1CommentDeleteView_1ab0489dba05150618b917d342c7476cac"/><section>
+    <title>delete()</title>
+<indexterm><primary>delete</primary><secondary>exchange.views.CommentDeleteView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentDeleteView</primary><secondary>delete</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentDeleteView.delete ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1CommentDeleteView_1ad974d8a019f599b19c8dc3d8f265ae2f"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exchange.views.CommentDeleteView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentDeleteView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exchange.views.CommentDeleteView.permission_classes = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1CanAccessComment">CanAccessComment</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentDeleteView_1ad007f7526507e11a64cbd99a3c3a3bb7"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>exchange.views.CommentDeleteView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentDeleteView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentDeleteView.queryset = Comment.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentDeleteView_1a83af1e1974876a992d53d2bab7bb10bf"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>exchange.views.CommentDeleteView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentDeleteView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentDeleteView.serializer_class = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2views_8py">views.py</link></section>
+</section>

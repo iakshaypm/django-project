@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1views_1_1CommentRetrieveView" xml:lang="en-US">
+<title>exchange.views.CommentRetrieveView Class Reference</title>
+<indexterm><primary>exchange.views.CommentRetrieveView</primary></indexterm>
+Inheritance diagram for exchange.views.CommentRetrieveView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentRetrieveView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.views.CommentRetrieveView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1CommentRetrieveView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentRetrieveView_1ad8b433208c22ed781320faae841ddab3">queryset</link> = Comment.objects.all()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classexchange_1_1views_1_1CommentRetrieveView_1aa743ae89fc844f1ee09d95b88b0b223b">permission_classes</link> = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1CanAccessComment">CanAccessComment</link>,)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1CommentRetrieveView_1ae8d695cd31056d5016fda0441c4aece4">serializer_class</link> = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1CommentRetrieveView_1aa743ae89fc844f1ee09d95b88b0b223b"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exchange.views.CommentRetrieveView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentRetrieveView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exchange.views.CommentRetrieveView.permission_classes = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1CanAccessComment">CanAccessComment</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentRetrieveView_1ad8b433208c22ed781320faae841ddab3"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>exchange.views.CommentRetrieveView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentRetrieveView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentRetrieveView.queryset = Comment.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1views_1_1CommentRetrieveView_1ae8d695cd31056d5016fda0441c4aece4"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>exchange.views.CommentRetrieveView</secondary></indexterm>
+<indexterm><primary>exchange.views.CommentRetrieveView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>exchange.views.CommentRetrieveView.serializer_class = <link linkend="_classexchange_1_1serializers_1_1CommentSerializer">CommentSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2views_8py">views.py</link></section>
+</section>

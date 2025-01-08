@@ -1,0 +1,5 @@
+var classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration =
+[
+    [ "dependencies", "classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration.html#a9a5728814b6f2c4d756d610eaafe04ba", null ],
+    [ "operations", "classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration.html#a3c36765d6fba878a11dabdf3c6b205ed", null ]
+];

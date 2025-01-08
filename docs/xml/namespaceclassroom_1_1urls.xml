@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceclassroom_1_1urls" kind="namespace" language="Python">
+    <compoundname>classroom::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceclassroom_1_1urls_1a2de427eb0573554784b99dfffd825991" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str classroom::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>classroom.urls.app_name</qualifiedname>
+        <initializer>=  &apos;classroom&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceclassroom_1_1urls_1ae339ef0e0bc51af3a33dc83dc9d37fd2" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list classroom::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>classroom.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;add/&apos;, views.ClassroomCreateView.as_view(), name=&apos;add-classroom&apos;),
+    path(&apos;show/&apos;, views.ClassroomListView.as_view(), name=&apos;show-classroom&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

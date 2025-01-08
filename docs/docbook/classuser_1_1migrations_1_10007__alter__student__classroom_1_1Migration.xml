@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0007_alter_student_classroom.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0007_alter_student_classroom.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0007_alter_student_classroom.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0007_alter_student_classroom.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1ab134e9e05c1b02553a9fe2ac3eb225f4">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1a3e5718feed56d7f21a2737e29e15a731">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1ab134e9e05c1b02553a9fe2ac3eb225f4"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0007_alter_student_classroom.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0007_alter_student_classroom.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0007_alter_student_classroom.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;classroom&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0002_alter_classroom_name&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0006_student_classroom_teacher_classroom&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10007__alter__student__classroom_1_1Migration_1a3e5718feed56d7f21a2737e29e15a731"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0007_alter_student_classroom.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0007_alter_student_classroom.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0007_alter_student_classroom.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;student&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;classroom&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING,&#32;to=<emphasis role="stringliteral">&apos;classroom.classroom&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_0007__alter__student__classroom_8py">0007_alter_student_classroom.py</link></section>
+</section>

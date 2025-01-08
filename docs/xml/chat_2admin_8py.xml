@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="chat_2admin_8py" kind="file" language="Python">
+    <compoundname>admin.py</compoundname>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1admin">chat::admin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>admin</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacechat_1_1models" kindref="compound">chat.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Room,<sp/>Message</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">admin.site.register(Room)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">admin.site.register(Message)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/admin.py"/>
+  </compounddef>
+</doxygen>

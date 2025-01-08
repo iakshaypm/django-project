@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1views_1_1QuestionCreateView" xml:lang="en-US">
+<title>exchange.views.QuestionCreateView Class Reference</title>
+<indexterm><primary>exchange.views.QuestionCreateView</primary></indexterm>
+Inheritance diagram for exchange.views.QuestionCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1QuestionCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.views.QuestionCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1views_1_1QuestionCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1views_1_1QuestionCreateView_1a831f4ebfe760474cfed3674d18e000ee">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classexchange_1_1views_1_1QuestionCreateView_1aa2fc7c7c7a3a221ce4cebf72cefb4386">permission_classes</link> = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionCreateView_1a831f4ebfe760474cfed3674d18e000ee"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>exchange.views.QuestionCreateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>exchange.views.QuestionCreateView.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1views_1_1QuestionCreateView_1aa2fc7c7c7a3a221ce4cebf72cefb4386"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>exchange.views.QuestionCreateView</secondary></indexterm>
+<indexterm><primary>exchange.views.QuestionCreateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple exchange.views.QuestionCreateView.permission_classes = (IsAuthenticated, <link linkend="_classexchange_1_1permission_1_1IsStudent">IsStudent</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2views_8py">views.py</link></section>
+</section>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1models_1_1Assignment" kind="class" language="Python" prot="public">
+    <compoundname>assignment::models::Assignment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classassignment_1_1models_1_1Assignment_1_1Meta" prot="public">assignment::models::Assignment::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple assignment.models.Assignment::ASSIGNMENT_TYPE_CHOOSES</definition>
+        <argsstring></argsstring>
+        <name>ASSIGNMENT_TYPE_CHOOSES</name>
+        <qualifiedname>assignment.models.Assignment.ASSIGNMENT_TYPE_CHOOSES</qualifiedname>
+        <initializer>=  (
+        (1, &apos;A&apos;),
+        (2, &apos;B&apos;),
+        (3, &apos;C&apos;),
+        (4, &apos;D&apos;),
+        (5, &apos;E&apos;)
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment_1_1models_1_1Assignment_1a5b9afa8bd72cec660c52585684fa8516" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.models.Assignment::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>assignment.models.Assignment.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=50)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classassignment_1_1models_1_1Assignment_1a29b1cd7d6712e9f921ae8c0f7f07ae72" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>assignment.models.Assignment::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>assignment.models.Assignment.type</qualifiedname>
+        <initializer>=  models.IntegerField(choices=<ref refid="classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85" kindref="member">ASSIGNMENT_TYPE_CHOOSES</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment.models.Assignment</label>
+        <link refid="classassignment_1_1models_1_1Assignment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.models.Assignment</label>
+        <link refid="classassignment_1_1models_1_1Assignment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ASSIGNMENT_TYPE_CHOOSES</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85" prot="public" virt="non-virtual"><scope>assignment::models::Assignment</scope><name>ASSIGNMENT_TYPE_CHOOSES</name></member>
+      <member refid="classassignment_1_1models_1_1Assignment_1a5b9afa8bd72cec660c52585684fa8516" prot="public" virt="non-virtual"><scope>assignment::models::Assignment</scope><name>name</name></member>
+      <member refid="classassignment_1_1models_1_1Assignment_1a29b1cd7d6712e9f921ae8c0f7f07ae72" prot="public" virt="non-virtual"><scope>assignment::models::Assignment</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

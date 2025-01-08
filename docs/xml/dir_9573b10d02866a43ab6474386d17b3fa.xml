@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_9573b10d02866a43ab6474386d17b3fa" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests</compoundname>
+    <innerfile refid="attendance_2tests_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="test__attendance_8py">test_attendance.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classwebhooks_1_1views_1_1TelegramWebhook" xml:lang="en-US">
+<title>webhooks.views.TelegramWebhook Class Reference</title>
+<indexterm><primary>webhooks.views.TelegramWebhook</primary></indexterm>
+Inheritance diagram for webhooks.views.TelegramWebhook:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1views_1_1TelegramWebhook__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for webhooks.views.TelegramWebhook:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1views_1_1TelegramWebhook__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classwebhooks_1_1views_1_1TelegramWebhook_1ad68eb579ee543296a4711a5053b0e69e">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classwebhooks_1_1views_1_1TelegramWebhook_1a2f3d2c97e5d09c73dcc15d15eeb2bf7c">permission_classes</link> = (AllowAny,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classwebhooks_1_1views_1_1TelegramWebhook_1ad68eb579ee543296a4711a5053b0e69e"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>webhooks.views.TelegramWebhook</secondary></indexterm>
+<indexterm><primary>webhooks.views.TelegramWebhook</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>webhooks.views.TelegramWebhook.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classwebhooks_1_1views_1_1TelegramWebhook_1a2f3d2c97e5d09c73dcc15d15eeb2bf7c"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>webhooks.views.TelegramWebhook</secondary></indexterm>
+<indexterm><primary>webhooks.views.TelegramWebhook</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple webhooks.views.TelegramWebhook.permission_classes = (AllowAny,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/<link linkend="_webhooks_2views_8py">views.py</link></section>
+</section>

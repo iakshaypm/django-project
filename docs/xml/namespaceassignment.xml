@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceassignment" kind="namespace" language="Python">
+    <compoundname>assignment</compoundname>
+    <innernamespace refid="namespaceassignment_1_1admin">assignment::admin</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1apps">assignment::apps</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1migrations">assignment::migrations</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1models">assignment::models</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1serializers">assignment::serializers</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1tests">assignment::tests</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1urls">assignment::urls</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1views">assignment::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

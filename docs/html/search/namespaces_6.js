@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['user_0',['user',['../namespaceuser.html',1,'']]],
+  ['user_3a_3aadmin_1',['admin',['../namespaceuser_1_1admin.html',1,'user']]],
+  ['user_3a_3aapps_2',['apps',['../namespaceuser_1_1apps.html',1,'user']]],
+  ['user_3a_3amigrations_3',['migrations',['../namespaceuser_1_1migrations.html',1,'user']]],
+  ['user_3a_3amigrations_3a_3a0001_5finitial_4',['0001_initial',['../namespaceuser_1_1migrations_1_10001__initial.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0002_5falter_5faccount_5fuser_5ftype_5fhod_5fstudent_5fteacher_5',['0002_alter_account_user_type_hod_student_teacher',['../namespaceuser_1_1migrations_1_10002__alter__account__user__type__hod__student__teacher.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0003_5falter_5faccount_5fis_5fstaff_6',['0003_alter_account_is_staff',['../namespaceuser_1_1migrations_1_10003__alter__account__is__staff.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0004_5fsubject_5falter_5fhod_5foptions_5falter_5fteacher_5foptions_5fand_5fmore_7',['0004_subject_alter_hod_options_alter_teacher_options_and_more',['../namespaceuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0005_5frename_5fsubject_5fsubject_5fname_8',['0005_rename_subject_subject_name',['../namespaceuser_1_1migrations_1_10005__rename__subject__subject__name.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0006_5fstudent_5fclassroom_5fteacher_5fclassroom_9',['0006_student_classroom_teacher_classroom',['../namespaceuser_1_1migrations_1_10006__student__classroom__teacher__classroom.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0007_5falter_5fstudent_5fclassroom_10',['0007_alter_student_classroom',['../namespaceuser_1_1migrations_1_10007__alter__student__classroom.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0008_5falter_5fstudent_5fclassroom_11',['0008_alter_student_classroom',['../namespaceuser_1_1migrations_1_10008__alter__student__classroom.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0009_5falter_5faccount_5fuser_5ftype_5fparent_5fstudent_5fparent_12',['0009_alter_account_user_type_parent_student_parent',['../namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0010_5fremove_5fparent_5fphone_5fnumber_13',['0010_remove_parent_phone_number',['../namespaceuser_1_1migrations_1_10010__remove__parent__phone__number.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0011_5falter_5fstudent_5fparent_5fdelete_5fparent_14',['0011_alter_student_parent_delete_parent',['../namespaceuser_1_1migrations_1_10011__alter__student__parent__delete__parent.html',1,'user::migrations']]],
+  ['user_3a_3amigrations_3a_3a0012_5fstudent_5fassignment_15',['0012_student_assignment',['../namespaceuser_1_1migrations_1_10012__student__assignment.html',1,'user::migrations']]],
+  ['user_3a_3amodels_16',['models',['../namespaceuser_1_1models.html',1,'user']]],
+  ['user_3a_3amybackend_17',['MyBackend',['../namespaceuser_1_1MyBackend.html',1,'user']]],
+  ['user_3a_3apermission_18',['permission',['../namespaceuser_1_1permission.html',1,'user']]],
+  ['user_3a_3aserializers_19',['serializers',['../namespaceuser_1_1serializers.html',1,'user']]],
+  ['user_3a_3asignals_20',['signals',['../namespaceuser_1_1signals.html',1,'user']]],
+  ['user_3a_3atests_21',['tests',['../namespaceuser_1_1tests.html',1,'user']]],
+  ['user_3a_3aurls_22',['urls',['../namespaceuser_1_1urls.html',1,'user']]],
+  ['user_3a_3aviews_23',['views',['../namespaceuser_1_1views.html',1,'user']]]
+];

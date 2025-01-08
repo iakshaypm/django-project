@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1views" kind="namespace" language="Python">
+    <compoundname>attendance::views</compoundname>
+    <innerclass refid="classattendance_1_1views_1_1AttendanceCreateView" prot="public">attendance::views::AttendanceCreateView</innerclass>
+    <innerclass refid="classattendance_1_1views_1_1ShowAttendanceView" prot="public">attendance::views::ShowAttendanceView</innerclass>
+    <innerclass refid="classattendance_1_1views_1_1StudentAttendanceCreateView" prot="public">attendance::views::StudentAttendanceCreateView</innerclass>
+    <innerclass refid="classattendance_1_1views_1_1TeacherAttendanceCreateView" prot="public">attendance::views::TeacherAttendanceCreateView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

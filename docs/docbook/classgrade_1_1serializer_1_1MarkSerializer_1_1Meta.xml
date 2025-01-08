@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1serializer_1_1MarkSerializer_1_1Meta" xml:lang="en-US">
+<title>grade.serializer.MarkSerializer.Meta Class Reference</title>
+<indexterm><primary>grade.serializer.MarkSerializer.Meta</primary></indexterm>
+Collaboration diagram for grade.serializer.MarkSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1serializer_1_1MarkSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aab073eb5c973dcf8bfd1b505b97b77f4">model</link> = <link linkend="_classgrade_1_1models_1_1Mark">Mark</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aba4a6168ec01581ad4b745f530a1c521">fields</link> = [&apos;student&apos;, &apos;sub1&apos;, &apos;sub2&apos;, &apos;sub3&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aba4a6168ec01581ad4b745f530a1c521"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>grade.serializer.MarkSerializer.Meta</secondary></indexterm>
+<indexterm><primary>grade.serializer.MarkSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list grade.serializer.MarkSerializer.Meta.fields = [&apos;student&apos;, &apos;sub1&apos;, &apos;sub2&apos;, &apos;sub3&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1serializer_1_1MarkSerializer_1_1Meta_1aab073eb5c973dcf8bfd1b505b97b77f4"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>grade.serializer.MarkSerializer.Meta</secondary></indexterm>
+<indexterm><primary>grade.serializer.MarkSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>grade.serializer.MarkSerializer.Meta.model = <link linkend="_classgrade_1_1models_1_1Mark">Mark</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2serializer_8py">serializer.py</link></section>
+</section>

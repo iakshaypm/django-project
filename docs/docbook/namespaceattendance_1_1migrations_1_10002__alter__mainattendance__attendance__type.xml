@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type" xml:lang="en-US">
+<title>attendance.migrations.0002_alter_mainattendance_attendance_type Namespace Reference</title>
+<indexterm><primary>attendance.migrations.0002_alter_mainattendance_attendance_type</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1migrations_1_10002__alter__mainattendance__attendance__type_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

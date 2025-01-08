@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1views_1_1StudentAttendanceCreateView" xml:lang="en-US">
+<title>attendance.views.StudentAttendanceCreateView Class Reference</title>
+<indexterm><primary>attendance.views.StudentAttendanceCreateView</primary></indexterm>
+Inheritance diagram for attendance.views.StudentAttendanceCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1StudentAttendanceCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.views.StudentAttendanceCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1StudentAttendanceCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1views_1_1StudentAttendanceCreateView_1a1e3a730f5ec4f15e5b5bd7c38eaa3f1b">post</link> (self, request, *args, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classattendance_1_1views_1_1StudentAttendanceCreateView_1abc38d5d29d6a03dd944cff2c297e7723">permission_classes</link> = (IsAuthenticated, <link linkend="_classattendance_1_1permission_1_1CanMarkAttendance">CanMarkAttendance</link>, <link linkend="_classattendance_1_1permission_1_1IsStudent">IsStudent</link>,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1StudentAttendanceCreateView_1a1e3a730f5ec4f15e5b5bd7c38eaa3f1b"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>attendance.views.StudentAttendanceCreateView</secondary></indexterm>
+<indexterm><primary>attendance.views.StudentAttendanceCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>attendance.views.StudentAttendanceCreateView.post ( self,  request, * args, ** kwargs)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1StudentAttendanceCreateView_1abc38d5d29d6a03dd944cff2c297e7723"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>attendance.views.StudentAttendanceCreateView</secondary></indexterm>
+<indexterm><primary>attendance.views.StudentAttendanceCreateView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple attendance.views.StudentAttendanceCreateView.permission_classes = (IsAuthenticated, <link linkend="_classattendance_1_1permission_1_1CanMarkAttendance">CanMarkAttendance</link>, <link linkend="_classattendance_1_1permission_1_1IsStudent">IsStudent</link>,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2views_8py">views.py</link></section>
+</section>

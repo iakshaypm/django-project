@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1views" xml:lang="en-US">
+<title>chat.views Namespace Reference</title>
+<indexterm><primary>chat.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classchat_1_1views_1_1CreateRoomView">CreateRoomView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d">index_view</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacechat_1_1views_1a83eb6b69744232e6d709bb3ecfb3d97d"/><section>
+    <title>index_view()</title>
+<indexterm><primary>index_view</primary><secondary>chat.views</secondary></indexterm>
+<indexterm><primary>chat.views</primary><secondary>index_view</secondary></indexterm>
+<para><computeroutput>chat.views.index_view ( request)</computeroutput></para></section>
+</section>
+</section>

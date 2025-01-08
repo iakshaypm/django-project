@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_f98ca48ec59f7d75fa8a04dcc9213b07" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom Directory Reference</primary></indexterm>
+Directory dependency graph for classroom:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_f98ca48ec59f7d75fa8a04dcc9213b07_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_46e8bd9498e3a0d7f17a7b68b1416512">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_classroom_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2permission_8py">permission.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2serializers_8py">serializers.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_classroom_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

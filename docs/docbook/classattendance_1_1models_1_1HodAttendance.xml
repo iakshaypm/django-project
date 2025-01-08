@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1models_1_1HodAttendance" xml:lang="en-US">
+<title>attendance.models.HodAttendance Class Reference</title>
+<indexterm><primary>attendance.models.HodAttendance</primary></indexterm>
+Inheritance diagram for attendance.models.HodAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1HodAttendance__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.models.HodAttendance:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1models_1_1HodAttendance__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1HodAttendance_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df">attendance</link> = models.OneToOneField(<link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link>, on_delete=models.DO_NOTHING)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764">hod</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11">date_of_marking</link> = models.DateField(auto_now=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df"/><section>
+    <title>attendance</title>
+<indexterm><primary>attendance</primary><secondary>attendance.models.HodAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.HodAttendance</primary><secondary>attendance</secondary></indexterm>
+<para><computeroutput>attendance.models.HodAttendance.attendance = models.OneToOneField(<link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link>, on_delete=models.DO_NOTHING)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11"/><section>
+    <title>date_of_marking</title>
+<indexterm><primary>date_of_marking</primary><secondary>attendance.models.HodAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.HodAttendance</primary><secondary>date_of_marking</secondary></indexterm>
+<para><computeroutput>attendance.models.HodAttendance.date_of_marking = models.DateField(auto_now=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764"/><section>
+    <title>hod</title>
+<indexterm><primary>hod</primary><secondary>attendance.models.HodAttendance</secondary></indexterm>
+<indexterm><primary>attendance.models.HodAttendance</primary><secondary>hod</secondary></indexterm>
+<para><computeroutput>attendance.models.HodAttendance.hod = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2models_8py">models.py</link></section>
+</section>

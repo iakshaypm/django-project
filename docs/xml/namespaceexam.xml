@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexam" kind="namespace" language="Python">
+    <compoundname>exam</compoundname>
+    <innernamespace refid="namespaceexam_1_1admin">exam::admin</innernamespace>
+    <innernamespace refid="namespaceexam_1_1apps">exam::apps</innernamespace>
+    <innernamespace refid="namespaceexam_1_1migrations">exam::migrations</innernamespace>
+    <innernamespace refid="namespaceexam_1_1models">exam::models</innernamespace>
+    <innernamespace refid="namespaceexam_1_1serializers">exam::serializers</innernamespace>
+    <innernamespace refid="namespaceexam_1_1tests">exam::tests</innernamespace>
+    <innernamespace refid="namespaceexam_1_1urls">exam::urls</innernamespace>
+    <innernamespace refid="namespaceexam_1_1views">exam::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

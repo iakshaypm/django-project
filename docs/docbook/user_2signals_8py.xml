@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_user_2signals_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/signals.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/signals.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceuser">user</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1signals">user.signals</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceuser_1_1signals_1a5a15b9f444d79db25836abba020571c7">user.signals.notify_admin</link> (sender, instance, created, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

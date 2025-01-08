@@ -1,0 +1,7 @@
+<map id="attendance.models.MainAttendance.Meta" name="attendance.models.MainAttendance.Meta">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,292,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,5,96,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,71,71,90,76,108,84,120,80,123,72,110,66,91,65,71"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="209,5,240,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,72,198,111,190,122,186,119,193,108,211,70"/>
+</map>

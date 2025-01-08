@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1permission" kind="namespace" language="Python">
+    <compoundname>user::permission</compoundname>
+    <innerclass refid="classuser_1_1permission_1_1IsHOD" prot="public">user::permission::IsHOD</innerclass>
+    <innerclass refid="classuser_1_1permission_1_1IsManagement" prot="public">user::permission::IsManagement</innerclass>
+    <innerclass refid="classuser_1_1permission_1_1IsParent" prot="public">user::permission::IsParent</innerclass>
+    <innerclass refid="classuser_1_1permission_1_1IsStudent" prot="public">user::permission::IsStudent</innerclass>
+    <innerclass refid="classuser_1_1permission_1_1IsTeacher" prot="public">user::permission::IsTeacher</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/permission.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

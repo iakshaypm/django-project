@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1serializer_1_1StudentAttendanceSerializer" kind="class" language="Python" prot="public">
+    <compoundname>attendance::serializer::StudentAttendanceSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1_1Meta" prot="public">attendance::serializer::StudentAttendanceSerializer::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1afaaeedb4f60e9b44e1cb1990c0813eb6" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.serializer.StudentAttendanceSerializer::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>attendance.serializer.StudentAttendanceSerializer.id</qualifiedname>
+        <initializer>=  serializers.IntegerField(read_only=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1af84cf4aa7bf5ba00516c9abdb500a5e4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.serializer.StudentAttendanceSerializer::student</definition>
+        <argsstring></argsstring>
+        <name>student</name>
+        <qualifiedname>attendance.serializer.StudentAttendanceSerializer.student</qualifiedname>
+        <initializer>=  serializers.CharField(read_only=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1ab01621e0c7e6e1871be0816d14512674" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.serializer.StudentAttendanceSerializer::date_of_marking</definition>
+        <argsstring></argsstring>
+        <name>date_of_marking</name>
+        <qualifiedname>attendance.serializer.StudentAttendanceSerializer.date_of_marking</qualifiedname>
+        <initializer>=  serializers.DateField(read_only=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1a14a6a0f2844d3f47537ea6789b23b8bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.serializer.StudentAttendanceSerializer.validate_attendance_id</definition>
+        <argsstring>(self, value)</argsstring>
+        <name>validate_attendance_id</name>
+        <qualifiedname>attendance.serializer.StudentAttendanceSerializer.validate_attendance_id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="27" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.serializer.StudentAttendanceSerializer</label>
+        <link refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.serializer.StudentAttendanceSerializer</label>
+        <link refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/serializer.py" bodystart="18" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1ab01621e0c7e6e1871be0816d14512674" prot="public" virt="non-virtual"><scope>attendance::serializer::StudentAttendanceSerializer</scope><name>date_of_marking</name></member>
+      <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1afaaeedb4f60e9b44e1cb1990c0813eb6" prot="public" virt="non-virtual"><scope>attendance::serializer::StudentAttendanceSerializer</scope><name>id</name></member>
+      <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1af84cf4aa7bf5ba00516c9abdb500a5e4" prot="public" virt="non-virtual"><scope>attendance::serializer::StudentAttendanceSerializer</scope><name>student</name></member>
+      <member refid="classattendance_1_1serializer_1_1StudentAttendanceSerializer_1a14a6a0f2844d3f47537ea6789b23b8bc" prot="public" virt="non-virtual"><scope>attendance::serializer::StudentAttendanceSerializer</scope><name>validate_attendance_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

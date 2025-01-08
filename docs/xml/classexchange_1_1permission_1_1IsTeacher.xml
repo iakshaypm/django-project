@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1permission_1_1IsTeacher" kind="class" language="Python" prot="public">
+    <compoundname>exchange::permission::IsTeacher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.permission.IsTeacher.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>exchange.permission.IsTeacher.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="42" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="42" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.permission.IsTeacher</label>
+        <link refid="classexchange_1_1permission_1_1IsTeacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.permission.IsTeacher</label>
+        <link refid="classexchange_1_1permission_1_1IsTeacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="41" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" bodystart="41" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa" prot="public" virt="non-virtual"><scope>exchange::permission::IsTeacher</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

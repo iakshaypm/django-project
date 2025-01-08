@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="chat_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classchat_1_1models_1_1Room" prot="public">chat::models::Room</innerclass>
+    <innerclass refid="classchat_1_1models_1_1Message" prot="public">chat::models::Message</innerclass>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1models">chat::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1models" kindref="compound">user.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Account</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classchat_1_1models_1_1Room" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1models_1_1Room" kindref="compound">Room</ref>(models.Model):</highlight></codeline>
+<codeline lineno="7" refid="classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROOM_TYPE_CHOOSES<sp/>=<sp/>(</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1,<sp/></highlight><highlight class="stringliteral">&apos;Student&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2,<sp/></highlight><highlight class="stringliteral">&apos;Teacher&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3,<sp/></highlight><highlight class="stringliteral">&apos;HOD&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="12" refid="classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=128,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="13" refid="classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>type<sp/>=<sp/>models.PositiveIntegerField(choices=ROOM_TYPE_CHOOSES)</highlight></codeline>
+<codeline lineno="14" refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>online<sp/>=<sp/>models.ManyToManyField(to=Account,<sp/>blank=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>related_name=</highlight><highlight class="stringliteral">&apos;users_online&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15" refid="classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>created_by<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a" kindref="member">get_online_count</ref>(self):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self.<ref refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" kindref="member">online</ref>.count()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3" kindref="member">join</ref>(self,<sp/>user):</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" kindref="member">online</ref>.add(user)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.save()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d" kindref="member">leave</ref>(self,<sp/>user):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17" kindref="member">online</ref>.remove(user)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.save()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classchat_1_1models_1_1Message" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchat_1_1models_1_1Message" kindref="compound">Message</ref>(models.Model):</highlight></codeline>
+<codeline lineno="30" refid="classchat_1_1models_1_1Message_1a7b769f99b4addee39b5e48658ee23b7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.ForeignKey(Account,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="31" refid="classchat_1_1models_1_1Message_1a665149ea9eb0e86258d82e14d1bb8d3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>room<sp/>=<sp/>models.ForeignKey(Room,<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="32" refid="classchat_1_1models_1_1Message_1abe8ae5f4e7f0c1cb388bcb5feecb516c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>content<sp/>=<sp/>models.CharField(max_length=512)</highlight></codeline>
+<codeline lineno="33" refid="classchat_1_1models_1_1Message_1aa51021e71d8e95498c2fdad535647a70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>timestamp<sp/>=<sp/>models.DateTimeField(auto_now_add=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/models.py"/>
+  </compounddef>
+</doxygen>

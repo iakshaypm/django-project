@@ -1,0 +1,4 @@
+var 0004__subject__alter__hod__options__alter__teacher__options__and__more_8py =
+[
+    [ "user.migrations.0004_subject_alter_hod_options_alter_teacher_options_and_more.Migration", "classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration.html", "classuser_1_1migrations_1_10004__subject__alter__hod__options__alter__teacher__options__and__more_1_1Migration" ]
+];

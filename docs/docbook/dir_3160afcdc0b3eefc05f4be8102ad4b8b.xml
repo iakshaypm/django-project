@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3160afcdc0b3eefc05f4be8102ad4b8b" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_a7039c525c66631d6a920e9aee74afc2">assignment</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_c90a69987213d5eacaadbdca85b80b33">attendance</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_5abc19d3b1f3c23515fdba0ec323bb6d">chat</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_f98ca48ec59f7d75fa8a04dcc9213b07">classroom</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4649b9461b7228cdc7438f00ff8ca9f7">college</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_85b4eece0205c2e7444c9967b0aa2fb2">exam</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_750cb86727cffb887c0c8e837c38ba1d">exchange</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_a3e959986e533203eea4a26012de2973">grade</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_febb6b43c38c90b14ff92237d82f14a2">payment</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_9092d353ee3b7fd65f853dffbc0fb144">user</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4d95ce356d29cff5c6bf005dfc56d11f">webhooks</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_manage_8py">manage.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

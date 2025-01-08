@@ -1,0 +1,23 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,274,93,299"/>
+<area shape="rect" id="Node000001" href="$classassignment_1_1apps_1_1AssignmentConfig.html" title=" " alt="" coords="151,5,366,45"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="51,259,59,215,75,160,101,104,118,78,140,55,157,43,160,48,143,59,122,81,105,107,80,162,64,216,56,260"/>
+<area shape="rect" id="Node000002" href="$classattendance_1_1apps_1_1AttendanceConfig.html" title=" " alt="" coords="155,69,363,109"/>
+<area shape="poly" id="edge7_Node000000_Node000002" title=" " alt="" coords="55,260,67,228,84,190,108,152,140,119,159,107,161,112,143,123,113,155,89,192,72,230,60,262"/>
+<area shape="rect" id="Node000003" href="$classchat_1_1apps_1_1ChatConfig.html" title=" " alt="" coords="179,134,339,159"/>
+<area shape="poly" id="edge8_Node000000_Node000003" title=" " alt="" coords="61,260,93,214,114,190,140,170,177,154,179,159,143,174,118,194,97,217,66,263"/>
+<area shape="rect" id="Node000004" href="$classclassroom_1_1apps_1_1ClassroomConfig.html" title=" " alt="" coords="160,184,357,224"/>
+<area shape="poly" id="edge9_Node000000_Node000004" title=" " alt="" coords="80,265,140,234,174,222,176,227,142,238,83,269"/>
+<area shape="rect" id="Node000005" href="$classexam_1_1apps_1_1ExamConfig.html" title=" " alt="" coords="171,249,347,274"/>
+<area shape="poly" id="edge10_Node000000_Node000005" title=" " alt="" coords="107,277,170,269,171,275,108,282"/>
+<area shape="rect" id="Node000006" href="$classexchange_1_1apps_1_1ExchangeConfig.html" title=" " alt="" coords="145,298,373,323"/>
+<area shape="poly" id="edge11_Node000000_Node000006" title=" " alt="" coords="107,291,148,295,148,301,107,296"/>
+<area shape="rect" id="Node000007" href="$classgrade_1_1apps_1_1GradeConfig.html" title=" " alt="" coords="169,347,348,373"/>
+<area shape="poly" id="edge12_Node000000_Node000007" title=" " alt="" coords="84,304,142,332,185,345,184,350,140,337,82,309"/>
+<area shape="rect" id="Node000008" href="$classpayment_1_1apps_1_1PaymentConfig.html" title=" " alt="" coords="150,397,367,422"/>
+<area shape="poly" id="edge13_Node000000_Node000008" title=" " alt="" coords="69,309,100,347,120,366,143,382,172,394,170,399,140,386,117,370,96,351,64,312"/>
+<area shape="rect" id="Node000009" href="$classuser_1_1apps_1_1UserConfig.html" title=" " alt="" coords="179,446,338,471"/>
+<area shape="poly" id="edge14_Node000000_Node000009" title=" " alt="" coords="62,311,91,373,114,405,143,431,180,448,178,453,140,436,110,408,87,375,57,313"/>
+<area shape="rect" id="Node000010" href="$classwebhooks_1_1apps_1_1WebhooksConfig.html" title=" " alt="" coords="141,495,376,521"/>
+<area shape="poly" id="edge15_Node000000_Node000010" title=" " alt="" coords="58,312,67,350,83,396,108,442,124,463,143,481,163,493,161,497,140,485,120,466,104,445,79,398,62,352,52,313"/>
+</map>

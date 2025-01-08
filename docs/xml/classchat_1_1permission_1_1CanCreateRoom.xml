@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1permission_1_1CanCreateRoom" kind="class" language="Python" prot="public">
+    <compoundname>chat::permission::CanCreateRoom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchat_1_1permission_1_1CanCreateRoom_1a1e5e0456ee22e31b0a3cb2b9a41c0ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.permission.CanCreateRoom.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>chat.permission.CanCreateRoom.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/permission.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/permission.py" bodystart="5" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>chat.permission.CanCreateRoom</label>
+        <link refid="classchat_1_1permission_1_1CanCreateRoom"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>chat.permission.CanCreateRoom</label>
+        <link refid="classchat_1_1permission_1_1CanCreateRoom"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/permission.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/permission.py" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classchat_1_1permission_1_1CanCreateRoom_1a1e5e0456ee22e31b0a3cb2b9a41c0ffb" prot="public" virt="non-virtual"><scope>chat::permission::CanCreateRoom</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

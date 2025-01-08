@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacechat" kind="namespace" language="Python">
+    <compoundname>chat</compoundname>
+    <innernamespace refid="namespacechat_1_1admin">chat::admin</innernamespace>
+    <innernamespace refid="namespacechat_1_1apps">chat::apps</innernamespace>
+    <innernamespace refid="namespacechat_1_1consumers">chat::consumers</innernamespace>
+    <innernamespace refid="namespacechat_1_1middleware">chat::middleware</innernamespace>
+    <innernamespace refid="namespacechat_1_1migrations">chat::migrations</innernamespace>
+    <innernamespace refid="namespacechat_1_1models">chat::models</innernamespace>
+    <innernamespace refid="namespacechat_1_1permission">chat::permission</innernamespace>
+    <innernamespace refid="namespacechat_1_1routing">chat::routing</innernamespace>
+    <innernamespace refid="namespacechat_1_1serializers">chat::serializers</innernamespace>
+    <innernamespace refid="namespacechat_1_1tasks">chat::tasks</innernamespace>
+    <innernamespace refid="namespacechat_1_1tests">chat::tests</innernamespace>
+    <innernamespace refid="namespacechat_1_1urls">chat::urls</innernamespace>
+    <innernamespace refid="namespacechat_1_1views">chat::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

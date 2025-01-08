@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser_1_1serializers" kind="namespace" language="Python">
+    <compoundname>user::serializers</compoundname>
+    <innerclass refid="classuser_1_1serializers_1_1ClassroomSerializer" prot="public">user::serializers::ClassroomSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1HODSerializer" prot="public">user::serializers::HODSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1MarkSerializer" prot="public">user::serializers::MarkSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1StudentAttendanceSerializer" prot="public">user::serializers::StudentAttendanceSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1StudentSerializer" prot="public">user::serializers::StudentSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1StudentViewSerializer" prot="public">user::serializers::StudentViewSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1TeacherSerializer" prot="public">user::serializers::TeacherSerializer</innerclass>
+    <innerclass refid="classuser_1_1serializers_1_1UserSerializer" prot="public">user::serializers::UserSerializer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

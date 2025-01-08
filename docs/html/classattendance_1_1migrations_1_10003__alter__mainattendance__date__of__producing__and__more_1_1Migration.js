@@ -1,0 +1,5 @@
+var classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration =
+[
+    [ "dependencies", "classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration.html#ae6d8dbac29105a8ed91836c5f96349f5", null ],
+    [ "operations", "classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration.html#a0f67f93b6cffede2e293a89e2f68fee8", null ]
+];

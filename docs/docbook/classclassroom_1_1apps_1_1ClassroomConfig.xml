@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclassroom_1_1apps_1_1ClassroomConfig" xml:lang="en-US">
+<title>classroom.apps.ClassroomConfig Class Reference</title>
+<indexterm><primary>classroom.apps.ClassroomConfig</primary></indexterm>
+Inheritance diagram for classroom.apps.ClassroomConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1apps_1_1ClassroomConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for classroom.apps.ClassroomConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1apps_1_1ClassroomConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classclassroom_1_1apps_1_1ClassroomConfig_1a26bd56525fc8fa29d397e89e68b079fa">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classclassroom_1_1apps_1_1ClassroomConfig_1a7d83c7160045da1d2c44cd423c15f4b6">name</link> = &apos;classroom&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classclassroom_1_1apps_1_1ClassroomConfig_1a26bd56525fc8fa29d397e89e68b079fa"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>classroom.apps.ClassroomConfig</secondary></indexterm>
+<indexterm><primary>classroom.apps.ClassroomConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str classroom.apps.ClassroomConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classclassroom_1_1apps_1_1ClassroomConfig_1a7d83c7160045da1d2c44cd423c15f4b6"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>classroom.apps.ClassroomConfig</secondary></indexterm>
+<indexterm><primary>classroom.apps.ClassroomConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str classroom.apps.ClassroomConfig.name = &apos;classroom&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/<link linkend="_classroom_2apps_8py">apps.py</link></section>
+</section>

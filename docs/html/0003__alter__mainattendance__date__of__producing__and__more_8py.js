@@ -1,0 +1,4 @@
+var 0003__alter__mainattendance__date__of__producing__and__more_8py =
+[
+    [ "attendance.migrations.0003_alter_mainattendance_date_of_producing_and_more.Migration", "classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration.html", "classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration" ]
+];

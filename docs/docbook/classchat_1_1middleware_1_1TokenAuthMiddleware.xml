@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1middleware_1_1TokenAuthMiddleware" xml:lang="en-US">
+<title>chat.middleware.TokenAuthMiddleware Class Reference</title>
+<indexterm><primary>chat.middleware.TokenAuthMiddleware</primary></indexterm>
+Inheritance diagram for chat.middleware.TokenAuthMiddleware:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.middleware.TokenAuthMiddleware:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20">__init__</link> (self, inner)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44">__call__</link> (self, scope, receive, send)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4">jwt_object</link> = JWTAuthentication()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>chat.middleware.TokenAuthMiddleware</secondary></indexterm>
+<indexterm><primary>chat.middleware.TokenAuthMiddleware</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>chat.middleware.TokenAuthMiddleware.__init__ ( self,  inner)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware_a2df74caff3ceb7a31ec8de26c2cd9c20_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware_a2df74caff3ceb7a31ec8de26c2cd9c20_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44"/><section>
+    <title>__call__()</title>
+<indexterm><primary>__call__</primary><secondary>chat.middleware.TokenAuthMiddleware</secondary></indexterm>
+<indexterm><primary>chat.middleware.TokenAuthMiddleware</primary><secondary>__call__</secondary></indexterm>
+<para><computeroutput>chat.middleware.TokenAuthMiddleware.__call__ ( self,  scope,  receive,  send)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware_a5b040bd5c91c46c27a3d2b18989e9d44_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1middleware_1_1TokenAuthMiddleware_a5b040bd5c91c46c27a3d2b18989e9d44_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4"/><section>
+    <title>jwt_object</title>
+<indexterm><primary>jwt_object</primary><secondary>chat.middleware.TokenAuthMiddleware</secondary></indexterm>
+<indexterm><primary>chat.middleware.TokenAuthMiddleware</primary><secondary>jwt_object</secondary></indexterm>
+<para><computeroutput>chat.middleware.TokenAuthMiddleware.jwt_object = JWTAuthentication()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_middleware_8py">middleware.py</link></section>
+</section>

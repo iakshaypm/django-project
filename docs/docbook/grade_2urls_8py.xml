@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_grade_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacegrade">grade</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacegrade_1_1urls">grade.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacegrade_1_1urls_1a9cd0dbf6c10bc9a843f0efb3c8b39712">grade.urls.app_name</link> = &apos;grade&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacegrade_1_1urls_1a1fbcc5f1316c75c3201b5c9a4f31822f">grade.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

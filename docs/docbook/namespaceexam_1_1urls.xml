@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceexam_1_1urls" xml:lang="en-US">
+<title>exam.urls Namespace Reference</title>
+<indexterm><primary>exam.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceexam_1_1urls_1a72cf6cfbee11855ab7d29ef2123adab6">app_name</link> = &apos;exam&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceexam_1_1urls_1a8383dd92b788f7b6fc6ddea686a26fea">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceexam_1_1urls_1a72cf6cfbee11855ab7d29ef2123adab6"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>exam.urls</secondary></indexterm>
+<indexterm><primary>exam.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str exam.urls.app_name = &apos;exam&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceexam_1_1urls_1a8383dd92b788f7b6fc6ddea686a26fea"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>exam.urls</secondary></indexterm>
+<indexterm><primary>exam.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list exam.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;add/&apos;</emphasis>,&#32;views.ExamCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;create-question&apos;</emphasis>),
+3 ]
+</programlisting></section>
+</section>
+</section>

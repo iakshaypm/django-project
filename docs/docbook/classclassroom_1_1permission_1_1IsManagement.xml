@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclassroom_1_1permission_1_1IsManagement" xml:lang="en-US">
+<title>classroom.permission.IsManagement Class Reference</title>
+<indexterm><primary>classroom.permission.IsManagement</primary></indexterm>
+Inheritance diagram for classroom.permission.IsManagement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1permission_1_1IsManagement__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for classroom.permission.IsManagement:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1permission_1_1IsManagement__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classclassroom_1_1permission_1_1IsManagement_1a29c8c906e28b632f937edddc1fd4ce88">has_permission</link> (self, request, view)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classclassroom_1_1permission_1_1IsManagement_1a29c8c906e28b632f937edddc1fd4ce88"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>classroom.permission.IsManagement</secondary></indexterm>
+<indexterm><primary>classroom.permission.IsManagement</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>classroom.permission.IsManagement.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/<link linkend="_classroom_2permission_8py">permission.py</link></section>
+</section>

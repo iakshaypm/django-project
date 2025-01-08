@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classassignment_1_1models_1_1AssignmentMark" xml:lang="en-US">
+<title>assignment.models.AssignmentMark Class Reference</title>
+<indexterm><primary>assignment.models.AssignmentMark</primary></indexterm>
+Inheritance diagram for assignment.models.AssignmentMark:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1models_1_1AssignmentMark__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for assignment.models.AssignmentMark:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1models_1_1AssignmentMark__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1AssignmentMark_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classassignment_1_1models_1_1AssignmentMark_1adf588eda31e348e34447b46d4fbc13a4">assignment</link> = models.ForeignKey(<link linkend="_classassignment_1_1models_1_1Assignment">Assignment</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classassignment_1_1models_1_1AssignmentMark_1a0ca11d1161ac7f8a6c9e2623141907ab">mark</link> = models.CharField(max_length=50)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classassignment_1_1models_1_1AssignmentMark_1adf588eda31e348e34447b46d4fbc13a4"/><section>
+    <title>assignment</title>
+<indexterm><primary>assignment</primary><secondary>assignment.models.AssignmentMark</secondary></indexterm>
+<indexterm><primary>assignment.models.AssignmentMark</primary><secondary>assignment</secondary></indexterm>
+<para><computeroutput>assignment.models.AssignmentMark.assignment = models.ForeignKey(<link linkend="_classassignment_1_1models_1_1Assignment">Assignment</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classassignment_1_1models_1_1AssignmentMark_1a0ca11d1161ac7f8a6c9e2623141907ab"/><section>
+    <title>mark</title>
+<indexterm><primary>mark</primary><secondary>assignment.models.AssignmentMark</secondary></indexterm>
+<indexterm><primary>assignment.models.AssignmentMark</primary><secondary>mark</secondary></indexterm>
+<para><computeroutput>assignment.models.AssignmentMark.mark = models.CharField(max_length=50)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/<link linkend="_assignment_2models_8py">models.py</link></section>
+</section>

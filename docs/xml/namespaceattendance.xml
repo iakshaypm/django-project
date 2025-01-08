@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance" kind="namespace" language="Python">
+    <compoundname>attendance</compoundname>
+    <innernamespace refid="namespaceattendance_1_1admin">attendance::admin</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1apps">attendance::apps</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1migrations">attendance::migrations</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1models">attendance::models</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1permission">attendance::permission</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1serializer">attendance::serializer</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1tests">attendance::tests</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1urls">attendance::urls</innernamespace>
+    <innernamespace refid="namespaceattendance_1_1views">attendance::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

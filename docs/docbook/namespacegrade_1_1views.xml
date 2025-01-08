@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegrade_1_1views" xml:lang="en-US">
+<title>grade.views Namespace Reference</title>
+<indexterm><primary>grade.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgrade_1_1views_1_1MarkCreateView">MarkCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgrade_1_1views_1_1MarkDeleteView">MarkDeleteView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgrade_1_1views_1_1MarkListView">MarkListView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

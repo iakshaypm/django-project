@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1views_1_1ShowAttendanceView" xml:lang="en-US">
+<title>attendance.views.ShowAttendanceView Class Reference</title>
+<indexterm><primary>attendance.views.ShowAttendanceView</primary></indexterm>
+Inheritance diagram for attendance.views.ShowAttendanceView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1ShowAttendanceView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.views.ShowAttendanceView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1views_1_1ShowAttendanceView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1views_1_1ShowAttendanceView_1af6e650a3c652bca5e73144f8bd0a2cd4">get_queryset</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1views_1_1ShowAttendanceView_1a3e61d742ec56efa9859bc4ab53166fe3">serializer_class</link> = <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer">AttendanceSerializer</link></para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classattendance_1_1views_1_1ShowAttendanceView_1a5b2b350ae54f42bce1df162ecdfe5e5e">permission_classes</link> = (IsAuthenticated,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1ShowAttendanceView_1af6e650a3c652bca5e73144f8bd0a2cd4"/><section>
+    <title>get_queryset()</title>
+<indexterm><primary>get_queryset</primary><secondary>attendance.views.ShowAttendanceView</secondary></indexterm>
+<indexterm><primary>attendance.views.ShowAttendanceView</primary><secondary>get_queryset</secondary></indexterm>
+<para><computeroutput>attendance.views.ShowAttendanceView.get_queryset ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1views_1_1ShowAttendanceView_1a5b2b350ae54f42bce1df162ecdfe5e5e"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>attendance.views.ShowAttendanceView</secondary></indexterm>
+<indexterm><primary>attendance.views.ShowAttendanceView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple attendance.views.ShowAttendanceView.permission_classes = (IsAuthenticated,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1views_1_1ShowAttendanceView_1a3e61d742ec56efa9859bc4ab53166fe3"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>attendance.views.ShowAttendanceView</secondary></indexterm>
+<indexterm><primary>attendance.views.ShowAttendanceView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>attendance.views.ShowAttendanceView.serializer_class = <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer">AttendanceSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2views_8py">views.py</link></section>
+</section>

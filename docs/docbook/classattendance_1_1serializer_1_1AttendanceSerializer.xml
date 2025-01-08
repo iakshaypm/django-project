@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer" xml:lang="en-US">
+<title>attendance.serializer.AttendanceSerializer Class Reference</title>
+<indexterm><primary>attendance.serializer.AttendanceSerializer</primary></indexterm>
+Inheritance diagram for attendance.serializer.AttendanceSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1AttendanceSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.serializer.AttendanceSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1serializer_1_1AttendanceSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a5bf62f1a2917f19fb4e2f46f3e034cce">id</link> = serializers.IntegerField(read_only=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1ad8b16c460e0aa6039553dd4d03f140d8">initiated_by</link> = serializers.CharField(read_only=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classattendance_1_1serializer_1_1AttendanceSerializer_1a054b1aba9796f5ba9c44d22f635753a7">date_of_producing</link> = serializers.DateField(read_only=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1a054b1aba9796f5ba9c44d22f635753a7"/><section>
+    <title>date_of_producing</title>
+<indexterm><primary>date_of_producing</primary><secondary>attendance.serializer.AttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.AttendanceSerializer</primary><secondary>date_of_producing</secondary></indexterm>
+<para><computeroutput>attendance.serializer.AttendanceSerializer.date_of_producing = serializers.DateField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1a5bf62f1a2917f19fb4e2f46f3e034cce"/><section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>attendance.serializer.AttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.AttendanceSerializer</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>attendance.serializer.AttendanceSerializer.id = serializers.IntegerField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1serializer_1_1AttendanceSerializer_1ad8b16c460e0aa6039553dd4d03f140d8"/><section>
+    <title>initiated_by</title>
+<indexterm><primary>initiated_by</primary><secondary>attendance.serializer.AttendanceSerializer</secondary></indexterm>
+<indexterm><primary>attendance.serializer.AttendanceSerializer</primary><secondary>initiated_by</secondary></indexterm>
+<para><computeroutput>attendance.serializer.AttendanceSerializer.initiated_by = serializers.CharField(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2serializer_8py">serializer.py</link></section>
+</section>

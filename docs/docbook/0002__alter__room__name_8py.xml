@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_0002__alter__room__name_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations/0002_alter_room_name.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations/0002_alter_room_name.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classchat_1_1migrations_1_10002__alter__room__name_1_1Migration">chat.migrations.0002_alter_room_name.Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacechat">chat</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacechat_1_1migrations">chat.migrations</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacechat_1_1migrations_1_10002__alter__room__name">chat.migrations.0002_alter_room_name</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

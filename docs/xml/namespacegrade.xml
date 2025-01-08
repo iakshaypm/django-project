@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacegrade" kind="namespace" language="Python">
+    <compoundname>grade</compoundname>
+    <innernamespace refid="namespacegrade_1_1admin">grade::admin</innernamespace>
+    <innernamespace refid="namespacegrade_1_1apps">grade::apps</innernamespace>
+    <innernamespace refid="namespacegrade_1_1migrations">grade::migrations</innernamespace>
+    <innernamespace refid="namespacegrade_1_1models">grade::models</innernamespace>
+    <innernamespace refid="namespacegrade_1_1permission">grade::permission</innernamespace>
+    <innernamespace refid="namespacegrade_1_1serializer">grade::serializer</innernamespace>
+    <innernamespace refid="namespacegrade_1_1tests">grade::tests</innernamespace>
+    <innernamespace refid="namespacegrade_1_1urls">grade::urls</innernamespace>
+    <innernamespace refid="namespacegrade_1_1views">grade::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

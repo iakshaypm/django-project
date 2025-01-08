@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance_1_1models" xml:lang="en-US">
+<title>attendance.models Namespace Reference</title>
+<indexterm><primary>attendance.models</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1HodAttendance">HodAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1MainAttendance">MainAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1StudentAttendance">StudentAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1TeacherAttendance">TeacherAttendance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

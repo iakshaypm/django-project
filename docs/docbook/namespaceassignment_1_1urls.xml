@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceassignment_1_1urls" xml:lang="en-US">
+<title>assignment.urls Namespace Reference</title>
+<indexterm><primary>assignment.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceassignment_1_1urls_1a187bdf6b70304a9837b4a5564826b7d1">app_name</link> = &apos;assignment&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceassignment_1_1urls_1a6674b6558998acf77c6412e5d9eaebe9">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceassignment_1_1urls_1a187bdf6b70304a9837b4a5564826b7d1"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>assignment.urls</secondary></indexterm>
+<indexterm><primary>assignment.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str assignment.urls.app_name = &apos;assignment&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceassignment_1_1urls_1a6674b6558998acf77c6412e5d9eaebe9"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>assignment.urls</secondary></indexterm>
+<indexterm><primary>assignment.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list assignment.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;create/&apos;</emphasis>,&#32;views.AssignmentCreate.as_view(),&#32;name=<emphasis role="stringliteral">&apos;create-assignment&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;mark/add/&apos;</emphasis>,&#32;views.AssignmentMarkCreate.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-assignment-mark&apos;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;mail/send/&apos;</emphasis>,&#32;views.simple_mail,&#32;name=<emphasis role="stringliteral">&apos;send-mail&apos;</emphasis>)
+5 ]
+</programlisting></section>
+</section>
+</section>

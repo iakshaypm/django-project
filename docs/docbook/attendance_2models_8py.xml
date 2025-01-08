@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_attendance_2models_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1MainAttendance">attendance.models.MainAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1MainAttendance_1_1Meta">attendance.models.MainAttendance.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1StudentAttendance">attendance.models.StudentAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1StudentAttendance_1_1Meta">attendance.models.StudentAttendance.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1TeacherAttendance">attendance.models.TeacherAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1TeacherAttendance_1_1Meta">attendance.models.TeacherAttendance.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1HodAttendance">attendance.models.HodAttendance</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classattendance_1_1models_1_1HodAttendance_1_1Meta">attendance.models.HodAttendance.Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceattendance">attendance</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1models">attendance.models</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1permission_1_1IsTeacher" xml:lang="en-US">
+<title>exchange.permission.IsTeacher Class Reference</title>
+<indexterm><primary>exchange.permission.IsTeacher</primary></indexterm>
+Inheritance diagram for exchange.permission.IsTeacher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1permission_1_1IsTeacher__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.permission.IsTeacher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1permission_1_1IsTeacher__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa">has_permission</link> (self, request, view)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1permission_1_1IsTeacher_1a1d03149b70cec5d1d7c7352b4e9b26aa"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>exchange.permission.IsTeacher</secondary></indexterm>
+<indexterm><primary>exchange.permission.IsTeacher</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>exchange.permission.IsTeacher.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2permission_8py">permission.py</link></section>
+</section>

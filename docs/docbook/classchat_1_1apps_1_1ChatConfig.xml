@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1apps_1_1ChatConfig" xml:lang="en-US">
+<title>chat.apps.ChatConfig Class Reference</title>
+<indexterm><primary>chat.apps.ChatConfig</primary></indexterm>
+Inheritance diagram for chat.apps.ChatConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1apps_1_1ChatConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.apps.ChatConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1apps_1_1ChatConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classchat_1_1apps_1_1ChatConfig_1aaf4392f6d4df28b32e2f24dbbfce391d">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classchat_1_1apps_1_1ChatConfig_1afe6da342041660b6127be4a8b40d0ed4">name</link> = &apos;chat&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1apps_1_1ChatConfig_1aaf4392f6d4df28b32e2f24dbbfce391d"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>chat.apps.ChatConfig</secondary></indexterm>
+<indexterm><primary>chat.apps.ChatConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str chat.apps.ChatConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1apps_1_1ChatConfig_1afe6da342041660b6127be4a8b40d0ed4"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>chat.apps.ChatConfig</secondary></indexterm>
+<indexterm><primary>chat.apps.ChatConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str chat.apps.ChatConfig.name = &apos;chat&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2apps_8py">apps.py</link></section>
+</section>

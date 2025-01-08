@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1permission_1_1IsStudent" kind="class" language="Python" prot="public">
+    <compoundname>attendance::permission::IsStudent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1permission_1_1IsStudent_1a6d95d1596524a974924f8a56bcb729c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.permission.IsStudent.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>attendance.permission.IsStudent.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" line="42" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" bodystart="42" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.permission.IsStudent</label>
+        <link refid="classattendance_1_1permission_1_1IsStudent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.permission.IsStudent</label>
+        <link refid="classattendance_1_1permission_1_1IsStudent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" line="41" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" bodystart="41" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1permission_1_1IsStudent_1a6d95d1596524a974924f8a56bcb729c9" prot="public" virt="non-virtual"><scope>attendance::permission::IsStudent</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

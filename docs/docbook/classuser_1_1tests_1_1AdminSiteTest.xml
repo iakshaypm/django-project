@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1tests_1_1AdminSiteTest" xml:lang="en-US">
+<title>user.tests.AdminSiteTest Class Reference</title>
+<indexterm><primary>user.tests.AdminSiteTest</primary></indexterm>
+Inheritance diagram for user.tests.AdminSiteTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1tests_1_1AdminSiteTest__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.tests.AdminSiteTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1tests_1_1AdminSiteTest__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1tests_1_1AdminSiteTest_1a73cbe2d31e2773c1ded1787fe59768ea">setUp</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef">client</link></para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1tests_1_1AdminSiteTest_1a4b98f1e9c17248cc6541c91070000982">admin_user</link></para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1tests_1_1AdminSiteTest_1a73cbe2d31e2773c1ded1787fe59768ea"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>user.tests.AdminSiteTest</secondary></indexterm>
+<indexterm><primary>user.tests.AdminSiteTest</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput>user.tests.AdminSiteTest.setUp ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1tests_1_1AdminSiteTest_1a4b98f1e9c17248cc6541c91070000982"/><section>
+    <title>admin_user</title>
+<indexterm><primary>admin_user</primary><secondary>user.tests.AdminSiteTest</secondary></indexterm>
+<indexterm><primary>user.tests.AdminSiteTest</primary><secondary>admin_user</secondary></indexterm>
+<para><computeroutput>user.tests.AdminSiteTest.admin_user</computeroutput></para></section>
+<anchor xml:id="_classuser_1_1tests_1_1AdminSiteTest_1a8fa8c550de3ae5454a68e9f1e4e2dcef"/><section>
+    <title>client</title>
+<indexterm><primary>client</primary><secondary>user.tests.AdminSiteTest</secondary></indexterm>
+<indexterm><primary>user.tests.AdminSiteTest</primary><secondary>client</secondary></indexterm>
+<para><computeroutput>user.tests.AdminSiteTest.client</computeroutput></para></section>
+<anchor xml:id="_classuser_1_1tests_1_1AdminSiteTest_1a111ec3554bea98e022f4657b11633855"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>user.tests.AdminSiteTest</secondary></indexterm>
+<indexterm><primary>user.tests.AdminSiteTest</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>user.tests.AdminSiteTest.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2tests_8py">tests.py</link></section>
+</section>

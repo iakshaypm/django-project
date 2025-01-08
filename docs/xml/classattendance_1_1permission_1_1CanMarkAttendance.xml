@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1permission_1_1CanMarkAttendance" kind="class" language="Python" prot="public">
+    <compoundname>attendance::permission::CanMarkAttendance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">permissions.BasePermission</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1permission_1_1CanMarkAttendance_1ada64ee67fc595b1204718a893cdbb18d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.permission.CanMarkAttendance.has_permission</definition>
+        <argsstring>(self, request, view)</argsstring>
+        <name>has_permission</name>
+        <qualifiedname>attendance.permission.CanMarkAttendance.has_permission</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>view</type>
+          <defname>view</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" bodystart="23" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.permission.CanMarkAttendance</label>
+        <link refid="classattendance_1_1permission_1_1CanMarkAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.permission.CanMarkAttendance</label>
+        <link refid="classattendance_1_1permission_1_1CanMarkAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>permissions.BasePermission</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" bodystart="22" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1permission_1_1CanMarkAttendance_1ada64ee67fc595b1204718a893cdbb18d" prot="public" virt="non-virtual"><scope>attendance::permission::CanMarkAttendance</scope><name>has_permission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

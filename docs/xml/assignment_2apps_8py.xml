@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="assignment_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classassignment_1_1apps_1_1AssignmentConfig" prot="public">assignment::apps::AssignmentConfig</innerclass>
+    <innernamespace refid="namespaceassignment">assignment</innernamespace>
+    <innernamespace refid="namespaceassignment_1_1apps">assignment::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceassignment_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classassignment_1_1apps_1_1AssignmentConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classassignment_1_1apps_1_1AssignmentConfig" kindref="compound">AssignmentConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classassignment_1_1apps_1_1AssignmentConfig_1a983c04ad2a5d371af381b7b40f1cbae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>default_auto_field<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;django.db.models.BigAutoField&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classassignment_1_1apps_1_1AssignmentConfig_1a5fd25a672b72bcc74cf009b745dd386b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;assignment&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/apps.py"/>
+  </compounddef>
+</doxygen>

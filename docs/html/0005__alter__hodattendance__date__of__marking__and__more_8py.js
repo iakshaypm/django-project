@@ -1,0 +1,4 @@
+var 0005__alter__hodattendance__date__of__marking__and__more_8py =
+[
+    [ "attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration", "classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration.html", "classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" ]
+];

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classchat_1_1models_1_1Room" xml:lang="en-US">
+<title>chat.models.Room Class Reference</title>
+<indexterm><primary>chat.models.Room</primary></indexterm>
+Inheritance diagram for chat.models.Room:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1models_1_1Room__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for chat.models.Room:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classchat_1_1models_1_1Room__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a">get_online_count</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3">join</link> (self, user)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d">leave</link> (self, user)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297">ROOM_TYPE_CHOOSES</link></para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5">name</link> = models.CharField(max_length=128, unique=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921">type</link> = models.PositiveIntegerField(choices=<link linkend="_classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297">ROOM_TYPE_CHOOSES</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17">online</link> = models.ManyToManyField(to=<link linkend="_classuser_1_1models_1_1Account">Account</link>, blank=True, related_name=&apos;users_online&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f">created_by</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classchat_1_1models_1_1Room_1a2de7671053a64c07cf48f6266a03215a"/><section>
+    <title>get_online_count()</title>
+<indexterm><primary>get_online_count</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>get_online_count</secondary></indexterm>
+<para><computeroutput>chat.models.Room.get_online_count ( self)</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1a0df09ac8673dba6e2be7efc19a74bac3"/><section>
+    <title>join()</title>
+<indexterm><primary>join</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>join</secondary></indexterm>
+<para><computeroutput>chat.models.Room.join ( self,  user)</computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1a4563006cd751085978325bc66c0bb69d"/><section>
+    <title>leave()</title>
+<indexterm><primary>leave</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>leave</secondary></indexterm>
+<para><computeroutput>chat.models.Room.leave ( self,  user)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classchat_1_1models_1_1Room_1ac7da0cc6c54efed78337dc419741986f"/><section>
+    <title>created_by</title>
+<indexterm><primary>created_by</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>created_by</secondary></indexterm>
+<para><computeroutput>chat.models.Room.created_by = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1ab3678b53a04f30d8b8500c05c08b52d5"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>chat.models.Room.name = models.CharField(max_length=128, unique=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1aa70a547db6dcbb488dfdd77e31b2be17"/><section>
+    <title>online</title>
+<indexterm><primary>online</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>online</secondary></indexterm>
+<para><computeroutput>chat.models.Room.online = models.ManyToManyField(to=<link linkend="_classuser_1_1models_1_1Account">Account</link>, blank=True, related_name=&apos;users_online&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297"/><section>
+    <title>ROOM_TYPE_CHOOSES</title>
+<indexterm><primary>ROOM_TYPE_CHOOSES</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>ROOM_TYPE_CHOOSES</secondary></indexterm>
+<para><computeroutput>tuple chat.models.Room.ROOM_TYPE_CHOOSES<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(1,&#32;<emphasis role="stringliteral">&apos;Student&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(2,&#32;<emphasis role="stringliteral">&apos;Teacher&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(3,&#32;<emphasis role="stringliteral">&apos;HOD&apos;</emphasis>),
+&#32;&#32;&#32;&#32;)
+</programlisting></section>
+<anchor xml:id="_classchat_1_1models_1_1Room_1a97e61211282eb939cf41d2e70aaa4921"/><section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>chat.models.Room</secondary></indexterm>
+<indexterm><primary>chat.models.Room</primary><secondary>type</secondary></indexterm>
+<para><computeroutput>chat.models.Room.type = models.PositiveIntegerField(choices=<link linkend="_classchat_1_1models_1_1Room_1a0ed4b42527b9f4c6627e4d0afc1a5297">ROOM_TYPE_CHOOSES</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/<link linkend="_chat_2models_8py">models.py</link></section>
+</section>

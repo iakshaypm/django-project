@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classroom_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classclassroom_1_1models_1_1Classroom" prot="public">classroom::models::Classroom</innerclass>
+    <innernamespace refid="namespaceclassroom">classroom</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1models">classroom::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceclassroom_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classclassroom_1_1models_1_1Classroom" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1models_1_1Classroom" kindref="compound">Classroom</ref>(models.Model):</highlight></codeline>
+<codeline lineno="7" refid="classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>models.CharField(max_length=20,<sp/>unique=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="8" refid="classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>total_strength<sp/>=<sp/>models.IntegerField()</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/models.py"/>
+  </compounddef>
+</doxygen>

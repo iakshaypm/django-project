@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1UserSerializer_1_1Meta" xml:lang="en-US">
+<title>user.serializers.UserSerializer.Meta Class Reference</title>
+<indexterm><primary>user.serializers.UserSerializer.Meta</primary></indexterm>
+Collaboration diagram for user.serializers.UserSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1UserSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30">model</link> = get_user_model()</para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a4ca3f8d705a137a0028afcda6aec1236">fields</link></para>
+</listitem>
+            <listitem><para>dict <link linkend="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1aeddf90a080f763483ed83fd87e92059a">extra_kwargs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1aeddf90a080f763483ed83fd87e92059a"/><section>
+    <title>extra_kwargs</title>
+<indexterm><primary>extra_kwargs</primary><secondary>user.serializers.UserSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer.Meta</primary><secondary>extra_kwargs</secondary></indexterm>
+<para><computeroutput>dict user.serializers.UserSerializer.Meta.extra_kwargs<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>:&#32;{<emphasis role="stringliteral">&apos;write_only&apos;</emphasis>:&#32;<emphasis role="keyword">True</emphasis>,&#32;<emphasis role="stringliteral">&apos;min_length&apos;</emphasis>:&#32;5},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;confirm_password&apos;</emphasis>:&#32;{<emphasis role="stringliteral">&apos;write_only&apos;</emphasis>:&#32;<emphasis role="keyword">True</emphasis>,&#32;<emphasis role="stringliteral">&apos;min_length&apos;</emphasis>:&#32;5}
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a4ca3f8d705a137a0028afcda6aec1236"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>user.serializers.UserSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list user.serializers.UserSerializer.Meta.fields<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[<emphasis role="stringliteral">&apos;email&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;confirm_password&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;phone_number&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;name&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;user_type&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;is_staff&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_superuser&apos;</emphasis>]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1serializers_1_1UserSerializer_1_1Meta_1a1b72102e056c5cabb2784b65a1ba4b30"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>user.serializers.UserSerializer.Meta</secondary></indexterm>
+<indexterm><primary>user.serializers.UserSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>user.serializers.UserSerializer.Meta.model = get_user_model()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

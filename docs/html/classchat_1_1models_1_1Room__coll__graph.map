@@ -1,0 +1,7 @@
+<map id="chat.models.Room" name="chat.models.Room">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,133,184,299"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,112,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,83,88,132,83,134,69,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,5,183,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,71,140,118,135,117,148,70"/>
+</map>

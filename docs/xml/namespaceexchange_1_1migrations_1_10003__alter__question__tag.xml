@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1migrations_1_10003__alter__question__tag" kind="namespace" language="Python">
+    <compoundname>exchange::migrations::0003_alter_question_tag</compoundname>
+    <innerclass refid="classexchange_1_1migrations_1_10003__alter__question__tag_1_1Migration" prot="public">exchange::migrations::0003_alter_question_tag::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/migrations/0003_alter_question_tag.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

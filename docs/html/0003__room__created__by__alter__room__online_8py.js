@@ -1,0 +1,4 @@
+var 0003__room__created__by__alter__room__online_8py =
+[
+    [ "chat.migrations.0003_room_created_by_alter_room_online.Migration", "classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration.html", "classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration" ]
+];

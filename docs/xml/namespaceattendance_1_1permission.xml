@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1permission" kind="namespace" language="Python">
+    <compoundname>attendance::permission</compoundname>
+    <innerclass refid="classattendance_1_1permission_1_1CanAddAttendance" prot="public">attendance::permission::CanAddAttendance</innerclass>
+    <innerclass refid="classattendance_1_1permission_1_1CanMarkAttendance" prot="public">attendance::permission::CanMarkAttendance</innerclass>
+    <innerclass refid="classattendance_1_1permission_1_1IsStudent" prot="public">attendance::permission::IsStudent</innerclass>
+    <innerclass refid="classattendance_1_1permission_1_1IsTeacher" prot="public">attendance::permission::IsTeacher</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/permission.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

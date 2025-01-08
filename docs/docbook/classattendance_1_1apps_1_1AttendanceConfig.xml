@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1apps_1_1AttendanceConfig" xml:lang="en-US">
+<title>attendance.apps.AttendanceConfig Class Reference</title>
+<indexterm><primary>attendance.apps.AttendanceConfig</primary></indexterm>
+Inheritance diagram for attendance.apps.AttendanceConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1apps_1_1AttendanceConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.apps.AttendanceConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1apps_1_1AttendanceConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classattendance_1_1apps_1_1AttendanceConfig_1ae9ece974ea73e0e17997ac1b4d265a99">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classattendance_1_1apps_1_1AttendanceConfig_1a80a583489900de6d16af160c63bbfb70">name</link> = &apos;attendance&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1apps_1_1AttendanceConfig_1ae9ece974ea73e0e17997ac1b4d265a99"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>attendance.apps.AttendanceConfig</secondary></indexterm>
+<indexterm><primary>attendance.apps.AttendanceConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str attendance.apps.AttendanceConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classattendance_1_1apps_1_1AttendanceConfig_1a80a583489900de6d16af160c63bbfb70"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>attendance.apps.AttendanceConfig</secondary></indexterm>
+<indexterm><primary>attendance.apps.AttendanceConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str attendance.apps.AttendanceConfig.name = &apos;attendance&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/<link linkend="_attendance_2apps_8py">apps.py</link></section>
+</section>

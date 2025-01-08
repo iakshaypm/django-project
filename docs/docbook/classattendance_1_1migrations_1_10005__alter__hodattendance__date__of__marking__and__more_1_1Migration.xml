@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration" xml:lang="en-US">
+<title>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration Class Reference</title>
+<indexterm><primary>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</primary></indexterm>
+Inheritance diagram for attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1ac9dae4418f371307e67c73e0f680c3e7"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</secondary></indexterm>
+<indexterm><primary>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;attendance&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0004_alter_studentattendance_date_of_marking&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classattendance_1_1migrations_1_10005__alter__hodattendance__date__of__marking__and__more_1_1Migration_1a326405f0c3a5fa5ca9a9b2895a9cc187"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</secondary></indexterm>
+<indexterm><primary>attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list attendance.migrations.0005_alter_hodattendance_date_of_marking_and_more.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;hodattendance&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;date_of_marking&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.DateField(auto_now=<emphasis role="keyword">True</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;teacherattendance&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;date_of_marking&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.DateField(auto_now=<emphasis role="keyword">True</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/<link linkend="_0005__alter__hodattendance__date__of__marking__and__more_8py">0005_alter_hodattendance_date_of_marking_and_more.py</link></section>
+</section>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1admin_1_1UserAdmin" kind="class" language="Python" prot="public">
+    <compoundname>user::admin::UserAdmin</compoundname>
+    <basecompoundref refid="classBaseUserAdmin" prot="public" virt="non-virtual">BaseUserAdmin</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1admin_1_1UserAdmin_1a314fdad93d1e7d66c3faddd5fc45057f" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.admin.UserAdmin::ordering</definition>
+        <argsstring></argsstring>
+        <name>ordering</name>
+        <qualifiedname>user.admin.UserAdmin.ordering</qualifiedname>
+        <initializer>=  [&apos;id&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1admin_1_1UserAdmin_1aa75d7aefb2e37586aba079998c49e4b3" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.admin.UserAdmin::list_display</definition>
+        <argsstring></argsstring>
+        <name>list_display</name>
+        <qualifiedname>user.admin.UserAdmin.list_display</qualifiedname>
+        <initializer>=  [&apos;email&apos;, &apos;name&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1admin_1_1UserAdmin_1a9277187daf1a65e0c96d375221150355" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple user.admin.UserAdmin::fieldsets</definition>
+        <argsstring></argsstring>
+        <name>fieldsets</name>
+        <qualifiedname>user.admin.UserAdmin.fieldsets</qualifiedname>
+        <initializer>=  (
+        (None, {&apos;fields&apos;: (&apos;email&apos;, &apos;password&apos;)}),
+        (
+            _(&apos;Permissions&apos;),
+            {
+                &apos;fields&apos;: (
+                    &apos;is_active&apos;,
+                    &apos;is_staff&apos;,
+                    &apos;is_superuser&apos;,
+                )
+            }
+        ),
+        (_(&apos;Important dates&apos;), {&apos;fields&apos;: (&apos;last_login&apos;,)}),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1admin_1_1UserAdmin_1aade09345342be96204bc2c3293d39511" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list user.admin.UserAdmin::readonly_fields</definition>
+        <argsstring></argsstring>
+        <name>readonly_fields</name>
+        <qualifiedname>user.admin.UserAdmin.readonly_fields</qualifiedname>
+        <initializer>=  [&apos;last_login&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="29" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1admin_1_1UserAdmin_1a04aece6f0422cdf3461da643edcfe778" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple user.admin.UserAdmin::add_fieldsets</definition>
+        <argsstring></argsstring>
+        <name>add_fieldsets</name>
+        <qualifiedname>user.admin.UserAdmin.add_fieldsets</qualifiedname>
+        <initializer>=  (
+        (None, {
+            &apos;classes&apos;: (&apos;wide&apos;,),  # classes refers to the css class
+            &apos;fields&apos;: (
+                &apos;email&apos;,
+                &apos;phone_number&apos;,
+                &apos;password1&apos;,
+                &apos;password2&apos;,
+                &apos;is_active&apos;,
+                &apos;is_staff&apos;,
+                &apos;is_superuser&apos;,
+                &apos;user_type&apos;
+            )
+        }),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Define the admin pages for users.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseUserAdmin</label>
+        <link refid="classBaseUserAdmin"/>
+      </node>
+      <node id="1">
+        <label>user.admin.UserAdmin</label>
+        <link refid="classuser_1_1admin_1_1UserAdmin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseUserAdmin</label>
+        <link refid="classBaseUserAdmin"/>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="4">
+        <label>tuple</label>
+      </node>
+      <node id="1">
+        <label>user.admin.UserAdmin</label>
+        <link refid="classuser_1_1admin_1_1UserAdmin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+list_display</edgelabel>
+          <edgelabel>+ordering</edgelabel>
+          <edgelabel>+readonly_fields</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+add_fieldsets</edgelabel>
+          <edgelabel>+fieldsets</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classuser_1_1admin_1_1UserAdmin_1a04aece6f0422cdf3461da643edcfe778" prot="public" virt="non-virtual"><scope>user::admin::UserAdmin</scope><name>add_fieldsets</name></member>
+      <member refid="classuser_1_1admin_1_1UserAdmin_1a9277187daf1a65e0c96d375221150355" prot="public" virt="non-virtual"><scope>user::admin::UserAdmin</scope><name>fieldsets</name></member>
+      <member refid="classuser_1_1admin_1_1UserAdmin_1aa75d7aefb2e37586aba079998c49e4b3" prot="public" virt="non-virtual"><scope>user::admin::UserAdmin</scope><name>list_display</name></member>
+      <member refid="classuser_1_1admin_1_1UserAdmin_1a314fdad93d1e7d66c3faddd5fc45057f" prot="public" virt="non-virtual"><scope>user::admin::UserAdmin</scope><name>ordering</name></member>
+      <member refid="classuser_1_1admin_1_1UserAdmin_1aade09345342be96204bc2c3293d39511" prot="public" virt="non-virtual"><scope>user::admin::UserAdmin</scope><name>readonly_fields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

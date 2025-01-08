@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacechat_1_1migrations_1_10003__room__created__by__alter__room__online" kind="namespace" language="Python">
+    <compoundname>chat::migrations::0003_room_created_by_alter_room_online</compoundname>
+    <innerclass refid="classchat_1_1migrations_1_10003__room__created__by__alter__room__online_1_1Migration" prot="public">chat::migrations::0003_room_created_by_alter_room_online::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/migrations/0003_room_created_by_alter_room_online.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

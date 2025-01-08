@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceclassroom_1_1urls" xml:lang="en-US">
+<title>classroom.urls Namespace Reference</title>
+<indexterm><primary>classroom.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceclassroom_1_1urls_1a2de427eb0573554784b99dfffd825991">app_name</link> = &apos;classroom&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceclassroom_1_1urls_1ae339ef0e0bc51af3a33dc83dc9d37fd2">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceclassroom_1_1urls_1a2de427eb0573554784b99dfffd825991"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>classroom.urls</secondary></indexterm>
+<indexterm><primary>classroom.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str classroom.urls.app_name = &apos;classroom&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceclassroom_1_1urls_1ae339ef0e0bc51af3a33dc83dc9d37fd2"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>classroom.urls</secondary></indexterm>
+<indexterm><primary>classroom.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list classroom.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;add/&apos;</emphasis>,&#32;views.ClassroomCreateView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;add-classroom&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;show/&apos;</emphasis>,&#32;views.ClassroomListView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;show-classroom&apos;</emphasis>),
+4 ]
+</programlisting></section>
+</section>
+</section>

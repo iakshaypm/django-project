@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1QuestionUpdateView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::QuestionUpdateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.UpdateAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionUpdateView_1ac82774f46ac9f5b3546e06a0b3c8b2f1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionUpdateView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>exchange.views.QuestionUpdateView.queryset</qualifiedname>
+        <initializer>=  Question.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="37" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionUpdateView_1aafd20b8a69e57cf1c3639a63be54f4bc" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.QuestionUpdateView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.QuestionUpdateView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionUpdateView_1adac8c3179a4459fd8f17ce56255f31bb" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionUpdateView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>exchange.views.QuestionUpdateView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1serializers_1_1QuestionSerializer" kindref="compound">QuestionSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="39" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1views_1_1QuestionUpdateView_1a731a6f16b1f0906bba87fb88cd703418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.views.QuestionUpdateView.update</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>update</name>
+        <qualifiedname>exchange.views.QuestionUpdateView.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="41" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="41" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.QuestionUpdateView</label>
+        <link refid="classexchange_1_1views_1_1QuestionUpdateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.UpdateAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.QuestionUpdateView</label>
+        <link refid="classexchange_1_1views_1_1QuestionUpdateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.UpdateAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="36" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="36" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1QuestionUpdateView_1aafd20b8a69e57cf1c3639a63be54f4bc" prot="public" virt="non-virtual"><scope>exchange::views::QuestionUpdateView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionUpdateView_1ac82774f46ac9f5b3546e06a0b3c8b2f1" prot="public" virt="non-virtual"><scope>exchange::views::QuestionUpdateView</scope><name>queryset</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionUpdateView_1adac8c3179a4459fd8f17ce56255f31bb" prot="public" virt="non-virtual"><scope>exchange::views::QuestionUpdateView</scope><name>serializer_class</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionUpdateView_1a731a6f16b1f0906bba87fb88cd703418" prot="public" virt="non-virtual"><scope>exchange::views::QuestionUpdateView</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

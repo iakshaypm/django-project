@@ -1,0 +1,39 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,456,120,481"/>
+<area shape="rect" id="Node000001" href="$classassignment_1_1models_1_1Assignment.html" title=" " alt="" coords="185,5,415,31"/>
+<area shape="poly" id="edge75_Node000000_Node000001" title=" " alt="" coords="64,442,75,352,96,231,110,170,126,115,145,71,166,40,183,28,186,32,170,44,149,73,131,117,115,172,101,232,81,352,69,442"/>
+<area shape="rect" id="Node000002" href="$classassignment_1_1models_1_1AssignmentMark.html" title=" " alt="" coords="168,55,432,80"/>
+<area shape="poly" id="edge76_Node000000_Node000002" title=" " alt="" coords="65,442,78,361,100,255,129,155,147,116,166,89,182,78,185,82,170,93,151,118,134,157,105,256,83,362,70,443"/>
+<area shape="rect" id="Node000003" href="$classattendance_1_1models_1_1HodAttendance.html" title=" " alt="" coords="175,104,425,129"/>
+<area shape="poly" id="edge77_Node000000_Node000003" title=" " alt="" coords="61,442,65,380,80,297,93,254,111,212,135,172,166,139,183,127,186,132,170,143,140,176,116,214,98,256,85,299,70,380,66,443"/>
+<area shape="rect" id="Node000004" href="$classattendance_1_1models_1_1MainAttendance.html" title=" " alt="" coords="171,153,429,179"/>
+<area shape="poly" id="edge78_Node000000_Node000004" title=" " alt="" coords="63,442,70,388,87,320,100,284,118,249,139,217,166,189,186,176,189,181,170,193,144,220,122,252,105,286,92,321,75,389,68,443"/>
+<area shape="rect" id="Node000005" href="$classattendance_1_1models_1_1StudentAttendance.html" title=" " alt="" coords="199,203,401,243"/>
+<area shape="poly" id="edge79_Node000000_Node000005" title=" " alt="" coords="67,442,78,400,97,349,126,297,145,274,166,253,198,235,201,240,170,257,149,277,131,300,102,351,83,402,72,443"/>
+<area shape="rect" id="Node000006" href="$classattendance_1_1models_1_1TeacherAttendance.html" title=" " alt="" coords="199,267,401,307"/>
+<area shape="poly" id="edge80_Node000000_Node000006" title=" " alt="" coords="72,442,108,379,134,346,167,317,198,301,200,306,169,322,138,349,112,382,77,445"/>
+<area shape="rect" id="Node000007" href="$classchat_1_1models_1_1Message.html" title=" " alt="" coords="218,332,382,357"/>
+<area shape="poly" id="edge81_Node000000_Node000007" title=" " alt="" coords="80,443,117,403,141,383,167,366,217,349,219,354,169,371,144,387,120,407,84,447"/>
+<area shape="rect" id="Node000008" href="$classchat_1_1models_1_1Room.html" title=" " alt="" coords="228,381,372,407"/>
+<area shape="poly" id="edge82_Node000000_Node000008" title=" " alt="" coords="97,447,167,415,227,401,229,406,169,421,99,452"/>
+<area shape="rect" id="Node000009" href="$classclassroom_1_1models_1_1Classroom.html" title=" " alt="" coords="193,431,407,456"/>
+<area shape="poly" id="edge83_Node000000_Node000009" title=" " alt="" coords="134,458,192,452,193,457,134,464"/>
+<area shape="rect" id="Node000010" href="$classexam_1_1models_1_1Exam.html" title=" " alt="" coords="224,480,376,505"/>
+<area shape="poly" id="edge84_Node000000_Node000010" title=" " alt="" coords="134,473,224,482,224,488,133,478"/>
+<area shape="rect" id="Node000011" href="$classexchange_1_1models_1_1Comment.html" title=" " alt="" coords="197,529,403,555"/>
+<area shape="poly" id="edge85_Node000000_Node000011" title=" " alt="" coords="100,485,169,514,218,527,216,532,167,519,98,490"/>
+<area shape="rect" id="Node000012" href="$classexchange_1_1models_1_1Question.html" title=" " alt="" coords="201,579,399,604"/>
+<area shape="poly" id="edge86_Node000000_Node000012" title=" " alt="" coords="84,490,121,529,144,548,169,564,202,576,200,581,167,568,141,552,117,533,80,494"/>
+<area shape="rect" id="Node000013" href="$classexchange_1_1models_1_1Upvote.html" title=" " alt="" coords="206,628,394,653"/>
+<area shape="poly" id="edge87_Node000000_Node000013" title=" " alt="" coords="77,492,112,554,138,587,169,613,207,629,205,634,167,618,134,590,107,557,72,495"/>
+<area shape="rect" id="Node000014" href="$classgrade_1_1models_1_1Mark.html" title=" " alt="" coords="226,677,374,703"/>
+<area shape="poly" id="edge88_Node000000_Node000014" title=" " alt="" coords="73,494,85,533,104,579,132,625,150,645,170,662,197,677,227,685,225,690,195,682,166,667,146,649,128,628,99,581,80,535,68,496"/>
+<area shape="rect" id="Node000015" href="$classuser_1_1models_1_1HOD.html" title=" " alt="" coords="233,727,367,752"/>
+<area shape="poly" id="edge89_Node000000_Node000015" title=" " alt="" coords="70,495,79,543,97,602,126,662,146,689,170,712,200,728,233,736,232,741,198,733,166,716,142,692,122,665,92,604,74,544,65,496"/>
+<area shape="rect" id="Node000016" href="$classuser_1_1models_1_1Student.html" title=" " alt="" coords="223,776,377,801"/>
+<area shape="poly" id="edge90_Node000000_Node000016" title=" " alt="" coords="68,495,74,551,90,624,103,662,120,699,142,732,170,761,195,776,223,785,222,790,193,781,166,765,138,736,116,701,98,664,85,625,69,552,62,496"/>
+<area shape="rect" id="Node000017" href="$classuser_1_1models_1_1Subject.html" title=" " alt="" coords="223,825,377,851"/>
+<area shape="poly" id="edge91_Node000000_Node000017" title=" " alt="" coords="66,495,69,559,83,645,96,691,114,735,139,776,170,811,195,826,224,835,222,840,193,831,166,815,134,779,109,737,91,692,78,647,64,560,61,495"/>
+<area shape="rect" id="Node000018" href="$classuser_1_1models_1_1Teacher.html" title=" " alt="" coords="223,875,377,900"/>
+<area shape="poly" id="edge92_Node000000_Node000018" title=" " alt="" coords="70,494,82,578,104,688,133,793,151,833,170,860,194,876,223,884,222,889,192,881,166,864,146,836,128,795,98,689,77,579,65,495"/>
+</map>

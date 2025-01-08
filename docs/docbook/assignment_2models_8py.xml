@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_assignment_2models_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/models.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1Assignment">assignment.models.Assignment</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1Assignment_1_1Meta">assignment.models.Assignment.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1AssignmentMark">assignment.models.AssignmentMark</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1AssignmentMark_1_1Meta">assignment.models.AssignmentMark.Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceassignment">assignment</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceassignment_1_1models">assignment.models</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

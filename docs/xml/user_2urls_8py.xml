@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="user_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1urls">user::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path,<sp/>include</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>user<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework_simplejwt.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>TokenObtainPairView,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>TokenRefreshView,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespaceuser_1_1urls_1a248e74c816eda6ab3bd391c1d9efc2f6" refkind="member"><highlight class="normal">app_name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespaceuser_1_1urls_1a8f768fe416604807e9f185e87995c61a" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/register/&apos;</highlight><highlight class="normal">,<sp/>views.RegisterView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;user-register&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/student/register/&apos;</highlight><highlight class="normal">,<sp/>views.StudentRegister.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;student-register&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/teacher/register/&apos;</highlight><highlight class="normal">,<sp/>views.TeacherRegister.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;teacher-register&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/hod/register/&apos;</highlight><highlight class="normal">,<sp/>views.HODRegister.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;teacher-register&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>path(&apos;account/parent/register/&apos;,<sp/>views.ParentRegister.as_view(),<sp/>name=&apos;parent-register&apos;),</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/login/&apos;</highlight><highlight class="normal">,<sp/>TokenObtainPairView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;login&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;account/refresh/&apos;</highlight><highlight class="normal">,<sp/>TokenRefreshView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;token_refresh&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;student/&lt;int:id&gt;/details/&apos;</highlight><highlight class="normal">,<sp/>views.UserView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;student-details&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;authorize/&apos;</highlight><highlight class="normal">,<sp/>views.StripeAuthorizeView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;authorize&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;oauth/callback/&apos;</highlight><highlight class="normal">,<sp/>views.StripeAuthorizeCallbackView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;authorize_callback&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/urls.py"/>
+  </compounddef>
+</doxygen>

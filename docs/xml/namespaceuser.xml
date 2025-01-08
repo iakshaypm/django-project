@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceuser" kind="namespace" language="Python">
+    <compoundname>user</compoundname>
+    <innernamespace refid="namespaceuser_1_1admin">user::admin</innernamespace>
+    <innernamespace refid="namespaceuser_1_1apps">user::apps</innernamespace>
+    <innernamespace refid="namespaceuser_1_1migrations">user::migrations</innernamespace>
+    <innernamespace refid="namespaceuser_1_1models">user::models</innernamespace>
+    <innernamespace refid="namespaceuser_1_1MyBackend">user::MyBackend</innernamespace>
+    <innernamespace refid="namespaceuser_1_1permission">user::permission</innernamespace>
+    <innernamespace refid="namespaceuser_1_1serializers">user::serializers</innernamespace>
+    <innernamespace refid="namespaceuser_1_1signals">user::signals</innernamespace>
+    <innernamespace refid="namespaceuser_1_1tests">user::tests</innernamespace>
+    <innernamespace refid="namespaceuser_1_1urls">user::urls</innernamespace>
+    <innernamespace refid="namespaceuser_1_1views">user::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

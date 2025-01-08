@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1models_1_1MainAttendance" kind="class" language="Python" prot="public">
+    <compoundname>attendance::models::MainAttendance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classattendance_1_1models_1_1MainAttendance_1_1Meta" prot="public">attendance::models::MainAttendance::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1aa3932a5c79cd2779bbbc158c05c8d86f" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple attendance.models.MainAttendance::ATTENDANCE_TYPE_CHOOSES</definition>
+        <argsstring></argsstring>
+        <name>ATTENDANCE_TYPE_CHOOSES</name>
+        <qualifiedname>attendance.models.MainAttendance.ATTENDANCE_TYPE_CHOOSES</qualifiedname>
+        <initializer>=  (
+        (1, &apos;Student&apos;),
+        (2, &apos;Teacher&apos;),
+        (3, &apos;HOD&apos;),
+    )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1a0f34418ca2c9fca8b27e15684a5fe809" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.MainAttendance::attendance_type</definition>
+        <argsstring></argsstring>
+        <name>attendance_type</name>
+        <qualifiedname>attendance.models.MainAttendance.attendance_type</qualifiedname>
+        <initializer>=  models.PositiveIntegerField(choices=<ref refid="classattendance_1_1models_1_1MainAttendance_1aa3932a5c79cd2779bbbc158c05c8d86f" kindref="member">ATTENDANCE_TYPE_CHOOSES</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.MainAttendance::date_of_producing</definition>
+        <argsstring></argsstring>
+        <name>date_of_producing</name>
+        <qualifiedname>attendance.models.MainAttendance.date_of_producing</qualifiedname>
+        <initializer>=  models.DateField(auto_now=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1a069d73a17bd89c2a26f4d340fe173b0a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.MainAttendance::initiated_by</definition>
+        <argsstring></argsstring>
+        <name>initiated_by</name>
+        <qualifiedname>attendance.models.MainAttendance.initiated_by</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.MainAttendance::classroom</definition>
+        <argsstring></argsstring>
+        <name>classroom</name>
+        <qualifiedname>attendance.models.MainAttendance.classroom</qualifiedname>
+        <initializer>=  models.OneToOneField(<ref refid="classclassroom_1_1models_1_1Classroom" kindref="compound">Classroom</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.models.MainAttendance</label>
+        <link refid="classattendance_1_1models_1_1MainAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.models.MainAttendance</label>
+        <link refid="classattendance_1_1models_1_1MainAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+ATTENDANCE_TYPE_CHOOSES</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1a0f34418ca2c9fca8b27e15684a5fe809" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance</scope><name>attendance_type</name></member>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1aa3932a5c79cd2779bbbc158c05c8d86f" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance</scope><name>ATTENDANCE_TYPE_CHOOSES</name></member>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance</scope><name>classroom</name></member>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance</scope><name>date_of_producing</name></member>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1a069d73a17bd89c2a26f4d340fe173b0a" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance</scope><name>initiated_by</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

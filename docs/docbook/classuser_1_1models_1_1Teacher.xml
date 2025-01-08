@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1models_1_1Teacher" xml:lang="en-US">
+<title>user.models.Teacher Class Reference</title>
+<indexterm><primary>user.models.Teacher</primary></indexterm>
+Inheritance diagram for user.models.Teacher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1Teacher__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.models.Teacher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1Teacher__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335">user</link> = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76">department</link> = models.CharField(max_length=100)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28">subject</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Subject">Subject</link>, on_delete=models.DO_NOTHING)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de">classroom</link> = models.OneToOneField(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.DO_NOTHING)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de"/><section>
+    <title>classroom</title>
+<indexterm><primary>classroom</primary><secondary>user.models.Teacher</secondary></indexterm>
+<indexterm><primary>user.models.Teacher</primary><secondary>classroom</secondary></indexterm>
+<para><computeroutput>user.models.Teacher.classroom = models.OneToOneField(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.DO_NOTHING)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76"/><section>
+    <title>department</title>
+<indexterm><primary>department</primary><secondary>user.models.Teacher</secondary></indexterm>
+<indexterm><primary>user.models.Teacher</primary><secondary>department</secondary></indexterm>
+<para><computeroutput>user.models.Teacher.department = models.CharField(max_length=100)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28"/><section>
+    <title>subject</title>
+<indexterm><primary>subject</primary><secondary>user.models.Teacher</secondary></indexterm>
+<indexterm><primary>user.models.Teacher</primary><secondary>subject</secondary></indexterm>
+<para><computeroutput>user.models.Teacher.subject = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Subject">Subject</link>, on_delete=models.DO_NOTHING)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>user.models.Teacher</secondary></indexterm>
+<indexterm><primary>user.models.Teacher</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>user.models.Teacher.user = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2models_8py">models.py</link></section>
+</section>

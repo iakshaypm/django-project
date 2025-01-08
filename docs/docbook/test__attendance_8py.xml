@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test__attendance_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/tests/test_attendance.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance">attendance.tests.test_attendance.TestMainAttendance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceattendance">attendance</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1tests">attendance.tests</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1tests_1_1test__attendance">attendance.tests.test_attendance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a975649e574d3970e7140bd00c60738bd">attendance.tests.test_attendance.login_url</link> = reverse(&apos;user:login&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a39da7e43beaf1617002dd21d9929ddc5">attendance.tests.test_attendance.main_attendance_url</link> = reverse(&apos;attendance:add-attendance&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceattendance_1_1tests_1_1test__attendance_1a5041bc88c9a7466698a5f1a6f8909b96">attendance.tests.test_attendance.mark_student_attendance</link> = reverse(&apos;attendance:mark-student-attendance&apos;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1models_1_1Upvote_1_1Meta" xml:lang="en-US">
+<title>exchange.models.Upvote.Meta Class Reference</title>
+<indexterm><primary>exchange.models.Upvote.Meta</primary></indexterm>
+Collaboration diagram for exchange.models.Upvote.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1models_1_1Upvote_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b">unique_together</link> = (&apos;<link linkend="_classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8">comment</link>&apos;, &apos;<link linkend="_classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e">user</link>&apos;,)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classexchange_1_1models_1_1Upvote_1_1Meta_1aaad9836634ff16957db745866f0ff71b"/><section>
+    <title>unique_together</title>
+<indexterm><primary>unique_together</primary><secondary>exchange.models.Upvote.Meta</secondary></indexterm>
+<indexterm><primary>exchange.models.Upvote.Meta</primary><secondary>unique_together</secondary></indexterm>
+<para><computeroutput>tuple exchange.models.Upvote.Meta.unique_together = (&apos;<link linkend="_classexchange_1_1models_1_1Upvote_1a4221a08b2297c60a8879213d260554b8">comment</link>&apos;, &apos;<link linkend="_classexchange_1_1models_1_1Upvote_1a85d728bd4fe9ca87317338c083883e2e">user</link>&apos;,)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2models_8py">models.py</link></section>
+</section>

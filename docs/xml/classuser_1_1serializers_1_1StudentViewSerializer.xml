@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1serializers_1_1StudentViewSerializer" kind="class" language="Python" prot="public">
+    <compoundname>user::serializers::StudentViewSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta" prot="public">user::serializers::StudentViewSerializer::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.StudentViewSerializer::mark</definition>
+        <argsstring></argsstring>
+        <name>mark</name>
+        <qualifiedname>user.serializers.StudentViewSerializer.mark</qualifiedname>
+        <initializer>=  <ref refid="classuser_1_1serializers_1_1MarkSerializer" kindref="compound">MarkSerializer</ref>(read_only=True, source=&apos;student_mark&apos;, many=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="95" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.StudentViewSerializer::attendance</definition>
+        <argsstring></argsstring>
+        <name>attendance</name>
+        <qualifiedname>user.serializers.StudentViewSerializer.attendance</qualifiedname>
+        <initializer>=  <ref refid="classuser_1_1serializers_1_1StudentAttendanceSerializer" kindref="compound">StudentAttendanceSerializer</ref>(read_only=True, source=&apos;student_attendance&apos;, many=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="96" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.StudentViewSerializer::student</definition>
+        <argsstring></argsstring>
+        <name>student</name>
+        <qualifiedname>user.serializers.StudentViewSerializer.student</qualifiedname>
+        <initializer>=  <ref refid="classuser_1_1serializers_1_1StudentSerializer" kindref="compound">StudentSerializer</ref>(read_only=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="97" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.serializers.StudentViewSerializer::classroom</definition>
+        <argsstring></argsstring>
+        <name>classroom</name>
+        <qualifiedname>user.serializers.StudentViewSerializer.classroom</qualifiedname>
+        <initializer>=  <ref refid="classuser_1_1serializers_1_1ClassroomSerializer" kindref="compound">ClassroomSerializer</ref>(source=&apos;student.classroom&apos;, read_only=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="98" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="98" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.StudentViewSerializer</label>
+        <link refid="classuser_1_1serializers_1_1StudentViewSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+      <node id="1">
+        <label>user.serializers.StudentViewSerializer</label>
+        <link refid="classuser_1_1serializers_1_1StudentViewSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" line="94" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/serializers.py" bodystart="94" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01" prot="public" virt="non-virtual"><scope>user::serializers::StudentViewSerializer</scope><name>attendance</name></member>
+      <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7" prot="public" virt="non-virtual"><scope>user::serializers::StudentViewSerializer</scope><name>classroom</name></member>
+      <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2" prot="public" virt="non-virtual"><scope>user::serializers::StudentViewSerializer</scope><name>mark</name></member>
+      <member refid="classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce" prot="public" virt="non-virtual"><scope>user::serializers::StudentViewSerializer</scope><name>student</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

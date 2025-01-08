@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_febb6b43c38c90b14ff92237d82f14a2" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/payment Directory Reference</primary></indexterm>
+Directory dependency graph for payment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_febb6b43c38c90b14ff92237d82f14a2_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_538cf38914974bb09d1592c3fda5de75">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_payment_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_payment_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

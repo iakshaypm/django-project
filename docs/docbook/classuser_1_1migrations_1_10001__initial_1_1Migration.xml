@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10001__initial_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0001_initial.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0001_initial.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0001_initial.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10001__initial_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0001_initial.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10001__initial_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a6411c9665bed9093e13305438871a7b0">initial</link> = True</para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a91cbe0533e9bc83354113293696732ee">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a558a440b0f887d1afd139de308fa18ac">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a91cbe0533e9bc83354113293696732ee"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0001_initial.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0001_initial.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;auth&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0012_alter_user_first_name_max_length&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a6411c9665bed9093e13305438871a7b0"/><section>
+    <title>initial</title>
+<indexterm><primary>initial</primary><secondary>user.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0001_initial.Migration</primary><secondary>initial</secondary></indexterm>
+<para><computeroutput>bool user.migrations.0001_initial.Migration.initial = True<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1migrations_1_10001__initial_1_1Migration_1a558a440b0f887d1afd139de308fa18ac"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0001_initial.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0001_initial.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.CreateModel(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;Account&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;fields=[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;id&apos;</emphasis>,&#32;models.BigAutoField(auto_created=<emphasis role="keyword">True</emphasis>,&#32;primary_key=<emphasis role="keyword">True</emphasis>,&#32;serialize=<emphasis role="keyword">False</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;ID&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;password&apos;</emphasis>,&#32;models.CharField(max_length=128,&#32;verbose_name=<emphasis role="stringliteral">&apos;password&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;email&apos;</emphasis>,&#32;models.EmailField(max_length=60,&#32;unique=<emphasis role="keyword">True</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;email&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;name&apos;</emphasis>,&#32;models.CharField(max_length=60)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;phone_number&apos;</emphasis>,&#32;models.CharField(max_length=20,&#32;unique=<emphasis role="keyword">True</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;is_active&apos;</emphasis>,&#32;models.BooleanField(default=<emphasis role="keyword">True</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;is_staff&apos;</emphasis>,&#32;models.BooleanField(default=<emphasis role="keyword">False</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;is_superuser&apos;</emphasis>,&#32;models.BooleanField(default=<emphasis role="keyword">False</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;last_login&apos;</emphasis>,&#32;models.DateTimeField(auto_now=<emphasis role="keyword">True</emphasis>,&#32;null=<emphasis role="keyword">True</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;last_login&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user_type&apos;</emphasis>,&#32;models.PositiveIntegerField(choices=[(1,&#32;<emphasis role="stringliteral">&apos;student&apos;</emphasis>),&#32;(2,&#32;<emphasis role="stringliteral">&apos;teacher&apos;</emphasis>),&#32;(3,&#32;<emphasis role="stringliteral">&apos;secretary&apos;</emphasis>),&#32;(4,&#32;<emphasis role="stringliteral">&apos;supervisor&apos;</emphasis>)],&#32;default=1)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;groups&apos;</emphasis>,&#32;models.ManyToManyField(blank=<emphasis role="keyword">True</emphasis>,&#32;help_text=<emphasis role="stringliteral">&apos;The&#32;groups&#32;this&#32;user&#32;belongs&#32;to.&#32;A&#32;user&#32;will&#32;get&#32;all&#32;permissions&#32;granted&#32;to&#32;each&#32;of&#32;their&#32;groups.&apos;</emphasis>,&#32;related_name=<emphasis role="stringliteral">&apos;user_set&apos;</emphasis>,&#32;related_query_name=<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;to=<emphasis role="stringliteral">&apos;auth.group&apos;</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;groups&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user_permissions&apos;</emphasis>,&#32;models.ManyToManyField(blank=<emphasis role="keyword">True</emphasis>,&#32;help_text=<emphasis role="stringliteral">&apos;Specific&#32;permissions&#32;for&#32;this&#32;user.&apos;</emphasis>,&#32;related_name=<emphasis role="stringliteral">&apos;user_set&apos;</emphasis>,&#32;related_query_name=<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;to=<emphasis role="stringliteral">&apos;auth.permission&apos;</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;user&#32;permissions&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;],
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;options={
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;abstract&apos;</emphasis>:&#32;<emphasis role="keyword">False</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_user_2migrations_20001__initial_8py">0001_initial.py</link></section>
+</section>

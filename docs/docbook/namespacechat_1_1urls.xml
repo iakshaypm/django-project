@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacechat_1_1urls" xml:lang="en-US">
+<title>chat.urls Namespace Reference</title>
+<indexterm><primary>chat.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespacechat_1_1urls_1ab6d985bded5220bb026e4afc78244ec3">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacechat_1_1urls_1ab6d985bded5220bb026e4afc78244ec3"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>chat.urls</secondary></indexterm>
+<indexterm><primary>chat.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list chat.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;&apos;</emphasis>,&#32;views.index_view,&#32;name=<emphasis role="stringliteral">&apos;chat-index&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;create/&apos;</emphasis>,&#32;views.CreateRoomView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;chat-room&apos;</emphasis>),
+4 ]
+</programlisting></section>
+</section>
+</section>

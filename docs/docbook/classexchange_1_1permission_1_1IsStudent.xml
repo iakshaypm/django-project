@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexchange_1_1permission_1_1IsStudent" xml:lang="en-US">
+<title>exchange.permission.IsStudent Class Reference</title>
+<indexterm><primary>exchange.permission.IsStudent</primary></indexterm>
+Inheritance diagram for exchange.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1permission_1_1IsStudent__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exchange.permission.IsStudent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexchange_1_1permission_1_1IsStudent__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexchange_1_1permission_1_1IsStudent_1ab99467d373b3cd093eddb10c6cbb0ebb">has_permission</link> (self, request, view)</para>
+</listitem>
+            <listitem><para><link linkend="_classexchange_1_1permission_1_1IsStudent_1ad5cb932662f9430a2ff35e7796cf02cb">has_object_permission</link> (self, request, view, obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classexchange_1_1permission_1_1IsStudent_1ad5cb932662f9430a2ff35e7796cf02cb"/><section>
+    <title>has_object_permission()</title>
+<indexterm><primary>has_object_permission</primary><secondary>exchange.permission.IsStudent</secondary></indexterm>
+<indexterm><primary>exchange.permission.IsStudent</primary><secondary>has_object_permission</secondary></indexterm>
+<para><computeroutput>exchange.permission.IsStudent.has_object_permission ( self,  request,  view,  obj)</computeroutput></para></section>
+<anchor xml:id="_classexchange_1_1permission_1_1IsStudent_1ab99467d373b3cd093eddb10c6cbb0ebb"/><section>
+    <title>has_permission()</title>
+<indexterm><primary>has_permission</primary><secondary>exchange.permission.IsStudent</secondary></indexterm>
+<indexterm><primary>exchange.permission.IsStudent</primary><secondary>has_permission</secondary></indexterm>
+<para><computeroutput>exchange.permission.IsStudent.has_permission ( self,  request,  view)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/<link linkend="_exchange_2permission_8py">permission.py</link></section>
+</section>

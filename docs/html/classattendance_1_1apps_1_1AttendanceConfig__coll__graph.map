@@ -1,0 +1,7 @@
+<map id="attendance.apps.AttendanceConfig" name="attendance.apps.AttendanceConfig">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,205,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="25,5,105,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,84,97,147,92,148,75,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="130,5,161,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,72,123,133,118,131,134,70"/>
+</map>

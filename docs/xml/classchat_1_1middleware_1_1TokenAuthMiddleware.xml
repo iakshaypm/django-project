@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classchat_1_1middleware_1_1TokenAuthMiddleware" kind="class" language="Python" prot="public">
+    <compoundname>chat::middleware::TokenAuthMiddleware</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseMiddleware</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>chat.middleware.TokenAuthMiddleware::jwt_object</definition>
+        <argsstring></argsstring>
+        <name>jwt_object</name>
+        <qualifiedname>chat.middleware.TokenAuthMiddleware.jwt_object</qualifiedname>
+        <initializer>=  JWTAuthentication()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" compoundref="middleware_8py" startline="14" endline="25">chat.middleware.TokenAuthMiddleware.__call__</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.middleware.TokenAuthMiddleware.__init__</definition>
+        <argsstring>(self, inner)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>chat.middleware.TokenAuthMiddleware.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>inner</type>
+          <defname>inner</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" bodystart="11" bodyend="13"/>
+        <references refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20" compoundref="middleware_8py" startline="11" endline="13">chat.middleware.TokenAuthMiddleware.__init__</references>
+        <referencedby refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20" compoundref="middleware_8py" startline="11" endline="13">chat.middleware.TokenAuthMiddleware.__init__</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chat.middleware.TokenAuthMiddleware.__call__</definition>
+        <argsstring>(self, scope, receive, send)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>chat.middleware.TokenAuthMiddleware.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>scope</type>
+          <defname>scope</defname>
+        </param>
+        <param>
+          <type>receive</type>
+          <defname>receive</defname>
+        </param>
+        <param>
+          <type>send</type>
+          <defname>send</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" bodystart="14" bodyend="25"/>
+        <references refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" compoundref="middleware_8py" startline="14" endline="25">chat.middleware.TokenAuthMiddleware.__call__</references>
+        <references refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4" compoundref="middleware_8py" startline="9">chat.middleware.TokenAuthMiddleware.jwt_object</references>
+        <referencedby refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" compoundref="middleware_8py" startline="14" endline="25">chat.middleware.TokenAuthMiddleware.__call__</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseMiddleware</label>
+      </node>
+      <node id="1">
+        <label>chat.middleware.TokenAuthMiddleware</label>
+        <link refid="classchat_1_1middleware_1_1TokenAuthMiddleware"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseMiddleware</label>
+      </node>
+      <node id="1">
+        <label>chat.middleware.TokenAuthMiddleware</label>
+        <link refid="classchat_1_1middleware_1_1TokenAuthMiddleware"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/middleware.py" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a5b040bd5c91c46c27a3d2b18989e9d44" prot="public" virt="non-virtual"><scope>chat::middleware::TokenAuthMiddleware</scope><name>__call__</name></member>
+      <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a2df74caff3ceb7a31ec8de26c2cd9c20" prot="public" virt="non-virtual"><scope>chat::middleware::TokenAuthMiddleware</scope><name>__init__</name></member>
+      <member refid="classchat_1_1middleware_1_1TokenAuthMiddleware_1a26cbaf413fb7edd196593c61259f4cf4" prot="public" virt="non-virtual"><scope>chat::middleware::TokenAuthMiddleware</scope><name>jwt_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

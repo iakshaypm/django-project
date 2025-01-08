@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_0004__alter__studentattendance__date__of__marking_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0004_alter_studentattendance_date_of_marking.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0004_alter_studentattendance_date_of_marking.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration">attendance.migrations.0004_alter_studentattendance_date_of_marking.Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceattendance">attendance</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1migrations">attendance.migrations</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking">attendance.migrations.0004_alter_studentattendance_date_of_marking</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

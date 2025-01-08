@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1serializers_1_1UpvoteSerializer" kind="class" language="Python" prot="public">
+    <compoundname>exchange::serializers::UpvoteSerializer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">serializers.ModelSerializer</basecompoundref>
+    <innerclass refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" prot="public">exchange::serializers::UpvoteSerializer::Meta</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>exchange.serializers.UpvoteSerializer.validate</definition>
+        <argsstring>(self, attrs)</argsstring>
+        <name>validate</name>
+        <qualifiedname>exchange.serializers.UpvoteSerializer.validate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>attrs</type>
+          <defname>attrs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="23" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.serializers.UpvoteSerializer</label>
+        <link refid="classexchange_1_1serializers_1_1UpvoteSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.serializers.UpvoteSerializer</label>
+        <link refid="classexchange_1_1serializers_1_1UpvoteSerializer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serializers.ModelSerializer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py" bodystart="18" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7" prot="public" virt="non-virtual"><scope>exchange::serializers::UpvoteSerializer</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

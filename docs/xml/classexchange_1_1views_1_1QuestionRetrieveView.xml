@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classexchange_1_1views_1_1QuestionRetrieveView" kind="class" language="Python" prot="public">
+    <compoundname>exchange::views::QuestionRetrieveView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.RetrieveAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionRetrieveView_1a299c699757310a98caf70c4fad82c40c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionRetrieveView::queryset</definition>
+        <argsstring></argsstring>
+        <name>queryset</name>
+        <qualifiedname>exchange.views.QuestionRetrieveView.queryset</qualifiedname>
+        <initializer>=  Question.objects.all()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionRetrieveView_1aab1916cf954bf29d6c2101397e0f7f0b" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple exchange.views.QuestionRetrieveView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>exchange.views.QuestionRetrieveView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classexchange_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classexchange_1_1views_1_1QuestionRetrieveView_1abeac435a0c4951409b1bd5cf97449a97" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>exchange.views.QuestionRetrieveView::serializer_class</definition>
+        <argsstring></argsstring>
+        <name>serializer_class</name>
+        <qualifiedname>exchange.views.QuestionRetrieveView.serializer_class</qualifiedname>
+        <initializer>=  <ref refid="classexchange_1_1serializers_1_1QuestionSerializer" kindref="compound">QuestionSerializer</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="33" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>exchange.views.QuestionRetrieveView</label>
+        <link refid="classexchange_1_1views_1_1QuestionRetrieveView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.RetrieveAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>exchange.views.QuestionRetrieveView</label>
+        <link refid="classexchange_1_1views_1_1QuestionRetrieveView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.RetrieveAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/views.py" bodystart="30" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1aab1916cf954bf29d6c2101397e0f7f0b" prot="public" virt="non-virtual"><scope>exchange::views::QuestionRetrieveView</scope><name>permission_classes</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1a299c699757310a98caf70c4fad82c40c" prot="public" virt="non-virtual"><scope>exchange::views::QuestionRetrieveView</scope><name>queryset</name></member>
+      <member refid="classexchange_1_1views_1_1QuestionRetrieveView_1abeac435a0c4951409b1bd5cf97449a97" prot="public" virt="non-virtual"><scope>exchange::views::QuestionRetrieveView</scope><name>serializer_class</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

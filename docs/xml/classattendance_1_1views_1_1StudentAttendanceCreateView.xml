@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1views_1_1StudentAttendanceCreateView" kind="class" language="Python" prot="public">
+    <compoundname>attendance::views::StudentAttendanceCreateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generics.CreateAPIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1views_1_1StudentAttendanceCreateView_1abc38d5d29d6a03dd944cff2c297e7723" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple attendance.views.StudentAttendanceCreateView::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>attendance.views.StudentAttendanceCreateView.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated, <ref refid="classattendance_1_1permission_1_1CanMarkAttendance" kindref="compound">CanMarkAttendance</ref>, <ref refid="classattendance_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="43" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classattendance_1_1views_1_1StudentAttendanceCreateView_1a1e3a730f5ec4f15e5b5bd7c38eaa3f1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>attendance.views.StudentAttendanceCreateView.post</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>post</name>
+        <qualifiedname>attendance.views.StudentAttendanceCreateView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="45" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="45" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.views.StudentAttendanceCreateView</label>
+        <link refid="classattendance_1_1views_1_1StudentAttendanceCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.views.StudentAttendanceCreateView</label>
+        <link refid="classattendance_1_1views_1_1StudentAttendanceCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>generics.CreateAPIView</label>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" line="42" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/views.py" bodystart="42" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1views_1_1StudentAttendanceCreateView_1abc38d5d29d6a03dd944cff2c297e7723" prot="public" virt="non-virtual"><scope>attendance::views::StudentAttendanceCreateView</scope><name>permission_classes</name></member>
+      <member refid="classattendance_1_1views_1_1StudentAttendanceCreateView_1a1e3a730f5ec4f15e5b5bd7c38eaa3f1b" prot="public" virt="non-virtual"><scope>attendance::views::StudentAttendanceCreateView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1apps_1_1GradeConfig" xml:lang="en-US">
+<title>grade.apps.GradeConfig Class Reference</title>
+<indexterm><primary>grade.apps.GradeConfig</primary></indexterm>
+Inheritance diagram for grade.apps.GradeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1apps_1_1GradeConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.apps.GradeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1apps_1_1GradeConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classgrade_1_1apps_1_1GradeConfig_1a68a4336d8d686d7d1ad8f37715b9f8ce">default_auto_field</link> = &apos;django.db.models.BigAutoField&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classgrade_1_1apps_1_1GradeConfig_1a43ddb736a496c32bab2028dbd3a25ffb">name</link> = &apos;grade&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1apps_1_1GradeConfig_1a68a4336d8d686d7d1ad8f37715b9f8ce"/><section>
+    <title>default_auto_field</title>
+<indexterm><primary>default_auto_field</primary><secondary>grade.apps.GradeConfig</secondary></indexterm>
+<indexterm><primary>grade.apps.GradeConfig</primary><secondary>default_auto_field</secondary></indexterm>
+<para><computeroutput>str grade.apps.GradeConfig.default_auto_field = &apos;django.db.models.BigAutoField&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1apps_1_1GradeConfig_1a43ddb736a496c32bab2028dbd3a25ffb"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>grade.apps.GradeConfig</secondary></indexterm>
+<indexterm><primary>grade.apps.GradeConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str grade.apps.GradeConfig.name = &apos;grade&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2apps_8py">apps.py</link></section>
+</section>

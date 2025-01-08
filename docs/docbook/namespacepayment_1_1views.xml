@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacepayment_1_1views" xml:lang="en-US">
+<title>payment.views Namespace Reference</title>
+<indexterm><primary>payment.views</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classpayment_1_1views_1_1CreateCheckoutSession">CreateCheckoutSession</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classpayment_1_1views_1_1WebHook">WebHook</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacepayment_1_1views_1a089900526c9d0d2fe35b7a2dd167e452">api_key</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacepayment_1_1views_1abcc29e964087bf86bd1fa16f66d9ffea">webhook_secret</link> = settings.STRIPE_WEBHOOK_SECRET</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacepayment_1_1views_1a089900526c9d0d2fe35b7a2dd167e452"/><section>
+    <title>api_key</title>
+<indexterm><primary>api_key</primary><secondary>payment.views</secondary></indexterm>
+<indexterm><primary>payment.views</primary><secondary>api_key</secondary></indexterm>
+<para><computeroutput>payment.views.api_key</computeroutput></para></section>
+<anchor xml:id="_namespacepayment_1_1views_1abcc29e964087bf86bd1fa16f66d9ffea"/><section>
+    <title>webhook_secret</title>
+<indexterm><primary>webhook_secret</primary><secondary>payment.views</secondary></indexterm>
+<indexterm><primary>payment.views</primary><secondary>webhook_secret</secondary></indexterm>
+<para><computeroutput>payment.views.webhook_secret = settings.STRIPE_WEBHOOK_SECRET</computeroutput></para></section>
+</section>
+</section>

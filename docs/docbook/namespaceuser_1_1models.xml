@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceuser_1_1models" xml:lang="en-US">
+<title>user.models Namespace Reference</title>
+<indexterm><primary>user.models</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Account">Account</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1HOD">HOD</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1MyAccountManager">MyAccountManager</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Student">Student</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Subject">Subject</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1models_1_1Teacher">Teacher</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

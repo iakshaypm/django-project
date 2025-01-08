@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgrade_1_1views_1_1MarkListView" xml:lang="en-US">
+<title>grade.views.MarkListView Class Reference</title>
+<indexterm><primary>grade.views.MarkListView</primary></indexterm>
+Inheritance diagram for grade.views.MarkListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1views_1_1MarkListView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for grade.views.MarkListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgrade_1_1views_1_1MarkListView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgrade_1_1views_1_1MarkListView_1ac7ceb37ae31113d67a4d495e51731f33">queryset</link> = Mark.objects.all()</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classgrade_1_1views_1_1MarkListView_1a04b6c6be18b8f10eecb49d4c72a98259">permission_classes</link> = (IsAuthenticated, <link linkend="_classgrade_1_1permission_1_1IsTeacher">IsTeacher</link>, )</para>
+</listitem>
+            <listitem><para><link linkend="_classgrade_1_1views_1_1MarkListView_1a8f1c316dbe9023efc849d1628a591d8b">serializer_class</link> = <link linkend="_classgrade_1_1serializer_1_1MarkSerializer">MarkSerializer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgrade_1_1views_1_1MarkListView_1a04b6c6be18b8f10eecb49d4c72a98259"/><section>
+    <title>permission_classes</title>
+<indexterm><primary>permission_classes</primary><secondary>grade.views.MarkListView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkListView</primary><secondary>permission_classes</secondary></indexterm>
+<para><computeroutput>tuple grade.views.MarkListView.permission_classes = (IsAuthenticated, <link linkend="_classgrade_1_1permission_1_1IsTeacher">IsTeacher</link>, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1views_1_1MarkListView_1ac7ceb37ae31113d67a4d495e51731f33"/><section>
+    <title>queryset</title>
+<indexterm><primary>queryset</primary><secondary>grade.views.MarkListView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkListView</primary><secondary>queryset</secondary></indexterm>
+<para><computeroutput>grade.views.MarkListView.queryset = Mark.objects.all()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgrade_1_1views_1_1MarkListView_1a8f1c316dbe9023efc849d1628a591d8b"/><section>
+    <title>serializer_class</title>
+<indexterm><primary>serializer_class</primary><secondary>grade.views.MarkListView</secondary></indexterm>
+<indexterm><primary>grade.views.MarkListView</primary><secondary>serializer_class</secondary></indexterm>
+<para><computeroutput>grade.views.MarkListView.serializer_class = <link linkend="_classgrade_1_1serializer_1_1MarkSerializer">MarkSerializer</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/<link linkend="_grade_2views_8py">views.py</link></section>
+</section>

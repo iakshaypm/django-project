@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1models_1_1Teacher" kind="class" language="Python" prot="public">
+    <compoundname>user::models::Teacher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Teacher::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>user.models.Teacher.user</qualifiedname>
+        <initializer>=  models.OneToOneField(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="76" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="76" bodyend="-1"/>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a95f62c60359a5d0e10c24a5c1eabaeed" compoundref="consumers_8py" startline="19" endline="47">chat.consumers.ChatConsumer.connect</referencedby>
+        <referencedby refid="classchat_1_1consumers_1_1ChatConsumer_1a468b525e29b77990588e3ab83b69e67d" compoundref="consumers_8py" startline="54" endline="72">chat.consumers.ChatConsumer.receive</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Teacher::department</definition>
+        <argsstring></argsstring>
+        <name>department</name>
+        <qualifiedname>user.models.Teacher.department</qualifiedname>
+        <initializer>=  models.CharField(max_length=100)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="77" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Teacher::subject</definition>
+        <argsstring></argsstring>
+        <name>subject</name>
+        <qualifiedname>user.models.Teacher.subject</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Subject" kindref="compound">Subject</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="78" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Teacher::classroom</definition>
+        <argsstring></argsstring>
+        <name>classroom</name>
+        <qualifiedname>user.models.Teacher.classroom</qualifiedname>
+        <initializer>=  models.OneToOneField(<ref refid="classclassroom_1_1models_1_1Classroom" kindref="compound">Classroom</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="79" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="79" bodyend="-1"/>
+        <referencedby refid="classattendance_1_1tests_1_1test__attendance_1_1TestMainAttendance_1ac73194fb12e6a5e5791245ccaa374066" compoundref="test__attendance_8py" startline="53" endline="61">attendance.tests.test_attendance.TestMainAttendance.test_creating_main_attendance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="1">
+        <label>user.models.Teacher</label>
+        <link refid="classuser_1_1models_1_1Teacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="1">
+        <label>user.models.Teacher</label>
+        <link refid="classuser_1_1models_1_1Teacher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="75" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="75" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classuser_1_1models_1_1Teacher_1a885c261420f10be895776de11797a9de" prot="public" virt="non-virtual"><scope>user::models::Teacher</scope><name>classroom</name></member>
+      <member refid="classuser_1_1models_1_1Teacher_1af8468a724deb9b3d688e3e8c4c19bb76" prot="public" virt="non-virtual"><scope>user::models::Teacher</scope><name>department</name></member>
+      <member refid="classuser_1_1models_1_1Teacher_1ada5c4c1132cdf33f0dd496d496dd5f28" prot="public" virt="non-virtual"><scope>user::models::Teacher</scope><name>subject</name></member>
+      <member refid="classuser_1_1models_1_1Teacher_1a39a70adae1575b3e9a06182aeb4bd335" prot="public" virt="non-virtual"><scope>user::models::Teacher</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

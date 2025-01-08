@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecollege_1_1file__type__detector" kind="namespace" language="Python">
+    <compoundname>college::file_type_detector</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecollege_1_1file__type__detector_1a4abdd44e1f1942108ebc378e66fd6acc" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict college::file_type_detector.linters</definition>
+        <argsstring></argsstring>
+        <name>linters</name>
+        <qualifiedname>college.file_type_detector.linters</qualifiedname>
+        <initializer>=  {
+    &apos;.py&apos;: &apos;flake8&apos;,
+    &apos;.php&apos;: &apos;phpcs&apos;,
+    &apos;.js&apos;: &apos;eslint&apos;,
+    &apos;.css&apos;: &apos;stylelint&apos;,
+    &apos;.rb&apos;: &apos;rubocop&apos;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>college.file_type_detector.run_linter</definition>
+        <argsstring>(file)</argsstring>
+        <name>run_linter</name>
+        <qualifiedname>college.file_type_detector.run_linter</qualifiedname>
+        <param>
+          <type>file</type>
+          <defname>file</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py" bodystart="14" bodyend="28"/>
+        <references refid="namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af" compoundref="file__type__detector_8py" startline="14" endline="28">college.file_type_detector.run_linter</references>
+        <referencedby refid="namespacecollege_1_1file__type__detector_1a09e6f3d9243faf2b5eba28a8012968af" compoundref="file__type__detector_8py" startline="14" endline="28">college.file_type_detector.run_linter</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/college/file_type_detector.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

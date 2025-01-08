@@ -1,0 +1,7 @@
+<map id="chat.views.CreateRoomView" name="chat.views.CreateRoomView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,133,256,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,175,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,82,141,132,136,134,110,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="199,5,245,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,72,182,120,178,117,203,70"/>
+</map>

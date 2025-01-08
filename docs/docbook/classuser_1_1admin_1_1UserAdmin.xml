@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1admin_1_1UserAdmin" xml:lang="en-US">
+<title>user.admin.UserAdmin Class Reference</title>
+<indexterm><primary>user.admin.UserAdmin</primary></indexterm>
+Inheritance diagram for user.admin.UserAdmin:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1admin_1_1UserAdmin__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.admin.UserAdmin:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1admin_1_1UserAdmin__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1admin_1_1UserAdmin_1a314fdad93d1e7d66c3faddd5fc45057f">ordering</link> = [&apos;id&apos;]</para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1admin_1_1UserAdmin_1aa75d7aefb2e37586aba079998c49e4b3">list_display</link> = [&apos;email&apos;, &apos;name&apos;]</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classuser_1_1admin_1_1UserAdmin_1a9277187daf1a65e0c96d375221150355">fieldsets</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1admin_1_1UserAdmin_1aade09345342be96204bc2c3293d39511">readonly_fields</link> = [&apos;last_login&apos;]</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classuser_1_1admin_1_1UserAdmin_1a04aece6f0422cdf3461da643edcfe778">add_fieldsets</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Define the admin pages for users.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1admin_1_1UserAdmin_1a04aece6f0422cdf3461da643edcfe778"/><section>
+    <title>add_fieldsets</title>
+<indexterm><primary>add_fieldsets</primary><secondary>user.admin.UserAdmin</secondary></indexterm>
+<indexterm><primary>user.admin.UserAdmin</primary><secondary>add_fieldsets</secondary></indexterm>
+<para><computeroutput>tuple user.admin.UserAdmin.add_fieldsets<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="keywordtype">None</emphasis>,&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;classes&apos;</emphasis>:&#32;(<emphasis role="stringliteral">&apos;wide&apos;</emphasis>,),&#32;&#32;<emphasis role="comment">#&#32;classes&#32;refers&#32;to&#32;the&#32;css&#32;class</emphasis>
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;fields&apos;</emphasis>:&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;email&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;phone_number&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password1&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;password2&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_active&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_staff&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_superuser&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;user_type&apos;</emphasis>
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;)
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}),
+&#32;&#32;&#32;&#32;)
+</programlisting></section>
+<anchor xml:id="_classuser_1_1admin_1_1UserAdmin_1a9277187daf1a65e0c96d375221150355"/><section>
+    <title>fieldsets</title>
+<indexterm><primary>fieldsets</primary><secondary>user.admin.UserAdmin</secondary></indexterm>
+<indexterm><primary>user.admin.UserAdmin</primary><secondary>fieldsets</secondary></indexterm>
+<para><computeroutput>tuple user.admin.UserAdmin.fieldsets<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="keywordtype">None</emphasis>,&#32;{<emphasis role="stringliteral">&apos;fields&apos;</emphasis>:&#32;(<emphasis role="stringliteral">&apos;email&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;password&apos;</emphasis>)}),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_(<emphasis role="stringliteral">&apos;Permissions&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;fields&apos;</emphasis>:&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_active&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_staff&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;is_superuser&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;)
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(_(<emphasis role="stringliteral">&apos;Important&#32;dates&apos;</emphasis>),&#32;{<emphasis role="stringliteral">&apos;fields&apos;</emphasis>:&#32;(<emphasis role="stringliteral">&apos;last_login&apos;</emphasis>,)}),
+&#32;&#32;&#32;&#32;)
+</programlisting></section>
+<anchor xml:id="_classuser_1_1admin_1_1UserAdmin_1aa75d7aefb2e37586aba079998c49e4b3"/><section>
+    <title>list_display</title>
+<indexterm><primary>list_display</primary><secondary>user.admin.UserAdmin</secondary></indexterm>
+<indexterm><primary>user.admin.UserAdmin</primary><secondary>list_display</secondary></indexterm>
+<para><computeroutput>list user.admin.UserAdmin.list_display = [&apos;email&apos;, &apos;name&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1admin_1_1UserAdmin_1a314fdad93d1e7d66c3faddd5fc45057f"/><section>
+    <title>ordering</title>
+<indexterm><primary>ordering</primary><secondary>user.admin.UserAdmin</secondary></indexterm>
+<indexterm><primary>user.admin.UserAdmin</primary><secondary>ordering</secondary></indexterm>
+<para><computeroutput>list user.admin.UserAdmin.ordering = [&apos;id&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1admin_1_1UserAdmin_1aade09345342be96204bc2c3293d39511"/><section>
+    <title>readonly_fields</title>
+<indexterm><primary>readonly_fields</primary><secondary>user.admin.UserAdmin</secondary></indexterm>
+<indexterm><primary>user.admin.UserAdmin</primary><secondary>readonly_fields</secondary></indexterm>
+<para><computeroutput>list user.admin.UserAdmin.readonly_fields = [&apos;last_login&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2admin_8py">admin.py</link></section>
+</section>

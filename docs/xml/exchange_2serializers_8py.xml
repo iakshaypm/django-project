@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exchange_2serializers_8py" kind="file" language="Python">
+    <compoundname>serializers.py</compoundname>
+    <innerclass refid="classexchange_1_1serializers_1_1QuestionSerializer" prot="public">exchange::serializers::QuestionSerializer</innerclass>
+    <innerclass refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" prot="public">exchange::serializers::QuestionSerializer::Meta</innerclass>
+    <innerclass refid="classexchange_1_1serializers_1_1CommentSerializer" prot="public">exchange::serializers::CommentSerializer</innerclass>
+    <innerclass refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta" prot="public">exchange::serializers::CommentSerializer::Meta</innerclass>
+    <innerclass refid="classexchange_1_1serializers_1_1UpvoteSerializer" prot="public">exchange::serializers::UpvoteSerializer</innerclass>
+    <innerclass refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" prot="public">exchange::serializers::UpvoteSerializer::Meta</innerclass>
+    <innernamespace refid="namespaceexchange">exchange</innernamespace>
+    <innernamespace refid="namespaceexchange_1_1serializers">exchange::serializers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexchange_1_1serializers" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>(get_user_model,<sp/>authenticate,<sp/>)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Question,<sp/>Comment,<sp/>Upvote</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers,<sp/>exceptions</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classexchange_1_1serializers_1_1QuestionSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1QuestionSerializer" kindref="compound">QuestionSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="7" refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="8" refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ab192475d1fa45bf5b43bffe01197b501" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Question</highlight></codeline>
+<codeline lineno="9" refid="classexchange_1_1serializers_1_1QuestionSerializer_1_1Meta_1ae0b766c4e1e2887e1c6333860a1e8850" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;title&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;tag&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classexchange_1_1serializers_1_1CommentSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1CommentSerializer" kindref="compound">CommentSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="13" refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="14" refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta_1a501e8df56aabafbda8deace28de37254" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Comment</highlight></codeline>
+<codeline lineno="15" refid="classexchange_1_1serializers_1_1CommentSerializer_1_1Meta_1a0156ca647528f11cd3a959cc3dfd2462" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;content&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;question&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classexchange_1_1serializers_1_1UpvoteSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1UpvoteSerializer" kindref="compound">UpvoteSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="19" refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="20" refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1acc559add225a41dcf7e23eec7af30764" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Upvote</highlight></codeline>
+<codeline lineno="21" refid="classexchange_1_1serializers_1_1UpvoteSerializer_1_1Meta_1a2ea6e4bf9f6905591cdb92d9289db5a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classexchange_1_1serializers_1_1UpvoteSerializer_1a75bd9c0e33330b090227169343141cc7" kindref="member">validate</ref>(self,<sp/>attrs):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>comment<sp/>=<sp/>attrs[</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exists<sp/>=<sp/>Upvote.objects.filter(comment=attrs[</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">]).exists()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>exists:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>serializers.ValidationError({</highlight><highlight class="stringliteral">&apos;comment&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;You<sp/>cannot<sp/>upvote<sp/>the<sp/>same<sp/>comment.&apos;</highlight><highlight class="normal">})</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>attrs</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/serializers.py"/>
+  </compounddef>
+</doxygen>

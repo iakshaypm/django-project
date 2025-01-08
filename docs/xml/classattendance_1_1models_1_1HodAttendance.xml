@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1models_1_1HodAttendance" kind="class" language="Python" prot="public">
+    <compoundname>attendance::models::HodAttendance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classattendance_1_1models_1_1HodAttendance_1_1Meta" prot="public">attendance::models::HodAttendance::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.HodAttendance::attendance</definition>
+        <argsstring></argsstring>
+        <name>attendance</name>
+        <qualifiedname>attendance.models.HodAttendance.attendance</qualifiedname>
+        <initializer>=  models.OneToOneField(<ref refid="classattendance_1_1models_1_1MainAttendance" kindref="compound">MainAttendance</ref>, on_delete=models.DO_NOTHING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="43" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.HodAttendance::hod</definition>
+        <argsstring></argsstring>
+        <name>hod</name>
+        <qualifiedname>attendance.models.HodAttendance.hod</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classuser_1_1models_1_1Account" kindref="compound">Account</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="44" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>attendance.models.HodAttendance::date_of_marking</definition>
+        <argsstring></argsstring>
+        <name>date_of_marking</name>
+        <qualifiedname>attendance.models.HodAttendance.date_of_marking</qualifiedname>
+        <initializer>=  models.DateField(auto_now=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="45" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>attendance.models.HodAttendance</label>
+        <link refid="classattendance_1_1models_1_1HodAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.models.HodAttendance</label>
+        <link refid="classattendance_1_1models_1_1HodAttendance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="42" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="42" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1models_1_1HodAttendance_1a7e35036d1557df955c92161f9a4aa0df" prot="public" virt="non-virtual"><scope>attendance::models::HodAttendance</scope><name>attendance</name></member>
+      <member refid="classattendance_1_1models_1_1HodAttendance_1a1112825633bc314618462c4e9658bb11" prot="public" virt="non-virtual"><scope>attendance::models::HodAttendance</scope><name>date_of_marking</name></member>
+      <member refid="classattendance_1_1models_1_1HodAttendance_1a694a75b97c55ba8b4e3169c7a4900764" prot="public" virt="non-virtual"><scope>attendance::models::HodAttendance</scope><name>hod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

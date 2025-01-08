@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="tasks_8py" kind="file" language="Python">
+    <compoundname>tasks.py</compoundname>
+    <innernamespace refid="namespacechat">chat</innernamespace>
+    <innernamespace refid="namespacechat_1_1tasks">chat::tasks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacechat_1_1tasks" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>requests</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>anthropic</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>celery<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>shared_task</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">@shared_task</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespacechat_1_1tasks_1a85c8a496121547fa4eec859d4763101c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacechat_1_1tasks_1a85c8a496121547fa4eec859d4763101c" kindref="member">send_telegram_reply</ref>(message):</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>message[</highlight><highlight class="stringliteral">&quot;message&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;from&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;first_name&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>text<sp/>=<sp/>message[</highlight><highlight class="stringliteral">&quot;message&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>chat_id<sp/>=<sp/>message[</highlight><highlight class="stringliteral">&quot;message&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;chat&quot;</highlight><highlight class="normal">][</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>client<sp/>=<sp/>anthropic.Anthropic(</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>defaults<sp/>to<sp/>os.environ.get(&quot;ANTHROPIC_API_KEY&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>api_key=settings.ANTHROPIC_API_KEY</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>message<sp/>=<sp/>client.messages.create(</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model=</highlight><highlight class="stringliteral">&quot;claude-2.0&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_tokens=1000,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature=0,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messages=[{</highlight><highlight class="stringliteral">&quot;role&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;user&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;content&quot;</highlight><highlight class="normal">:<sp/>text}]</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>reply_url<sp/>=<sp/>f</highlight><highlight class="stringliteral">&quot;https://api.telegram.org/bot{settings.TELEGRAM_API_TOKEN}/sendMessage&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;chat_id&quot;</highlight><highlight class="normal">:<sp/>chat_id,<sp/></highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">:<sp/>message.content[0].text}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>print(message.content)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>print(type(message.content))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>requests.post(reply_url,<sp/>data=data)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/chat/tasks.py"/>
+  </compounddef>
+</doxygen>

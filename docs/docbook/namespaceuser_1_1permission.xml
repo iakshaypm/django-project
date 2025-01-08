@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceuser_1_1permission" xml:lang="en-US">
+<title>user.permission Namespace Reference</title>
+<indexterm><primary>user.permission</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1permission_1_1IsHOD">IsHOD</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1permission_1_1IsManagement">IsManagement</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1permission_1_1IsParent">IsParent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1permission_1_1IsStudent">IsStudent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classuser_1_1permission_1_1IsTeacher">IsTeacher</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classassignment_1_1views_1_1AssignmentCreate" kind="class" language="Python" prot="public">
+    <compoundname>assignment::views::AssignmentCreate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">views.APIView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classassignment_1_1views_1_1AssignmentCreate_1a92ddd31156801292d69d41e0d85cb95b" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple assignment.views.AssignmentCreate::permission_classes</definition>
+        <argsstring></argsstring>
+        <name>permission_classes</name>
+        <qualifiedname>assignment.views.AssignmentCreate.permission_classes</qualifiedname>
+        <initializer>=  (IsAuthenticated,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classassignment_1_1views_1_1AssignmentCreate_1a93128fa588ff04a716d3420908cddd2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>assignment.views.AssignmentCreate.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>assignment.views.AssignmentCreate.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" bodystart="13" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>assignment.views.AssignmentCreate</label>
+        <link refid="classassignment_1_1views_1_1AssignmentCreate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>views::APIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>assignment.views.AssignmentCreate</label>
+        <link refid="classassignment_1_1views_1_1AssignmentCreate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+permission_classes</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tuple</label>
+      </node>
+      <node id="2">
+        <label>views::APIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/views.py" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classassignment_1_1views_1_1AssignmentCreate_1a92ddd31156801292d69d41e0d85cb95b" prot="public" virt="non-virtual"><scope>assignment::views::AssignmentCreate</scope><name>permission_classes</name></member>
+      <member refid="classassignment_1_1views_1_1AssignmentCreate_1a93128fa588ff04a716d3420908cddd2d" prot="public" virt="non-virtual"><scope>assignment::views::AssignmentCreate</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

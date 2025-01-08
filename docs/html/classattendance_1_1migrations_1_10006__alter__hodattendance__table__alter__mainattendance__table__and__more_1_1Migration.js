@@ -1,0 +1,5 @@
+var classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration =
+[
+    [ "dependencies", "classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.html#a3bd2de1571dac0e878718b16c3161ed7", null ],
+    [ "operations", "classattendance_1_1migrations_1_10006__alter__hodattendance__table__alter__mainattendance__table__and__more_1_1Migration.html#a6166c71022ce82d69dda17e657b7a6e5", null ]
+];

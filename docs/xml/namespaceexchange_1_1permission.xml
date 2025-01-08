@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1permission" kind="namespace" language="Python">
+    <compoundname>exchange::permission</compoundname>
+    <innerclass refid="classexchange_1_1permission_1_1CanAccessComment" prot="public">exchange::permission::CanAccessComment</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanAddComment" prot="public">exchange::permission::CanAddComment</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanRemoveUpvote" prot="public">exchange::permission::CanRemoveUpvote</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1CanUpvote" prot="public">exchange::permission::CanUpvote</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1IsStudent" prot="public">exchange::permission::IsStudent</innerclass>
+    <innerclass refid="classexchange_1_1permission_1_1IsTeacher" prot="public">exchange::permission::IsTeacher</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/permission.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

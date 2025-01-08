@@ -1,0 +1,4 @@
+var namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking =
+[
+    [ "Migration", "classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration.html", "classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration" ]
+];

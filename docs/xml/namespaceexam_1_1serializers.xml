@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexam_1_1serializers" kind="namespace" language="Python">
+    <compoundname>exam::serializers</compoundname>
+    <innerclass refid="classexam_1_1serializers_1_1ExamSerializer" prot="public">exam::serializers::ExamSerializer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

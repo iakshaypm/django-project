@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command" xml:lang="en-US">
+<title>webhooks.management.commands.set_telegram_webhook.Command Class Reference</title>
+<indexterm><primary>webhooks.management.commands.set_telegram_webhook.Command</primary></indexterm>
+Inheritance diagram for webhooks.management.commands.set_telegram_webhook.Command:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for webhooks.management.commands.set_telegram_webhook.Command:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2">add_arguments</link> (self, parser)</para>
+</listitem>
+            <listitem><para><link linkend="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea">handle</link> (self, *args, **options)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b">help</link> = &quot;Set new telegram webhook&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a39404b6753d59408490cca264b7274c2"/><section>
+    <title>add_arguments()</title>
+<indexterm><primary>add_arguments</primary><secondary>webhooks.management.commands.set_telegram_webhook.Command</secondary></indexterm>
+<indexterm><primary>webhooks.management.commands.set_telegram_webhook.Command</primary><secondary>add_arguments</secondary></indexterm>
+<para><computeroutput> None webhooks.management.commands.set_telegram_webhook.Command.add_arguments ( self,  parser)</computeroutput></para></section>
+<anchor xml:id="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a593dfcee3f85ec58842c26df4bdd44ea"/><section>
+    <title>handle()</title>
+<indexterm><primary>handle</primary><secondary>webhooks.management.commands.set_telegram_webhook.Command</secondary></indexterm>
+<indexterm><primary>webhooks.management.commands.set_telegram_webhook.Command</primary><secondary>handle</secondary></indexterm>
+<para><computeroutput>webhooks.management.commands.set_telegram_webhook.Command.handle ( self, * args, ** options)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classwebhooks_1_1management_1_1commands_1_1set__telegram__webhook_1_1Command_1a56f7d9abfeb909c56405b1243eb44b4b"/><section>
+    <title>help</title>
+<indexterm><primary>help</primary><secondary>webhooks.management.commands.set_telegram_webhook.Command</secondary></indexterm>
+<indexterm><primary>webhooks.management.commands.set_telegram_webhook.Command</primary><secondary>help</secondary></indexterm>
+<para><computeroutput>str webhooks.management.commands.set_telegram_webhook.Command.help = &quot;Set new telegram webhook&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks/management/commands/<link linkend="_set__telegram__webhook_8py">set_telegram_webhook.py</link></section>
+</section>

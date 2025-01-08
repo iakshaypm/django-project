@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more" kind="namespace" language="Python">
+    <compoundname>attendance::migrations::0003_alter_mainattendance_date_of_producing_and_more</compoundname>
+    <innerclass refid="classattendance_1_1migrations_1_10003__alter__mainattendance__date__of__producing__and__more_1_1Migration" prot="public">attendance::migrations::0003_alter_mainattendance_date_of_producing_and_more::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/migrations/0003_alter_mainattendance_date_of_producing_and_more.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

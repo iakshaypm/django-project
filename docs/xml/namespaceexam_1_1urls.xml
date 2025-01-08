@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexam_1_1urls" kind="namespace" language="Python">
+    <compoundname>exam::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceexam_1_1urls_1a72cf6cfbee11855ab7d29ef2123adab6" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str exam::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>exam.urls.app_name</qualifiedname>
+        <initializer>=  &apos;exam&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceexam_1_1urls_1a8383dd92b788f7b6fc6ddea686a26fea" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list exam::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>exam.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&apos;add/&apos;, views.ExamCreateView.as_view(), name=&apos;create-question&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

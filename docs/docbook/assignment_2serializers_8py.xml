@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_assignment_2serializers_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/serializers.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1serializers_1_1AssignmentSerializer">assignment.serializers.AssignmentSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1serializers_1_1AssignmentSerializer_1_1Meta">assignment.serializers.AssignmentSerializer.Meta</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1serializers_1_1AssignmentMarkSerializer">assignment.serializers.AssignmentMarkSerializer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta">assignment.serializers.AssignmentMarkSerializer.Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceassignment">assignment</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceassignment_1_1serializers">assignment.serializers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

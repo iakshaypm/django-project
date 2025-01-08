@@ -1,0 +1,7 @@
+<map id="payment.apps.PaymentConfig" name="payment.apps.PaymentConfig">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,215,213"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="30,5,110,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,83,103,147,98,148,80,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="135,5,165,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,71,126,133,121,131,138,70"/>
+</map>

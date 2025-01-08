@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceexchange_1_1models" kind="namespace" language="Python">
+    <compoundname>exchange::models</compoundname>
+    <innerclass refid="classexchange_1_1models_1_1Comment" prot="public">exchange::models::Comment</innerclass>
+    <innerclass refid="classexchange_1_1models_1_1Question" prot="public">exchange::models::Question</innerclass>
+    <innerclass refid="classexchange_1_1models_1_1Upvote" prot="public">exchange::models::Upvote</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exchange/models.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

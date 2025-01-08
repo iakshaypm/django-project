@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1models_1_1Student" xml:lang="en-US">
+<title>user.models.Student Class Reference</title>
+<indexterm><primary>user.models.Student</primary></indexterm>
+Inheritance diagram for user.models.Student:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1Student__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.models.Student:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1models_1_1Student__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0">user</link> = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, unique=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1a27a9e04d59c551cfa924771490543502">classroom</link> = models.ForeignKey(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.DO_NOTHING, related_name=&apos;student_classroom&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1a9efd9e529c29f373f7dac3d0693eeb82">department</link> = models.CharField(max_length=100)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1a011d649d717424a033c59bd43698a6a2">location</link> = models.CharField(max_length=100)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1a5b0ac817a79a8db20b17a2119b3cae82">date_of_birth</link> = models.DateTimeField()</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1a3b636063f2ff7e32e3ac78b760d881fc">parent</link> = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;parents&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1models_1_1Student_1ad5b70e855fa79333ed7304b19a5eb24f">assignment</link> = models.ForeignKey(<link linkend="_classassignment_1_1models_1_1Assignment">Assignment</link>, null=True, on_delete=models.DO_NOTHING)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1models_1_1Student_1ad5b70e855fa79333ed7304b19a5eb24f"/><section>
+    <title>assignment</title>
+<indexterm><primary>assignment</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>assignment</secondary></indexterm>
+<para><computeroutput>user.models.Student.assignment = models.ForeignKey(<link linkend="_classassignment_1_1models_1_1Assignment">Assignment</link>, null=True, on_delete=models.DO_NOTHING)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1a27a9e04d59c551cfa924771490543502"/><section>
+    <title>classroom</title>
+<indexterm><primary>classroom</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>classroom</secondary></indexterm>
+<para><computeroutput>user.models.Student.classroom = models.ForeignKey(<link linkend="_classclassroom_1_1models_1_1Classroom">Classroom</link>, on_delete=models.DO_NOTHING, related_name=&apos;student_classroom&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1a5b0ac817a79a8db20b17a2119b3cae82"/><section>
+    <title>date_of_birth</title>
+<indexterm><primary>date_of_birth</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>date_of_birth</secondary></indexterm>
+<para><computeroutput>user.models.Student.date_of_birth = models.DateTimeField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1a9efd9e529c29f373f7dac3d0693eeb82"/><section>
+    <title>department</title>
+<indexterm><primary>department</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>department</secondary></indexterm>
+<para><computeroutput>user.models.Student.department = models.CharField(max_length=100)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1a011d649d717424a033c59bd43698a6a2"/><section>
+    <title>location</title>
+<indexterm><primary>location</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>location</secondary></indexterm>
+<para><computeroutput>user.models.Student.location = models.CharField(max_length=100)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1a3b636063f2ff7e32e3ac78b760d881fc"/><section>
+    <title>parent</title>
+<indexterm><primary>parent</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>parent</secondary></indexterm>
+<para><computeroutput>user.models.Student.parent = models.ForeignKey(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, related_name=&apos;parents&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1models_1_1Student_1ae03c98ae686d6b4414cbfae4a41ef8f0"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>user.models.Student</secondary></indexterm>
+<indexterm><primary>user.models.Student</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>user.models.Student.user = models.OneToOneField(<link linkend="_classuser_1_1models_1_1Account">Account</link>, on_delete=models.CASCADE, unique=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2models_8py">models.py</link></section>
+</section>

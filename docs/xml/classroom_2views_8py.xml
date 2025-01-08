@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classroom_2views_8py" kind="file" language="Python">
+    <compoundname>views.py</compoundname>
+    <innerclass refid="classclassroom_1_1views_1_1ClassroomCreateView" prot="public">classroom::views::ClassroomCreateView</innerclass>
+    <innerclass refid="classclassroom_1_1views_1_1ClassroomListView" prot="public">classroom::views::ClassroomListView</innerclass>
+    <innernamespace refid="namespaceclassroom">classroom</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1views">classroom::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceclassroom_1_1views" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>generics,<sp/>status</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.permissions<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>IsAuthenticated</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework.response<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Response</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.serializers<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ClassroomSerializer</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.permission<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>IsManagement,<sp/>IsTeacher</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Classroom</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classclassroom_1_1views_1_1ClassroomCreateView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1views_1_1ClassroomCreateView" kindref="compound">ClassroomCreateView</ref>(generics.CreateAPIView):</highlight></codeline>
+<codeline lineno="11" refid="classclassroom_1_1views_1_1ClassroomCreateView_1a57f9a2aedfa716f5e4981ec79854deec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>IsManagement)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1views_1_1ClassroomCreateView_1a3edab260aa755d7b2115d0add7502ad9" kindref="member">post</ref>(self,<sp/>request,<sp/>*args,<sp/>**kwargs):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer<sp/>=<sp/><ref refid="classclassroom_1_1serializers_1_1ClassroomSerializer" kindref="compound">ClassroomSerializer</ref>(data=request.data)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.is_valid(raise_exception=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serializer.save()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Response({</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;status&apos;</highlight><highlight class="normal">:<sp/>status.HTTP_200_OK,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;message&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Classroom<sp/>attendance<sp/>successfully.&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>serializer.data</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classclassroom_1_1views_1_1ClassroomListView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classclassroom_1_1views_1_1ClassroomListView" kindref="compound">ClassroomListView</ref>(generics.ListAPIView):</highlight></codeline>
+<codeline lineno="25" refid="classclassroom_1_1views_1_1ClassroomListView_1ad702ca439ca6e7e4f42df780da04dcbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>queryset<sp/>=<sp/>Classroom.objects.all()</highlight></codeline>
+<codeline lineno="26" refid="classclassroom_1_1views_1_1ClassroomListView_1ae6d46afa1110735f43a23e03410da24f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>permission_classes<sp/>=<sp/>(IsAuthenticated,<sp/>IsTeacher,)</highlight></codeline>
+<codeline lineno="27" refid="classclassroom_1_1views_1_1ClassroomListView_1ad6de9f9c509e349f6bcd3a6af33d8538" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>serializer_class<sp/>=<sp/>ClassroomSerializer</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/views.py"/>
+  </compounddef>
+</doxygen>

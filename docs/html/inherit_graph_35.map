@@ -1,0 +1,49 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,653,215,678"/>
+<area shape="rect" id="Node000001" href="$classattendance_1_1permission_1_1CanAddAttendance.html" title=" " alt="" coords="296,5,496,45"/>
+<area shape="poly" id="edge93_Node000000_Node000001" title=" " alt="" coords="112,639,128,515,158,340,179,250,203,168,230,101,245,75,261,55,276,43,294,34,297,39,279,48,265,59,249,78,235,104,208,170,184,252,164,341,133,516,117,640"/>
+<area shape="rect" id="Node000002" href="$classattendance_1_1permission_1_1CanMarkAttendance.html" title=" " alt="" coords="296,69,496,109"/>
+<area shape="poly" id="edge94_Node000000_Node000002" title=" " alt="" coords="112,638,131,526,163,371,183,291,207,219,232,160,261,119,277,107,294,98,297,103,279,112,265,123,237,162,212,221,189,293,168,372,136,527,118,639"/>
+<area shape="rect" id="Node000003" href="$classattendance_1_1permission_1_1IsStudent.html" title=" " alt="" coords="303,133,489,173"/>
+<area shape="poly" id="edge95_Node000000_Node000003" title=" " alt="" coords="109,639,114,552,121,493,134,429,153,363,180,297,215,236,261,183,280,170,302,160,304,165,283,174,264,187,219,239,184,300,158,364,139,430,127,494,119,552,114,639"/>
+<area shape="rect" id="Node000004" href="$classattendance_1_1permission_1_1IsTeacher.html" title=" " alt="" coords="303,197,489,237"/>
+<area shape="poly" id="edge96_Node000000_Node000004" title=" " alt="" coords="110,639,119,562,142,456,162,399,187,344,220,292,261,247,280,234,302,225,304,230,283,239,264,251,224,295,192,346,167,401,147,457,124,562,115,639"/>
+<area shape="rect" id="Node000005" href="$classchat_1_1permission_1_1CanCreateRoom.html" title=" " alt="" coords="278,262,514,287"/>
+<area shape="poly" id="edge97_Node000000_Node000005" title=" " alt="" coords="111,639,122,569,147,476,167,426,192,378,223,334,261,297,279,285,282,290,264,301,227,338,196,381,172,429,152,478,127,570,116,639"/>
+<area shape="rect" id="Node000006" href="$classclassroom_1_1permission_1_1IsManagement.html" title=" " alt="" coords="263,311,529,337"/>
+<area shape="poly" id="edge98_Node000000_Node000006" title=" " alt="" coords="113,639,127,578,154,498,174,456,198,415,227,378,261,346,280,335,283,339,264,350,231,381,202,418,178,458,159,500,132,579,118,640"/>
+<area shape="rect" id="Node000007" href="$classclassroom_1_1permission_1_1IsTeacher.html" title=" " alt="" coords="281,361,511,386"/>
+<area shape="poly" id="edge99_Node000000_Node000007" title=" " alt="" coords="116,638,133,586,162,520,204,453,231,422,261,396,284,384,287,389,264,401,235,426,208,456,167,523,138,588,121,640"/>
+<area shape="rect" id="Node000008" href="$classexchange_1_1permission_1_1CanAccessComment.html" title=" " alt="" coords="279,411,513,451"/>
+<area shape="poly" id="edge100_Node000000_Node000008" title=" " alt="" coords="121,639,142,599,173,551,213,502,261,460,284,449,286,453,264,465,217,505,177,554,146,602,125,641"/>
+<area shape="rect" id="Node000009" href="$classexchange_1_1permission_1_1CanAddComment.html" title=" " alt="" coords="289,475,503,515"/>
+<area shape="poly" id="edge101_Node000000_Node000009" title=" " alt="" coords="128,640,184,582,221,551,261,524,289,512,291,517,264,529,224,555,187,586,132,644"/>
+<area shape="rect" id="Node000010" href="$classexchange_1_1permission_1_1CanRemoveUpvote.html" title=" " alt="" coords="274,539,518,579"/>
+<area shape="poly" id="edge102_Node000000_Node000010" title=" " alt="" coords="144,644,198,615,262,588,300,576,302,581,264,593,201,620,146,648"/>
+<area shape="rect" id="Node000011" href="$classexchange_1_1permission_1_1CanUpvote.html" title=" " alt="" coords="277,603,515,629"/>
+<area shape="poly" id="edge103_Node000000_Node000011" title=" " alt="" coords="197,648,321,626,322,631,198,653"/>
+<area shape="rect" id="Node000012" href="$classexchange_1_1permission_1_1IsStudent.html" title=" " alt="" coords="283,653,509,678"/>
+<area shape="poly" id="edge104_Node000000_Node000012" title=" " alt="" coords="228,663,282,663,282,668,228,668"/>
+<area shape="rect" id="Node000013" href="$classexchange_1_1permission_1_1IsTeacher.html" title=" " alt="" coords="283,702,509,727"/>
+<area shape="poly" id="edge105_Node000000_Node000013" title=" " alt="" coords="198,678,322,699,321,705,197,683"/>
+<area shape="rect" id="Node000014" href="$classgrade_1_1permission_1_1CanAccessComment.html" title=" " alt="" coords="291,752,501,792"/>
+<area shape="poly" id="edge106_Node000000_Node000014" title=" " alt="" coords="147,682,201,710,264,736,306,749,304,754,262,741,199,714,144,687"/>
+<area shape="rect" id="Node000015" href="$classgrade_1_1permission_1_1CanRemoveUpvote.html" title=" " alt="" coords="287,816,505,856"/>
+<area shape="poly" id="edge107_Node000000_Node000015" title=" " alt="" coords="132,687,187,745,224,776,264,802,291,814,289,818,261,806,221,780,184,749,128,691"/>
+<area shape="rect" id="Node000016" href="$classgrade_1_1permission_1_1CanUpvote.html" title=" " alt="" coords="291,881,501,906"/>
+<area shape="poly" id="edge108_Node000000_Node000016" title=" " alt="" coords="125,690,146,730,176,778,216,826,239,848,264,866,292,879,289,883,261,870,236,852,212,830,172,781,141,732,120,692"/>
+<area shape="rect" id="Node000017" href="$classgrade_1_1permission_1_1IsStudent.html" title=" " alt="" coords="296,930,496,955"/>
+<area shape="poly" id="edge109_Node000000_Node000017" title=" " alt="" coords="121,690,139,739,169,801,210,864,236,891,264,915,297,931,295,936,261,920,232,895,206,867,164,804,135,741,116,692"/>
+<area shape="rect" id="Node000018" href="$classgrade_1_1permission_1_1IsTeacher.html" title=" " alt="" coords="296,979,496,1005"/>
+<area shape="poly" id="edge110_Node000000_Node000018" title=" " alt="" coords="119,691,134,748,162,823,181,863,204,900,232,935,264,964,297,981,295,986,261,969,228,939,200,904,176,865,157,826,129,750,114,692"/>
+<area shape="rect" id="Node000019" href="$classuser_1_1permission_1_1IsHOD.html" title=" " alt="" coords="311,1029,481,1054"/>
+<area shape="poly" id="edge111_Node000000_Node000019" title=" " alt="" coords="117,691,129,757,155,846,174,892,198,937,228,979,264,1014,286,1027,311,1035,310,1040,284,1032,261,1018,224,982,194,940,169,894,150,847,124,759,112,692"/>
+<area shape="rect" id="Node000020" href="$classuser_1_1permission_1_1IsManagement.html" title=" " alt="" coords="283,1078,509,1103"/>
+<area shape="poly" id="edge112_Node000000_Node000020" title=" " alt="" coords="115,691,125,766,148,867,167,921,192,974,225,1022,264,1063,284,1076,281,1080,261,1067,220,1025,188,976,162,923,143,869,119,767,110,692"/>
+<area shape="rect" id="Node000021" href="$classuser_1_1permission_1_1IsParent.html" title=" " alt="" coords="305,1127,487,1153"/>
+<area shape="poly" id="edge113_Node000000_Node000021" title=" " alt="" coords="114,691,120,774,129,829,142,889,160,950,187,1010,221,1065,264,1113,284,1125,306,1133,304,1138,281,1130,261,1117,217,1069,182,1013,155,952,136,890,123,830,115,775,109,692"/>
+<area shape="rect" id="Node000022" href="$classuser_1_1permission_1_1IsStudent.html" title=" " alt="" coords="301,1177,491,1202"/>
+<area shape="poly" id="edge114_Node000000_Node000022" title=" " alt="" coords="113,692,116,782,123,843,135,910,154,979,181,1046,217,1109,239,1137,264,1162,282,1174,301,1182,299,1187,279,1179,261,1166,235,1140,213,1112,176,1049,149,981,130,911,118,844,111,783,108,692"/>
+<area shape="rect" id="Node000023" href="$classuser_1_1permission_1_1IsTeacher.html" title=" " alt="" coords="301,1226,491,1251"/>
+<area shape="poly" id="edge115_Node000000_Node000023" title=" " alt="" coords="118,692,135,805,167,962,187,1042,211,1114,236,1173,265,1211,282,1223,301,1232,299,1236,279,1228,261,1215,232,1175,206,1116,182,1043,162,963,130,806,112,692"/>
+</map>

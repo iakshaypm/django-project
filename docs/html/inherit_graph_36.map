@@ -1,0 +1,43 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,594,200,619"/>
+<area shape="rect" id="Node000001" href="$classassignment_1_1serializers_1_1AssignmentMarkSerializer.html" title=" " alt="" coords="248,5,499,45"/>
+<area shape="poly" id="edge116_Node000000_Node000001" title=" " alt="" coords="105,580,122,467,151,309,171,229,193,156,218,96,246,56,262,43,265,48,250,59,223,99,198,158,176,231,157,311,127,468,110,580"/>
+<area shape="rect" id="Node000002" href="$classassignment_1_1serializers_1_1AssignmentSerializer.html" title=" " alt="" coords="248,69,499,109"/>
+<area shape="poly" id="edge117_Node000000_Node000002" title=" " alt="" coords="101,580,104,493,111,433,123,368,141,301,166,235,201,173,246,119,262,108,265,112,250,123,205,176,171,237,146,303,128,370,116,434,110,493,106,581"/>
+<area shape="rect" id="Node000003" href="$classattendance_1_1serializer_1_1AttendanceSerializer.html" title=" " alt="" coords="255,133,491,173"/>
+<area shape="poly" id="edge118_Node000000_Node000003" title=" " alt="" coords="102,580,109,502,131,395,149,338,174,282,206,229,246,183,263,171,266,176,250,187,210,232,179,284,154,340,136,397,115,503,107,580"/>
+<area shape="rect" id="Node000004" href="$classattendance_1_1serializer_1_1StudentAttendanceSerializer.html" title=" " alt="" coords="267,197,479,237"/>
+<area shape="poly" id="edge119_Node000000_Node000004" title=" " alt="" coords="104,580,115,513,139,423,158,375,181,329,211,285,246,247,265,234,268,239,250,251,215,288,186,331,163,378,144,425,120,514,109,581"/>
+<area shape="rect" id="Node000005" href="$classattendance_1_1serializer_1_1TeacherAttendanceSerializer.html" title=" " alt="" coords="267,261,479,301"/>
+<area shape="poly" id="edge120_Node000000_Node000005" title=" " alt="" coords="107,580,121,524,148,451,166,413,189,376,215,341,246,311,266,299,269,303,250,315,219,345,193,379,171,415,153,453,126,526,112,581"/>
+<area shape="rect" id="Node000006" href="$classchat_1_1serializers_1_1RoomSerializer.html" title=" " alt="" coords="261,326,485,351"/>
+<area shape="poly" id="edge121_Node000000_Node000006" title=" " alt="" coords="109,580,126,532,155,473,194,412,219,385,247,362,270,349,273,354,249,366,222,389,198,416,159,475,131,534,114,581"/>
+<area shape="rect" id="Node000007" href="$classclassroom_1_1serializers_1_1ClassroomSerializer.html" title=" " alt="" coords="257,376,490,416"/>
+<area shape="poly" id="edge122_Node000000_Node000007" title=" " alt="" coords="115,580,136,545,165,504,203,461,247,426,270,414,272,419,249,430,206,465,170,507,140,548,119,583"/>
+<area shape="rect" id="Node000008" href="$classexam_1_1serializers_1_1ExamSerializer.html" title=" " alt="" coords="257,441,489,466"/>
+<area shape="poly" id="edge123_Node000000_Node000008" title=" " alt="" coords="121,581,174,528,209,500,247,476,280,464,282,469,249,481,212,504,178,532,125,585"/>
+<area shape="rect" id="Node000009" href="$classexchange_1_1serializers_1_1CommentSerializer.html" title=" " alt="" coords="261,491,485,531"/>
+<area shape="poly" id="edge124_Node000000_Node000009" title=" " alt="" coords="141,585,247,540,286,528,288,533,249,545,143,590"/>
+<area shape="rect" id="Node000010" href="$classexchange_1_1serializers_1_1QuestionSerializer.html" title=" " alt="" coords="264,555,483,595"/>
+<area shape="poly" id="edge125_Node000000_Node000010" title=" " alt="" coords="214,591,263,585,264,590,214,596"/>
+<area shape="rect" id="Node000011" href="$classexchange_1_1serializers_1_1UpvoteSerializer.html" title=" " alt="" coords="270,619,477,659"/>
+<area shape="poly" id="edge126_Node000000_Node000011" title=" " alt="" coords="214,617,270,624,269,629,213,622"/>
+<area shape="rect" id="Node000012" href="$classgrade_1_1serializer_1_1MarkSerializer.html" title=" " alt="" coords="263,683,483,709"/>
+<area shape="poly" id="edge127_Node000000_Node000012" title=" " alt="" coords="142,623,192,646,249,668,297,681,296,686,247,673,190,651,139,628"/>
+<area shape="rect" id="Node000013" href="$classuser_1_1serializers_1_1ClassroomSerializer.html" title=" " alt="" coords="277,733,470,773"/>
+<area shape="poly" id="edge128_Node000000_Node000013" title=" " alt="" coords="128,627,181,673,214,697,249,718,281,731,279,736,247,722,211,702,178,677,125,631"/>
+<area shape="rect" id="Node000014" href="$classuser_1_1serializers_1_1HODSerializer.html" title=" " alt="" coords="266,798,481,823"/>
+<area shape="poly" id="edge129_Node000000_Node000014" title=" " alt="" coords="119,630,139,665,169,707,206,749,249,783,276,795,274,800,247,788,202,753,165,710,135,668,114,633"/>
+<area shape="rect" id="Node000015" href="$classuser_1_1serializers_1_1MarkSerializer.html" title=" " alt="" coords="264,847,483,873"/>
+<area shape="poly" id="edge130_Node000000_Node000015" title=" " alt="" coords="115,632,133,676,161,731,200,787,223,811,249,832,273,845,271,850,247,837,220,815,196,790,157,734,128,678,110,634"/>
+<area shape="rect" id="Node000016" href="$classuser_1_1serializers_1_1StudentAttendanceSerializer.html" title=" " alt="" coords="286,897,461,937"/>
+<area shape="poly" id="edge131_Node000000_Node000016" title=" " alt="" coords="113,632,128,685,155,753,195,823,221,854,250,882,287,902,284,906,246,886,217,858,191,826,150,755,123,687,107,633"/>
+<area shape="rect" id="Node000017" href="$classuser_1_1serializers_1_1StudentSerializer.html" title=" " alt="" coords="286,961,461,1001"/>
+<area shape="poly" id="edge132_Node000000_Node000017" title=" " alt="" coords="110,633,122,697,146,782,165,827,188,871,216,912,250,947,267,959,287,968,284,972,264,964,246,951,212,915,183,874,160,830,141,784,116,698,105,633"/>
+<area shape="rect" id="Node000018" href="$classuser_1_1serializers_1_1StudentViewSerializer.html" title=" " alt="" coords="286,1025,461,1065"/>
+<area shape="poly" id="edge133_Node000000_Node000018" title=" " alt="" coords="108,633,116,708,138,810,156,865,180,918,211,968,250,1011,267,1024,287,1032,285,1037,264,1028,246,1015,207,971,175,921,151,867,133,811,111,708,103,633"/>
+<area shape="rect" id="Node000019" href="$classuser_1_1serializers_1_1TeacherSerializer.html" title=" " alt="" coords="286,1089,461,1129"/>
+<area shape="poly" id="edge134_Node000000_Node000019" title=" " alt="" coords="106,633,111,718,118,775,130,838,148,902,173,965,207,1024,250,1075,267,1088,287,1097,285,1102,264,1093,246,1079,202,1027,168,968,143,904,125,839,113,776,105,719,101,633"/>
+<area shape="rect" id="Node000020" href="$classuser_1_1serializers_1_1UserSerializer.html" title=" " alt="" coords="266,1154,481,1179"/>
+<area shape="poly" id="edge135_Node000000_Node000020" title=" " alt="" coords="110,633,127,743,157,897,176,974,198,1044,223,1102,250,1139,267,1152,264,1156,246,1143,218,1104,193,1046,171,976,151,898,122,744,105,634"/>
+</map>

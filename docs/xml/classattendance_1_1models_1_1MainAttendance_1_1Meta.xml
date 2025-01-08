@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classattendance_1_1models_1_1MainAttendance_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>attendance::models::MainAttendance::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple attendance.models.MainAttendance.Meta::unique_together</definition>
+        <argsstring></argsstring>
+        <name>unique_together</name>
+        <qualifiedname>attendance.models.MainAttendance.Meta.unique_together</qualifiedname>
+        <initializer>=  (&apos;<ref refid="classattendance_1_1models_1_1MainAttendance_1a2f4e7920cc969672a2f2b6c785d6a405" kindref="member">classroom</ref>&apos;, &apos;<ref refid="classattendance_1_1models_1_1MainAttendance_1a6b8886c369b8283e7b45f3ba417d3757" kindref="member">date_of_producing</ref>&apos;,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str attendance.models.MainAttendance.Meta::db_table</definition>
+        <argsstring></argsstring>
+        <name>db_table</name>
+        <qualifiedname>attendance.models.MainAttendance.Meta.db_table</qualifiedname>
+        <initializer>=  &quot;attendance_main&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>attendance.models.MainAttendance.Meta</label>
+        <link refid="classattendance_1_1models_1_1MainAttendance_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+unique_together</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+db_table</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>str</label>
+      </node>
+      <node id="2">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/attendance/models.py" bodystart="19" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a4949392b239e5725403607e0ce59a241" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance::Meta</scope><name>db_table</name></member>
+      <member refid="classattendance_1_1models_1_1MainAttendance_1_1Meta_1a7db09c77bc73efbf9481e6c200eacb7a" prot="public" virt="non-virtual"><scope>attendance::models::MainAttendance::Meta</scope><name>unique_together</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="exam_2serializers_8py" kind="file" language="Python">
+    <compoundname>serializers.py</compoundname>
+    <innerclass refid="classexam_1_1serializers_1_1ExamSerializer" prot="public">exam::serializers::ExamSerializer</innerclass>
+    <innerclass refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta" prot="public">exam::serializers::ExamSerializer::Meta</innerclass>
+    <innernamespace refid="namespaceexam">exam</innernamespace>
+    <innernamespace refid="namespaceexam_1_1serializers">exam::serializers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceexam_1_1serializers" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>serializers,<sp/>exceptions</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Exam</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classexam_1_1serializers_1_1ExamSerializer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexam_1_1serializers_1_1ExamSerializer" kindref="compound">ExamSerializer</ref>(serializers.ModelSerializer):</highlight></codeline>
+<codeline lineno="7" refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="8" refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1afc8b4bf523f24adac8275b3791b53b02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Exam</highlight></codeline>
+<codeline lineno="9" refid="classexam_1_1serializers_1_1ExamSerializer_1_1Meta_1a66a2754f1aa27072095223b5d76c9701" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/exam/serializers.py"/>
+  </compounddef>
+</doxygen>

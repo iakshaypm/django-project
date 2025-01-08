@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecollege_1_1celery" xml:lang="en-US">
+<title>college.celery Namespace Reference</title>
+<indexterm><primary>college.celery</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecollege_1_1celery_1ae31fdb7b8675cc67055dedc48155f72c">app</link> = Celery(&apos;college&apos;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecollege_1_1celery_1ae31fdb7b8675cc67055dedc48155f72c"/><section>
+    <title>app</title>
+<indexterm><primary>app</primary><secondary>college.celery</secondary></indexterm>
+<indexterm><primary>college.celery</primary><secondary>app</secondary></indexterm>
+<para><computeroutput>college.celery.app = Celery(&apos;college&apos;)</computeroutput></para></section>
+</section>
+</section>

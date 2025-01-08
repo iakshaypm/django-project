@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="user_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classuser_1_1apps_1_1UserConfig" prot="public">user::apps::UserConfig</innerclass>
+    <innernamespace refid="namespaceuser">user</innernamespace>
+    <innernamespace refid="namespaceuser_1_1apps">user::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceuser_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classuser_1_1apps_1_1UserConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1apps_1_1UserConfig" kindref="compound">UserConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classuser_1_1apps_1_1UserConfig_1ad23bae019d6244293884adbb938e5adb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>default_auto_field<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;django.db.models.BigAutoField&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classuser_1_1apps_1_1UserConfig_1ae7402567365307104c9e0f36982398b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classuser_1_1apps_1_1UserConfig_1a88e1b6b6a0ba952424b7b33d1b66d971" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classuser_1_1apps_1_1UserConfig_1a88e1b6b6a0ba952424b7b33d1b66d971" kindref="member">ready</ref>(self):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceuser_1_1signals" kindref="compound">user.signals</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/apps.py"/>
+  </compounddef>
+</doxygen>

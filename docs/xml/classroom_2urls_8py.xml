@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classroom_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespaceclassroom">classroom</innernamespace>
+    <innernamespace refid="namespaceclassroom_1_1urls">classroom::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceclassroom_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path,<sp/>include</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>classroom<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespaceclassroom_1_1urls_1a2de427eb0573554784b99dfffd825991" refkind="member"><highlight class="normal">app_name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;classroom&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespaceclassroom_1_1urls_1ae339ef0e0bc51af3a33dc83dc9d37fd2" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;add/&apos;</highlight><highlight class="normal">,<sp/>views.ClassroomCreateView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;add-classroom&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;show/&apos;</highlight><highlight class="normal">,<sp/>views.ClassroomListView.as_view(),<sp/>name=</highlight><highlight class="stringliteral">&apos;show-classroom&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/urls.py"/>
+  </compounddef>
+</doxygen>

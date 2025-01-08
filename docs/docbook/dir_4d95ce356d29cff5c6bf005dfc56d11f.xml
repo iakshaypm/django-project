@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_4d95ce356d29cff5c6bf005dfc56d11f" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/webhooks Directory Reference</primary></indexterm>
+Directory dependency graph for webhooks:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_4d95ce356d29cff5c6bf005dfc56d11f_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_1fb219ca498eb51d6976a4acd9ddfcd8">management</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_62da4be7eea4130cb28cd2ca480f65f8">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_webhooks_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_webhooks_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

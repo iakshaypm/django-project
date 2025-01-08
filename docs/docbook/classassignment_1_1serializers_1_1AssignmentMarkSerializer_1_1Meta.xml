@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta" xml:lang="en-US">
+<title>assignment.serializers.AssignmentMarkSerializer.Meta Class Reference</title>
+<indexterm><primary>assignment.serializers.AssignmentMarkSerializer.Meta</primary></indexterm>
+Collaboration diagram for assignment.serializers.AssignmentMarkSerializer.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b">model</link> = <link linkend="_classassignment_1_1models_1_1AssignmentMark">AssignmentMark</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5">fields</link> = [&apos;assignment&apos;, &apos;mark&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1ad5f4b33c2ba85bd2a1abcb5e2bed18d5"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>assignment.serializers.AssignmentMarkSerializer.Meta</secondary></indexterm>
+<indexterm><primary>assignment.serializers.AssignmentMarkSerializer.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list assignment.serializers.AssignmentMarkSerializer.Meta.fields = [&apos;assignment&apos;, &apos;mark&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classassignment_1_1serializers_1_1AssignmentMarkSerializer_1_1Meta_1a42a0f31b38a0d32a48cdeb87f441386b"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>assignment.serializers.AssignmentMarkSerializer.Meta</secondary></indexterm>
+<indexterm><primary>assignment.serializers.AssignmentMarkSerializer.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>assignment.serializers.AssignmentMarkSerializer.Meta.model = <link linkend="_classassignment_1_1models_1_1AssignmentMark">AssignmentMark</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/<link linkend="_assignment_2serializers_8py">serializers.py</link></section>
+</section>

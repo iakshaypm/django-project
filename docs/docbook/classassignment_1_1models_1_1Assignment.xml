@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classassignment_1_1models_1_1Assignment" xml:lang="en-US">
+<title>assignment.models.Assignment Class Reference</title>
+<indexterm><primary>assignment.models.Assignment</primary></indexterm>
+Inheritance diagram for assignment.models.Assignment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1models_1_1Assignment__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for assignment.models.Assignment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classassignment_1_1models_1_1Assignment__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1models_1_1Assignment_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>tuple <link linkend="_classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85">ASSIGNMENT_TYPE_CHOOSES</link></para>
+</listitem>
+            <listitem><para><link linkend="_classassignment_1_1models_1_1Assignment_1a5b9afa8bd72cec660c52585684fa8516">name</link> = models.CharField(max_length=50)</para>
+</listitem>
+            <listitem><para><link linkend="_classassignment_1_1models_1_1Assignment_1a29b1cd7d6712e9f921ae8c0f7f07ae72">type</link> = models.IntegerField(choices=<link linkend="_classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85">ASSIGNMENT_TYPE_CHOOSES</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85"/><section>
+    <title>ASSIGNMENT_TYPE_CHOOSES</title>
+<indexterm><primary>ASSIGNMENT_TYPE_CHOOSES</primary><secondary>assignment.models.Assignment</secondary></indexterm>
+<indexterm><primary>assignment.models.Assignment</primary><secondary>ASSIGNMENT_TYPE_CHOOSES</secondary></indexterm>
+<para><computeroutput>tuple assignment.models.Assignment.ASSIGNMENT_TYPE_CHOOSES<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(1,&#32;<emphasis role="stringliteral">&apos;A&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(2,&#32;<emphasis role="stringliteral">&apos;B&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(3,&#32;<emphasis role="stringliteral">&apos;C&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(4,&#32;<emphasis role="stringliteral">&apos;D&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(5,&#32;<emphasis role="stringliteral">&apos;E&apos;</emphasis>)
+&#32;&#32;&#32;&#32;)
+</programlisting></section>
+<anchor xml:id="_classassignment_1_1models_1_1Assignment_1a5b9afa8bd72cec660c52585684fa8516"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>assignment.models.Assignment</secondary></indexterm>
+<indexterm><primary>assignment.models.Assignment</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>assignment.models.Assignment.name = models.CharField(max_length=50)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classassignment_1_1models_1_1Assignment_1a29b1cd7d6712e9f921ae8c0f7f07ae72"/><section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>assignment.models.Assignment</secondary></indexterm>
+<indexterm><primary>assignment.models.Assignment</primary><secondary>type</secondary></indexterm>
+<para><computeroutput>assignment.models.Assignment.type = models.IntegerField(choices=<link linkend="_classassignment_1_1models_1_1Assignment_1a0440eb89e20b39f0eacddf3d59d32c85">ASSIGNMENT_TYPE_CHOOSES</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/assignment/<link linkend="_assignment_2models_8py">models.py</link></section>
+</section>

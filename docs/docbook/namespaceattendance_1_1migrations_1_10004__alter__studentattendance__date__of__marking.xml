@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking" xml:lang="en-US">
+<title>attendance.migrations.0004_alter_studentattendance_date_of_marking Namespace Reference</title>
+<indexterm><primary>attendance.migrations.0004_alter_studentattendance_date_of_marking</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classattendance_1_1migrations_1_10004__alter__studentattendance__date__of__marking_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_0009__alter__account__user__type__parent__student__parent_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0009_alter_account_user_type_parent_student_parent.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/0009_alter_account_user_type_parent_student_parent.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration">user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceuser">user</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1migrations">user.migrations</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent">user.migrations.0009_alter_account_user_type_parent_student_parent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

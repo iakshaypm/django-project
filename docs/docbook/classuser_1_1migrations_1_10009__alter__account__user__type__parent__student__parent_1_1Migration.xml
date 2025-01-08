@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0009_alter_account_user_type_parent_student_parent.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0009_alter_account_user_type_parent_student_parent.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a57ea729d71c9b1896dd214eec13258f4">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a8ea3fb3a3ef51488b40995667f24b410">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a57ea729d71c9b1896dd214eec13258f4"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0009_alter_account_user_type_parent_student_parent.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0008_alter_student_classroom&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10009__alter__account__user__type__parent__student__parent_1_1Migration_1a8ea3fb3a3ef51488b40995667f24b410"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0009_alter_account_user_type_parent_student_parent.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0009_alter_account_user_type_parent_student_parent.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;account&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;user_type&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.PositiveIntegerField(choices=[(1,&#32;<emphasis role="stringliteral">&apos;Student&apos;</emphasis>),&#32;(2,&#32;<emphasis role="stringliteral">&apos;Teacher&apos;</emphasis>),&#32;(3,&#32;<emphasis role="stringliteral">&apos;HOD&apos;</emphasis>),&#32;(4,&#32;<emphasis role="stringliteral">&apos;Management&apos;</emphasis>),&#32;(5,&#32;<emphasis role="stringliteral">&apos;Parent&apos;</emphasis>)],&#32;default=1),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.CreateModel(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;Parent&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;fields=[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;id&apos;</emphasis>,&#32;models.BigAutoField(auto_created=<emphasis role="keyword">True</emphasis>,&#32;primary_key=<emphasis role="keyword">True</emphasis>,&#32;serialize=<emphasis role="keyword">False</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;ID&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;phone_number&apos;</emphasis>,&#32;models.CharField(max_length=20)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;models.OneToOneField(on_delete=django.db.models.deletion.CASCADE,&#32;to=settings.AUTH_USER_MODEL)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;],
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AddField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;student&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;parent&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.ForeignKey(default=1,&#32;on_delete=django.db.models.deletion.CASCADE,&#32;to=<emphasis role="stringliteral">&apos;user.parent&apos;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;preserve_default=<emphasis role="keyword">False</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_0009__alter__account__user__type__parent__student__parent_8py">0009_alter_account_user_type_parent_student_parent.py</link></section>
+</section>

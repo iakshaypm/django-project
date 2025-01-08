@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1tests_1_1ModelTest" xml:lang="en-US">
+<title>user.tests.ModelTest Class Reference</title>
+<indexterm><primary>user.tests.ModelTest</primary></indexterm>
+Inheritance diagram for user.tests.ModelTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1tests_1_1ModelTest__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.tests.ModelTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1tests_1_1ModelTest__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1tests_1_1ModelTest_1a1da68cfad4c247580f21f444d9715f1d">test_create_user_with_email_successful</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classuser_1_1tests_1_1ModelTest_1a1da68cfad4c247580f21f444d9715f1d"/><section>
+    <title>test_create_user_with_email_successful()</title>
+<indexterm><primary>test_create_user_with_email_successful</primary><secondary>user.tests.ModelTest</secondary></indexterm>
+<indexterm><primary>user.tests.ModelTest</primary><secondary>test_create_user_with_email_successful</secondary></indexterm>
+<para><computeroutput>user.tests.ModelTest.test_create_user_with_email_successful ( self)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2tests_8py">tests.py</link></section>
+</section>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1serializers_1_1StudentViewSerializer" xml:lang="en-US">
+<title>user.serializers.StudentViewSerializer Class Reference</title>
+<indexterm><primary>user.serializers.StudentViewSerializer</primary></indexterm>
+Inheritance diagram for user.serializers.StudentViewSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1StudentViewSerializer__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.serializers.StudentViewSerializer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1serializers_1_1StudentViewSerializer__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2">mark</link> = <link linkend="_classuser_1_1serializers_1_1MarkSerializer">MarkSerializer</link>(read_only=True, source=&apos;student_mark&apos;, many=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01">attendance</link> = <link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer">StudentAttendanceSerializer</link>(read_only=True, source=&apos;student_attendance&apos;, many=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce">student</link> = <link linkend="_classuser_1_1serializers_1_1StudentSerializer">StudentSerializer</link>(read_only=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7">classroom</link> = <link linkend="_classuser_1_1serializers_1_1ClassroomSerializer">ClassroomSerializer</link>(source=&apos;student.classroom&apos;, read_only=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1a1e211d8614d7c3d69753fe3d021ddb01"/><section>
+    <title>attendance</title>
+<indexterm><primary>attendance</primary><secondary>user.serializers.StudentViewSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer</primary><secondary>attendance</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentViewSerializer.attendance = <link linkend="_classuser_1_1serializers_1_1StudentAttendanceSerializer">StudentAttendanceSerializer</link>(read_only=True, source=&apos;student_attendance&apos;, many=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1a7375215aa8409428ecfc0e4d97f284b7"/><section>
+    <title>classroom</title>
+<indexterm><primary>classroom</primary><secondary>user.serializers.StudentViewSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer</primary><secondary>classroom</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentViewSerializer.classroom = <link linkend="_classuser_1_1serializers_1_1ClassroomSerializer">ClassroomSerializer</link>(source=&apos;student.classroom&apos;, read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1a80191bed35efafbd5950cfc2b628d5b2"/><section>
+    <title>mark</title>
+<indexterm><primary>mark</primary><secondary>user.serializers.StudentViewSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer</primary><secondary>mark</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentViewSerializer.mark = <link linkend="_classuser_1_1serializers_1_1MarkSerializer">MarkSerializer</link>(read_only=True, source=&apos;student_mark&apos;, many=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classuser_1_1serializers_1_1StudentViewSerializer_1a7fafdbf7c5d9c898503ba9db69e850ce"/><section>
+    <title>student</title>
+<indexterm><primary>student</primary><secondary>user.serializers.StudentViewSerializer</secondary></indexterm>
+<indexterm><primary>user.serializers.StudentViewSerializer</primary><secondary>student</secondary></indexterm>
+<para><computeroutput>user.serializers.StudentViewSerializer.student = <link linkend="_classuser_1_1serializers_1_1StudentSerializer">StudentSerializer</link>(read_only=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/<link linkend="_user_2serializers_8py">serializers.py</link></section>
+</section>

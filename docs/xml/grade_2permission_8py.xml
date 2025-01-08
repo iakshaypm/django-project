@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="grade_2permission_8py" kind="file" language="Python">
+    <compoundname>permission.py</compoundname>
+    <innerclass refid="classgrade_1_1permission_1_1IsStudent" prot="public">grade::permission::IsStudent</innerclass>
+    <innerclass refid="classgrade_1_1permission_1_1IsTeacher" prot="public">grade::permission::IsTeacher</innerclass>
+    <innerclass refid="classgrade_1_1permission_1_1CanAccessComment" prot="public">grade::permission::CanAccessComment</innerclass>
+    <innerclass refid="classgrade_1_1permission_1_1CanUpvote" prot="public">grade::permission::CanUpvote</innerclass>
+    <innerclass refid="classgrade_1_1permission_1_1CanRemoveUpvote" prot="public">grade::permission::CanRemoveUpvote</innerclass>
+    <innernamespace refid="namespacegrade">grade</innernamespace>
+    <innernamespace refid="namespacegrade_1_1permission">grade::permission</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacegrade_1_1permission" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>rest_framework<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>permissions</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classgrade_1_1permission_1_1IsStudent" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1IsStudent" kindref="compound">IsStudent</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="5" refid="classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1IsStudent_1a2b983a8902c7642c6e823457ff730a3f" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>1:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>request.user</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1IsStudent_1a5265f4d38d1079d79a74aba0c22d1064" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classgrade_1_1permission_1_1IsTeacher" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1IsTeacher" kindref="compound">IsTeacher</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="15" refid="classgrade_1_1permission_1_1IsTeacher_1af4763f884ac5c78ad1b1b4723c7605d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1IsTeacher_1af4763f884ac5c78ad1b1b4723c7605d3" kindref="member">has_permission</ref>(self,<sp/>request,<sp/>view):</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.method<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>permissions.SAFE_METHODS:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>request.user.user_type<sp/>==<sp/>2:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classgrade_1_1permission_1_1CanAccessComment" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanAccessComment" kindref="compound">CanAccessComment</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="24" refid="classgrade_1_1permission_1_1CanAccessComment_1af9d2d3db7fb9076e5c4b0210e03744f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanAccessComment_1af9d2d3db7fb9076e5c4b0210e03744f3" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classgrade_1_1permission_1_1CanUpvote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanUpvote" kindref="compound">CanUpvote</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="29" refid="classgrade_1_1permission_1_1CanUpvote_1a1a72f9296e1f24fd38835c7ca7c2fbe8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanUpvote_1a1a72f9296e1f24fd38835c7ca7c2fbe8" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>!=<sp/>request.user</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classgrade_1_1permission_1_1CanRemoveUpvote" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanRemoveUpvote" kindref="compound">CanRemoveUpvote</ref>(permissions.BasePermission):</highlight></codeline>
+<codeline lineno="34" refid="classgrade_1_1permission_1_1CanRemoveUpvote_1a2f6c0634e9726ca87f2dffaab293b3df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classgrade_1_1permission_1_1CanRemoveUpvote_1a2f6c0634e9726ca87f2dffaab293b3df" kindref="member">has_object_permission</ref>(self,<sp/>request,<sp/>view,<sp/>obj):</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obj.user<sp/>==<sp/>request.user</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/permission.py"/>
+  </compounddef>
+</doxygen>

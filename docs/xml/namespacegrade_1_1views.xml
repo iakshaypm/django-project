@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacegrade_1_1views" kind="namespace" language="Python">
+    <compoundname>grade::views</compoundname>
+    <innerclass refid="classgrade_1_1views_1_1MarkCreateView" prot="public">grade::views::MarkCreateView</innerclass>
+    <innerclass refid="classgrade_1_1views_1_1MarkDeleteView" prot="public">grade::views::MarkDeleteView</innerclass>
+    <innerclass refid="classgrade_1_1views_1_1MarkListView" prot="public">grade::views::MarkListView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/grade/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

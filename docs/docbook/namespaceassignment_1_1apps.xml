@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceassignment_1_1apps" xml:lang="en-US">
+<title>assignment.apps Namespace Reference</title>
+<indexterm><primary>assignment.apps</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classassignment_1_1apps_1_1AssignmentConfig">AssignmentConfig</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

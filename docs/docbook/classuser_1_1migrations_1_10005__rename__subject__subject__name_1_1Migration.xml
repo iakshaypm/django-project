@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration" xml:lang="en-US">
+<title>user.migrations.0005_rename_subject_subject_name.Migration Class Reference</title>
+<indexterm><primary>user.migrations.0005_rename_subject_subject_name.Migration</primary></indexterm>
+Inheritance diagram for user.migrations.0005_rename_subject_subject_name.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for user.migrations.0005_rename_subject_subject_name.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1a8c794eb10ccf3217d73aa057b7784ade">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1aa0fb9fd9d4abee0fd94aba963270ca07">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1a8c794eb10ccf3217d73aa057b7784ade"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>user.migrations.0005_rename_subject_subject_name.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0005_rename_subject_subject_name.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list user.migrations.0005_rename_subject_subject_name.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0004_subject_alter_hod_options_alter_teacher_options_and_more&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classuser_1_1migrations_1_10005__rename__subject__subject__name_1_1Migration_1aa0fb9fd9d4abee0fd94aba963270ca07"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>user.migrations.0005_rename_subject_subject_name.Migration</secondary></indexterm>
+<indexterm><primary>user.migrations.0005_rename_subject_subject_name.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list user.migrations.0005_rename_subject_subject_name.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.RenameField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;subject&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;old_name=<emphasis role="stringliteral">&apos;subject&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;new_name=<emphasis role="stringliteral">&apos;name&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/migrations/<link linkend="_0005__rename__subject__subject__name_8py">0005_rename_subject_subject_name.py</link></section>
+</section>

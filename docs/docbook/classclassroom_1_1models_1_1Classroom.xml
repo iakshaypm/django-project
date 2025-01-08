@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclassroom_1_1models_1_1Classroom" xml:lang="en-US">
+<title>classroom.models.Classroom Class Reference</title>
+<indexterm><primary>classroom.models.Classroom</primary></indexterm>
+Inheritance diagram for classroom.models.Classroom:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1models_1_1Classroom__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for classroom.models.Classroom:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclassroom_1_1models_1_1Classroom__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b">name</link> = models.CharField(max_length=20, unique=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8">total_strength</link> = models.IntegerField()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classclassroom_1_1models_1_1Classroom_1a9463eb8f85d37ad841e258449447ec4b"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>classroom.models.Classroom</secondary></indexterm>
+<indexterm><primary>classroom.models.Classroom</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>classroom.models.Classroom.name = models.CharField(max_length=20, unique=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classclassroom_1_1models_1_1Classroom_1abd5e7afd8b036f8f3e73b11898e095a8"/><section>
+    <title>total_strength</title>
+<indexterm><primary>total_strength</primary><secondary>classroom.models.Classroom</secondary></indexterm>
+<indexterm><primary>classroom.models.Classroom</primary><secondary>total_strength</secondary></indexterm>
+<para><computeroutput>classroom.models.Classroom.total_strength = models.IntegerField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/classroom/<link linkend="_classroom_2models_8py">models.py</link></section>
+</section>

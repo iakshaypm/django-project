@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classuser_1_1models_1_1Subject" kind="class" language="Python" prot="public">
+    <compoundname>user::models::Subject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classuser_1_1models_1_1Subject_1a0f2a0715627ef0494e1c2bf7e72ba5f5" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>user.models.Subject::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>user.models.Subject.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="72" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="1">
+        <label>user.models.Subject</label>
+        <link refid="classuser_1_1models_1_1Subject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+      <node id="1">
+        <label>user.models.Subject</label>
+        <link refid="classuser_1_1models_1_1Subject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" line="71" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/iakshaypm/django-project/user/models.py" bodystart="71" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classuser_1_1models_1_1Subject_1a0f2a0715627ef0494e1c2bf7e72ba5f5" prot="public" virt="non-virtual"><scope>user::models::Subject</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
