@@ -12,6 +12,21 @@ class TelegramWebhook(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request):
+        """Handle POST requests to send a reply via Telegram.
+
+        This method processes incoming POST requests and triggers an
+        asynchronous task to send a reply using the provided request data. It is
+        designed to be used as part of a webhook integration with Telegram,
+        where the incoming data is forwarded to a background task for
+        processing.
+
+        Args:
+            request (Request): The HTTP request object containing the data to be sent.
+
+        Returns:
+            Response: A response indicating the success of the operation.
+        """
+
         # if token != settings.TELEGRAM_WEBHOOK_TOKEN:
         #     return Response(
         #         {"error": "Unauthorized"}, status=status.HTTP_401_UNAUTHORIZED
