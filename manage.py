@@ -5,7 +5,17 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """Run administrative tasks.
+
+    This function sets the default Django settings module and attempts to
+    import the Django management command execution function. If the import
+    fails, it raises an ImportError with a descriptive message. Finally, it
+    executes the command line utility for Django using the provided
+    arguments.
+
+    Raises:
+        ImportError: If Django cannot be imported, indicating that it may not
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'college.settings')
     try:
         from django.core.management import execute_from_command_line
