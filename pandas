@@ -1,0 +1,183 @@
+async def start_gitlab_code_review(repo_params, llm_manager_object, code_review_chain, quality_analysis_chain):
+    """
+    Function to initiate gitlab code review
+    :param repo_params:
+    :param llm_manager_object:
+    :param code_review_chain:
+    :param quality_analysis_chain:
+    :return:
+    """
+    import pandas as pd
+    import asyncio
+    
+    git_manager_object = VCSManager()
+    changes = repo_params.get('changes')
+    project_object = repo_params.get('project_object')
+    commit = repo_params.get('commit_message')
+    if repo_params.get('provider') == constants.GITLAB:
+        project_object = await VCSManager().get_project_object(url_instance=repo_params.get('url_instance'),
+                                                               project_id=project_object.id,
+                                                               access_token=os.getenv('GITLAB_KEY'),
+                                                               token_type=constants.private_token)
+        merge_request_object = await (VCSManager().get_merge_request_object
+                                       (project_object=project_object,
+                                        merge_request_id=repo_params.get('merge_request_object').iid))
+    else:
+        merge_request_object = repo_params.get('merge_request_object')
+    is_vulnerability_test_enabled = repo_params.get('is_vulnerability_test_enabled')
+    source_branch = changes.get('source_branch')
+    source_sha = changes.get('diff_refs').get('start_sha')
+    base_sha = changes.get('diff_refs').get('base_sha')
+    head_sha = changes.get('diff_refs').get('head_sha')
+    logger.info(messages.received_source_branch_message)
+    code_review_comment = "### Vulnerability Report\n\n"
+    
+    # Prepare data for pandas processing
+    project_instance = await models.Repository.get(project_id=project_object.id)
+    ignored_files_dict = project_instance.ignored_files or {}  # Handle cases where it's None
+    ignore_file_flattened_list = [
+        file_path
+        for branch_files in ignored_files_dict.values()
+        for file_path in branch_files
+    ]
+    ignored_paths = set(ignore_file_flattened_list)
+    
+    # Extract file changes into a pandas DataFrame
+    files_data = []
+    for change in changes['changes']:
+        path = change.get('new_path')
+        deleted = change.get('deleted_file', False)
+        ignored = path in ignored_paths
+        
+        if not deleted and not ignored:
+            try:
+                code = project_object.files.get(file_path=path, ref=source_branch).content
+                decoded_code = base64.b64decode(code).decode('utf-8')
+                is_empty = decoded_code.strip() == ""
+                
+                files_data.append({
+                    'path': path,
+                    'decoded_code': decoded_code,
+                    'is_empty': is_empty,
+                    'lined_code': prefix_line_numbers(decoded_code) if not is_empty else ""
+                })
+            except Exception as e:
+                logger.error(f"Error processing file {path}: {e}")
+                continue
+        else:
+            logger.info(f'File has been ignored or deleted: {path}')
+    
+    # Convert to DataFrame for efficient processing
+    df_files = pd.DataFrame(files_data)
+    
+    # Process code reviews in parallel with asyncio tasks
+    code_review_tasks = []
+    vulnerability_tasks = []
+    
+    # Create tasks for code review
+    for idx, row in df_files.iterrows():
+        if row['is_empty']:
+            code_review_comment += blank_file_note_format(row['path'])
+        else:
+            # Create task for code review
+            task = asyncio.create_task(process_file_code_review(
+                row['path'],
+                row['lined_code'],
+                source_branch,
+                commit,
+                merge_request_object,
+                project_object,
+                source_sha,
+                base_sha,
+                head_sha,
+                code_review_chain
+            ))
+            code_review_tasks.append(task)
+            
+            # Create task for vulnerability scan if enabled
+            if is_vulnerability_test_enabled:
+                v_task = asyncio.create_task(process_file_vulnerability(
+                    row['path'],
+                    row['decoded_code'],
+                    repo_params.get('model_preference'),
+                    quality_analysis_chain
+                ))
+                vulnerability_tasks.append((row['path'], v_task))
+    
+    # Wait for all code review tasks to complete
+    code_review_results = await asyncio.gather(*code_review_tasks, return_exceptions=True)
+    
+    # Process code review results and create notes
+    for result in code_review_results:
+        if isinstance(result, Exception):
+            logger.error(f"Error in code review: {result}")
+            continue
+        
+        try:
+            await create_gitlab_mr_note(result)
+        except Exception as e:
+            logger.error(f"Error creating MR note: {e}")
+    
+    # Process vulnerability scans after code review notes are added
+    if is_vulnerability_test_enabled:
+        for path, v_task in vulnerability_tasks:
+            try:
+                vulnerability_report = await v_task
+                code_review_comment += f"\n\n#### Vulnerability Scanned Report for {path}\n\n"
+                code_review_comment += vulnerability_report
+                logger.info(f"{messages.added_vulnerability_note}")
+            except Exception as e:
+                logger.error(f"{messages.error_on_added_vulnerability_note}: {e}")
+        
+        # Add the complete vulnerability report as a separate note
+        await git_manager_object.mr_note_vulnerability(constants.GITLAB, merge_request_object, code_review_comment)
+
+# Helper function to process code review for a single file
+async def process_file_code_review(path, lined_code, source_branch, commit, merge_request_object, 
+                                  project_object, source_sha, base_sha, head_sha, code_review_chain):
+    try:
+        llm_response = await LLMManager().llm_invoke_with_retry(
+            code_review_chain,
+            constants.CODE_REVIEW,
+            {
+                "code": lined_code,
+                "branch": source_branch,
+                "commit": commit,
+            })
+        logger.info(messages.code_pass_to_llm_message)
+        
+        if isinstance(llm_response, CodeReviewResult):
+            # Convert Pydantic model to dictionary
+            response_dict = llm_response.dict()
+            comments_data = response_dict.get('comments', {})
+        else:
+            comments_data = llm_response.get('comments', {})
+
+        result = map(lambda item: set_note_template(item[0], item[1], path),
+                     comments_data.items())
+        notes, line_numbers = zip(*result) if comments_data else ([], [])
+        
+        return {
+            'project_id': project_object.id,
+            'merge_request_object': merge_request_object,
+            'line_numbers': line_numbers,
+            'notes': notes,
+            'path': path,
+            'source_sha': source_sha,
+            'base_sha': base_sha,
+            'head_sha': head_sha
+        }
+    except OutputParserException as e:
+        logger.error(f'{messages.output_parser_exception}, path: {path}')
+        raise
+    except Exception as e:
+        logger.error(f"Error in code review for {path}: {e}")
+        raise
+
+# Helper function to process vulnerability scan for a single file
+async def process_file_vulnerability(path, decoded_code, model_preference, quality_analysis_chain):
+    try:
+        return await quality_analysis_report(decoded_code, path, model_preference, quality_analysis_chain)
+    except Exception as e:
+        logger.error(f"Error in vulnerability scan for {path}: {e}")
+        raise
